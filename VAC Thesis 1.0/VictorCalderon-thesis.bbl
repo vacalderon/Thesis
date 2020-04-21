@@ -1,0 +1,3009 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{Amato1998}{article}{}
+    \name{author}{19}{}{%
+      {{hash=AA}{%
+         family={Amato},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AR}{%
+         family={Azzara},
+         familyi={A\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Chiarabba},
+         familyi={C\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CGB}{%
+         family={Cimini},
+         familyi={C\bibinitperiod},
+         given={G.\bibnamedelima B.},
+         giveni={G\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cocco},
+         familyi={C\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={{Di Bona}},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ML}{%
+         family={Margheriti},
+         familyi={M\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mazza},
+         familyi={M\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={Mele},
+         familyi={M\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Selvaggi},
+         familyi={S\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Basili},
+         familyi={B\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Boschi},
+         familyi={B\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Courboulex},
+         familyi={C\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={Deschamps},
+         familyi={D\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Gaffet},
+         familyi={G\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BG}{%
+         family={Bittarelli},
+         familyi={B\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=CL}{%
+         family={Chiaraluce},
+         familyi={C\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Piccinini},
+         familyi={P\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Ripepe},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Geophysical Union}%
+    }
+    \keyw{Aftershock,Earthquake,Italy,Seismicity,Umbria-Marche}
+    \strng{namehash}{AAARCC+1}
+    \strng{fullhash}{AAARCCCGBCMDMMLMSMFSGBABECFDAGSBGCLPDRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    A long sequence of earthquakes, six with magnitudes between 5 and 6, struck
+  Central Italy starting on September 26, 1997, causing severe damages and loss
+  of human lives. The seismogenic structure consists of a NW-SE elongated fault
+  zone extending for about 40 km. The focal mechanisms of the largest shocks
+  reveal normal faulting with NE-SW extension perpendicular to the trend of the
+  Apennines, consistently with the Quaternary tectonic setting of the internal
+  sector of the belt and with previous earthquakes in adjacent regions.
+  Preliminary data on the main shocks and aftershocks show that extension in
+  this region of the Apennines is accomplished by normal faults dipping at low
+  angle (approx. 40°) to the southwest, and confined in the upper approx. 8 km
+  of the crust. These normal faults might have reactivated thrust planes of the
+  Pliocene compressional tectonics. The aftershock distribution and the damage
+  patterns also suggest that the three main shocks ruptured distinct 5 to 15
+  km-long fault segments, adjacent and slightly offset from one another.%
+    }
+    \verb{doi}
+    \verb 10.1029/98GL51842
+    \endverb
+    \field{issn}{00948276}
+    \field{number}{15}
+    \field{pages}{2861\bibrangedash 2864}
+    \field{title}{{The 1997 Umbria-Marche, Italy, earthquake sequence: A first
+  look at the main shocks and aftershocks}}
+    \verb{url}
+    \verb http://doi.wiley.com/10.1029/98GL51842
+    \endverb
+    \field{volume}{25}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{Geophysical Research Letters}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Ancheta2014}{article}{}
+    \name{author}{12}{}{%
+      {{hash=ATD}{%
+         family={Ancheta},
+         familyi={A\bibinitperiod},
+         given={Timothy\bibnamedelima D},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DRB}{%
+         family={Darragh},
+         familyi={D\bibinitperiod},
+         given={Robert\bibnamedelima B},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=SJP}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Jonathan\bibnamedelima P},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Seyhan},
+         familyi={S\bibinitperiod},
+         given={Emel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SWJ}{%
+         family={Silva},
+         familyi={S\bibinitperiod},
+         given={Walter\bibnamedelima J},
+         giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={{S-J Chiou}},
+         familyi={S\bibinitperiod},
+         given={Brian},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=WKE}{%
+         family={Wooddell},
+         familyi={W\bibinitperiod},
+         given={Katie\bibnamedelima E},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GRW}{%
+         family={Graves},
+         familyi={G\bibinitperiod},
+         given={Robert\bibnamedelima W},
+         giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=KAR}{%
+         family={Kottke},
+         familyi={K\bibinitperiod},
+         given={Albert\bibnamedelima R},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=BDM}{%
+         family={Boore},
+         familyi={B\bibinitperiod},
+         given={David\bibnamedelima M},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KT}{%
+         family={Kishida},
+         familyi={K\bibinitperiod},
+         given={Tadahiro},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=DJL}{%
+         family={Donahue},
+         familyi={D\bibinitperiod},
+         given={Jennifer\bibnamedelima L},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ATDDRBSJP+1}
+    \strng{fullhash}{ATDDRBSJPSESWJSBWKEGRWKARBDMKTDJL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    The NGA-West2 project database expands on its predecessor to include
+  worldwide ground motion data recorded from shallow crustal earthquakes in
+  active tectonic regimes post-2000 and a set of small-to-moderate-magnitude
+  earthquakes in California between 1998 and 2011. The database includes 21,336
+  (mostly) three-component records from 599 events. The parameter space covered
+  by the database is M 3.0 to M 7.9, closest distance of 0.05 to 1,533 km, and
+  site time-averaged shear-wave velocity in the top 30 m of V S30 ¼ 94 m∕s
+  to 2;100 m∕s (although data becomes sparse for distances {\textgreater}400
+  km and V S30 {\textgreater} 1;200 m∕s or {\textless}150 m∕s). The
+  database includes uniformly processed time series and response spectral
+  ordinates for 111 periods ranging from 0.01 s to 20 s at 11 damping ratios.
+  Ground motions and metadata for source, path, and site conditions were
+  subject to quality checks by ground motion prediction equation developers and
+  topical working groups.%
+    }
+    \verb{doi}
+    \verb 10.1193/070913EQS197M
+    \endverb
+    \field{title}{{NGA-West2 Database}}
+    \verb{url}
+    \verb http://peer.berkeley.edu/ngawest2/databases/.
+    \endverb
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{year}{2014}
+  \endentry
+
+  \entry{Baker2015}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BJW}{%
+         family={Baker},
+         familyi={B\bibinitperiod},
+         given={Jack\bibnamedelima W.},
+         giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJW1}
+    \strng{fullhash}{BJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Estimation of fragility functions using dynamic structural analysis is an
+  important step in a number of seismic assessment procedures. This paper
+  discusses the applicability of statistical inference concepts for fragility
+  function estimation, describes appropriate fitting approaches for use with
+  various structural analysis strategies, and studies how to fit fragility
+  functions while minimizing the required number of structural analyses.
+  Illustrative results show that multiple stripe analysis produces more
+  efficient fragility estimates than incremental dynamic analysis for a given
+  number of structural analyses, provided that some knowledge of the building's
+  capacity is available prior to analysis so that relevant portions of the
+  fragility curve can be approximately identified. This finding has other
+  benefits, given that the multiple stripe analysis approach allows for
+  different ground motions to be used for analyses at varying intensity levels,
+  to represent the differing characteristics of low-intensity and
+  high-intensity shaking. The proposed assessment approach also provides a
+  framework for evaluating alternate analysis procedures that may arise in the
+  future.%
+    }
+    \verb{doi}
+    \verb 10.1193/021113EQS025M
+    \endverb
+    \field{issn}{87552930}
+    \field{number}{1}
+    \field{pages}{579\bibrangedash 599}
+    \field{title}{{Efficient analytical fragility function fitting using
+  dynamic structural analysis}}
+    \field{volume}{31}
+    \verb{file}
+    \verb :Q$\backslash$:/My Drive/Jessi {\_} Victor Share Folder/Baker{\_}(201
+    \verb 5){\_}fragility{\_}fitting{\_}EQS{\_}final.pdf:pdf
+    \endverb
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Barcley2019}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BL}{%
+         family={Barcley},
+         familyi={B\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kowalsky},
+         familyi={K\bibinitperiod},
+         given={Mervyn},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BLKM1}
+    \strng{fullhash}{BLKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.14359/51715583
+    \endverb
+    \field{issn}{0889-325X}
+    \field{number}{3}
+    \field{title}{{Critical Bending Strain of Reinforcing Steel and Buckled Bar
+  Tension Test}}
+    \field{volume}{116}
+    \verb{file}
+    \verb :Q$\backslash$:/My Drive/PhD Program/Research/Thesis/Lit Review/Corro
+    \verb sion/18-217.pdf:pdf
+    \endverb
+    \field{journaltitle}{ACI Materials Journal}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Bisadi2015}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BV}{%
+         family={Bisadi},
+         familyi={B\bibinitperiod},
+         given={Vahid},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=PJE}{%
+         family={Padgett},
+         familyi={P\bibinitperiod},
+         given={Jamie\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BVPJE1}
+    \strng{fullhash}{BVPJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    This article presents an explicit cost analysis framework built upon the
+  unified reliability method that introduces time-dependent variables and
+  multiple hazards as well as parameterized demand models into one cost-based
+  limit state function. In this approach, reliability-based design of
+  deteriorating structures subjected to natural hazards is performed using a
+  cost limit state function, as opposed to traditional structural limit state
+  in structural reliability methods. The flexibility of cost-based limit state
+  functions addresses the criticism of focusing on minimization of the total
+  expected cost typically used in some available life-cycle cost analysis
+  methods. Furthermore, the framework has the capability to include
+  deterioration models that are functions of time as well as recently developed
+  parameterized structural capacity and demand models for various hazards. The
+  application of the proposed framework is illustrated in a bridge design
+  optimization problem where the column reinforcement bar diameter and concrete
+  cover are considered as design parameters. Two locations in the New Madrid
+  and San Francisco Bay Area seismic zones are assumed for the bridge and the
+  optimum combination of concrete cover and bar diameter is obtained for each
+  location. {\textcopyright} 2015 Computer-Aided Civil and Infrastructure
+  Engineering.%
+    }
+    \verb{doi}
+    \verb 10.1111/mice.12131
+    \endverb
+    \field{issn}{14678667}
+    \field{number}{7}
+    \field{pages}{541\bibrangedash 554}
+    \field{title}{{Explicit time-dependent multi-hazard cost analysis based on
+  parameterized demand models for the optimum design of bridge structures}}
+    \field{volume}{30}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/Downloads/Bisadi{\_}et{\_}al-2015-Computer
+    \verb -Aided{\_}Civil{\_}and{\_}Infrastructure{\_}Engineering.pdf:pdf
+    \endverb
+    \field{journaltitle}{Computer-Aided Civil and Infrastructure Engineering}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Bradley}{report}{}
+    \name{author}{2}{}{%
+      {{hash=BBA}{%
+         family={Bradley},
+         familyi={B\bibinitperiod},
+         given={Brendon\bibnamedelima A},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cubrinovski},
+         familyi={C\bibinitperiod},
+         given={Misko},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BBACM1}
+    \strng{fullhash}{BBACM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    This manuscript provides a critical examination of the ground motions
+  recorded in the near-source region resulting from the 22 February 2011
+  Christchurch earthquake. Particular attention is given to reconciling the
+  observed spatial distribution of ground motions in terms of physical
+  phenomena related to source, path and site effects. The large number of
+  near-source observed strong ground motions show clear evidence of:
+  forward-directivity, basin generated surface waves, liquefaction and other
+  significant nonlinear site response. The pseudo-acceleration response spectra
+  (SA) amplitudes and significant duration of strong motions agree well with
+  empirical prediction models, except at long vibration periods where the
+  influence of basin-generated surface waves and nonlinear site response are
+  significant and not adequately accounted for in empirical SA models.
+  Pseudo-acceleration response spectra are also compared with those observed in
+  the 4 September 2010 Darfield earthquake and routine design response spectra
+  used in order to emphasise the amplitude of ground shaking and elucidate the
+  importance of local geotechnical characteristics on surface ground motions.
+  The characteristics of the observed vertical component accelerations are
+  shown to be strongly dependent on source-to-site distance and are comparable
+  with those from the 4 September 2010 Darfield earthquake, implying the large
+  amplitudes observed are simply a result of many observations at close
+  distances rather than a peculiar source effect.%
+    }
+    \field{title}{{NEAR-SOURCE STRONG GROUND MOTIONS OBSERVED IN THE 22
+  FEBRUARY 2011 CHRISTCHURCH EARTHQUAKE}}
+    \verb{url}
+    \verb www.geonet.org.nz/
+    \endverb
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{Calabrese2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CA}{%
+         family={Calabrese},
+         familyi={C\bibinitperiod},
+         given={Armando},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AJP}{%
+         family={Almeida},
+         familyi={A\bibinitperiod},
+         given={João\bibnamedelima Pacheco},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Pinho},
+         familyi={P\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor & Francis}%
+    }
+    \strng{namehash}{CAAJPPR1}
+    \strng{fullhash}{CAAJPPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    The sustained development of computational power continues to promote the
+  use of distributed inelasticity fiber frame models. The current article
+  presents a comprehensive application and discussion of state-of-the-art
+  formulations for the nonlinear material response of reinforced concrete
+  structures. The broad character of the study is imparted by the joint
+  analysis of the effects of the type of formulation (displacement based versus
+  force based), sectional constitutive behavior (hardening versus softening
+  response), and numerical integration parameters (such as quadrature method,
+  mesh definition, or number of integration points). Global and local responses
+  are assessed, along with a critical review of existing regularization
+  techniques. An experimentally tested cantilever is used to conduct the study
+  and illustrate the previous features. The example shows that the convergence
+  of displacement-based meshes under objective response can be much slower than
+  what preceding studies indicate, unlike their force-based counterpart.
+  Additionally, the physical interpretation of the local response under
+  softening behavior supports the proposal of a novel regularization scheme for
+  displacement-based elements, validated through comparison against
+  experimental results.%
+    }
+    \verb{doi}
+    \verb 10.1080/13632461003651869
+    \endverb
+    \field{number}{sup1}
+    \field{pages}{38\bibrangedash 68}
+    \field{title}{Numerical Issues in Distributed Inelasticity Modeling of RC
+  Frame Elements for Seismic Analysis}
+    \verb{url}
+    \verb https://doi.org/10.1080/13632461003651869
+    \endverb
+    \field{volume}{14}
+    \field{journaltitle}{Journal of Earthquake Engineering}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Choe2008}{article}{}
+    \name{author}{4}{}{%
+      {{hash=CDE}{%
+         family={Choe},
+         familyi={C\bibinitperiod},
+         given={Do-Eun},
+         giveni={D\bibinitperiod-E\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Gardoni},
+         familyi={G\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Rosowsky},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Haukaas},
+         familyi={H\bibinitperiod},
+         given={Terje},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{CDEGPRD+1}
+    \strng{fullhash}{CDEGPRDHT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    In this paper, probabilistic drift and shear force capacity models are
+  developed for corroding reinforced concrete (RC) columns. The developments
+  represent a merger between a probabilistic model for chloride-induced
+  corrosion, a time-dependent corrosion rate, and previously developed
+  probabilistic models for drift and shear force capacity of pristine
+  (undamaged) RC columns. Fragility estimates are obtained for an example
+  corroding column by applying the developed models at given shear and drift
+  demands. Model uncertainties in both the capacity and corrosion models are
+  considered in the fragility estimation, in addition to uncertainties in
+  environmental conditions, material properties, and structural geometry.
+  Sensitivity analyses of the corroding RC column are carried out to identify
+  the parameters to which the reliability of the example column is most
+  sensitive. The developed models consider different combinations of chloride
+  exposure condition, environmental oxygen availability, water-to-cement
+  ratios, and curing conditions. They are applicable to both existing and new
+  RC columns and may be employed for the prediction of service-life and
+  life-cycle cost analysis of RC structures.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.RESS.2006.12.015
+    \endverb
+    \field{issn}{0951-8320}
+    \field{number}{3}
+    \field{pages}{383\bibrangedash 393}
+    \field{title}{{Probabilistic capacity models and seismic fragility
+  estimates for RC columns subject to corrosion}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0951832007000142?{
+    \verb \_}rdoc=1{\&}{\_}fmt=high{\&}{\_}origin=gateway{\&}{\_}docanchor={\&}
+    \verb md5=b8429449ccfc9c30159a5f9aeaa92ffb
+    \endverb
+    \field{volume}{93}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Choe et al. - 2008 - Probabilistic capacity models
+    \verb and seismic fragility estimates for RC columns subject to corrosion.p
+    \verb df:pdf
+    \endverb
+    \field{journaltitle}{Reliability Engineering {\&} System Safety}
+    \field{year}{2008}
+  \endentry
+
+  \entry{CEB1993}{book}{}
+    \name{author}{1}{}{%
+      {{hash=C}{%
+         family={{Comit{\'{e}} Euro-Intenational du Bet{\'{o}}n}},
+         familyi={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{C1}
+    \strng{fullhash}{C1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    This design code for concrete structures is the result of a complete
+  revision to the former Model Code 1978, which was produced jointly by CEB and
+  FIP. The 1978 Model Code has had a considerable impact on the national design
+  codes in many countries. In particular, it has been used extensively for the
+  harmonisation of national design codes and as basic reference for Eurocode 2.
+  The 1990 Model Code provides comprehensive guidance to the scientific and
+  technical developments that have occurred over the past decade in the safety,
+  analysis and design of concrete structures. It has already influenced the
+  codification work that is being carried out both nationally and
+  internationally and will continue so to do%
+    }
+    \field{edition}{1st}
+    \field{title}{{CEB-FIP Model Code 90}}
+    \list{location}{1}{%
+      {London}%
+    }
+    \field{year}{1993}
+  \endentry
+
+  \entry{Du2005}{article}{}
+    \name{author}{3}{}{%
+      {{hash=DYG}{%
+         family={Du},
+         familyi={D\bibinitperiod},
+         given={Y.\bibnamedelima G.},
+         giveni={Y\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=CLA}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={L.\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=CAHC}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={A.\bibnamedelima H.\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DYGCLACAHC1}
+    \strng{fullhash}{DYGCLACAHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    This paper presents an experimental investigation into the residual
+  capacity of corroded reinforcing bars. By performing both accelerated and
+  simulated corrosion tests on bare bars and on bars embedded in concrete, the
+  mechanism of the reduction of the capacity of corroded reinforcement was
+  investigated. The influence of type and diameter of reinforcement on its
+  residual capacity is discussed. The experimental results show that, due to
+  local attack penetration, the residual cross-section of a corroded bar is no
+  longer round and varies considerably along its circumference and its length.
+  Although the force-extension curves of corroded bars are similar to those of
+  non­corroded bars for up to 16{\%} corrosion, their residual yield and
+  ultimate forces decrease more rapidly than their average cross-sectional area
+  and, therefore, their residual strength decreases significantly. Even though
+  the residual capacity of corroded small diameter and/or plain bars reduces
+  more than that of large diameter or ribbed ones, differences are not
+  significant and can be neglected. Finally, a simple equation is proposed to
+  predict the residual capacity of corroded reinforcing bars in practice.%
+    }
+    \field{number}{3}
+    \field{pages}{135\bibrangedash 147}
+    \field{title}{{Residual Capcaity of Corroded Reinforcing Bars}}
+    \field{volume}{57}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Du, Clark, Chan - 2005 - Residual Capcaity of Corroded
+    \verb Reinforcing Bars.pdf:pdf
+    \endverb
+    \field{journaltitle}{Magazine of Concrete Research}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Enright1998}{article}{}
+    \name{author}{2}{}{%
+      {{hash=EMP}{%
+         family={Enright},
+         familyi={E\bibinitperiod},
+         given={Michael\bibnamedelima P.},
+         giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=FDM}{%
+         family={Frangopol},
+         familyi={F\bibinitperiod},
+         given={Dan\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Sci Ltd}%
+    }
+    \strng{namehash}{EMPFDM1}
+    \strng{fullhash}{EMPFDM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{E}
+    \field{sortinithash}{E}
+    \field{abstract}{%
+    Bridges subjected to environmental attack can experience changes in
+  resistance which are time-variant. In this study, flexural strength loss in
+  concrete bridge beams due to corrosion of steel reinforcement is considered.
+  The sensitivity of the corrosion initiation time of steel reinforcement to
+  changes in the main descriptors of diffusion related random variables is
+  illustrated. Both the mean and standard deviation of the corrosion initiation
+  time increase with an increase in the coefficient of variation of each of the
+  diffusion related random variables for the range of values considered in this
+  study. An example problem is given which illustrates the effect of various
+  variables including corrosion rate and corrosion initiation time on the
+  time-variant area of steel reinforcement and flexural strength of an existing
+  reinforced concrete bridge beam. For the range of parameters and the damage
+  scenarios considered, the mean value of the resistance loss function appears
+  to increase about linearly with time. The results can be used to develop
+  optimal lifetime reliability-based maintenance strategies for reinforced
+  concrete bridges under environmental attack.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0141-0296(97)00190-9
+    \endverb
+    \field{issn}{01410296}
+    \field{number}{11}
+    \field{pages}{960\bibrangedash 971}
+    \field{title}{{Probabilistic analysis of resistance degradation of
+  reinforced concrete bridge beams under corrosion}}
+    \field{volume}{20}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{Engineering Structures}
+    \field{year}{1998}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Fajfar1992}{article}{}
+    \name{author}{1}{}{%
+      {{hash=FP}{%
+         family={Fajfar},
+         familyi={F\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FP1}
+    \strng{fullhash}{FP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \verb{doi}
+    \verb 10.1002/eqe.4290211001
+    \endverb
+    \field{issn}{00988847}
+    \field{number}{10}
+    \field{pages}{837\bibrangedash 848}
+    \field{title}{{Equivalent ductility factors, taking into account low-cycle
+  fatigue}}
+    \verb{url}
+    \verb http://doi.wiley.com/10.1002/eqe.4290211001
+    \endverb
+    \field{volume}{21}
+    \field{journaltitle}{Earthquake Engineering {\&} Structural Dynamics}
+    \field{year}{1992}
+  \endentry
+
+  \entry{Filippou1983}{report}{}
+    \name{author}{3}{}{%
+      {{hash=FFC}{%
+         family={Filippou},
+         familyi={F\bibinitperiod},
+         given={Filip\bibnamedelima C.},
+         giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Popov},
+         familyi={P\bibinitperiod},
+         given={E.P.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Bertero},
+         familyi={B\bibinitperiod},
+         given={V.V.},
+         giveni={V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FFCPEBV1}
+    \strng{fullhash}{FFCPEBV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{number}{August}
+    \field{pages}{212}
+    \field{title}{{Effects of bond deteroriation on hysteretic behavior of
+  renforce concrete coint}}
+    \verb{file}
+    \verb :Q$\backslash$:/My Drive/PhD Program/Research/Thesis/Lit Review/NonLi
+    \verb near Analysis/PB84192020.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{1983}
+  \endentry
+
+  \entry{Ghods2009}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GP}{%
+         family={Ghods},
+         familyi={G\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=IOB}{%
+         family={Isgor},
+         familyi={I\bibinitperiod},
+         given={O.\bibnamedelima B.},
+         giveni={O\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={McRae},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \keyw{Anodic polarization,Concrete,Corrosion,EIS,Passive film,Pore
+  solution,Sulfate}
+    \strng{namehash}{GPIOBMG+1}
+    \strng{fullhash}{GPIOBMGMT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    The effect of concrete pore solution composition on the protective
+  properties of the oxide films that form on black reinforcing steel has been
+  experimentally investigated using anodic polarization and electrochemical
+  impedance spectroscopy (EIS). The tests were conducted on oxide films grown
+  in saturated calcium hydroxide solutions that included different
+  representative amounts of NaOH, KOH, and Ca(SO4), which are compounds that
+  are commonly observed in most ordinary portland cement concrete types. The
+  results of both anodic polarization and EIS tests show that pore solution
+  composition has an effect on the protective properties of the passive oxide
+  films and, in particular, sulfate ions (SO4)2 - have been shown to have a
+  negative influence on the film quality. {\textcopyright} 2008 Elsevier Ltd.
+  All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.cemconcomp.2008.10.003
+    \endverb
+    \field{issn}{09589465}
+    \field{number}{1}
+    \field{pages}{2\bibrangedash 11}
+    \field{title}{{The effect of concrete pore solution composition on the
+  quality of passive oxide films on black steel reinforcement}}
+    \field{volume}{31}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Ghods et al. - 2009 - The effect of concrete pore solut
+    \verb ion composition on the quality of passive oxide films on black steel
+    \verb reinforce(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Cement and Concrete Composites}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Ghods2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=GP}{%
+         family={Ghods},
+         familyi={G\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=IOB}{%
+         family={Isgor},
+         familyi={I\bibinitperiod},
+         given={O.\bibnamedelima B.},
+         giveni={O\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MGA}{%
+         family={McRae},
+         familyi={M\bibinitperiod},
+         given={G.\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GGP}{%
+         family={Gu},
+         familyi={G\bibinitperiod},
+         given={G.\bibnamedelima P.},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \keyw{A. Concrete,A. Steel reinforced concrete,B. EIS,B. Polarization,C.
+  Passive films,C. Pitting corrosion}
+    \strng{namehash}{GPIOBMGA+1}
+    \strng{fullhash}{GPIOBMGAGGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Electrochemical measurements of chloride thresholds are reported in
+  simulated concrete pore solution for as-received and surface-modified rebar
+  in an experimental apparatus designed to simulate service conditions. Surface
+  modification led to higher chloride thresholds and reduced variability. The
+  variability in thresholds for as-received rebar was represented by a
+  log-normal distribution; therefore, simple averages of chloride thresholds,
+  without reference to underlying distribution, might not provide reliable
+  indicators of depassivation. The relative constancy of electrochemical
+  measurements below thresholds, and the dependence of the thresholds on
+  surface conditions, suggests that rebar depassivation is likely caused by
+  local critical chemical conditions at the steel surface. {\textcopyright}
+  2010 Elsevier Ltd. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.corsci.2010.02.016
+    \endverb
+    \field{issn}{0010938X}
+    \field{number}{5}
+    \field{pages}{1649\bibrangedash 1659}
+    \field{title}{{Electrochemical investigation of chloride-induced
+  depassivation of black steel rebar under simulated service conditions}}
+    \field{volume}{52}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Ghods et al. - 2010 - Electrochemical investigation of
+    \verb chloride-induced depassivation of black steel rebar under simulated s
+    \verb ervice condi.pdf:pdf
+    \endverb
+    \field{journaltitle}{Corrosion Science}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ghosh2010}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GJ}{%
+         family={Ghosh},
+         familyi={G\bibinitperiod},
+         given={Jayadipta},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PJE}{%
+         family={Padgett},
+         familyi={P\bibinitperiod},
+         given={Jamie\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Aging Author keywords: Bridges,CE Database subject headings:
+  Bridges,Corrosion,Deterioration,Fragility,Probability,Seismic,Seismic
+  effects}
+    \strng{namehash}{GJPJE1}
+    \strng{fullhash}{GJPJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    This paper presents the formulation of a time-dependent seismic fragility
+  format for bridges, as well as new insights into the potential effects of
+  aging and deterioration on seismic vulnerability traditionally neglected in
+  fragility modeling, including joint impacts of multiple component
+  deterioration not investigated to date. The study evaluates the impact of
+  lifetime exposure to chlorides from deicing salts on the seismic performance
+  of multispan continuous highway bridges, considering corrosion of reinforced
+  concrete columns and steel bridge bearings. The components' degradation and
+  their influence on seismic response are illustrated through three-dimensional
+  nonlinear dynamic analysis. A full probabilistic analysis accounting for
+  variation in bridge, ground motion, and corrosion parameters is conducted to
+  develop time-dependent seismic fragility curves. These fragility curves
+  indicate the evolving potential for component and system damage under seismic
+  loading considering time-dependent corrosion-induced deterioration. The
+  results indicate that while corrosion may actually decrease the seismic
+  vulnerability of some components, most critical components suffer an increase
+  in vulnerability. Quadratic models depicting the change in lognormal seismic
+  fragility parameters are proposed to capture the time-dependent effect of
+  aging on the fragility of the bridge system. Overall, the seismic
+  vulnerability significantly increases throughout the lifetime of the
+  representative bridge geometry, with a 32{\%} shift in the median value of
+  complete damage fragility near the end of the bridge's life.%
+    }
+    \verb{doi}
+    \verb 10.1061/ASCEST.1943-541X.0000260
+    \endverb
+    \field{number}{12}
+    \field{pages}{1497\bibrangedash 1511}
+    \field{title}{{Aging Considerations in the Development of Time-Dependent
+  Seismic Fragility Curves}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/pdf/10.1061/{\%}28ASCE{\%}29ST.1943-541X.
+    \verb 0000260
+    \endverb
+    \field{volume}{136}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Ghosh et al. - Unknown - Aging Considerations in the De
+    \verb velopment of Time-Dependent Seismic Fragility Curves(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Structural Engineering}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Ghosh2015}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GJ}{%
+         family={Ghosh},
+         familyi={G\bibinitperiod},
+         given={Jayadipta},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PJE}{%
+         family={Padgett},
+         familyi={P\bibinitperiod},
+         given={Jamie\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SSM}{%
+         family={S{\'{a}}nchez-Silva},
+         familyi={S\bibinitperiod-S\bibinitperiod},
+         given={Mauricio},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJPJESSM1}
+    \strng{fullhash}{GJPJESSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Civil infrastructures, such as highway bridges, located in seismically
+  active regions are often subjected to multiple earthquakes, including
+  multiple main shocks during their service life or main shock–aftershock
+  sequences. Repeated seismic events result in reduced structural capacity and
+  may lead to bridge col- lapse, causing disruption in the normal functioning
+  of transportation networks. This study proposes a framework to predict damage
+  accumulation in structures subjected to multiple shock scenarios after
+  developing damage index prediction models and accounting for the
+  probabilistic nature of the hazard. The versatility of the proposed framework
+  is demonstrated on a case-study highway bridge located in California for two
+  distinct hazard scenarios: (1) multiple main shocks during the service life
+  and (2) multiple aftershock earthquake occurrences follow- ing a single main
+  shock. Results reveal that in both cases there is a significant increase in
+  damage index exceedance probabilities due to repeated shocks within the time
+  window of interest.%
+    }
+    \verb{doi}
+    \verb 10.1193/120812EQS347M
+    \endverb
+    \field{number}{1}
+    \field{pages}{115\bibrangedash 135}
+    \field{title}{{Seismic Damage Accumulation in Highway Bridges in
+  Earthquake-Prone Regions}}
+    \verb{url}
+    \verb http://www.earthquakespectra.org/doi/pdf/10.1193/120812EQS347M
+    \endverb
+    \field{volume}{31}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Ghosh, Padgett, S{\'{a}}nchez-Silva - 2015 - Seismic Da
+    \verb mage Accumulation in Highway Bridges in Earthquake-Prone Regions.pdf:
+    \verb pdf
+    \endverb
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Goodnight2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GJC}{%
+         family={Goodnight},
+         familyi={G\bibinitperiod},
+         given={Jason\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KMJ}{%
+         family={Kowalsky},
+         familyi={K\bibinitperiod},
+         given={Mervyn\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Nau},
+         familyi={N\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJCKMJNJ1}
+    \strng{fullhash}{GJCKMJNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Described in this paper are strain limit states for reinforced concrete
+  bridge columns. A total of 30 large scale reinforced concrete bridge columns
+  were sub- jected to either reversed cyclic loading or real seismic load
+  histories as part ofthis research program. Through the use of a non-contact
+  three-dimensional (3-D) position measurement system, accurate strain
+  measurements that are not possible with conventional instrumentation were
+  made, which allowed for development of strain limits for serviceability,
+  spiral yielding, and reinforcing bar buckling limit states. The proposed bar
+  buckling strain limit was compared to an existing drift- based approach and
+  one formulated using finite element analysis for columns in the data set and
+  the literature%
+    }
+    \verb{doi}
+    \verb 10.1193/030315EQS036M
+    \endverb
+    \field{isbn}{2012120717}
+    \field{issn}{87552930}
+    \field{number}{3}
+    \field{pages}{1627\bibrangedash 1652}
+    \field{title}{Strain limit states for circular RC bridge columns}
+    \field{volume}{32}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Goodnight, Kowalsky, Nau - 2016 - Strain limit stat
+    \verb es for circular RC bridge columns.pdf:pdf
+    \endverb
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Goodnight2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GJC}{%
+         family={Goodnight},
+         familyi={G\bibinitperiod},
+         given={Jason\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=KMJ}{%
+         family={Kowalsky},
+         familyi={K\bibinitperiod},
+         given={Mervyn\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=NJM}{%
+         family={Nau},
+         familyi={N\bibinitperiod},
+         given={James\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJCKMJNJM1}
+    \strng{fullhash}{GJCKMJNJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    In this paper, the importance of displacement history and its effects on
+  performance limit states, the relationship between strain and displacement,
+  and the spread of plasticity in RC structures is explored. An experimental
+  study is underway to assess the performance of 30 circular, well-confined,
+  bridge columns with varying lateral displacement history, transverse
+  reinforcement detailing, axial load, aspect ratio, and longitudinal steel
+  content. Eight of these columns, with similar geometry and detailing, were
+  subjected to various unidirectional displacement histories including
+  standardized laboratory reversed cyclic loading and re-creations of the
+  displacement responses obtained from a nonlinear time-history analysis of
+  multiple earthquakes with distinct characteristics. Longitudinal reinforcing
+  bars were instrumented to obtain strain hysteresis, vertical strain profiles,
+  cross section curvatures, curvature distributions, and fixed-end rotations
+  attributable to strain penetration. Results have shown that the limit state
+  of reinforcement bar buckling was influenced by load history, but the
+  relationship between strain and displacement along the envelope curve was
+  not. The main impact of load history on bar buckling is its influence on
+  accumulated strains within the longitudinal reinforcement and transverse
+  steel.%
+    }
+    \verb{doi}
+    \verb 10.1061/(ASCE)BE.1943-5592.0000495
+    \endverb
+    \field{number}{12}
+    \field{pages}{1383\bibrangedash 1396}
+    \field{title}{Effect of Load History on Performance Limit States of
+  Circular Bridge Columns}
+    \field{volume}{18}
+    \field{journaltitle}{Journal of Bridge Engineering}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Hosseini2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HS}{%
+         family={Hosseini},
+         familyi={H\bibinitperiod},
+         given={Sajjad},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Heidarpour},
+         familyi={H\bibinitperiod},
+         given={Amin},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Collins},
+         familyi={C\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=HCR}{%
+         family={Hutchinson},
+         familyi={H\bibinitperiod},
+         given={Christopher\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{HSHACF+1}
+    \strng{fullhash}{HSHACFHCR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    This paper addresses the strain ageing effects on the mechanical properties
+  of the partially damaged structural mild steel. Since repairing partly
+  damaged structures may not occur immediately, the strain ageing effect can
+  significantly influence the structural behaviour. The changes due to this
+  effect have not so far been considered in the civil engineering design
+  guidelines. In order to investigate strain ageing effects, two-stage
+  experimental tests are carried out on the mild-steel specimens. In the first
+  stage, partial damage is made using quasi-static loading. During the second
+  stage, the strength and ductility of the specimens are examined after 2 and
+  7days ‘ageing' at room temperature and the results are compared with the
+  corresponding no-age samples. The microstructure of the specimens is examined
+  using scanning electron microscopy (SEM). To illustrate the effect of strain
+  ageing on the global behaviour of steel structures, a numerical example is
+  provided in which strain ageing impacts on loading capacity and deflection of
+  a steel beam. Finally, the stress–strain relation of partially damaged
+  mild-steel material incorporating strain ageing effects is expressed by
+  calibrating the parameters of Ramberg–Osgood model.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.CONBUILDMAT.2014.12.021
+    \endverb
+    \field{issn}{0950-0618}
+    \field{pages}{83\bibrangedash 93}
+    \field{title}{{Effect of strain ageing on the mechanical properties of
+  partially damaged structural mild steel}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0950061814013233?{
+    \verb \_}rdoc=1{\&}{\_}fmt=high{\&}{\_}origin=gateway{\&}{\_}docanchor={\&}
+    \verb md5=b8429449ccfc9c30159a5f9aeaa92ffb
+    \endverb
+    \field{volume}{77}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Hosseini et al. - 2015 - Effect of strain ageing on
+    \verb  the mechanical properties of partially damaged structural mild steel
+    \verb .pdf:pdf
+    \endverb
+    \field{journaltitle}{Construction and Building Materials}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Khashaee}{article}{}
+    \name{author}{2}{}{%
+      {{hash=KP}{%
+         family={Khashaee},
+         familyi={K\bibinitperiod},
+         given={Payam},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=EM}{%
+         family={Eeri},
+         familyi={E\bibinitperiod},
+         given={M},
+         giveni={M},
+      }}%
+    }
+    \strng{namehash}{KPEM1}
+    \strng{fullhash}{KPEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    The influences of the ground motion and structural characteristics on
+  damage potential of a 7-, a 13-, and a 20-story steel building are examined
+  using four sets of 40 accelerograms each, classified as soil sites B, C, D,
+  and E according to the 2003 International Building Code. The Park-Ang damage
+  index that has been used extensively during the past two decades is examined.
+  A new damage index based on ductility and stiffness degradation is proposed.
+  Results indicate that the proposed index correlates strongly with the energy
+  dissipated through inelastic action. The advantages and disadvantages of the
+  strength-based design approach are discussed and a seismic design procedure
+  based on damage is outlined.%
+    }
+    \verb{doi}
+    \verb 10.1193/1.1896366
+    \endverb
+    \field{number}{2}
+    \field{pages}{371\bibrangedash 387}
+    \field{title}{{Damage-based Seismic Design of Structures}}
+    \verb{url}
+    \verb http://earthquakespectra.org/doi/pdf/10.1193/1.1896366
+    \endverb
+    \field{volume}{21}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Khashaee, Eeri - Unknown - Damage-based Seismic Design
+    \verb of Structures.pdf:pdf
+    \endverb
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Krawinkler1987}{article}{}
+    \name{author}{1}{}{%
+      {{hash=KH}{%
+         family={Krawinkler},
+         familyi={K\bibinitperiod},
+         given={Helmut},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KH1}
+    \strng{fullhash}{KH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    This paper present a methodology%
+    }
+    \field{number}{1}
+    \field{pages}{27\bibrangedash 41}
+    \field{title}{{Performance Assessment of Steel Component}}
+    \field{volume}{3}
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{1987}
+  \endentry
+
+  \entry{Krish2018}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=KZF}{%
+         family={Krish},
+         familyi={K\bibinitperiod},
+         given={Zachary\bibnamedelima Frank},
+         giveni={Z\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KZF1}
+    \strng{fullhash}{KZF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{{Rapid Repair of Reinforced Concrete Bridge Columns Subjected
+  to Seismic Loading via Plastic Hinge Relocation}}
+    \list{institution}{1}{%
+      {North Carolina State University}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Kunnath1992}{article}{}
+    \name{author}{3}{}{%
+      {{hash=KSK}{%
+         family={Kunnath},
+         familyi={K\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=RAM}{%
+         family={Reinhorn},
+         familyi={R\bibinitperiod},
+         given={A.\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LRF}{%
+         family={Lobo},
+         familyi={L\bibinitperiod},
+         given={R.\bibnamedelima F.},
+         giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KSKRAMLRF1}
+    \strng{fullhash}{KSKRAMLRF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    University of Central Florida and University at Buffalo%
+    }
+    \field{number}{1992}
+    \field{pages}{1\bibrangedash 20}
+    \field{title}{{IDARC Version 3.0: A Program for the Inelastic Damage
+  Analysis of RC Structures}}
+    \field{volume}{818}
+    \field{year}{1992}
+  \endentry
+
+  \entry{Ma2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MY}{%
+         family={Ma},
+         familyi={M\bibinitperiod},
+         given={Ying},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=CY}{%
+         family={Che},
+         familyi={C\bibinitperiod},
+         given={Yi},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Gong},
+         familyi={G\bibinitperiod},
+         given={Jinxin},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Axial load,Circular column,Corrosion,Cyclic loading,Ductility,Energy
+  dissipation,Reinforced concrete,Seismic behavior}
+    \strng{namehash}{MYCYGJ1}
+    \strng{fullhash}{MYCYGJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    This paper presents the results of an investigation on degradation of
+  seismic performance of reinforced concrete (RC) columns damaged by
+  reinforcement corrosion. A total of 13 reinforced concrete circular columns
+  were tested under combined cyclic lateral displacement excursions and
+  constant axial load after being subjected to accelerated corrosion tests. The
+  controlled variables in the test were corrosion level and axial load ratio.
+  The steel corrosion loss ratios ranged from 0{\%} to 15.1{\%}, and the axial
+  load ratios varied from 0.15 to 0.9. Based on the test results, degradation
+  models for loading capacity, stiffness, ductility and energy dissipation
+  capacity of columns were proposed. Test results show that higher corrosion
+  levels and higher axial loads result in less stable hysteretic loops with
+  more severe strength and stiffness degradations and worse ductility, and that
+  the energy dissipation of corroded specimens at the same displacement
+  excursions is approximately the same as that of control specimens, regardless
+  of the corrosion level, when the rebar corrosion loss ratio is less than
+  14{\%}.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.conbuildmat.2011.11.002
+    \endverb
+    \field{pages}{548\bibrangedash 556}
+    \field{title}{{Behavior of corrosion damaged circular reinforced concrete
+  columns under cyclic loading}}
+    \verb{url}
+    \verb https://pdf.sciencedirectassets.com/271475/1-s2.0-S0950061811X00132/1
+    \verb -s2.0-S0950061811006313/main.pdf?x-amz-security-token=AgoJb3JpZ2luX2V
+    \verb jEJD{\%}2F{\%}2F{\%}2F{\%}2F{\%}2F{\%}2F{\%}2F{\%}2F{\%}2F{\%}2FwEaCX
+    \verb VzLWVhc3QtMSJHMEUCIQDERzAP4Up1ifdXOFDFMyDRvPXzCVj9hRcobazopK7O0QIgXPF
+    \verb 6nPfpHuzh
+    \endverb
+    \field{volume}{29}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Ma, Che, Gong - 2012 - Behavior of corrosion damage
+    \verb d circular reinforced concrete columns under cyclic loading.pdf:pdf
+    \endverb
+    \field{journaltitle}{Construction and Building Materials}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Mackie2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MKR}{%
+         family={Mackie},
+         familyi={M\bibinitperiod},
+         given={K.\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Stojadinovi{\'{c}}},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley {\&} Sons, Ltd.}%
+    }
+    \keyw{confidence level,highway bridge,performance
+  objective,performance‐based earthquake engineering,repair cost ratio}
+    \strng{namehash}{MKRSB1}
+    \strng{fullhash}{MKRSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Recent efforts in the earthquake engineering community have focused largely
+  on developing a performancebased earthquake engineering assessment
+  methodology. However, equally important is applying such a methodology to the
+  design of structures. Probabilistic performance-based seismic design enables
+  design and acceptance criteria to be specified by a continuum of limit states
+  and incorporates uncertainty in all the sources of data. This paper
+  introduces a non-iterative method, based on the Pacific Earthquake
+  Engineering Research Center framework, for design of bridge structures in
+  terms of single or multiple physical design parameters, such as column height
+  and diameter. Design parameter solutions are obtained from explicit
+  consideration of uncertainty in the hazard, demand, damage, and loss to the
+  structure by way of specifying a level of confidence in the resulting design
+  under different performance objectives. Similar to other performance-based
+  methodologies, performance objectives consist of a performance level and a
+  hazard level. Design equations are derived for performance levels defined in
+  terms of bridge damage and loss. Examples are presented of both univariate
+  and bivariate design parameter cases for typical reinforced concrete highway
+  overpass bridges in California.%
+    }
+    \verb{doi}
+    \verb 10.1002/eqe.699
+    \endverb
+    \field{issn}{00988847}
+    \field{number}{13}
+    \field{pages}{1953\bibrangedash 1971}
+    \field{title}{{Performance-based seismic bridge design for damage and loss
+  limit states}}
+    \verb{url}
+    \verb http://doi.wiley.com/10.1002/eqe.699
+    \endverb
+    \field{volume}{36}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Mackie, Stojadinovi{\'{c}} - 2007 - Performance-based s
+    \verb eismic bridge design for damage and loss limit states.pdf:pdf
+    \endverb
+    \field{journaltitle}{Earthquake Engineering {\&} Structural Dynamics}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Mander1988}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MJB}{%
+         family={Mander},
+         familyi={M\bibinitperiod},
+         given={J.\bibnamedelima B.},
+         giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=PMJN}{%
+         family={Priestley},
+         familyi={P\bibinitperiod},
+         given={M.\bibnamedelima J.\bibnamedelima N.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MJBPMJNPR1}
+    \strng{fullhash}{MJBPMJNPR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    A stress‐strain model is developed for concrete subjected to uniaxial
+  compressive loading and confined by transverse reinforcement. The concrete
+  section may contain any general type of confining steel: either spiral or
+  circular hoops; or rectangular hoops with or without supplementary cross
+  ties. These cross ties can have either equal or unequal confining stresses
+  along each of the transverse axes. A single equation is used for the
+  stress‐strain equation. The model allows for cyclic loading and includes
+  the effect of strain rate. The influence of various types of confinement is
+  taken into account by defining an effective lateral confining stress, which
+  is dependent on the configuration of the transverse and longitudinal
+  reinforcement. An energy balance approach is used to predict the longitudinal
+  compressive strain in the concrete corresponding to first fracture of the
+  transverse reinforcement by equating the strain energy capacity of the
+  transverse reinforcement to the strain energy stored in the concrete as a
+  result of the confinement.%
+    }
+    \field{number}{8}
+    \field{pages}{1804\bibrangedash 1826}
+    \field{title}{Theoretical Stress\&\#x2010;Strain Model for Confined
+  Concrete}
+    \field{volume}{114}
+    \field{journaltitle}{Journal of Structural Engineering}
+    \field{year}{1988}
+  \endentry
+
+  \entry{McKenna2010}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MF}{%
+         family={McKenna},
+         familyi={M\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SMH}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=FGL}{%
+         family={Fenves},
+         familyi={F\bibinitperiod},
+         given={Gregory\bibnamedelima L.},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Computer programming,Computer software,Finite element
+  method,Nonlinear analysis}
+    \strng{namehash}{MFSMHFGL1}
+    \strng{fullhash}{MFSMHFGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Object composition offers significant advantages over class inheritance to
+  develop a flexible software architecture for finite-element analysis. Using
+  this approach, separate classes encapsulate fundamental finite-element
+  algorithms and interoperate to form and solve the governing nonlinear
+  equations. Communication between objects in the analysis composition is
+  established using software design patterns. Root-finding algorithms, time
+  integration methods, constraint handlers, linear equation solvers, and degree
+  of freedom numberers are implemented as interchangeable components using the
+  Strategy pattern. The Bridge and Factory Method patterns allow objects of the
+  finite-element model to vary independently from objects that implement the
+  numerical solution procedures. The Adapter and Iterator patterns permit
+  equations to be assembled entirely through abstract interfaces that do not
+  expose either the storage of objects in the analysis model or the
+  computational details of the time integration method. Sequence diagrams
+  document the interoperability of the analysis classes for solving nonlinear
+  finite-element equations, demonstrating that object composition with design
+  patterns provides a general approach to developing and refactoring nonlinear
+  finite-element software. {\textcopyright} 2010 ASCE.%
+    }
+    \verb{doi}
+    \verb 10.1061/(ASCE)CP.1943-5487.0000002
+    \endverb
+    \field{issn}{08873801}
+    \field{number}{1}
+    \field{pages}{95\bibrangedash 107}
+    \field{title}{{Nonlinear finite-element analysis software architecture
+  using object composition}}
+    \verb{url}
+    \verb http://ascelibrary.org/doi/10.1061/{\%}28ASCE{\%}29CP.1943-5487.00000
+    \verb 02
+    \endverb
+    \field{volume}{24}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/McKenna, Scott, Fenves - 2010 - Nonlinear Finite-El
+    \verb ement Analysis Software Architecture Using Object Composition.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Computing in Civil Engineering}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Meda2014}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MA}{%
+         family={Meda},
+         familyi={M\bibinitperiod},
+         given={Alberto},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mostosi},
+         familyi={M\bibinitperiod},
+         given={Serena},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=RZ}{%
+         family={Rinaldi},
+         familyi={R\bibinitperiod},
+         given={Zila},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Riva},
+         familyi={R\bibinitperiod},
+         given={Paolo},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \keyw{Bare bars,Cyclic tests,Embedded bars,RC columns,Reinforcement
+  corrosion}
+    \strng{namehash}{MAMSRZ+1}
+    \strng{fullhash}{MAMSRZRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Corrosion of reinforcement is one of the leading causes of the
+  deterioration in reinforced concrete structures. RC structures damaged by
+  reinforcement corrosion can exhibit not only reduction of the bearing
+  capacity but also an alteration of the collapse mechanism with a reduction of
+  the structural ductility. In order to study the problem, full scale
+  experimental tests on column specimens have been performed under cyclic
+  loads. Preliminary tests for the calibration of the corrosion process have
+  been carried out both on bare and embedded bars. The results of the cyclic
+  experimental tests show how the reinforce ment corrosion can lead to a
+  reduction of the structural ductility, such that it could become a critical
+  aspect particularly for buildings in seismic regions%
+    }
+    \verb{doi}
+    \verb 10.1016/j.engstruct.2014.06.043
+    \endverb
+    \field{issn}{01410296}
+    \field{pages}{112\bibrangedash 123}
+    \field{title}{{Experimental evaluation of the corrosion influence on the
+  cyclic behaviour of RC columns}}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S014102961400399X
+    \endverb
+    \field{volume}{76}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Meda et al. - 2014 - Experimental evaluation of the
+    \verb  corrosion influence on the cyclic behaviour of RC columns.pdf:pdf
+    \endverb
+    \field{journaltitle}{Engineering Structures}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Mehta2014}{book}{}
+    \name{author}{2}{}{%
+      {{hash=MPK}{%
+         family={Mehta},
+         familyi={M\bibinitperiod},
+         given={P.\bibnamedelima Kumar},
+         giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=MPJM}{%
+         family={Monteiro},
+         familyi={M\bibinitperiod},
+         given={Paulo J.\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {McGraw Hill}%
+    }
+    \strng{namehash}{MPKMPJM1}
+    \strng{fullhash}{MPKMPJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{edition}{4}
+    \field{title}{{Concrete: Microstructure, Properties, and Materials}}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Miranda2020}{report}{}
+    \name{author}{10}{}{%
+      {{hash=ME}{%
+         family={Miranda},
+         familyi={M\bibinitperiod},
+         given={Eduardo},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=AJ}{%
+         family={Archbold},
+         familyi={A\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HP}{%
+         family={Heresi},
+         familyi={H\bibinitperiod},
+         given={Pablo},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Messina},
+         familyi={M\bibinitperiod},
+         given={Armando},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Rosa},
+         familyi={R\bibinitperiod},
+         given={Isamar},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Robertson},
+         familyi={R\bibinitperiod},
+         given={Ian},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Mosalam},
+         familyi={M\bibinitperiod},
+         given={Khalid},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KCT}{%
+         family={Kijewski-Correa},
+         familyi={K\bibinitperiod-C\bibinitperiod},
+         given={Tracy},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Prevatt},
+         familyi={P\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Roueche},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MEAJHP+1}
+    \strng{fullhash}{MEAJHPMARIRIMKKCTPDRD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \verb{doi}
+    \verb 10.17603/ds2-h0kd-5677
+    \endverb
+    \field{pages}{173}
+    \field{title}{{PRJ-2712 | StEER - Puerto Rico Earthquake Sequence December
+  2019 to January 2020: Field Assessment Structural Team (FAST) Early Access
+  Reconnaissance Report (EARR)}}
+    \list{institution}{1}{%
+      {Structural Extreme Events Reconnaissance}%
+    }
+    \verb{file}
+    \verb :C$\backslash$:/ConditionDependent{\_}PBD/Literature Review/StEER EAR
+    \verb R Puerto Rico Earthquake Sequence Dec 2019 - Jan 2020.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Momtahan2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MA}{%
+         family={Momtahan},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DRP}{%
+         family={Dhakal},
+         familyi={D\bibinitperiod},
+         given={R.\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rieder},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MADRPRA1}
+    \strng{fullhash}{MADRPRA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{issn}{11749857}
+    \field{number}{3}
+    \field{pages}{179\bibrangedash 186}
+    \field{title}{{Effects of strain-ageing on New Zealand reinforcing steel
+  bars}}
+    \field{volume}{42}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vccal/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/Momtahan, Dhakal, Rieder - 2009 - Effects of strain-ag
+    \verb eing on New Zealand reinforcing steel bars(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Bulletin of the New Zealand Society for Earthquake
+  Engineering}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Overby2017}{article}{}
+    \name{author}{3}{}{%
+      {{hash=OD}{%
+         family={Overby},
+         familyi={O\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kowalsky},
+         familyi={K\bibinitperiod},
+         given={Mervyn},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Seracino},
+         familyi={S\bibinitperiod},
+         given={Rudolf},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{ODKMSR1}
+    \strng{fullhash}{ODKMSR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    Before ASTM A706 grade 80 rebar may be specified in the seismic design of
+  structures, its mechanical properties must be well understood and calibrated
+  on a statistical basis. Based on the results of 788 tensile tests of A706
+  grade 80 rebar encompassing bar sizes No. 4–No. 18 (approx. metric No.
+  13–No. 57), five major stress-strain parameters are statistically evaluated
+  and used to develop recommendations for an expected monotonic stress-strain
+  curve. An existing material model is shown to accurately capture the shape of
+  the monotonic stress-strain curve. Additional tests are used to evaluate the
+  strain-aging performance of the steel.%
+    }
+    \verb{doi}
+    \verb 10.1016/J.CONBUILDMAT.2017.03.200
+    \endverb
+    \field{issn}{0950-0618}
+    \field{pages}{292\bibrangedash 302}
+    \field{title}{{Stress-strain response of A706 grade 80 reinforcing steel}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0950061817305895?{
+    \verb \_}rdoc=1{\&}{\_}fmt=high{\&}{\_}origin=gateway{\&}{\_}docanchor={\&}
+    \verb md5=b8429449ccfc9c30159a5f9aeaa92ffb{\&}ccp=y
+    \endverb
+    \field{volume}{145}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Overby, Kowalsky, Seracino - 2017 - Stress-strain r
+    \verb esponse of A706 grade 80 reinforcing steel.pdf:pdf
+    \endverb
+    \field{journaltitle}{Construction and Building Materials}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Padgett2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PJE}{%
+         family={Padgett},
+         familyi={P\bibinitperiod},
+         given={Jamie\bibnamedelima E},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Desroches},
+         familyi={D\bibinitperiod},
+         given={Reginald},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PJEDR1}
+    \strng{fullhash}{PJEDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Relationships between bridge damage and the resulting loss of functionality
+  of the bridge are critical to assessing the impact of an earthquake event on
+  the performance of the transportation network. This study addresses this data
+  need by use of a Web-based survey of central and southeastern U.S. Department
+  of Transportation bridge inspectors and officials. Results of the 28
+  responses are analyzed and offer a link between various types of bridge
+  component damage and the expected level of allowable traffic carrying
+  capacity due to closure decisions and repair procedures. This data is
+  utilized to assess the probability of meeting various damage states,
+  expressed in terms of restoration of functionality, and subsequently
+  facilitate the refinement of component limit-state capacities for analytical
+  fragility curve development. The bridge functionality relationships and
+  methodology outlined serve as the basis for refinement of critical tools in
+  the seismic risk assessment framework and improved assessment of
+  transportation network performance.%
+    }
+    \verb{doi}
+    \verb 10.1193/1.2431209
+    \endverb
+    \field{number}{1}
+    \field{pages}{115\bibrangedash 130}
+    \field{title}{{Bridge Functionality Relationships for Improved Seismic Risk
+  Assessment of Transportation Networks}}
+    \field{volume}{23}
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Priestley2007}{book}{}
+    \name{author}{3}{}{%
+      {{hash=PM}{%
+         family={Priestley},
+         familyi={P\bibinitperiod},
+         given={M.J.N.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CGM}{%
+         family={Calvi},
+         familyi={C\bibinitperiod},
+         given={G\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=KMJ}{%
+         family={Kowalsky},
+         familyi={K\bibinitperiod},
+         given={Mervyn\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {IUSS Press}%
+    }
+    \strng{namehash}{PMCGMKMJ1}
+    \strng{fullhash}{PMCGMKMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{edition}{1st}
+    \field{isbn}{978-88-6198-000-6}
+    \field{title}{{Displacement-Based Seismic Design of Structures}}
+    \list{location}{1}{%
+      {Pavia, Italy}%
+    }
+    \field{year}{2007}
+  \endentry
+
+  \entry{Restrepo-Posada1994}{article}{}
+    \name{author}{4}{}{%
+      {{hash=RPJ}{%
+         family={Restrepo-Posada},
+         familyi={R\bibinitperiod-P\bibinitperiod},
+         given={J.I.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DLL}{%
+         family={Dodd},
+         familyi={D\bibinitperiod},
+         given={L\bibnamedelima L},
+         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Park},
+         familyi={P\bibinitperiod},
+         given={R},
+         giveni={R},
+      }}%
+      {{hash=CN}{%
+         family={Cooke},
+         familyi={C\bibinitperiod},
+         given={N},
+         giveni={N},
+      }}%
+    }
+    \strng{namehash}{RPJDLLPR+1}
+    \strng{fullhash}{RPJDLLPRCN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    A reasonable understanding of the cyclic behavior of reinforcing steel is
+  required to accurately estimate the performance of reinforced concrete
+  members subjected to cyclic deformations beyond the elastic range such as
+  those expected from large earthquakes. Although the cyclic behavior of
+  reinforcing steel has been extensively studied, very little is known about
+  the effects that factors such as the bar deformations, strain rate, and
+  strain aging have on the cyclic behavior. The effects of strain aging on the
+  cyclic behavior of reinforcing steel can be very relevant when considering
+  postearthquake retrofitting of reinforced concrete structures. A series of
+  cyclic uniaxial tests were conducted at the University of Canterbury on the
+  two commercially available grades of New Zealand reinforcing steel, where the
+  effects of cyclic loading, bar deformations, strain rate, and strain aging on
+  the stress-strain behavior of reinforcing steel were investigated. The
+  emphasis of the tests was to observe the material behavior, and hence
+  buckling was restricted. The present paper describes the test setup and
+  discusses the results of the investigation.%
+    }
+    \field{number}{11}
+    \field{pages}{3178\bibrangedash 3196}
+    \field{title}{{Variables Affecting Cyclic Behavior of Reinforcing Steel}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/pdf/10.1061/(ASCE)0733-9445(1994)120{\%}3
+    \verb A11(3178)
+    \endverb
+    \field{volume}{120}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vccal/AppData/Local/Mendeley Ltd./Mendeley Desk
+    \verb top/Downloaded/I Restrepo-Posada et al. - Unknown - VARIABLES AFFECTI
+    \verb NG CYCLIC BEHAVIOR OF REINFORCING STEEL.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Structural Engineering}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Roufaiel}{report}{}
+    \name{author}{2}{}{%
+      {{hash=RMSL}{%
+         family={Roufaiel},
+         familyi={R\bibinitperiod},
+         given={Magdy S\bibnamedelima L},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=MC}{%
+         family={Meyer},
+         familyi={M\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RMSLMC1}
+    \strng{fullhash}{RMSLMC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    A theory for an enhanced mathematical model of R/C frame members is
+  presented and its accuracy is verified by simulating various laboratory
+  experiments for which data were available in the literature. New member and
+  global damage parameters are defined. These damage parameters are useful for
+  subsequent reliability analysis of damaged concrete frames.%
+    }
+    \field{title}{{ANALYTICAL MODELING OF HYSTERETIC BEHAVIOR OF R/C FRAMES}}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Roufaiel, Meyer - Unknown - ANALYTICAL MODELING OF HYST
+    \verb ERETIC BEHAVIOR OF RC FRAMES.pdf:pdf
+    \endverb
+    \field{type}{techreport}
+  \endentry
+
+  \entry{Scott}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SMH}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima H},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=FGL}{%
+         family={Fenves},
+         familyi={F\bibinitperiod},
+         given={Gregory\bibnamedelima L},
+         giveni={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \keyw{Beam columns,CE Database subject headings: Beam columns,Earthquake
+  engineering,Finite elements,Nonlinear analysis,Plastic hinges,Simulation
+  models,Simulation models. Introduction}
+    \strng{namehash}{SMHFGL1}
+    \strng{fullhash}{SMHFGL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    A new plastic hinge integration method overcomes the problems with
+  nonobjective response caused by strain-softening behavior in force-based
+  beam-column finite elements. The integration method uses the common concept
+  of a plastic hinge length in a numerically consistent manner. The method,
+  derived from the Gauss-Radau quadrature rule, integrates deformations over
+  specified plastic hinge lengths at the ends of the beam-column element, and
+  it has the desirable property that it reduces to the exact solution for
+  linear problems. Numerical examples show the effect of plastic hinge
+  integration on the response of force-based beam-column elements for both
+  strain-hardening and strain-softening section behavior in the plastic hinge
+  regions. The incorporation of a plastic hinge length in the element
+  integration method ensures objective element and section response, which is
+  important for strain-softening behavior in reinforced concrete structures.
+  Plastic rotations are defined in a consistent manner and clearly related to
+  deformations in the plastic hinges.%
+    }
+    \verb{doi}
+    \verb 10.1061/ASCE0733-94452006132:2244
+    \endverb
+    \field{number}{2}
+    \field{pages}{244\bibrangedash 252}
+    \field{title}{{Plastic Hinge Integration Methods for Force-Based
+  Beam-Column Elements}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/pdf/10.1061/{\%}28ASCE{\%}290733-9445{\%}
+    \verb 282006{\%}29132{\%}3A2{\%}28244{\%}29
+    \endverb
+    \field{volume}{132}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Scott, Fenves - Unknown - Plastic Hinge Integration
+    \verb  Methods for Force-Based Beam-Column Elements(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Structural Engineering}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Shekhar2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SS}{%
+         family={Shekhar},
+         familyi={S\bibinitperiod},
+         given={Shivang},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GJ}{%
+         family={Ghosh},
+         familyi={G\bibinitperiod},
+         given={Jayadipta},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=PJE}{%
+         family={Padgett},
+         familyi={P\bibinitperiod},
+         given={Jamie\bibnamedelima E.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Seismic analysis,chloride-induced deterioration,deicing salt
+  exposure,field-instrumentation data,marine exposure,time-dependent seismic
+  fragility,uniform vs. pitting corrosion}
+    \strng{namehash}{SSGJPJE1}
+    \strng{fullhash}{SSGJPJE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    {\textcopyright} 2018 Informa UK Limited, trading as Taylor {\&} Francis
+  Group. Chloride-induced corrosion of highway bridges constitutes a critical
+  form of environmental deterioration and may result in significant escalation
+  of seismic life-cycle costs due to increased fragility during earthquake
+  events. Most of existing literature tends to adopt simplistic uniform area
+  loss assumptions in lieu of potentially complex, yet realistic and more
+  detrimental, pitting corrosion models for seismic vulnerability analysis.
+  Since the degree of deterioration depends on the severity and duration of
+  exposure, there exists a need to investigate the influence of uniform vs.
+  pitting corrosion assumption on seismic life-cycle costs for varied chloride
+  exposure conditions. A case-study example of a highway bridge in Central and
+  Southeastern US reveals consideration of pitting corrosion as critical for
+  extreme exposures compared to relatively minor settings. Subsequently this
+  study provides recommendations to aid bridge engineers and stakeholders to
+  balance between computational cost and accuracy of results to aid prompt
+  decisions on rehabilitation of ageing bridges in different exposure
+  conditions. A framework is also included to compute seismic life-cycle costs
+  from generic measures of corrosion, independent of assumed exposure scenario.
+  This framework is particularly helpful for seismic loss assessment of highway
+  bridges in chloride exposure zones with periodic field measurements to
+  estimate the extent of structural deterioration.%
+    }
+    \verb{doi}
+    \verb 10.1080/15732479.2018.1437639
+    \endverb
+    \field{issn}{17448980}
+    \field{number}{7}
+    \field{pages}{941\bibrangedash 966}
+    \field{title}{{Seismic life-cycle cost analysis of ageing highway bridges
+  under chloride exposure conditions: modelling and recommendations}}
+    \field{volume}{14}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Shekhar, Ghosh, Padgett - 2018 - Seismic life-cycle
+    \verb  cost analysis of ageing highway bridges under chloride exposure cond
+    \verb itions modelling.pdf:pdf
+    \endverb
+    \field{journaltitle}{Structure and Infrastructure Engineering}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Stewart1998}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SMG}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=RDV}{%
+         family={Rosowsky},
+         familyi={R\bibinitperiod},
+         given={David\bibnamedelima V.},
+         giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \keyw{Bridges,Corrosion,Deterioration,Probability of failure,Reinforced
+  concrete,Reliability,Safety}
+    \strng{namehash}{SMGRDV1}
+    \strng{fullhash}{SMGRDV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    A structural deterioration reliability model is developed to calculate
+  probabilities of structural failure (flexure) for a typical reinforced
+  concrete continuous slab bridge. Corrosion may be initiated from the
+  application of de-icing salts or atmospheric exposure in a marine
+  environment. It is assumed that corrosion will lead to a reduction in the
+  cross-sectional area of the reinforcing steel. Monte Carlo simulation is used
+  to calculate probabilities of failure for annual increments over the lifetime
+  of the structure (75 years). The application of de-icing salts or atmospheric
+  marine exposure is shown to cause significant long-term deterioration and
+  reduction in structural safety. Reducing the cover from that currently
+  specified for design results in a significant increase in failure
+  probabilities. {\textcopyright} 1998 Elsevier Science Ltd. All rights
+  reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0167-4730(97)00021-0
+    \endverb
+    \field{issn}{01674730}
+    \field{number}{1}
+    \field{pages}{91\bibrangedash 109}
+    \field{title}{{Time-dependent reliability of deteriorating reinforced
+  concrete bridge decks}}
+    \field{volume}{20}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Stewart, Rosowsky - 1998 - Time-dependent reliabili
+    \verb ty of deteriorating reinforced concrete bridge decks.pdf:pdf
+    \endverb
+    \field{journaltitle}{Structural Safety}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Thoft-Christensen}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=TCP}{%
+         family={Thoft-Christensen},
+         familyi={T\bibinitperiod-C\bibinitperiod},
+         given={Palle},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TCP1}
+    \strng{fullhash}{TCP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    In this paper is presented a brief review of modern modeling of the
+  reliability profiles for reinforced concrete structures. Deterministic models
+  for the different steps in the deterioration process are discussed. Several
+  of the parameters used in the modeling are so uncertain that a stochastic
+  modeling is natural. By crude Monte Carlo simulation predictions for time to
+  initial corrosion, time to initial cracking, and time to a given crack width
+  may be obtained.%
+    }
+    \field{booktitle}{Life-Cycle Performance of Deteriorating Structures:
+  Assessment, Design and Management}
+    \field{pages}{26\bibrangedash 36}
+    \field{title}{{Corrosion and Cracking of Reinforced Concrete}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/pdf/10.1061/40707{\%}28240{\%}294
+    \endverb
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Thoft-Christensen - Unknown - Corrosion and Crackin
+    \verb g of Reinforced Concrete.pdf:pdf
+    \endverb
+    \field{year}{2003}
+  \endentry
+
+  \entry{Vu2000}{article}{}
+    \name{author}{2}{}{%
+      {{hash=VKAT}{%
+         family={Vu},
+         familyi={V\bibinitperiod},
+         given={Kim Anh\bibnamedelima T.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  T\bibinitperiod},
+      }}%
+      {{hash=SMG}{%
+         family={Stewart},
+         familyi={S\bibinitperiod},
+         given={Mark\bibnamedelima G.},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{VKATSMG1}
+    \strng{fullhash}{VKATSMG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    A structural deterioration reliability (probabilistic) model has been used
+  herein to calculate probabilities of structural failure. New reinforced
+  concrete corrosion initiation, corrosion rate and time-variant load models
+  are proposed. Three durability design specifications are considered in a
+  lifetime reliability analysis of a RC slab bridge. Time-variant increases in
+  loads are considered also. It was found that the application of de-icing
+  salts causes significant long-term deterioration and reduction in structural
+  safety for poor durability design specifications. A reduced cover or
+  increased water-cement ratio increases failure probabilities. When compared
+  to the case of “no deterioration”, it was observed also that the
+  probability of failure only marginally increased for good durability design
+  specifications. The approaches described herein are relevant to other
+  physical infrastructure also.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0167-4730(00)00018-7
+    \endverb
+    \field{issn}{0167-4730}
+    \field{number}{4}
+    \field{pages}{313\bibrangedash 333}
+    \field{title}{{Structural reliability of concrete bridges including
+  improved chloride-induced corrosion models}}
+    \verb{url}
+    \verb https://www.sciencedirect.com/science/article/pii/S0167473000000187
+    \endverb
+    \field{volume}{22}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Vu, Stewart - 2000 - Structural reliability of conc
+    \verb rete bridges including improved chloride-induced corrosion models.pdf
+    \verb :pdf
+    \endverb
+    \field{journaltitle}{Structural Safety}
+    \field{year}{2000}
+  \endentry
+
+  \entry{Weyers1994}{report}{}
+    \name{author}{7}{}{%
+      {{hash=WRE}{%
+         family={Weyers},
+         familyi={W\bibinitperiod},
+         given={Richard\bibnamedelima E},
+         giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=FMG}{%
+         family={Fitch},
+         familyi={F\bibinitperiod},
+         given={Michael\bibnamedelima G},
+         giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=LEP}{%
+         family={Larsen},
+         familyi={L\bibinitperiod},
+         given={Erin\bibnamedelima P},
+         giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=AQIL}{%
+         family={A1-Qadi},
+         familyi={A\bibinitperiod-Q\bibinitperiod},
+         given={Imad\bibnamedelima L},
+         giveni={I\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CWP}{%
+         family={{Chamberlin Albany}},
+         familyi={C\bibinitperiod},
+         given={William\bibnamedelima P},
+         giveni={W\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=YN}{%
+         family={York},
+         familyi={Y\bibinitperiod},
+         given={New},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HPC}{%
+         family={Hoffman},
+         familyi={H\bibinitperiod},
+         given={Paul\bibnamedelima C},
+         giveni={P\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WREFMGLEP+1}
+    \strng{fullhash}{WREFMGLEPAQILCWPYNHPC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{{Service Life Estimates}}
+    \list{location}{1}{%
+      {Washington DC}%
+    }
+    \list{institution}{1}{%
+      {Strategic Highway Research Program}%
+    }
+    \verb{file}
+    \verb ::
+    \endverb
+    \field{type}{techreport}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Williams1995}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WMS}{%
+         family={Williams},
+         familyi={W\bibinitperiod},
+         given={Martin\bibnamedelima S.},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=SRG}{%
+         family={Sexsmith},
+         familyi={S\bibinitperiod},
+         given={Robert\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WMSSRG1}
+    \strng{fullhash}{WMSSRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{02}
+    \field{pages}{319\bibrangedash 349}
+    \field{title}{{Seismic Damage Indices for Concrete Structures: A
+  State-of-the-Art Review}}
+    \field{volume}{11}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Unknown - Unknown - full-text(2).pdf:pdf
+    \endverb
+    \field{journaltitle}{Earthquake Spectra}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Y.Liu1998a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=Y}{%
+         family={{Y. Liu}},
+         familyi={Y\bibinitperiod},
+      }}%
+      {{hash=R}{%
+         family={{R. E. Weyers}},
+         familyi={R\bibinitperiod},
+      }}%
+    }
+    \keyw{and deterioration,as shown,chloride-induced
+  corrosion,concrete,corrosion,corrosion cracking,diffusion,model,phases
+  in,produce the total damage,the model,there are three
+  distinct,time-to-cracking}
+    \strng{namehash}{YR1}
+    \strng{fullhash}{YR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    Modeling the Time-to-Corrosion Cracking in Chloride Contaminated Reinforced
+  Concrete Structures Document Name: 95-M65 Author(s): Youping Liu and Richard
+  E. Weyers Publication: Materials Journal Volume: 95 Issue: 6 Pages: 675-680
+  Keywords: chloride-induced corrosion; concrete; corrosion cracking model;
+  time-to-cracking Date: November 1, 1998 Abstract: The time to cracking, from
+  corrosion initiation to cracking of the reinforcing steel cover concrete, is
+  one of the critical time periods for modeling the time to repair,
+  rehabilitate and replace reinforced concrete structures in corrosive
+  environments. The time-to-corrosion cracking was experimentally determined
+  from simulated bridge deck slabs. The experimental design considered
+  corrosion rate, concrete cover depth, reinforcing steel bar spacing and size.
+  Three, of the 14 slab series, cracked during the 5 year study. Metal loss was
+  determined for the cracked specimens which had cover depths of 1, 2, and 3
+  in. (25, 51, and 76 mm). A time-to-corrosion cracking model was developed
+  considering the critical amount of corrosion products which consists of the
+  amount of corrosion products needed to fill the interconnected void space
+  around the reinforcing bar plus the amount of corrosion products needed to
+  generate sufficient tensile stresses to crack the cover concrete. The
+  experimentally observed time to cracking is in good agreement with the model
+  predicted time to cracking.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0008-8846(98)00259-2
+    \endverb
+    \field{isbn}{0889-325X}
+    \field{issn}{0889325X}
+    \field{number}{6}
+    \field{pages}{675\bibrangedash 680}
+    \field{title}{{Modeling the Time to Corrosion Cracking in Chloride
+  contaminated Reinforced Concrete Structures}}
+    \field{volume}{95}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/Downloads/95-M65.pdf:pdf
+    \endverb
+    \field{journaltitle}{ACI Materials Journal}
+    \field{year}{1998}
+  \endentry
+
+  \entry{Yang2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=YSY}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Shu-Yan},
+         giveni={S\bibinitperiod-Y\bibinitperiod},
+      }}%
+      {{hash=SXB}{%
+         family={Song},
+         familyi={S\bibinitperiod},
+         given={Xiao-Bing},
+         giveni={X\bibinitperiod-B\bibinitperiod},
+      }}%
+      {{hash=JHX}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Hong-Xue},
+         giveni={H\bibinitperiod-X\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Xi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=LXL}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Xi-La},
+         giveni={X\bibinitperiod-L\bibinitperiod},
+      }}%
+    }
+    \keyw{Circular stiffness,Corroded RC column,Ductility,Energy
+  absorption,Experiment Flexural strength,Hysteretic behavior}
+    \strng{namehash}{YSYSXBJHX+1}
+    \strng{fullhash}{YSYSXBJHXCXLXL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    The reinforced concrete (RC) columns infiltrated by chloride ion in marine
+  environment are much vulner- able under seismic loading. In this paper, the
+  hysteretic behaviors of corroded RC columns were studied, which were
+  considered as the condition of tide region or splash zone. Experiments were
+  designed for five groups of corroded RC columns with different maximum
+  amounts of corrosion of rebar under cyclic lat- eral loads combined with a
+  constant vertical load. The traditional soaking method was replaced by a new
+  wrapping method in order to obtain the desired amount of corrosion of rebar
+  that was similar with the environment condition. The results showed that the
+  flexural strength, the circular stiffness, the ductility, and the energy
+  absorption of corroded RC column degraded with the increase of the maximum
+  amount of corrosion of rebar. The maximum amount of corrosion of 13.25{\%}
+  and the dilation crack width of 1.2 mm were two important critical
+  parameters.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.conbuildmat.2016.06.002
+    \endverb
+    \field{issn}{09500618}
+    \field{pages}{319\bibrangedash 327}
+    \field{title}{{Experimental research on hysteretic behaviors of corroded
+  reinforced concrete columns with different maximum amounts of corrosion of
+  rebar}}
+    \verb{url}
+    \verb http://linkinghub.elsevier.com/retrieve/pii/S0950061816309291
+    \endverb
+    \field{volume}{121}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Yang et al. - 2016 - Experimental research on hyste
+    \verb retic behaviors of corroded reinforced concrete columns with differen
+    \verb t maximum amount.pdf:pdf
+    \endverb
+    \field{journaltitle}{Construction and Building Materials}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Young-JiPark1985}{article}{}
+    \name{author}{3}{}{%
+      {{hash=YB}{%
+         family={{Young-Ji Park}},
+         familyi={Y\bibinitperiod},
+         given={By},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={{H-S Ang}},
+         familyi={H\bibinitperiod},
+         given={Alfredo},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=AF}{%
+         family={Asce},
+         familyi={A\bibinitperiod},
+         given={F},
+         giveni={F},
+      }}%
+    }
+    \strng{namehash}{YBHAAF1}
+    \strng{fullhash}{YBHAAF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    A model for evaluating structural damage in reinforced concrete structures
+  under earthquake ground motions is proposed. Damage is expressed as a linear
+  function of the maximum deformation and the effect of repeated cyclic
+  loading. Available static (monotonic) and dynamic (cyclic) test data were
+  analyzed to evaluate the statistics of the appropriate parameters of the
+  pro-posed damage model. The uncertainty in the ultimate structural capacity
+  was also examined.%
+    }
+    \field{number}{4}
+    \field{pages}{722\bibrangedash 739}
+    \field{title}{{Mechanistic seismic damage model for reinforced concrete}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/pdf/10.1061/{\%}28ASCE{\%}290733-9445{\%}
+    \verb 281985{\%}29111{\%}3A4{\%}28722{\%}29
+    \endverb
+    \field{volume}{111}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Young-Ji Park, H-S Ang, Asce - Unknown - MECHANISTIC SE
+    \verb ISMIC DAMAGE MODEL FOR REINFORCED CONCRETE.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Structural Engineering}
+    \field{year}{1985}
+  \endentry
+
+  \entry{Yuan2017a}{article}{}
+    \name{author}{4}{}{%
+      {{hash=YZ}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Zhijie},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fang},
+         familyi={F\bibinitperiod},
+         given={Congqi},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Parsaeimaram},
+         familyi={P\bibinitperiod},
+         given={Mohammad},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Shuai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Author keywords,Axial repeated loads,Concrete bridge
+  piers,Corrosion,Seismic performance}
+    \strng{namehash}{YZFCPM+1}
+    \strng{fullhash}{YZFCPMYS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{abstract}{%
+    Corrosion damage is one of the main problems affecting the durability of
+  concrete structures. Several corroded reinforced concrete (RC) railway
+  bridges are located in regions of high seismic risk. Corroded bridge piers
+  are often subjected to dynamic axial loads, such as the vertical pounding
+  that occurs during earthquakes or due to railway trains. Repeated axial
+  loading was used to simulate this vertical pounding effect. Therefore, the
+  seismic performance of corroded RC structures under repeated axial and
+  horizontal cyclic loading is an urgent issue. To investigate the influences
+  of steel corrosion and repeated axial loading on the seismic performance of a
+  column pier, eight RC column speci-mens were experimentally investigated. The
+  results indicated that corrosion significantly influences the yield strength
+  and load bearing capacity of a column. The load bearing capacities of the
+  corroded specimens decreased by 18.27{\%} compared with noncorroded specimens
+  when the longitudinal loss of steel mass was 7.16{\%}. Repeated axial loading
+  did not significantly influence the mechanical properties of the cor-roded RC
+  piers. Cyclic tests were performed to validate a finite-element model that
+  was used to assess the effects of corrosion level on the seis-mic performance
+  of columns. The level of steel corrosion ranged from 0 to 28{\%}. According
+  to the finite-element analysis, the yield strength (35{\%}) and ultimate
+  displacement (34{\%}) decreased with increasing corrosion.%
+    }
+    \verb{doi}
+    \verb 10.1061/(ASCE)BE.1943-5592.0001043
+    \endverb
+    \field{number}{7}
+    \field{title}{{Cyclic Behavior of Corroded Reinforced Concrete Bridge
+  Piers}}
+    \verb{url}
+    \verb https://ascelibrary.org/doi/pdf/10.1061/{\%}28ASCE{\%}29BE.1943-5592.
+    \verb 0001043
+    \endverb
+    \field{volume}{22}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Yuan et al. - Unknown - Cyclic Behavior of Corroded
+    \verb  Reinforced Concrete Bridge Piers.pdf:pdf
+    \endverb
+    \field{journaltitle}{Journal of Bridge Engineering}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Zhao2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=ZJ}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SS}{%
+         family={Sritharan},
+         familyi={S\bibinitperiod},
+         given={Sri},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Bond,Column,Reinforced concrete,Strain,Wall}
+    \strng{namehash}{ZJSS1}
+    \strng{fullhash}{ZJSS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    In flexural concrete members, strain penetration occurs along longitudinal
+  reinforcing bars that are fully anchored into connecting concrete members,
+  causing bar slips along a partial anchoring length and thus end rotations to
+  the flexural members at the connection intersections. Ignoring the strain
+  penetration in linear and nonlinear analyses. of concrete structures will
+  underestimate the deflections and member elongation, and overestimate the
+  stiffness, hysteretic energy dissipation capacities, strains, and section
+  curvature. Focusing on the member end rotation due to strain penetration
+  along reinforcing bars fully anchored in footings and bridge joints, this
+  paper introduces a hysteretic model for the reinforcing bar stress versus
+  slip response that can be integrated into fiber-based analysis of concrete
+  structures using a zero-length section element. The ability of the proposed
+  hysteretic model to capture the strain penetration effects is demonstrated by
+  simulating the measured global and local responses of two concrete columns
+  and a bridge T-joint system. Unless the strain penetration effects are
+  satisfactorily modeled, it is shown that the analysis of concrete structures
+  will appreciably underestimate the local response parameters that are used to
+  quantify structural damage.%
+    }
+    \verb{doi}
+    \verb 10.14359/18525
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{0889-3241}
+    \field{issn}{08893241}
+    \field{number}{2}
+    \field{pages}{133\bibrangedash 141}
+    \field{title}{{Modeling of strain penetration effects in fiber-based
+  analysis of reinforced concrete structures}}
+    \field{volume}{104}
+    \verb{file}
+    \verb :C$\backslash$:/Users/vacalder/AppData/Local/Mendeley Ltd./Mendeley D
+    \verb esktop/Downloaded/Neuenhofer, Filippou - Unknown - EVALUATION OF NONL
+    \verb INEAR FRAME FINITE-ELEMENT MODELS.pdf:pdf
+    \endverb
+    \field{journaltitle}{ACI Structural Journal}
+    \field{eprinttype}{arXiv}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Zhu2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=ZM}{%
+         family={Zhu},
+         familyi={Z\bibinitperiod},
+         given={Minjie},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MF}{%
+         family={McKenna},
+         familyi={M\bibinitperiod},
+         given={Frank},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SMH}{%
+         family={Scott},
+         familyi={S\bibinitperiod},
+         given={Michael\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier B.V.}%
+    }
+    \keyw{Finite element analysis,Interpreter,Scripting language,Structural
+  analysis}
+    \strng{namehash}{ZMMFSMH1}
+    \strng{fullhash}{ZMMFSMH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    OpenSees, an open source finite element software framework, has been used
+  broadly in the earthquake engineering community for simulating the seismic
+  response of structural and geotechnical systems. The framework allows users
+  to perform finite element analysis with a scripting language and for
+  developers to create both serial and parallel finite element computer
+  applications as interpreters. For the last 15 years, Tcl has been the primary
+  scripting language to which the model building and analysis modules of
+  OpenSees are linked. To provide users with different scripting language
+  options, particularly Python, the OpenSees interpreter interface was
+  refactored to provide multi-interpreter capabilities. This refactoring,
+  resulting in the creation of OpenSeesPy as a Python module, is accomplished
+  through an abstract interface for interpreter calls with concrete
+  implementations for different scripting languages. Through this approach,
+  users are able to develop applications that utilize the unique features of
+  several scripting languages while taking advantage of advanced finite element
+  analysis models and algorithms.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.softx.2017.10.009
+    \endverb
+    \field{issn}{23527110}
+    \field{pages}{6\bibrangedash 11}
+    \field{title}{{OpenSeesPy: Python library for the OpenSees finite element
+  framework}}
+    \field{volume}{7}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Zhu, McKenna, Scott - 2018 - OpenSeesPy Python library
+    \verb for the OpenSees finite element framework.pdf:pdf
+    \endverb
+    \field{journaltitle}{SoftwareX}
+    \field{year}{2018}
+  \endentry
+\enddatalist
+\endinput
