@@ -6,19 +6,7 @@ In this chapter, the current knowledge on aging of structures, damage indexes, c
 
 \section{Corrosion}
 
-One of the main phenomena that affect the long term behavior of RC structures is corrosion of the reinforcing steel. Two types of corrosion are possible:
-\begin{itemize}
-		\item Carbonation, 
-		\item Chloride attack
-\end{itemize}
-
-The main source of corrosion in RC structures is \textbf{chloride attack}, this is the one that will be the focus of this research.
-
-Corrosion of steel in concrete is an electrochemical process \cite{Mehta2014} this corrosion may be generated in two ways:
-\begin{itemize}
-	\item Composition cells may be formed when two dissimilar metals are embedded in the concrete or when significant variations exist in the surface characteristics of steel
-	\item In the vicinity of steel, corrosion concentration cells are formed due to differences in the concentration of dissolved ions, such as alkalies and \textbf{chlorides}
-\end{itemize}
+One of the main phenomena that affect the long term behavior of RC structures is corrosion of the reinforcing steel.The main source of corrosion in RC structures is \textbf{chloride attack},thefore it is the one considered in this study.
 
 The corrosion process of reinforced concrete structures under chloride attack consists in the loss of the protective film on the reinforcing steel surface, this process is known as \textbf{depassivation}, after which the initiation of corrosion occurs, the electrical resistivity and the oxygen content control corrosion. Figure \ref{fig:corr1} schematically show this process:
 
@@ -29,18 +17,11 @@ The corrosion process of reinforced concrete structures under chloride attack co
 \label{fig:corr1}
 \end{figure}
 
-Since corrosion plays an important role in the further deterioration of the seismic response of a structure, the following topics have been studied and later incorporated in the analysis:
+Corrosion plays an important role in the further deterioration of the seismic response of a structure. The parameters than describe corrosion are (1) Time to initiation of corrosion (Tcorr), (2) Corrosion growth in reinforcing steel, and (3) the mechanical properties of corroded reinforcing steel
 
-\begin{enumerate}
-	\item Time to initiation of corrosion (Tcorr)
-	\item Corrosion growth in reinforcing steel
-	\item Mechanical properties of corroded reinforcing steel
-\end{enumerate}
-
- 
 \subsection{Time to corrosion}
 
-Time to corrosion refers to the corrosion initiation at which the passive film of the reinforcing steel is destroyed and reinforcement starts corroding actively. It has been established that reinforcing steel corrosion follows Fick's law of diffusion \cite{Ghosh2010}\cite{Thoft-Christensen}\cite{Stewart1998}\cite{Y.Liu1998a}. Fick's law is used to model the rate of chloride penetration into concrete as a function of concrete cover and time. 
+ Researchers have  defined the corrosion initiation time as the time it takes to destroy the passive film of the reinforcing steel is destroyed and reinforcement starts corroding actively \cite{Thoft-Christensen}\cite{Stewart1998}\cite{Y.Liu1998a}. Fick's law was used to model the rate of chloride penetration into concrete as a function of concrete cover and time. Equation \eqref{eq:ficks_law} is solved in terms of the chloride ion concentration ($C(x,t)$), distance from concrete surface ($x$), time in seconds of exposure to chloride ions ($t$), and the chloride diffusion coefficient ($D_c$). The solution of equation \eqref{eq:ficks_law} resulted in equation \eqref{eq:two}.
 
 \begin{equation}
 	\frac{\partial C(x,t)}{\partial t} = D_c \frac{\partial C(x,t)}{\partial x^2}
@@ -48,35 +29,19 @@ Time to corrosion refers to the corrosion initiation at which the passive film o
 \end{equation}
 \newline
 
-$C(x,t)$: Chloride ion concentration
+%\begin{equation}
+  %C_(x,t)=c_{0} %\left[1-erf^{-1}\left(\frac{x}{2\sqrt[2]{D_c %t}}\right)\right]
+%  \label{eq:two}
+%\end{equation} 
 
-$x$: Distance from concrete surface
-
-$t$: Time in seconds of exposure to chloride ions
-
-$D_c$: Chloride diffusion coefficient
-
-The solution of equation \ref{eq:ficks_law} is:
-\begin{equation}
-  C_(x,t)=c_{0} \left[1-erf^{-1}\left(\frac{x}{2\sqrt[2]{D_c t}}\right)\right]
-  \label{eq:two}
-\end{equation} 
-
-In equation \eref{eq:two}, if we consider a critical chloride corrosion threshold $C_r$ , and a equilibrium chloride concentration $C_0$ and solve for t, the time to corrosion can be calculated as \cite{Ghosh2010}: 
+%Equation \eref{eq:two}, was solved for t considering aa critical chloride corrosion threshold $C_r$ , and a equilibrium chloride concentration $C_0$, resulting in equation \eqref{eq.three} to calculate the time to corrosion ($T_{corr}$) in terms of \cite{Ghosh2010}. 
 
 \begin{equation}
   T_{corr}=\frac{x^2}{4 D_c} \left[erf^{-1} \left(\frac{C_0-C_{cr}}{C_0} \right) \right]^{-2}
   \label{eq.three}
 \end{equation} 
 
-$D_c$: Diffusion Coefficient
-
-$C_0$: Equilibrium Chloride Concentration
- 
-$C_r$: Critical Chloride Concentration
-\newline 
-
-Mean values for $C_0$ and $C_r$ have been previously defined by many researchers \cite{Ghosh2010}\cite{Weyers1994}\cite{Enright1998}. These values have been determined for environments that are controlled by \textbf{dicing salts}. The values of initiation of corrosion using these values provide mean times to corrosion in the United States, however, these values of $C_0$ and $C_r$ for specific sites can be obtained.
+Mean values for $C_0$ and $C_r$ have been previously defined for environments that are controlled by \textbf{dicing salts} \cite{Ghosh2010}\cite{Weyers1994}\cite{Enright1998}.
 
 %\textbf{Life 365}
 %\newline
@@ -137,7 +102,7 @@ Mean values for $C_0$ and $C_r$ have been previously defined by many researchers
 
 \subsection{Rate of corrosion}
 
-The corrosion rate model developed by Stewart et al \cite{Vu2000}\cite{Stewart1998} is used to estimate the loss of steel cross section due to corrosion.   This model establishes that the corrosion rate is a function of the water to cement ratio ($w/c$) and the cover depth ($d_c$) and can be expressed as shown in equation \eref{eq.CorrosionRate}.
+Stewart et al developed a model to calculate the corrosion rate  \cite{Vu2000}\cite{Stewart1998}. The corrosion rate describes the loss of steel cross section due to corrosion.   Corrosion rate is a function of the water to cement ratio ($w/c$) and the cover depth ($d_c$) shown in equation \eref{eq.CorrosionRate}.
 
 %This model implies that corrosion rate decreases with time. As corrosion accumulates around the reinforcing steel, the corrosion byproducts prevent the uncorroded steel to react with the environment.
 
@@ -146,7 +111,7 @@ The corrosion rate model developed by Stewart et al \cite{Vu2000}\cite{Stewart19
   \label{eq.CorrosionRate}
 \end{equation} 
 
-In \fref{fig:hist1} the behavior of this model for different values of $w/c$ ratios is shown. It can be seen that at larger values of cover depth the rate of corrosion decreases rapidly and as the water cement ratio increases the rate of corrosion increases.
+In \fref{fig:hist1} the behavior of this model for different values of $w/c$ ratios is shown. In general, for large values of cover depth the rate of corrosion decreases rapidly and as the water cement ratio increases the rate of corrosion increases.
 %
 \begin{figure}[htbp]
 \centering
@@ -155,14 +120,12 @@ In \fref{fig:hist1} the behavior of this model for different values of $w/c$ rat
 \label{fig:hist1}
 \end{figure}
 
-With the rate of corrosion clearly defined, the evolution of corrosion of reinforcement can be calculated. Many researchers have used the model proposed by Vu et al \cite{Stewart1998}\cite{Vu2000}\cite{Choe2008}\cite{Ghosh2010}  to represent the evolution of corrosion in reinforcement, the model is shown in equation \eref{eq.CorrosionEvolution} . A graphical representation of the evolution of corrosion for a 3/4 inch diameter reinforcing steel with a concrete cover of 1-1/2” is shown in \fref{fig:DiameterEvolution}. These results are shown for water to cement ratios ranging from 0.36-0.50. This range is representative of good quality concrete.
+Vu et al proposed a model to describe the growth of corrosion as a function of the rate of corrosion clearly defined \cite{Vu2000}\cite{Stewart1998}\cite{Choe2008}\cite{Ghosh2010}. The proposed model is presented in equation \eref{eq.CorrosionEvolution}, this equation represents the reduction in diameter of reinforcing steel ($d_{corr}(t)$ as a function of time. For example consider a rebar with initial diameter ($d_{bi}$) of 3/4 inch diameter reinforcing steel with a concrete cover of 1-1/2” is using, and water to cement ratios ranging from 0.36-0.50, figure \fref{fig:DiameterEvolution} was developed.
 
 \begin{equation}
   d_{corr}(t)=d_{bi}-\frac{1.0508(1-w/c)}{d_c} (t-t_{corr})^{0.71}
   \label{eq.CorrosionEvolution}
 \end{equation} 
-
-$d_{bi}$: Initial diameter of the bar (mm)
 
 \begin{figure}[htbp]
 \centering
@@ -171,14 +134,14 @@ $d_{bi}$: Initial diameter of the bar (mm)
 \label{fig:DiameterEvolution}
 \end{figure}
 
-The evolution of corrosion in reinforcing steel can be expressed in the percent loss of mass of a rebar. Since uniform corrosion is assumed this can be expressed in terms of the change in diameter. This is calculated in \eref{eq.CorrosionLevel}.
+The evolution of corrosion in reinforcing steel is expressed in the percent loss of mass of a rebar. Assuming uniform corrosion corrosion level is calculated as shown in equation \eref{eq.CorrosionLevel}.
 
 \begin{equation}
 	CL=\frac{d_{i}-d(t)}{d_{i}}*100%
   \label{eq.CorrosionLevel}
 \end{equation} 
 
-The values obtained from \eref{eq.CorrosionEvolution} can then be used in \eref{eq.CorrosionLevel} to obtain the variation of corrosion level as a fuction of time, shown in  \fref{fig:CorrosionLevel_Time}.
+Using equation \eref{eq.CorrosionEvolution} with equation \eref{eq.CorrosionLevel}  the variation of corrosion level can be described as a fuction of time. Figure  \fref{fig:CorrosionLevel_Time} shows the results of this process.
 
 \begin{figure}[htbp]
 \centering
@@ -189,7 +152,7 @@ The values obtained from \eref{eq.CorrosionEvolution} can then be used in \eref{
 
 \subsection{Corrosion modified properties of reinforcing steel bars}
 
-Yuan et al \cite{Yuan2017a} showed from experimental results that the mechanical properties of steel change with the level of corrosion. An expression that shows the variation of yield strength and ultimate strength were provided as follow:
+Yuan et al \cite{Yuan2017a} performed experimental tests in corroded rebars and determined that the mechanical properties of steel change with the level of corrosion. The variation of the mechanical properties is shown in \eref{eq.eleven} for the yield strength and ultimate strength of the reinforcing steel.
 
 \begin{equation}
   f_{y,C}=f_{yo}(1-0.021C)
@@ -198,14 +161,6 @@ Yuan et al \cite{Yuan2017a} showed from experimental results that the mechanical
 \[
   f_{u,C}=f_{yo}(1.018-0.019C)
 \]
-\[
-  \delta_{s,C}=\delta_{so}(1-0.021C)
-\]
-\[
-  \varepsilon_{y,C}=\varepsilon_{yo}(1-0.021C)
-\]
-
-These expressions are used in the analytical procedure and as  shown in Chapter 5, they correlate well with the observed experimental results available in the literature.
 
 \section{Steel strain aging}
 
@@ -404,7 +359,7 @@ While these studies provide a general view on how damage increases the likelihoo
 
 \section{Research Gap}
 
-It is clear that while studies have tried to show the importance of damage and multiple shocks through the lifetime of a structure, it is important to develop a model that establishes what is the likelihood of achieving a limit state as the structure ages. In addition,  it is important to understand the impacts of aging in bridge seismic performance. Furthermore, bridges in seismic areas can be subjected to more than a single mainshock and its corresponding aftershocks. Therefore a methodology that incorporates both aging and multiple events is needed.
+It is clear that while studies have tried to show the importance of damage and multiple shocks through the lifetime of a structure, it is important to develop a model that establishes what is the likelihood of achieving a limit state as the structure ages. In addition,  it is important to understand the impacts of aging in bridge seismic performance. Furthermore, bridges in seismic areas can be subjected to main shock and aftershocks. Therefore a methodology that incorporates both aging and multiple events is needed.
 
 Damage accumulation is topic that has been gaining momentum in the engineering community since these efforts will better inform  the potential future conditions of a structure to stakeholders such as state DOTs, building owners and practicing engineers, should the structure subjected to a further event. damage accumulation has been studied using the Park and Ang damage index or drift based limit states to measure damage accumulation. Different researchers have also included corrosion into their scope of analysis, which shows that aging conditions play an important role in the deterioration of a structure. In addition the literature uses the peak ground acceleration (PGA) as the controlling intensity measure (IM). This research will develop a parametric study using a series of single degree of freedom (SDOF) systems and subjecting them to different conditions such as corrosion, steel strain aging and strength aging among other. The SDOF structures will be subjected to a sweep of ground motions using nonlinear time history analysis to obtain maximum strain demands. With the results obtained fragility functions will be proposed for each limit state and aging condition. This research will provide the engineering community with a framework to account for damage in their analysis and guide decisions on the resiliency of a structure. In addition, this study will provide a methodology in which the Direct Displacement-Based Design (DDBD) is modified to consider the effects of damage and conditions.
 
