@@ -8,16 +8,16 @@ The aging conditions focused on this research are:
 	\item Strain aging
 \end{itemize}
 
-Other aging conditions will be added later to this study.
+Other aging conditions, such as concrete strength aging, repairs, welding and fatigue in steel structures,  will be added later to this study.
 
 \section{Modeling of corrosion for structural analysis}
 
-The previous elements of corrosion explained in the previous sections are incorporated into the structural analysis mainly at the material level. The application can be outlined as follows:
+Corrosion has been shown to modify the mechanical properties of stell, as discussed in section 2.1. These findings have been incorporated in the structural analysis at the material level. Results obtained from the experimental phase outlined in \ref{chap-three} will be incorporated in this analysis.The incorporation of corrosion in the analytical model is outlined as follows:
 \begin{enumerate}
-	\item First the time for initiation of corrosion is calculated with equation \eref{eq.three} 
-	\item Then the rate of corrosion is calculated according equation \eref{eq.CorrosionRate}
-	\item Following this the diameter of the rebar is reduced and the corrosion level is calculated using equations \eref{eq.CorrosionLevel} \eref{eq.CorrosionEvolution} 
-	\item Finally the mechanical properties of the reinforcing steel are modified with the corresponding corrosion level as shown in equation \eref{eq.eleven}
+	\item The time for initiation of corrosion is calculated with equation \eref{eq.three} 
+	\item The rate of corrosion is calculated according equation \eref{eq.CorrosionRate}
+	\item The diameter of the rebar is reduced and the corrosion level is calculated using equations \eref{eq.CorrosionLevel} \eref{eq.CorrosionEvolution} 
+	\item The mechanical properties of the reinforcing steel are modified with the corresponding corrosion level as shown in equation \eref{eq.eleven}
 \end{enumerate}
 
 This process is shown in \fref{fig:CorrModel}.
@@ -29,22 +29,24 @@ This process is shown in \fref{fig:CorrModel}.
 	\label{fig:CorrModel}
 \end{figure}
 
-This is later incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in \textbf{Chapter-4}.
+This is later incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in section 4.6.
 
+\section{Modeling of strain aging for structural analysis}
+In mild steel such as grade 60 reinforcing steel the phenomenon of strain aging is of importance. Summarizing the strain aging process described in section 2.2, mild steel after being subjected to high strain, and after time has passed, the yield strength of the steel increases and the fracture strain decreases. The increase in strength of steel is 
 
 \section{Multiple seismic events}
 
 The evaluation of multiple seismic events is a topic that has been scarcely studied, however their effects have been felt in numerous earthquake sequences such as the Christchurch 2010, Umbria-Marche Earthquake 1997 and the Puerto Rico Earthquakes 2020. The hypothesis is that accumulation of damage will restart in a smaller seismic event to achieve a prescribed limit state, similar to how corrosion and other aging phenomena might impact the intensity needed to achieve a future limit state. 
 
-For this study it has been determined that not all damage in structures are dependent on multiple events but rather their condition when an event occurs as is the case for corrosion. Other damage related phenomenons such as Strain Aging depend on the loading history and are therefore dependent on the history of extreme loading events. It is therefore proposed to study corrosion on a discrete modeling of Main Shocks each independent of the other and to study the effect on Strain Aging by using a sequence of Main Shocks.
+For this study it has been determined that not all damage in structures are dependent on multiple events but rather their condition when an event occurs as is the case for corrosion. Other damage related phenomenons such as strain aging depend on the loading history and are therefore dependent on the history of extreme loading events. It is therefore proposed to study corrosion on a discrete modeling of main shocks each independent of the other and to study the effect on strain aging by using a sequence of Main Shocks.
 
 \subsection{Earthquake selection}
 
-For this study the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Insitute (PEER) \cite{Ancheta2014} is used. This database consists of 599 different Earthquake events that characterize the ground motions on the west coast of the contiguous United States. The data was filtered according to the following criteria:
+For this study the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Insitute (PEER) \cite{Ancheta2014} is used. This database consists of 599 different earthquake events that characterize the ground motions on the west coast of the contiguous United States. The data was filtered according to the following criteria:
 
 \begin{itemize}
 	\item Must be an earthquake sequence
-	\item Moment Magnitude $M_w \geqslant 5$
+	\item Moment magnitude $M_w \geqslant 5$
 	\item $PGA>0.04$
 	\item $PGV>1$ cm/s
 	\item $Vs_{30}>100m/s$ \& $Vs_{30}<1000$ m/s
@@ -52,7 +54,7 @@ For this study the NGA2 West Database of earthquake records provided by the Paci
 	\item $R_{rup}<60km$
 \end{itemize}
 
-From this data the main shocks found are the following earthquakes which can be sumarized in \fref{fig:MS_Selection}. Figure \ref{fig:MS_Selection} shows the earthquakes as moment magnitude {Mw} vs rupture distance ($R_{rup}$).
+From this data the main shocks found are the following earthquakes which can be summarized in \fref{fig:MS_Selection}. Figure \ref{fig:MS_Selection} shows the earthquakes as moment magnitude {Mw} vs rupture distance ($R_{rup}$).
 
 \begin{itemize}
 	\item Chi-chi
@@ -70,7 +72,7 @@ From this data the main shocks found are the following earthquakes which can be 
 	\label{fig:MS_Selection}
 \end{figure}
 
-\subsection{Discrete Modeling of Main Shock Series}
+\subsection{Discrete modeling of main shock series}
 The discrete modeling of mainshocks consists of using individual earthquakes that occur at different times throughout the life of the structures which correlate to a corrosion level (CL), this can be done for each of the main shocks selected after which the following data is obtained and later analyzed:
 
 \begin{itemize}
@@ -89,7 +91,7 @@ To simulate the life of a structure a mainshock series consisting of 3 mainshock
 
 	\item At time $t=0$ the structure has pristine conditions
 	\item Mainshock 1: pristine conditions are present. No changes to the material properties is present and no accumulation of damage has occurred.
-	\item Mainshock 2: significant time after time to corrosion, mainshock 2 occours and  material properties have changed due to corrosion
+	\item Mainshock 2: significant time after time to corrosion, mainshock 2 occurs and  material properties have changed due to corrosion
 	\item Mainshock 3: corrosion and strain aging have occurred and further modified the properties of the materials.
 \end{enumerate}
 
@@ -102,7 +104,7 @@ To simulate the life of a structure a mainshock series consisting of 3 mainshock
 %	\label{fig:MSSequence}
 %\end{figure}
 
-Similar to the discrete modeling pf main shock series the following results can be obtained:
+Similar to the discrete modeling of main shock series the following results can be obtained:
 
 \begin{itemize}
 	\item Maximum axial strain in confined concrete, cover and reinforcing steel 
@@ -114,7 +116,7 @@ Strains
 
 \section{Analytical Model}
 
-\subsection{Cantilever Column}
+\subsection{Cantilever column}
 This study focuses on the behavior of a single degree of freedom (SDOF) system representing a cantilever reinforced concrete column. The column is modeled as shown in \fref{fig:Structural_Model} This structure is modeled in OpenSeesPy \cite{McKenna2010}\cite{Zhu2018} using the $forceBeamColumn$ element \cite{Scott}. The forceBeamColumn element is used with two-point Gauss-Radau integration applied in the hinge regions and two-point Gauss integration applied on the element interior for a total of six integration points \cite{Scott}. The force-based formulation requires only a single element to accurately represent the full nonlinear deformation of the member and the integration scheme selected prevents the loss of objectivity during softening response while also providing integration points at the member ends \cite{Calabrese2010},\cite{Scott}. The element requires the length of plasticity be defined at each end of the member, for which the tension-based rectangular plastic hinge length is calculated using the following expressions \cite{Goodnight2013}:
 
 \begin{equation}
@@ -160,9 +162,9 @@ The section of the column is shown in \fref{fig:ColumnSection}, the section is d
 	\caption{Section of the RC Column}
 	\label{fig:ColumnSection}
 \end{figure}
-\subsection{Strain Penetration}
+\subsection{Strain penetration}
 
-The strain penetration considers the additional deformation due to anchorage of the reinforcement into the foundation, since the strains of tension in the reinforcement will drop to zero at a depth equal to the true development length of the rebar \cite{Priestley2007}. Experimental studies have generally reported that this end rotation contributes up to 35\% to the lateral deformation of flexural members\cite{Zhao2007} and it is, therefore, important to incorporate into the analytical model. A way to capture this effect is by using a zero-length section element implemented in the nonlinear fiber-based analysis of concrete structures, this is available in the material library of OpenSeesPy as $Bond SP1$ \cite{Zhao2007} this is the material model used for the steel fibers of the zero-length section element.
+The strain penetration considers the additional deformation due to anchorage of the reinforcement into the foundation, since tension strain in the reinforcement will drop to zero at a depth equal to the true development length of the rebar \cite{Priestley2007}. Experimental studies have generally reported that this end rotation contributes up to 35\% to the lateral deformation of flexural members\cite{Zhao2007} and it is, therefore, important to incorporate into the analytical model. A way to capture this effect is by using a zero-length section element implemented in the nonlinear fiber-based analysis of concrete structures, this is available in the material library of OpenSeesPy as $Bond SP1$ \cite{Zhao2007} this is the material model used for the steel fibers of the zero-length section element.
 
 The required parameters for this model are:
 \begin{itemize}
@@ -182,7 +184,7 @@ Bar slip is calculated as:
 	S_{y}(in)=0.1\left(\frac{d_{b}F_{y}}{4000\sqrt{f'_{c}}}\left(2\alpha+1\right)\right)^{\frac{1}{\alpha}}+0.013 (in)
 	\label{eq.Rebar_Slip}
 \end{equation}
-\subsection{Design Limit States}
+\subsection{Design limit states}
 Design limit states are defined based on strains in the material since they can more accurately represent the different performance levels of a structure. Structure limit states are defined for tension strains in the rebars or compression strains in the concrete core. The values recommended in typical performance-based design of reinforced concrete bridge columns are shown in Table  \ref{tab:DesignLimitStates}. The serviceability limit states correspond to the compression strain at which concrete cover begins to crush and the peak tension strain which results in residual crack widths of approximately 1 mm. These limits are generally accepted as nominal limit states for RC members. The compression limit state for damage control is defined by the expression shown in eq. \ref{eq:ec_DamageControl} and it refers to the compression strain in the confined concrete at which fracture of the transverse reinforcement confining the core occurs \cite{Priestley2007}. This equation is obtained using the strain-energy balance between that absorbed by the confined core concrete and the capacity of the confining steel. The tension damage control limit state is defined by the strain at the onset of buckling which can be expressed according to \ref{eq:es_DamageControl}, this equation demonstrated accurate predictions of the onset of bar buckling on physical tests in SDOF Concrete Column \cite{Goodnight2016}. The bar buckling limit state could change as a result of the experimental campaign proposed in Chapter 4.
 
 \begin{equation}
@@ -197,7 +199,7 @@ Design limit states are defined based on strains in the material since they can 
 
 
 \begin{table}[htbp]
-	\caption{Design Limit States}
+	\caption{Design limit states}
 	\label{tab:DesignLimitStates}
 	\centering	
 		\begin{tabular}{|l|c|c|}
@@ -208,8 +210,8 @@ Design limit states are defined based on strains in the material since they can 
 		\end{tabular}
 \end{table}
  
-\section{Comparison with existing physical Tests}
-\subsection{Pristine Condition Columns}
+\section{Comparison with existing physical tests}
+\subsection{Pristine condition columns}
 
 Goodnight et al performed a total of 30 circular RC columns quasi-static tests to evaluate strain limit states \cite{Goodnight2016}. From this set of tests, a sample of one was taken to calibrate the analytical model. The test performed by Goodnight et al on an SDOF cantilever column shows similar geometry to that presented in \fref{fig:Fiber_PlasticHinge}. The parameters used in this large scale test were:
 
@@ -231,7 +233,7 @@ The analytical model utilized these parameters to compare the results from the m
 	\caption{Force-Displacement results from experimental results \cite{Goodnight2013} and analytical model}
 	\label{fig:ModelCalibration}
 \end{figure}
-\subsection{Accelerated Corrosion Columns}
+\subsection{Accelerated corrosion columns}
 Similarly, Ma et al performed a series of quasi-static tests on RC columns with different corrosion levels and axial load ratios \cite{Ma2012}. From their study, the test with a corrosion level $CL=9.5\%$ was taken for calibration since the other tests presented in their study had excessively high axial load ratios which are not common in RC bridges. The results from Ma et al test	\cite{Ma2012} were used to compare against the analytical model. The column had the following parameters:
 \begin{itemize}
 	\item Diameter $D = 260.0 mm$
@@ -260,12 +262,12 @@ In the analysis equation \eref{eq.eleven} is used to modify the material propert
 \end{figure}
 \newpage
 
-\section{Analytical Framework}
+\section{Analytical framework}
 
 An analytical framework is established to obtain the change in the structure performance due to aging conditions and evaluate the effect of multiple seismic events. Therefore, a series of nonlinear time history analyses (NLTHA) will be performed. From these analyses, it is possible to determine the effects of damage in the performance of structures. The proposed analytical framework process consists of:
 
 \begin{enumerate}
-	\item Geometrical Properties of the SDOF column 
+	\item Geometrical properties of the SDOF column 
 	\item Properties of the material are evaluated (i.e. water to cement ratio, cover)
 	\item For equal periods of time the time dependent properties are modified
 	\item Nonlinear time history analyses are performed for discrete ground motions or sequence of ground motions
@@ -275,7 +277,7 @@ An analytical framework is established to obtain the change in the structure per
 The analysis matrix for the corrosion aging phenomenon that will be analyzed in this study is shown in Table \ref{tab:AnalysisMatrix}. The area or extent covered in the analysis corresponds to the range of variables that are common for RC columns in bridges.
 
 \begin{table}[htb]
-	\caption{Analysis Matrix}
+	\caption{Analysis matrix}
 	\label{tab:AnalysisMatrix}
 	\centering
 \begin{tabular}{{|l|c|c|}}
@@ -326,7 +328,7 @@ An example of the results obtained using NLTHA, figures \fref{fig:Force-Displace
 
 \subsection{Development of cumulative distribution functions}
 
-Once the analysis is complete the data is post-processed in a cumulative distribution function (CDF). The methodology employed corresponds to the multiple stripe analysis (MSA) recommended by Baker et al \cite{Baker2015}. While peak ground acceleration ($PGA$) has been widely used as the intensity measure to develop fragility functions\cite{Ghosh2015}\cite{Bisadi2015}\cite{Shekhar2018}, Krish \cite{Krish2018} in a recent study, showed that spectral displacement at first effective period ($IM=Sd(T_1)$) has better correlation than $PGA$. To demonstrate this, CDF curves were developed for $IM=PGA$ and $IM=Sd(T_1)$, and are shown in in figures \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1} correspondingly. The CDFs were developed for the steel yielding limit state, however this can be the extrapolated for any limit state. \fref{fig:CDF_SY_PGA} shows the results obtained with $IM=PGA$ do not show a good correlation since as corrosion increases the probability of exceeding a limit state decreases, this is not the behavior observed in \fref{fig:Steel_Stress_Strain_Response}. Conversely, \fref{fig:CDF_SY_SDT1} shows the results with $IM=Sd(T_1)$, these results present a better correlation, since, as corrosion increases, the probability of exceeding the limit state of yielding increases, for the preliminary results shown here the corrosion level of 13.1\% results are an exception. These results will improve as more analyses become available. 
+Once the analysis is complete the data is post-processed and expressed as a cumulative distribution function (CDF). The methodology employed corresponds to the multiple stripe analysis (MSA) recommended by Baker et al \cite{Baker2015}. While peak ground acceleration ($PGA$) has been widely used as the intensity measure to develop fragility functions\cite{Ghosh2015}\cite{Bisadi2015}\cite{Shekhar2018}, Krish \cite{Krish2018} in a recent study, showed that spectral displacement at first effective period ($IM=Sd(T_1)$) has better correlation than $PGA$. To demonstrate this, CDF curves were developed for $IM=PGA$ and $IM=Sd(T_1)$, and are shown in in figures \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1} correspondingly. The CDFs were developed for the steel yielding limit state, however this can be the extrapolated for any limit state. \fref{fig:CDF_SY_PGA} shows the results obtained with $IM=PGA$ do not show a good correlation since as corrosion increases the probability of exceeding a limit state decreases, this is not the behavior observed in \fref{fig:Steel_Stress_Strain_Response}. Conversely, \fref{fig:CDF_SY_SDT1} shows the results with $IM=Sd(T_1)$, these results present a better correlation, since, as corrosion increases, the probability of exceeding the limit state of yielding increases, for the preliminary results shown here the corrosion level of 13.1\% results are an exception. These results will improve as more analyses become available. 
 
 \begin{figure}[htbp]
 	\centering
