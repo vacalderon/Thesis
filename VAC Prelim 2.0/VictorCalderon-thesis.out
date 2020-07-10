@@ -1,26 +1,45 @@
-\BOOKMARK [0][-]{section*.5}{LIST OF TABLES}{}% 1
-\BOOKMARK [0][-]{section*.6}{LIST OF FIGURES}{}% 2
-\BOOKMARK [0][-]{chapter.1}{INTRODUCTION}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Properties that change with time}{chapter.1}% 4
-\BOOKMARK [0][-]{chapter.2}{LITERATURE REVIEW}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Cumulative Damage}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{Corrosion}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{Time to Corrosion}{section.2.2}% 8
-\BOOKMARK [2][-]{subsection.2.2.2}{Rate of corrosion}{section.2.2}% 9
-\BOOKMARK [2][-]{subsection.2.2.3}{Corrosion modified properties of reinforcing steel bars}{section.2.2}% 10
-\BOOKMARK [2][-]{subsection.2.2.4}{Corrosion modified properties of reinforcing steel bars}{section.2.2}% 11
-\BOOKMARK [1][-]{section.2.3}{Steel Strain Aging}{chapter.2}% 12
-\BOOKMARK [2][-]{subsection.2.3.1}{Metallurgical Process}{section.2.3}% 13
-\BOOKMARK [2][-]{subsection.2.3.2}{Strain aging effects in structures}{section.2.3}% 14
-\BOOKMARK [1][-]{section.2.4}{Concrete Strength}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.5}{Welding and Fatigue in Steel Structures}{chapter.2}% 16
-\BOOKMARK [1][-]{section.2.6}{Repair Effects}{chapter.2}% 17
-\BOOKMARK [1][-]{section.2.7}{Multiple Seismic Events}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.7.1}{Main Shock Series}{section.2.7}% 19
-\BOOKMARK [2][-]{subsection.2.7.2}{Main Shock - After Shock Series}{section.2.7}% 20
-\BOOKMARK [2][-]{subsection.2.7.3}{Main Shock - After Shock Series - Repair Series}{section.2.7}% 21
-\BOOKMARK [0][-]{section*.10}{Bibliography}{}% 22
-\BOOKMARK [0][-]{chapter*.12}{APPENDIX}{}% 23
-\BOOKMARK [0][-]{appendix.A}{LOREM IPSUM}{}% 24
-\BOOKMARK [1][-]{section.A.1}{A First Section}{appendix.A}% 25
-\BOOKMARK [1][-]{section.A.2}{A Second Section}{appendix.A}% 26
+\BOOKMARK [0][-]{section*.2}{LIST OF TABLES}{}% 1
+\BOOKMARK [0][-]{section*.3}{LIST OF FIGURES}{}% 2
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 3
+\BOOKMARK [1][-]{section.1.1}{Scope and layout}{chapter.1}% 4
+\BOOKMARK [0][-]{chapter.2}{Literature review}{}% 5
+\BOOKMARK [1][-]{section.2.1}{Corrosion}{chapter.2}% 6
+\BOOKMARK [2][-]{subsection.2.1.1}{Time to corrosion}{section.2.1}% 7
+\BOOKMARK [2][-]{subsection.2.1.2}{Rate of corrosion}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.3}{Corrosion modified properties of reinforcing steel bars}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.4}{Physical test on corroded RC Structures}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Steel strain aging}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Metallurgical process}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Strain aging effects in structures}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Damage Indexes}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Multiple earthquake loading}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.4.1}{Mainshock-aftershock sequences loading }{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.2}{Mainshock sequences loading}{section.2.4}% 17
+\BOOKMARK [1][-]{section.2.5}{Aging of structures}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.6}{Research Gap}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.6.1}{Objectives}{section.2.6}% 20
+\BOOKMARK [0][-]{chapter.3}{Experimental phase: mechanical properties and performance of corroded reinforcing steel}{}% 21
+\BOOKMARK [1][-]{section.3.1}{Proposed experimental campaign}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.2}{Expected outcomes from experimental phase}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Methodology}{}% 24
+\BOOKMARK [1][-]{section.4.1}{Modeling of corrosion for structural analysis}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{Modeling of strain aging for structural analysis}{chapter.4}% 26
+\BOOKMARK [1][-]{section.4.3}{Multiple seismic events}{chapter.4}% 27
+\BOOKMARK [2][-]{subsection.4.3.1}{Earthquake selection}{section.4.3}% 28
+\BOOKMARK [2][-]{subsection.4.3.2}{Discrete modeling of main shock series}{section.4.3}% 29
+\BOOKMARK [2][-]{subsection.4.3.3}{Multiple main shock series}{section.4.3}% 30
+\BOOKMARK [1][-]{section.4.4}{Analytical Model}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.4.1}{Cantilever column}{section.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.2}{Strain penetration}{section.4.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.3}{Design limit states}{section.4.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Comparison with existing physical tests}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.5.1}{Pristine condition columns}{section.4.5}% 36
+\BOOKMARK [2][-]{subsection.4.5.2}{Accelerated corrosion columns}{section.4.5}% 37
+\BOOKMARK [1][-]{section.4.6}{Analytical framework}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.7}{Results from NLTHA}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.7.1}{Effect on structure response}{section.4.7}% 40
+\BOOKMARK [2][-]{subsection.4.7.2}{Development of cumulative distribution functions}{section.4.7}% 41
+\BOOKMARK [2][-]{subsection.4.7.3}{Results discussion}{section.4.7}% 42
+\BOOKMARK [1][-]{section.4.8}{Future topics}{chapter.4}% 43
+\BOOKMARK [0][-]{chapter.5}{Expected findings and schedule of work}{}% 44
+\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 45

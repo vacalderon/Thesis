@@ -4,64 +4,72 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Corrosion process in reinforcing steel bar \parencite {Mehta2014}\relax }}{5}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Corrosion process in reinforcing steel bar \parencite {Mehta2014}\relax }}{5}{figure.caption.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Concrete water to cement ratio vs rate of corrosion\relax }}{7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Concrete water to cement ratio vs rate of corrosion\relax }}{7}{figure.caption.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Diameter decrease due to corrosion\relax }}{8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Diameter decrease due to corrosion\relax }}{7}{figure.caption.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Corrosion level vs time (years)\relax }}{9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Corrosion level vs time (years)\relax }}{8}{figure.caption.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Strain aging effect on yield strength vs time (days)\relax }}{11}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Force displacement response of RC corroded columns \parencite {Meda2014}\relax }}{9}{figure.caption.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Park and Ang conceptual scheme\relax }}{12}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Corrosion process for RC column \parencite {Meda2014}\relax }}{10}{figure.caption.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Mainshock-aftershock sequence train of ground motions \parencite {Raghunandan2015}\relax }}{16}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Corroded rebars stress-strain curves \parencite {Meda2014}\relax }}{10}{figure.caption.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Mainshock-aftershock sequence selection at T=0.4s for crustal earthquakes in Vancouver, British Coloumbia \parencite {Tesfamariam2015}\relax }}{16}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Strain aging effect on yield strength vs time (days)\relax }}{13}{figure.caption.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Mainshock sequence selection at Eureka, CA \parencite {Sunasaka1993}\relax }}{17}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Park and Ang conceptual scheme\relax }}{14}{figure.caption.12}
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Mainshock-aftershock sequence train of ground motions \parencite {Raghunandan2015}\relax }}{18}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Force displacement response of RC corroded columns \parencite {Meda2014}\relax }}{23}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Mainshock-aftershock sequence selection at T=0.4s for crustal earthquakes in Vancouver, British Columbia \parencite {Tesfamariam2015}\relax }}{19}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Corrosion process for RC column \parencite {Meda2014}\relax }}{23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Corroded rebars stress-strain curves \parencite {Meda2014}\relax }}{24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Rebars Passivation Process in Calcium Hydroxyde Pore Solution\relax }}{25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Rebar Specimen Geometry\relax }}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Rebars Ends Protection\relax }}{26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Accelerated corrosion process\relax }}{27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.8}{\ignorespaces BBT Test sequence\parencite {Barcley2019}\relax }}{29}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Mainshock sequence selection at Eureka, CA \parencite {Sunasaka1993}\relax }}{20}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Corrosion modeling for structural analysis\relax }}{31}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Rebars Passivation Process in Calcium Hydroxyde Pore Solution\relax }}{26}{figure.caption.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Mainshock selection from PEER NGA West2 database\relax }}{33}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Rebar Specimen Geometry\relax }}{26}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Structural Model a) SDOF Column b) Structural Model\relax }}{35}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Rebars Ends Protection\relax }}{26}{figure.caption.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces End point plastic hinge method \parencite {Scott}\relax }}{36}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Accelerated corrosion process\relax }}{27}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Section of the RC Column\relax }}{36}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces BBT Test sequence\parencite {Barcley2019}\relax }}{28}{figure.caption.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Force-Displacement results from experimental results \parencite {Goodnight2013} and analytical model\relax }}{40}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces a) Picture of buckled bar; (b) Position of optical markers and adjustment to neutral axis; (c) Calculation of curvature \parencite {Barcley2018}\relax }}{30}{figure.caption.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Force-Displacement results from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) results \parencite {Ma2012} and analytical model (shown in lightblue)\relax }}{41}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces (a)Ductile rebar fracture; (b) Brittle rebar fracture \parencite {Barcley2018}\relax }}{30}{figure.caption.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Strain hysteresis from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) results from analytical model\relax }}{42}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces BBT results for rebars with and without ribs \parencite {Barcley2018}\relax }}{31}{figure.caption.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Force-Displacement results\relax }}{44}
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Stress strain response for extreme rebar location\relax }}{44}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Corrosion modeling for structural analysis\relax }}{34}{figure.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.11}{\ignorespaces CDF of steel yielding limit state using $IM=PGA$\relax }}{45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Mainshock selection from PEER NGA West2 database\relax }}{36}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.12}{\ignorespaces CDF of steel yielding limit state using $IM=Sd(T_1)$\relax }}{46}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Structural Model a) SDOF Column b) Structural Model\relax }}{39}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces End point plastic hinge method \parencite {Scott}\relax }}{39}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Section of the RC Column\relax }}{40}{figure.caption.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Force-Displacement results from experimental results \parencite {Goodnight2013} and analytical model\relax }}{43}{figure.caption.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Force-Displacement results from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) results \parencite {Ma2012} and analytical model (shown in lightblue)\relax }}{44}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Strain hysteresis from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) results from analytical model\relax }}{45}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Force-Displacement results\relax }}{47}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Stress strain response for extreme rebar location\relax }}{47}{figure.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces CDF of steel yielding limit state using $IM=PGA$\relax }}{48}{figure.caption.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces CDF of steel yielding limit state using $IM=Sd(T_1)$\relax }}{49}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }

@@ -340,6 +340,35 @@
     \field{year}{2015}
   \endentry
 
+  \entry{Barcley2018}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=BL}{%
+         family={Barcley},
+         familyi={B\bibinitperiod},
+         given={Leo},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{A706 Grade 80,BBT,Performance Based Design,RC bridge column}
+    \strng{namehash}{BL1}
+    \strng{fullhash}{BL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{title}{{Seismic Performance of A706-80 Reinforced Concrete Columns
+  and Critical Bending Strain of Longitudinal Reinforcement}}
+    \list{institution}{1}{%
+      {North Carolina State University}%
+    }
+    \verb{file}
+    \verb :Q$\backslash$:/My Drive/Earthquake Group Folder/dissertations/barcle
+    \verb y ms thesis.pdf:pdf
+    \endverb
+    \field{type}{phdthesis}
+    \field{year}{2018}
+  \endentry
+
   \entry{Barcley2019}{article}{}
     \name{author}{2}{}{%
       {{hash=BL}{%
@@ -783,7 +812,6 @@
     \endverb
     \field{journaltitle}{Engineering Structures}
     \field{year}{1998}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Fajfar1992}{article}{}
@@ -815,6 +843,34 @@
     \field{volume}{21}
     \field{journaltitle}{Earthquake Engineering {\&} Structural Dynamics}
     \field{year}{1992}
+  \endentry
+
+  \entry{FEMA2000}{article}{}
+    \name{author}{1}{}{%
+      {{hash=F}{%
+         family={FEMA},
+         familyi={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{F1}
+    \strng{fullhash}{F1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    1 online resource ([518] p.) : ill.%
+    }
+    \field{isbn}{FEMA-356}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 518}
+    \field{title}{{Prestandard and Commentary for the Seismic Rehabilitation of
+  Buildings}}
+    \verb{file}
+    \verb :Q$\backslash$:/My Drive/PhD Program/Codes/fema{\_}356.pdf:pdf
+    \endverb
+    \field{journaltitle}{Rehabilitation Requirements}
+    \field{year}{2000}
   \endentry
 
   \entry{Filippou1983}{report}{}
@@ -1296,7 +1352,6 @@
     \endverb
     \field{journaltitle}{Engineering Structures}
     \field{year}{2009}
-    \warn{\item Invalid format of field 'month'}
   \endentry
 
   \entry{Hosseini2015}{article}{}
@@ -1375,6 +1430,70 @@
     \endverb
     \field{journaltitle}{Construction and Building Materials}
     \field{year}{2015}
+  \endentry
+
+  \entry{Jensen1999}{article}{}
+    \name{author}{4}{}{%
+      {{hash=JOM}{%
+         family={Jensen},
+         familyi={J\bibinitperiod},
+         given={O.\bibnamedelima Mejlhede},
+         giveni={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HPF}{%
+         family={Hansen},
+         familyi={H\bibinitperiod},
+         given={P.\bibnamedelima Freiesleben},
+         giveni={P\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=CAM}{%
+         family={Coats},
+         familyi={C\bibinitperiod},
+         given={A.\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=GFP}{%
+         family={Glasser},
+         familyi={G\bibinitperiod},
+         given={F.\bibnamedelima P.},
+         giveni={F\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier Science Ltd}%
+    }
+    \strng{namehash}{JOMHPFCAM+1}
+    \strng{fullhash}{JOMHPFCAMGFP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    In this paper chloride ingress in cement paste and mortar is followed by
+  electron probe microanalysis. The influence of several paste and exposure
+  parameters on chloride ingress are examined (e.g., water-cement ratio, silica
+  fume addition, exposure time, and temperature). The measurements are modelled
+  on Fick's law modified by a term for chloride binding. Inclusion of chloride
+  binding significantly improves the profile shape of the modelled ingress
+  profiles. The presence of fine aggregate and formation of interfacial
+  transition zones at paste-aggregate boundaries does not significantly affect
+  diffusion rates.%
+    }
+    \verb{doi}
+    \verb 10.1016/S0008-8846(99)00131-3
+    \endverb
+    \field{issn}{00088846}
+    \field{number}{9}
+    \field{pages}{1497\bibrangedash 1504}
+    \field{title}{{Chloride ingress in cement paste and mortar}}
+    \field{volume}{29}
+    \verb{file}
+    \verb :C$\backslash$:/Users/user/AppData/Local/Mendeley Ltd./Mendeley Deskt
+    \verb op/Downloaded/Jensen et al. - 1999 - Chloride ingress in cement paste
+    \verb  and mortar.pdf:pdf
+    \endverb
+    \field{journaltitle}{Cement and Concrete Research}
+    \field{year}{1999}
   \endentry
 
   \entry{Khashaee}{article}{}
@@ -1652,6 +1771,39 @@
     \endverb
     \field{journaltitle}{Earthquake Engineering {\&} Structural Dynamics}
     \field{year}{2007}
+  \endentry
+
+  \entry{Mackie2003}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MKR}{%
+         family={Mackie},
+         familyi={M\bibinitperiod},
+         given={Kevin\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Stojadinovi{\'{c}}},
+         familyi={S\bibinitperiod},
+         given={Bo{\v{z}}idar},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MKRSB2}
+    \strng{fullhash}{MKRSB2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{August}
+    \field{pages}{156}
+    \field{title}{{Seismic demands for performance based design of bridges}}
+    \field{volume}{PEER Repor}
+    \verb{file}
+    \verb :C$\backslash$:/ConditionDependent{\_}PBD/Literature Review/0316{\_}k
+    \verb .{\_}mackie{\_}b.{\_}stojadinovic.pdf:pdf
+    \endverb
+    \field{journaltitle}{Pacific Earthquake Engineering Research Center}
+    \field{year}{2003}
   \endentry
 
   \entry{Manafpour2019}{article}{}
@@ -2084,6 +2236,26 @@
     \field{urlday}{23}
     \field{urlmonth}{03}
     \field{urlyear}{2020}
+  \endentry
+
+  \entry{NorthernDigitalInc.2020}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={{Northern Digital Inc.}},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N2}
+    \strng{fullhash}{N2}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{{OPTOTRAK Certus HD dynamic measuring machine}}
+    \verb{url}
+    \verb https://www.ndigital.com/msci/products/certus-hd/
+    \endverb
+    \field{year}{2020}
   \endentry
 
   \entry{Overby2017}{article}{}

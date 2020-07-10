@@ -1,89 +1,91 @@
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF TABLES}{iv}
+\contentsline {chapter}{LIST OF TABLES}{iv}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{LIST OF FIGURES}{v}
+\contentsline {chapter}{LIST OF FIGURES}{v}{section*.3}
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Scope and layout}{3}
+\contentsline {section}{\numberline {1.1}Scope and layout}{3}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}LITERATURE REVIEW}{4}
+\contentsline {chapter}{\numberline {2}Literature review}{4}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Corrosion}{4}
+\contentsline {section}{\numberline {2.1}Corrosion}{4}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.1}Time to corrosion}{6}
+\contentsline {subsection}{\numberline {2.1.1}Time to corrosion}{5}{subsection.2.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.2}Rate of corrosion}{7}
+\contentsline {subsection}{\numberline {2.1.2}Rate of corrosion}{6}{subsection.2.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1.3}Corrosion modified properties of reinforcing steel bars}{9}
+\contentsline {subsection}{\numberline {2.1.3}Corrosion modified properties of reinforcing steel bars}{8}{subsection.2.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Steel strain aging}{10}
+\contentsline {subsection}{\numberline {2.1.4}Physical test on corroded RC Structures}{9}{subsection.2.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Metallurgical process}{10}
+\contentsline {section}{\numberline {2.2}Steel strain aging}{11}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Strain aging effects in structures}{10}
+\contentsline {subsection}{\numberline {2.2.1}Metallurgical process}{11}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Damage Indexes}{12}
+\contentsline {subsection}{\numberline {2.2.2}Strain aging effects in structures}{12}{subsection.2.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Multiple earthquake loading}{14}
+\contentsline {section}{\numberline {2.3}Damage Indexes}{13}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}The effect of mainshock-aftershock sequences loading }{14}
+\contentsline {section}{\numberline {2.4}Multiple earthquake loading}{16}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}The effect of mainshock sequences}{17}
+\contentsline {subsection}{\numberline {2.4.1}Mainshock-aftershock sequences loading }{16}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Aging of structures}{18}
+\contentsline {subsection}{\numberline {2.4.2}Mainshock sequences loading}{18}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Research Gap}{20}
+\contentsline {section}{\numberline {2.5}Aging of structures}{20}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}General Objectives}{20}
+\contentsline {section}{\numberline {2.6}Research Gap}{22}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Specific Objectives}{20}
+\contentsline {subsection}{\numberline {2.6.1}Objectives}{23}{subsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Corrosion experimental setup and methods}{22}
+\contentsline {chapter}{\numberline {3}Experimental phase: mechanical properties and performance of corroded reinforcing steel}{24}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Background}{22}
+\contentsline {section}{\numberline {3.1}Proposed experimental campaign}{24}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1.1}Physical test on corroded RC Structures}{22}
+\contentsline {section}{\numberline {3.2}Expected outcomes from experimental phase}{32}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Proposed experimental campaign}{24}
+\contentsline {chapter}{\numberline {4}Methodology}{33}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Methodology}{30}
+\contentsline {section}{\numberline {4.1}Modeling of corrosion for structural analysis}{33}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Modeling of corrosion for structural analysis}{30}
+\contentsline {section}{\numberline {4.2}Modeling of strain aging for structural analysis}{34}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Multiple seismic events}{31}
+\contentsline {section}{\numberline {4.3}Multiple seismic events}{34}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Earthquake selection}{32}
+\contentsline {subsection}{\numberline {4.3.1}Earthquake selection}{35}{subsection.4.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.2}Discrete Modeling of Main Shock Series}{33}
+\contentsline {subsection}{\numberline {4.3.2}Discrete modeling of main shock series}{36}{subsection.4.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.3}Multiple main shock series}{33}
+\contentsline {subsection}{\numberline {4.3.3}Multiple main shock series}{37}{subsection.4.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Analytical Model}{34}
+\contentsline {section}{\numberline {4.4}Analytical Model}{37}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.1}Cantilever Column}{34}
+\contentsline {subsection}{\numberline {4.4.1}Cantilever column}{37}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.2}Strain Penetration}{37}
+\contentsline {subsection}{\numberline {4.4.2}Strain penetration}{38}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3.3}Design Limit States}{38}
+\contentsline {subsection}{\numberline {4.4.3}Design limit states}{41}{subsection.4.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Comparison with existing physical Tests}{39}
+\contentsline {section}{\numberline {4.5}Comparison with existing physical tests}{42}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Pristine Condition Columns}{39}
+\contentsline {subsection}{\numberline {4.5.1}Pristine condition columns}{42}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Accelerated Corrosion Columns}{39}
+\contentsline {subsection}{\numberline {4.5.2}Accelerated corrosion columns}{42}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Analytical Framework}{42}
+\contentsline {section}{\numberline {4.6}Analytical framework}{45}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Results from NLTHA}{43}
+\contentsline {section}{\numberline {4.7}Results from NLTHA}{46}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.1}Effect on structure response}{43}
+\contentsline {subsection}{\numberline {4.7.1}Effect on structure response}{46}{subsection.4.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.2}Development of cumulative distribution functions}{45}
+\contentsline {subsection}{\numberline {4.7.2}Development of cumulative distribution functions}{48}{subsection.4.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.6.3}Results discussion}{46}
+\contentsline {subsection}{\numberline {4.7.3}Results discussion}{49}{subsection.4.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}Future topics}{46}
+\contentsline {section}{\numberline {4.8}Future topics}{49}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{{\uppercase {Bibliography}}}{48}
+\contentsline {chapter}{\numberline {5}Expected findings and schedule of work}{51}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{{\uppercase {Bibliography}}}{52}{section*.41}
