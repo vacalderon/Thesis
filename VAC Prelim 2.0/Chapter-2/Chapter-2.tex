@@ -62,7 +62,7 @@ In addition, Vu et al  further improved the model of corrosion growth in reinfor
 Further, the evolution of corrosion in reinforcing steel can be expressed in the percent loss of mass of a rebar. If uniform corrosion is assumed, this can be expressed as the percent of reduction of diameter. The corrosion level can be expressed as shown in \eref{eq.CorrosionLevel}.
 
 \begin{equation}
-	CL=\frac{d_{i}-d(t)}{d_{i}}*100%
+	CL=\frac{d_{bi}-d_{corr}(t)}{d_{bi}}*100%
   \label{eq.CorrosionLevel}
 \end{equation} 
 
@@ -80,11 +80,11 @@ Combining \eref{eq.CorrosionEvolution} with \eref{eq.CorrosionLevel},  the varia
 Yuan et al \cite{Yuan2017a} performed tension tests on corroded rebars and determined that the mechanical properties of steel change with the level of corrosion. In general, as corrosion increases, the yield strength and ultimate strength of the reinforcing steel decrease.  The variation of the mechanical properties is shown in \eref{eq.eleven} for the yield strength and ultimate strength of the reinforcing steel.
 
 \begin{equation}
-  f_{y,C}=f_{yo}(1-0.021C)
+  f_{y,CL}=f_{yo}(1-0.021CL)
   \label{eq.eleven}
 \end{equation} 
 \[
-  f_{u,C}=f_{yo}(1.018-0.019C)
+  f_{u,CL}=f_{uo}(1.018-0.019CL)
 \]
 
 One of the limitations in their study is that the accelerated corrosion process used to develop the corrosion in the rebars did not account for the depassivation process that naturally occurs in rebars embedded in concrete. Chapter \ref{chap-three} shows a proposed experimental assessment that will provide an accurate evaluation of the mechanical properties of corroded reinforcing steel. 
