@@ -161,24 +161,26 @@ The procedure to perform the buckled bar tension test consists of:
 
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=1\textwidth]{Chapter-3/figs/BBT_Curvature}
+    \includegraphics[width=0.8\textwidth]{Chapter-3/figs/BBT_Curvature}
     \caption{a) Picture of buckled bar; (b) Position of optical markers and adjustment to neutral axis; (c) Calculation of curvature \cite{Barcley2018}}
     \label{fig:BBT_Curvature}
 \end{figure}
 \begin{figure}
     \centering
-    \includegraphics[width=1\textwidth]{Chapter-3/figs/BBT_Ductile_vs_Brittle}
+    \includegraphics[width=1.0\textwidth]{Chapter-3/figs/BBT_Ductile_vs_Brittle}
     \caption{(a)Ductile rebar fracture; (b) Brittle rebar fracture \cite{Barcley2018}}
     \label{fig:BBT_DuctileBrittle}
 \end{figure}
 \begin{figure}[htbp]
     \centering
-    \includegraphics[width=0.8\textwidth]{Chapter-3/figs/BBT_MaxBendignStrain}
+    \includegraphics[width=1.0\textwidth]{Chapter-3/figs/BBT_MaxBendignStrain}
     \caption{BBT results for rebars with and without ribs \cite{Barcley2018}}
     \label{fig:BBT_MaxBendingStrain}
 \end{figure}
 
-The BBT test is proposed for different levels of corrosion such that any changes on the behavior are studied and incorporated in the analytical model. The proposed test matrix is shown in Table \ref{tab:Test Matrix}. It must be noted that in each corrosion level for the BBT tests, each experiment will correspond to a different prescribed bending strain. The selection for each prescribed bending strains consists in 1) Start with the maximum bending strain determined in previous research to be around $\varepsilon=0.10$ as shown in \fref{fig:BBT_MaxBendingStrain}, 2)if brittle fracture is observed the next test will be at a lower bending strain for example $\varepsilon=0.08$, 3)otherwise higher strains such as $\varepsilon=0.12$ will be evaluated, this is repeated for each corrosion level. It is expected that six tests per corrosion level will be sufficient however, more tests will be performed if necessary. The results obtained will be compared to those of a pristine condition rebar which corresponds to a corrosion level of $CL=0\%$
+\newpage
+
+The BBT tests are proposed for different levels of corrosion such that any changes on the behavior are studied and incorporated in the analytical model. The proposed test matrix is shown in Table \ref{tab:Test Matrix}. It must be noted that in each corrosion level for the BBT tests, each experiment will correspond to a different prescribed bending strain. The selection for each prescribed bending strains consists in 1) Start with the maximum bending strain determined in previous research to be around $\varepsilon=0.10$ as shown in \fref{fig:BBT_MaxBendingStrain}, 2)if brittle fracture is observed the next test will be at a lower bending strain for example $\varepsilon=0.08$, 3)otherwise higher strains such as $\varepsilon=0.12$ will be evaluated, this is repeated for each corrosion level. It is expected that six tests per corrosion level will be sufficient however, more tests will be performed if necessary. The results obtained will be compared to those of a pristine condition rebar which corresponds to a corrosion level of $CL=0\%$
 
 % Please add the following required packages to your document preamble:
 % \usepackage{multirow}
@@ -213,6 +215,11 @@ The BBT test is proposed for different levels of corrosion such that any changes
 
 The results from the tension tests will help to establish if the depassivation process in the corroded rebars has an effect on the measured stress-strain relationship of steel as has been observed in previous research which did not considered the depassivation process \cite{Meda2014},\cite{Yuan2017a},\cite{Du2005}. Similarly the results from the BBT tests will show any changes in the critical bending strain of rebars as they corrode. The critical bending train impacts the bar fracture limit state. In the case of corroded rebars it is expected that the critical bending strain will be modified by changes in the mechanical properties of steel due to corrosion, and effects of concentrated corrosion along the surface of the rebars. These two factors we hypothesize will induce fracture at a lower bending strain than those observed in pristine conditions rebars\cite{Barcley2019}.
 
-The results obtained from the experiment will also be used to define the bar fracture limit state for RC columns. Research currently being developed at NC State will provide models that allows to establish bar fracture tensile strain while considering different parameters such as transverse steel spacing, axial load ratio, strength of the concrete to mention a few. The model will be similar to that presented by Barcley et al \cite{Barcley2018} shown in EQ. This model could then be implemented in the analytical model presented in \ref{chap-four}. If fracture occurs at a lower strain in corroded rebars, this implies that the corroded RC columns are prone to reach the fracture bar limit state at a much lower displacement than in a pristine RC column.
+The results obtained from the experiment will also be used to define the bar fracture limit state for RC columns. Research currently being developed at NC State will provide models that allows to establish bar fracture tensile strain while considering different parameters such as transverse steel spacing, axial load ratio, strength of the concrete to mention a few. The model will be similar to that presented by Barcley et al \cite{Barcley2018} shown in \eref{eq.BarFracture}. 
+\begin{equation}
+    \varepsilon_{t}=\frac{ln(\frac{\varepsilon_{b}}{0.001})}{\frac{300p}{f'c A_{g}}+\frac{0.7}{\rho_{t}}}
+    \label{eq.BarFracture}
+\end{equation}
+This model could then be implemented in the analytical model presented in Chapter \ref{chap-four}. If fracture occurs at a lower strain in corroded rebars, this implies that the corroded RC columns are prone to reach the fracture bar limit state at a much lower displacement than in a pristine RC column.
 
 Future studies will verify the application of the results found in this research to perform full scale corroded RC column that consider the effect of depassivation in the cyclic behavior of such columns.
