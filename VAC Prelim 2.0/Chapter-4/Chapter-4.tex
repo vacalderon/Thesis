@@ -1,30 +1,22 @@
 \chapter{Analytical model}
 \label{chap-four}
-This research aims to develop a design procedure that incorporate the effect of cumulative damage in the of RC structures in order to improve their seismic resiliency. While previous studies have obtained results using the Ang and Park Damage Index and obtained fragility curves using the assumptions of that model, in this research we are evaluation the performance of structures using strain limit states. Therefore, an analytical model of a SDOF cantilever RC column is subjected to a series of nonlinear time history analyses (NLTHA) that consider aging conditions and sequences of mainshock and aftershock. The results of these analyses will record the limit state reached for each run of the analysis and we expect the results to show how the accumulation of damage due to aging of the structure increases the risk of a structure to reach an unintended limit state. The limit states achieved ...
+This research aims to develop a design procedure that incorporate the effect of cumulative damage in the of RC structures in order to improve their seismic resiliency. While previous studies have obtained results using the Ang and Park Damage Index and obtained fragility curves using the assumptions of that model, this research will evaluate the performance of structures using strain limit states. Therefore, an analytical model of a SDOF cantilever RC column will subjected to a series of nonlinear time history analyses (NLTHA) that consider aging conditions and sequences of mainshock and aftershock. The results of these analyses will record the limit state reached for each run of the analysis and we expect the results to show how the accumulation of damage due to aging of the structure increases the risk of a structure to reach a limit state. 
 
-\section{Modeling of corrosion for structural analysis}
+\section{Modeling of aging conditions}
 
-Corrosion has been shown to modify the mechanical properties of steel, as discussed in section 2.1. These findings have been incorporated in the structural analysis at the material level. Results obtained from the experimental phase outlined in \ref{chap-three} will be incorporated in this analysis.The incorporation of corrosion in the analytical model is outlined as follows:
-\begin{enumerate}
-	\item The time for initiation of corrosion is calculated with equation \eref{eq.three} 
-	\item The rate of corrosion is calculated according equation \eref{eq.CorrosionRate}
-	\item The diameter of the rebar is reduced and the corrosion level is calculated using equations \eref{eq.CorrosionLevel} \eref{eq.CorrosionEvolution} 
-	\item The mechanical properties of the reinforcing steel are modified with the corresponding corrosion level as shown in equation \eref{eq.eleven}
-\end{enumerate}
+\subsection{Modeling of corrosion for structural analysis}
 
-This process is shown in \fref{fig:CorrModel}.
+It has been shown that as corrosoion increseases the material properties of the steel are modified,as discussed in section 2.1. While the findings from the material tests in Chapter \ref{chap-three} will show a more realistic quantification, we expect this trend to remain unchanged. The correlation between the level of corrosion and the mechanical properties of corroded rebars will be incorporated in the structural analysis. The workflow to modify the mechanical properties of the rebars is shown in \fref{fig:CorrModel}. The modification of the mechanical properties consist of : (1) Calculate  the time for initiation of corrosion with equation \eref{eq.three}, (2) calculate the rate of corrosion with \eref{eq.CorrosionRate}, (3) reduce the diameter of the rebar and calculate the corrosion level, using \eref{eq.CorrosionLevel} and \eref{eq.CorrosionEvolution} correspondingly, and (4) modify the mechanical properties of the rebars with \eref{eq.eleven}
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=1\textwidth]{Chapter-4/figs/Corrosion_Modeling}
+	\includegraphics[width=0.7\textwidth]{Chapter-4/figs/Corrosion_Modeling}
 	\caption{Corrosion modeling for structural analysis}
 	\label{fig:CorrModel}
 \end{figure}
-
-This is later incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in section 4.6.
-
-\section{Modeling of strain aging for structural analysis}
-Section 2.2.2 presented the concept of strain aging, and how strain aging modifies the properties of mild steel after being subjected to large strains. Strain aging is of special relevance in the days proceeding a mainshock. Consider the case of a structure prone to strain aging that is subjected to a mainshock and after more than 37 days is subjected to a large aftershock, this structure would behave differently during the after shock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist in subjecting a series of SDOF structures to different MS-AS sequences, the main variable of study in this case would be the time between the MS and AS, and the intensity measure of the MS and AS. The results would then be used to determine the effects of strain aging in the response of the structure to MS-AS sequences. Summarizing the strain aging process described in Figure X.X. 
+%This will be incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in section 4.6.
+\subsection{Modeling of strain aging for structural analysis}
+Strain aging modifies the properties of mild steel after being subjected to large strains, as explained in \ref{chap-two}. Strain aging is of special relevance in the days proceeding a mainshock. Consider the case of a structure prone to strain aging that is subjected to a mainshock and after more than 37 days is subjected to a large aftershock, this structure would behave differently during the after shock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist in subjecting a series of SDOF structures to different mainshock-aftershock sequences, the main variable of study in this case would be the time between the mainshock and the aftershock, and the intensity measure of the ground motions. Summarizing the strain aging process described in Figure X.X. 
 
 \section{Multiple seismic events}
 
