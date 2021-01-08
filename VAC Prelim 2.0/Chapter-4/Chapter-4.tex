@@ -6,7 +6,7 @@ This research aims to develop a design procedure that incorporate the effect of 
 
 \subsection{Modeling of corrosion for structural analysis}
 
-It has been shown that as corrosoion increseases the material properties of the steel are modified,as discussed in section 2.1. While the findings from the material tests in Chapter \ref{chap-three} will show a more realistic quantification, we expect this trend to remain unchanged. The correlation between the level of corrosion and the mechanical properties of corroded rebars will be incorporated in the structural analysis. The workflow to modify the mechanical properties of the rebars is shown in \fref{fig:CorrModel}. The modification of the mechanical properties consist of : (1) Calculate  the time for initiation of corrosion with equation \eref{eq.three}, (2) calculate the rate of corrosion with \eref{eq.CorrosionRate}, (3) reduce the diameter of the rebar and calculate the corrosion level, using \eref{eq.CorrosionLevel} and \eref{eq.CorrosionEvolution} correspondingly, and (4) modify the mechanical properties of the rebars with \eref{eq.eleven}
+It has been shown that as corrosion increases the material properties of the steel are modified,as discussed in section 2.1. While the findings from the material tests in Chapter \ref{chap-three} will show a more realistic quantification, we expect this trend to remain unchanged. The correlation between the level of corrosion and the mechanical properties of corroded rebars will be incorporated in the structural analysis. The workflow to modify the mechanical properties of the rebars is shown in \fref{fig:CorrModel}. The modification of the mechanical properties consist of : (1) Calculate  the time for initiation of corrosion with equation \eref{eq.three}, (2) calculate the rate of corrosion with \eref{eq.CorrosionRate}, (3) reduce the diameter of the rebar and calculate the corrosion level, using \eref{eq.CorrosionLevel} and \eref{eq.CorrosionEvolution} correspondingly, and (4) modify the mechanical properties of the rebars with \eref{eq.eleven}
 
 \begin{figure}[htbp]
 	\centering
@@ -22,14 +22,18 @@ Strain aging modifies the properties of mild steel after being subjected to larg
 
 The evaluation of multiple seismic events is a topic that has been scarcely studied, however their effects have been felt in numerous earthquake sequences such as the Christchurch 2010, Umbria-Marche Earthquake 1997 and the Puerto Rico Earthquakes 2020. The hypothesis is that accumulation of damage will restart in a smaller seismic event to achieve a prescribed limit state, similar to how corrosion and other aging phenomena might impact the intensity needed to achieve a future limit state. 
 
-For this study it has been determined that not all damage in structures are dependent on multiple events but rather their condition when an event occurs as is the case for corrosion. Other damage related phenomenons such as strain aging depend on the loading history and are therefore dependent on the history of extreme loading events. It is therefore proposed to study corrosion on a discrete modeling of main shocks each independent of the other and to study the effect on strain aging by using a sequence of Main Shocks.
+For this study it has been determined that not all damage in structures are dependent on multiple events but rather their condition when an event occurs as is the case for corrosion. Therefore, in this study a Mainshock-Aftershock (MS-AS) sequence is evaluated at different levels of corrosion. Other damage related phenomenons such as strain aging depend on the loading history and are therefore dependent on the history of extreme loading events. Thus, to study the effect on strain aging a sequences of Mainshock-Aftershock is focused on the time difference between the mainshock and the after shock, the outcome will dependend on the intensity of the ground motions and the pre-strain value achieved during the mainshock.
 
 \subsection{Earthquake selection}
 
-For this study the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Insitute (PEER) \cite{Ancheta2014} is used. This database consists of 599 different earthquake events that characterize the ground motions on the west coast of the contiguous United States. The data was filtered according to the following criteria:
+The earthquake selection will use two approaches to select the ground motions. The first consists in using the PEER web tool to perform amplitude scale matching of records that in average match the design spectrum. The second method involved the conditional spectrum matching (CSM) that consists of computing the expected response spectrum associated with a target spectral acceleration ($Sa$) value at a single period, using the information from the probabilistic seismic hazard analysis (PSHA).
+
+In both selection methods it is necessary to define a design spectrum and the PSHA. Therefore, the city of Anchorage, AK is chosen to define the design spectrum and the PSHA.The design spectrum and the data are taken from the USGS PSHA webtool and it is shown in Figure X.X. 
+
+The ground motions are taken from the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Institute (PEER) \cite{Ancheta2014}. This database consists of 599 different earthquake events that characterize the ground motions on the west coast of the contiguous United States. The data was filtered according to the following criteria:
 
 \begin{itemize}
-	\item Must be an earthquake sequence
+	\item Must be a mainshock-aftershocksequence
 	\item Moment magnitude $M_w \geqslant 5$
 	\item $PGA>0.04$
 	\item $PGV>1$ cm/s
