@@ -16,7 +16,9 @@ It has been shown that as corrosion increases the material properties of the ste
 \end{figure}
 %This will be incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in section 4.6.
 \subsection{Modeling of strain aging for structural analysis}
-Strain aging modifies the properties of mild steel after being subjected to large strains, as explained in \ref{chap-two}. Strain aging is of special relevance in the days proceeding a mainshock. Consider the case of a structure prone to strain aging that is subjected to a mainshock and after more than 37 days is subjected to a large aftershock, this structure would behave differently during the after shock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist in subjecting a series of SDOF structures to different mainshock-aftershock sequences, the main variable of study in this case would be the time between the mainshock and the aftershock, and the intensity measure of the ground motions. Summarizing the strain aging process described in Figure X.X. 
+Strain aging modifies the properties of mild steel after being subjected to large strains, as explained in \ref{chap-two}. Strain aging is of special relevance in the days proceeding a mainshock. Consider the case of a structure prone to strain aging that is subjected to a mainshock and after more than 3 days is subjected to a large aftershock, this structure would behave differently during the after shock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist in subjecting a series of SDOF structures to different mainshock-aftershock sequences, the main variable of study in this case would be the time between the mainshock and the aftershock, and the intensity measure of the ground motions. Summarizing the strain aging process described in Figure X.X. 
+
+
 
 \section{Multiple seismic events}
 
@@ -28,12 +30,24 @@ For this study it has been determined that not all damage in structures are depe
 
 The earthquake selection will use two approaches to select the ground motions. The first consists in using the PEER web tool to perform amplitude scale matching of records that in average match the design spectrum. The second method involved the conditional spectrum matching (CSM) that consists of computing the expected response spectrum associated with a target spectral acceleration ($Sa$) value at a single period, using the information from the probabilistic seismic hazard analysis (PSHA).
 
-In both selection methods it is necessary to define a design spectrum and the PSHA. Therefore, the city of Anchorage, AK is chosen to define the design spectrum and the PSHA.The design spectrum and the data are taken from the USGS PSHA webtool and it is shown in Figure X.X. 
+In both selection methods it is necessary to define a design spectrum and the PSHA. Therefore, the city of Anchorage, AK is chosen to define the design spectrum and the PSHA.The design spectrum and the data are taken from the USGS PSHA webtool and it is shown in \fref{fig:UHS_AK} and \fref{fig:PSHA_AK}. 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Chapter-4/figs/UniformHazardResponseSpectrum_AK}
+	\caption{Uniform Hazard Spectrum for Anchorage, AK}
+	\label{fig:UHS_AK}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{Chapter-4/figs/PSHA_Deaggregation_Anchorage_AK}
+	\caption{PSHA deaggregation for Anchorage, AK}
+	\label{fig:PSHA_AK}
+\end{figure}
 
 The ground motions are taken from the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Institute (PEER) \cite{Ancheta2014}. This database consists of 599 different earthquake events that characterize the ground motions on the west coast of the contiguous United States. The data was filtered according to the following criteria:
-
+\newpage
 \begin{itemize}
-	\item Must be a mainshock-aftershocksequence
+	\item Must be a mainshock-aftershock sequence
 	\item Moment magnitude $M_w \geqslant 5$
 	\item $PGA>0.04$
 	\item $PGV>1$ cm/s
@@ -42,16 +56,14 @@ The ground motions are taken from the NGA2 West Database of earthquake records p
 	\item $R_{rup}<60km$
 \end{itemize}
 
-From this data the main shocks found are the following earthquakes which can be summarized in \fref{fig:MS_Selection}. Figure \ref{fig:MS_Selection} shows the earthquakes as moment magnitude {Mw} vs rupture distance ($R_{rup}$).
+Figure \ref{fig:MS_Selection} summarizes the results from filtering the data available in the PEER NGA West2 database. \fref{fig:MS_Selection} shows the earthquakes as moment magnitude {Mw} vs rupture distance ($R_{rup}$).
 
-\begin{itemize}
-	\item Chi-chi
-	\item Managua
-	\item Livermore
-	\item Northridge
-	\item Duzce 
-	\item Mammoth lake
-\end{itemize}
+%\begin{itemize}
+%	\item Managua
+%	\item Northridge
+%	\item Duzce 
+%	\item Mammoth lake
+%\end{itemize}
 
 \begin{figure}[htbp]
 	\centering
@@ -60,28 +72,16 @@ From this data the main shocks found are the following earthquakes which can be 
 	\label{fig:MS_Selection}
 \end{figure}
 
-\subsection{Discrete modeling of main shock series}
-The discrete modeling of mainshocks consists of using individual earthquakes that occur at different times throughout the life of the structures which correlate to a corrosion level (CL), this can be done for each of the main shocks selected after which the following data is obtained and later analyzed:
-
-\begin{itemize}
-	\item Maximum axial strain in confined concrete, cover and reinforcing steel 
-Strains
-	\item Obtain the probability of exceeding a given limit state $P(\varepsilon >\varepsilon_{LS},IM)$
-	\item The earthquakes are characterized according to an intensity measure
-
-\end{itemize}
+\subsection{Modeling of mainshock-aftershock series for corrosion damage state}
+Corrosion modifies the mechanical properties of rebars in RC structures, thus inherently modifying their response to earthquake loading. When will an earthquake occour is difficult to predict as explained in section 2.X. Therefore, in this study we propose subjecting structures at a specified corrosion level to a series of mainshock and aftershock ground motion. The proposed methodology will evaluate help to evaluate the effect of corrosion in RC structures subjected to erathquake loading with accumulation of damage. 
+More specifically, the aproach consists of (1) Specify corrosion level (CL) as shown in \fref{fig:CorrModel}, (2) The ground motions sequences from earthquake selection are applied for each corrosion level, (3) the results are evaluated in each case to determine what limit states were reached and implication for the design proposal. This process can be graphically seen in Figure X.X.
 
 
-\subsection{Multiple main shock series}
+\subsection{Modeling of mainshock-aftershock series for strain aging damage state}
 
-To simulate the life of a structure a mainshock series consisting of 3 mainshocks for a the life of a structure is considered, three phases are considered:
-\begin{enumerate}
+Strain aging consists in the increase in strength of steel after time has passed between a large strain and the new loading. It is possible that structures after being subjected to a mainshock develop the strain aging condition, specially if the maximum strain was higher that $2\varepsilon_{y}$. Therefore, the main variable of study for strain aging condition is the time between the main loading and the secondary loading. It is thus evident that the variable of study for strain aging is the time gap between the mainshock and the aftershock. 
 
-	\item At time $t=0$ the structure has pristine conditions
-	\item Mainshock 1: pristine conditions are present. No changes to the material properties is present and no accumulation of damage has occurred.
-	\item Mainshock 2: significant time after time to corrosion, mainshock 2 occurs and  material properties have changed due to corrosion
-	\item Mainshock 3: corrosion and strain aging have occurred and further modified the properties of the materials.
-\end{enumerate}
+The proposed modeling of the mainshock-aftershock sequence in for strain aging consists of (1) The structure is subjected to the main shock, and the maximum strain in the rebar is recorded, (2) the time gap between the mainshock and the aftershock is varied between 3 days - 50 days, (3) the mechanical properties of the rebar are modified according to \eref{eq.twelve}-\eref{eq.fourteen}, (4) the structure is evaluate for the aftershock groundmotion, and (5) the results are evaluated in each case to determine what limit states were reached and implication for the design proposal.
 
 %This is shown graphically in \fref{fig:MSSequence}
 %
@@ -91,16 +91,6 @@ To simulate the life of a structure a mainshock series consisting of 3 mainshock
 %	\caption{Mainshock sequence example}
 %	\label{fig:MSSequence}
 %\end{figure}
-
-Similar to the discrete modeling of main shock series the following results can be obtained:
-
-\begin{itemize}
-	\item Maximum axial strain in confined concrete, cover and reinforcing steel 
-Strains
-	\item Obtain the probability of exceeding a given limit state $P(\varepsilon\varepsilon_{LS},IM)$
-	\item The earthquakes are characterized according to an intensity measure
-
-\end{itemize}
 
 \section{Analytical Model}
 
@@ -126,7 +116,7 @@ For single bending the parameter $\gamma$ is:
     \label{eq:Gamma_LPt}
 \end{equation}
 
-The two-point Gauss-Radau integration is applied such that each end node integration is weighted equal to the specified plastic hinge length, as illustrated in \fref{fig:Fiber_PlasticHinge}. Therefore, strains recorded at the end sections represent accurate values even in the case where deformation localizes to the ends from strain-softening behavior. For the case of the cantilever column considered, only one plastic hinge length is defined, and the opposite end is given an arbitrary unit length. 
+The two-point Gauss-Radau integration is applied such that each end node integration is weighted equal to the specified plastic hinge length, as illustrated in \fref{fig:Fiber_PlasticHinge}, in this figure is the diameter of the column, and c is the concrete cover. Therefore, strains recorded at the end sections represent accurate values even in the case where deformation localizes to the ends from strain-softening behavior. For the case of the cantilever column considered, only one plastic hinge length is defined, and the opposite end is given an arbitrary unit length. 
 
 \begin{figure}[htbp]
 	\centering
@@ -199,56 +189,37 @@ Design limit states are defined based on strains in the material since they can 
 \end{table}
  
 \section{Comparison with existing physical tests}
+The model used in this research is calibrated for the case of pristine conditions and the case of corroded columns. The calibration to a pristine condition column shows how reliable the results from the model are. Then the pristine condition model is modified with the corrosion model and compare it to results from corroded RC columns, this will give confidence that the results obtained from the computational model are reliable, and will be further enhanced with the experimental results.
 \subsection{Pristine condition columns}
+Goodnight et al performed a total of 30 circular RC columns quasi-static tests to evaluate strain limit states \cite{Goodnight2016}. From this set of tests, a sample of one was taken to calibrate the analytical model. The test performed by Goodnight et al on an SDOF cantilever column shows similar geometry to that presented in \fref{fig:Fiber_PlasticHinge}. The parameters used in this large scale test were: diameter $D = 24.0 inch$, height of the column $L = 8.0 ft$, yield strength of steel $f_{y} = 574.0 MPa$, ultimate strength of steel $f_{u} = 753.3 * MPa$, longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $, transverse steel volumetric ratio $\rho_{v} = 1.0\% $, strength of concrete at 8 days $f'_{c} = 39.8 MPa$.
 
-Goodnight et al performed a total of 30 circular RC columns quasi-static tests to evaluate strain limit states \cite{Goodnight2016}. From this set of tests, a sample of one was taken to calibrate the analytical model. The test performed by Goodnight et al on an SDOF cantilever column shows similar geometry to that presented in \fref{fig:Fiber_PlasticHinge}. The parameters used in this large scale test were:
-
-\begin{itemize}
-	\item Diameter $D = 24.0 inch$
-	\item Height of the column $L = 8.0 ft$
-	\item Yield strength of steel $f_{y} = 574.0 MPa$
-	\item Ultimate strength of steel $f_{u} = 753.3 * MPa$
-	\item Longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $
-	\item Transverse steel volumetric ratio $\rho_{v} = 1.0\% $
-	\item Strength of concrete at 8 days $f'_{c} = 39.8 MPa$
-\end{itemize}
-
-The analytical model utilized these parameters to compare the results from the model to the experimental results. The results from the analysis show good agreement with the experimental results as evidenced in \fref{fig:ModelCalibration}. This assures that the results obtained from the model predict the overall system behavior and can be used to analyze other configurations of the structural model.
-
+The analytical model used these parameters to compare the results from the model to the experimental results. The results from the analysis show good agreement with the experimental results as evidenced in \fref{fig:ModelCalibration}. Thus, the results obtained from the model predict the overall system behavior and can be used to analyze other configurations of the structural model.
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Chapter-4/figs/Model_Calibration_Goodnight2016}
+	\includegraphics[width=0.6\textwidth]{Chapter-4/figs/Model_Calibration_Goodnight2016}
 	\caption{Force-Displacement results from experimental results \cite{Goodnight2013} and analytical model}
 	\label{fig:ModelCalibration}
 \end{figure}
-\subsection{Accelerated corrosion columns}
-Similarly, Ma et al performed a series of quasi-static tests on RC columns with different corrosion levels and axial load ratios \cite{Ma2012}. From their study, the test with a corrosion level $CL=9.5\%$ was taken for calibration since the other tests presented in their study had excessively high axial load ratios which are not common in RC bridges. The results from Ma et al test	\cite{Ma2012} were used to compare against the analytical model. The column had the following parameters:
-\begin{itemize}
-	\item Diameter $D = 260.0 mm$
-	\item Height of the column $L = 820.0 mm$
-	\item Yield strength of steel $f_{y} = 375.0$ MPa
-	\item Ultimate strength of steel $f_{u} = 572.3$ MPa
-	\item Longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $
-	\item Transverse steel volumetric ratio $\rho_{v} = 1.0\% $
-	\item Strength of concrete at 8 days $f'_{c} = 39.8$ MPa
-	\item Corrosion level $CL=9.5\%$
-\end{itemize}
+\newpage
 
-In the analysis equation \eref{eq.eleven} is used to modify the material properties of the reinforcing steel, to consider the effects of corrosion. Figure \ref{fig:ModelCalibration_Corrosion} shows that the results obtained from the analytical model capture the response of the structure with some accuracy. Ma et al \cite{Ma2012} did not report if bar buckling and bar fracture occurred during the test. However, the hysteresis curve shown in their study suggests that some damage limit state was reached. To corroborate this, equation \eref{eq:es_DamageControl} is used to determine the bar buckling limit state ($\varepsilon_{s,BB}=0.024$), this is then compared to the analytical model results shown in figure \fref{fig:ModelCalibration_Corrosion_Hysteresis}. The results show a peak tension strain of $\varepsilon_{s}=0.023$. This result is close to the value obtained using equation \eref{eq:es_DamageControl}, thus pointing out the likelihood that the bar buckling limit state was observed during this test. While these results are close, it is still not clear if equation \eref{eq:es_DamageControl} captures the behavior of the buckling limit state for corroded rebars, therefore, the proposed corroded BBT test will show if corrosion affects the behavior of buckled bars.
+\subsection{Accelerated corrosion columns}
+Similarly, Ma et al performed a series of quasi-static tests on RC columns with different corrosion levels and axial load ratios \cite{Ma2012}. From their study, the test with a corrosion level $CL=9.5\%$ was taken for calibration since the other tests presented in their study had excessively high axial load ratios which are not common in RC bridges. The results from Ma et al test	\cite{Ma2012} were used to compare against the analytical model. The column had the following parameters: diameter $D = 260.0 mm$, height of the column $L = 820.0 mm$, yield strength of steel $f_{y} = 375.0$ MPa, ultimate strength of steel $f_{u} = 572.3$ MPa, longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $, transverse steel volumetric ratio $\rho_{v} = 1.0\% $, strength of concrete at 8 days $f'_{c} = 39.8$ MPa, and corrosion level $CL=9.5\%$. Equation \eref{eq.eleven} is used to modify the material properties of the reinforcing steel, and consider the effects of corrosion. 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Chapter-4/figs/Model_Calibration_Ma2012}
-	\caption{Force-Displacement results from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) results \cite{Ma2012} and analytical model (shown in lightblue)}
+	\includegraphics[width=0.60\textwidth]{Chapter-4/figs/Model_Calibration_Ma2012}
+	\caption{Force-Displacement results from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) \cite{Ma2012} and analytical model results (shown in lightblue)}
 	\label{fig:ModelCalibration_Corrosion}
 \end{figure}
+
+Figure \ref{fig:ModelCalibration_Corrosion} shows that the results obtained from the analytical model capture the response of the structure with good accuracy. Ma et al \cite{Ma2012} did not report if bar buckling and bar fracture occurred during the test. However, the hysteresis curve shown in their study suggests that some damage limit state was reached. Therefore, equation \eref{eq:es_DamageControl} is used to determine the bar buckling limit state ($\varepsilon_{s,BB}=0.024$), this is then compared to the analytical model results shown \fref{fig:ModelCalibration_Corrosion_Hysteresis}. The results show a peak tension strain of $\varepsilon_{s}=0.023$, this result is close to the value obtained using equation \eref{eq:es_DamageControl}. Therefore, there is a high likelihood that the bar buckling limit state was reached during this test. While these results are close, it is still not clear if equation \eref{eq:es_DamageControl} captures the behavior of the buckling limit state for corroded rebars. Therefore, the proposed corroded BBT test will show if corrosion affects the behavior of buckled bars.
+
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.9\textwidth]{Chapter-4/figs/MaEtAl_StrainHisteresis}
+	\includegraphics[width=0.6\textwidth]{Chapter-4/figs/MaEtAl_StrainHisteresis}
 	\caption{Strain hysteresis from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) results from analytical model}
 	\label{fig:ModelCalibration_Corrosion_Hysteresis}
 \end{figure}
-\newpage
 
 \section{Analytical framework}
 
@@ -332,13 +303,9 @@ Once the analysis is complete the data is post-processed and expressed as a cumu
 \end{figure}
 \newpage
 \subsection{Results discussion}
-\begin{itemize}
-	\item The results show that there is an increase in the demands as the corrosion in the structure increases. This is clearly shown in \fref{fig:CDF_SY_SDT1}. However, more results will help improve this correlation
-	\item Results shown in \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1}, show that $IM=Sd(T_1)$ is a better intensity measure than $IM=PGA$
-	\item The outcomes from the experimental campaign will further improve the results obtained in the analytical work
-	\item The experimental phase will also provide an improved methodology to mimic the behavior of corroded reinforcing steel that is embedded inside the concrete
-	\item The inclusion of additional aging conditions in the analysis will provide a realistic analysis of aging RC columns
-\end{itemize}
+The results show that there is an increase in the demands as the corrosion in the structure increases. This is clearly shown in \fref{fig:CDF_SY_SDT1}. However, more results will help improve this correlation, In addition, the results shown in \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1}, show that $IM=Sd(T_1)$ is a better intensity measure than $IM=PGA$. 
+
+Further, the outcomes from the experimental campaign will further improve the results obtained in the analytical work. The experimental phase will also provide an improved methodology to mimic the behavior of corroded reinforcing steel that is embedded inside the concrete, the inclusion of additional aging conditions in the analysis will provide a realistic analysis of aging RC columns
 
 \section{Future topics}
 
