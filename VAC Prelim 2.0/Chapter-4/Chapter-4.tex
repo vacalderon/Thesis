@@ -16,9 +16,7 @@ It has been shown that as corrosion increases the material properties of the ste
 \end{figure}
 %This will be incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in section 4.6.
 \subsection{Modeling of strain aging for structural analysis}
-Strain aging modifies the properties of mild steel after being subjected to large strains, as explained in \ref{chap-two}. Strain aging is of special relevance in the days proceeding a mainshock. Consider the case of a structure prone to strain aging that is subjected to a mainshock and after more than 3 days is subjected to a large aftershock, this structure would behave differently during the after shock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist in subjecting a series of SDOF structures to different mainshock-aftershock sequences, the main variable of study in this case would be the time between the mainshock and the aftershock, and the intensity measure of the ground motions. Summarizing the strain aging process described in Figure X.X. 
-
-
+Strain aging modifies the properties of mild steel after being subjected to large strains, as explained in \ref{chap-two}. Strain aging is of special relevance in the days proceeding a mainshock. Consider the case of a structure prone to strain aging that is subjected to a mainshock and after more than 3 days is subjected to a large aftershock, this structure would behave differently during the after shock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist in subjecting a series of SDOF structures to different mainshock-aftershock sequences, the main variable of study in this case would be the time between the mainshock and the aftershock, and the intensity measure of the ground motions. 
 
 \section{Multiple seismic events}
 
@@ -83,15 +81,14 @@ Strain aging consists in the increase in strength of steel after time has passed
 
 The proposed modeling of the mainshock-aftershock sequence in for strain aging consists of (1) The structure is subjected to the main shock, and the maximum strain in the rebar is recorded, (2) the time gap between the mainshock and the aftershock is varied between 3 days - 50 days, (3) the mechanical properties of the rebar are modified according to \eref{eq.twelve}-\eref{eq.fourteen}, (4) the structure is evaluate for the aftershock groundmotion, and (5) the results are evaluated in each case to determine what limit states were reached and implication for the design proposal.
 
-%This is shown graphically in \fref{fig:MSSequence}
-%
-%\begin{figure}[htbp]
-%	\centering
-%	\includegraphics[width=0.9\textwidth]{Chapter-4/figs/MainShock_Sequence}
-%	\caption{Mainshock sequence example}
-%	\label{fig:MSSequence}
-%\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{Chapter-4/figs/StrainAgeing_Modeling}
+	\caption{Mainshock-aftershock modeling for strain aging}
+	\label{fig:AgingModel}
+\end{figure}
 
+\newpage
 \section{Analytical Model}
 
 \subsection{Cantilever column}
@@ -310,11 +307,8 @@ Further, the outcomes from the experimental campaign will further improve the re
 \section{Future topics}
 
 \begin{itemize}
-	\item Concrete strength aging
-	\item Welding and fatigue in steel structures
-	\item Repair effects
-	\item Main shock - after shock series - repair series
-	\item Load history effects
-	\item Degree of damage effect on confined structures behavior
+	\item Strength degradation in corroded RC structures
+	\item Equivalent viscous damping in corroded RC structures
 	\item Selection of intensity measure (IM)
+	\item Degree of damage effect on confined structures behavior
 \end{itemize}
