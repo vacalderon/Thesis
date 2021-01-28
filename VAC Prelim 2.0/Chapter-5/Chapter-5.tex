@@ -1,9 +1,9 @@
 \chapter{Expected findings and schedule of work}
-Developing a design tool that provides resilient bridges. Therefore, this research will develop a displacement based design tool, that achieves that goal. In this chapter introduce the overall design goal. Then the direct displacement based design (DDBD) is presented and a proposed modifications to this design methodology are shown. Finally a plan of work is presented.
+Developing a design procedure that provides resilient bridges is one of the main goals of this study.This research will develop a displacement based design tool, that achieves that goal. This chapter introduces the overall design concept, then the direct displacement based design (DDBD) is presented and a proposed modifications to this design methodology, based on corroded RC physical tests results, are shown. Finally a schedule of work is presented.
 
 \section{Condition dependent performance based design concept}
 
-Current design methodologies in earthquake engineering follow the performance based design approach. This methodology has allowed engineers and stake holders of infrastructure projects to design and build structures that will achieve a performance goal during the service life of the structure. Implied in this approach is the assumption that the properties of the structure will remain in pristine conditions. It is clear from the existing structures that structures age, and from the information presented in the previous chapters, it is possible to account for this aging. Figure X.X schematically shows what would happen to structures designed to pristine conditions as it ages. This design would render a structure close to damage limit states if left alone, sooner than the assumed service life. On the other hand our design approach while it won't get rid of aging, it will allow for structures to remain well above a prescribed limit state before the structure reaches the end of it's service life. 
+Current design methodologies in earthquake engineering follow the performance based design philosophy. This methodology has allowed engineers and stake holders of infrastructure projects to design and build structures that will achieve a performance goal during the service life of the structure. Implied in this methodology is the assumption that the properties of the structure will remain unchanged, that is the structure will maintain it's pristine conditions properties. We know by observing existing structures in our environment, that structures age, and from the information presented in the previous chapters, it is possible to account for this aging to design resilient structures. Figure \ref{fig:Concept_CD-DDBD} schematically shows what would happen to structures designed to pristine conditions as it ages. Essentially, current designs would render a structure close to damage limit states if left alone, sooner than the assumed service life. On the other hand our design approach while it won't eliminate aging, aims to allow structures to remain well above a prescribed limit state before the structure reaches the end of it's service life. 
 
 \begin{figure}[htbp]
 	\centering
@@ -12,10 +12,22 @@ Current design methodologies in earthquake engineering follow the performance ba
 	\label{fig:Concept_CD-DDBD}
 \end{figure}
 
+One of the design procedures in performance  based design is the direct displacement based design methodology. This research will modify components of the DDBD procedure to account for aging of the structures. The following sections present a summary on the DDBD methodology, as well as proposed components of the DDBD methodology that could be modified to incorporate our findings.
+
 \section{Condition dependent direct displacement based design (CD-DDBD)}
 \subsection{Overview of direct displacement based design}
 
-While direct displacement based design is a well known procedure (see \cite{Priestley2007}, an overview of the methodology is presented here. DDBD consists of four fundamental steps 1) characterize the limit states of the structure, these limit states correspond to structural damage or prescribed maximum drifts. For example, in corroded RC circular columns, buckling of the corroded reinforcement is a limit states that precedes the strength degradation of the system. These limit states are then used to calculate the target displacements for the design. The goal of DDBD it to ensure that the structure reaches a desired performance by reaching the target displacement, for a given displacement spectra. 2) The design displacement spectra is used to determine the effective period ($T_e$) of the structure. The effective period is  the period of the structure at peak response. The effective period is calculated using the target displacement ($\Delta_d$) and the equivalent viscous damping. 3) The equivalent viscous damping ($\xi_e$) is calculated using equations developed for different structural systems as empirical equations. Equivalent viscous damping consists of two components the elastic damping ($\xi_e$), and the hysteretic damping ($\xi_{hyst}$). The hysteretic damping greatly depends on the structural system. 4) The effective stiffness can be calculated easily once the effective damping and effective period have been determined, and consequently the base shear can be calculated. 
+While direct displacement based design (DDBD) is a well known procedure (see \cite{Priestley2007}), an overview of the methodology is presented here for convenience for a SDOF system. DDBD consists of five fundamental steps 1) characterize the limit states of the structure, these limit states correspond to structural damage or prescribed maximum drifts. For instance, in corroded RC circular columns, buckling of the corroded reinforcement is a limit state that precedes the strength degradation of the system. These limit states are then used to calculate the target displacements for the design. The goal of DDBD it to ensure that the structure reaches a desired performance by reaching the target displacement, for a given displacement spectra.  2) The equivalent viscous damping ($\xi_e$) is calculated using equations developed for different structural systems. Equivalent viscous damping depends on the expected ductility at the target displacement, and the force displacement hysteresis shape of the structural system ($\xi_{hyst}$), for example a modernly detailed RC structure will have a "fatter" hysteresis shape than an older structures. 3)  the effective period ($T_e$) of the structure is determined by entering with the target displacement ($\Delta_d$) and intersecting the design displacement spectra at the level of damping found in step (2) . The effective period is  the period of the structure at peak response. 4) The effective stiffness is calculated using the dynamic properties of the equivalent structure, plugging in the values in \eref{eq:EffectiveStiffness}. 5) Finally, The base shear is calculated using the stiffness equation, as shown in \eref{eq:BaseShearDDBD}.
+
+\begin{equation}
+    K_e=\frac{4\pi^{2}m_{e}}{T_{e}}
+    \label{eq:EffectiveStiffness}
+\end{equation}
+
+\begin{equation}
+    V_{be}=K_{e}\Delta_{d}
+    \label{eq:BaseShearDDBD}
+\end{equation}
 
 \begin{figure}[htbp]
 	\centering
@@ -23,10 +35,10 @@ While direct displacement based design is a well known procedure (see \cite{Prie
 	\caption{Direct displacement based design method summary \cite{Priestley2007}}
 	\label{fig:DDBD_sum}
 \end{figure}
-\newpage
+%\newpage
 \subsection{Proposed design methodology}
 
-Recent studies conducted in corroded RC columns have shown that the performance of these systems is greatly decreased by aging condtions such as corrosion. These studies have shown that corroded structures have a lower strength, and displacement capacity. In addition, it appears that their hysteresis area is lower compared to a pristine condition RC column. This implies that their hysteretic damping component follows the same trend. 
+Recent studies conducted in corroded RC columns have shown that the performance of these systems is greatly decreased by aging conditions such as corrosion. These studies have shown that corroded structures have a lower strength, and displacement capacity. In addition, it appears that their hysteresis area is lower compared to a pristine condition RC column. This implies that their hysteretic damping component follows the same trend. 
 
 Using the Jacobsen damping to quantify the hysteretic damping, it can be seen that as the corrosion level increases, the hysteretic damping decreases too. Similarly as the axial load ration (ALR) in the columns increases, the hysteretic damping decreases. The scopes of these studies is limited, since the detailing used is not what is prescribed in modern structures, and the accelerated corrosion process used high levels of current density, further affecting the measured results. 
 
