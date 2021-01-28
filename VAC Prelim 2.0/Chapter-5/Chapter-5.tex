@@ -17,17 +17,7 @@ One of the design procedures in performance  based design is the direct displace
 \section{Condition dependent direct displacement based design (CD-DDBD)}
 \subsection{Overview of direct displacement based design}
 
-While direct displacement based design (DDBD) is a well known procedure (see \cite{Priestley2007}), an overview of the methodology is presented here for convenience for a SDOF system. DDBD consists of five fundamental steps 1) characterize the limit states of the structure, these limit states correspond to structural damage or prescribed maximum drifts. For instance, in corroded RC circular columns, buckling of the corroded reinforcement is a limit state that precedes the strength degradation of the system. These limit states are then used to calculate the target displacements for the design. The goal of DDBD it to ensure that the structure reaches a desired performance by reaching the target displacement, for a given displacement spectra.  2) The equivalent viscous damping ($\xi_e$) is calculated using equations developed for different structural systems. Equivalent viscous damping depends on the expected ductility at the target displacement, and the force displacement hysteresis shape of the structural system ($\xi_{hyst}$), for example a modernly detailed RC structure will have a "fatter" hysteresis shape than an older structures. 3)  the effective period ($T_e$) of the structure is determined by entering with the target displacement ($\Delta_d$) and intersecting the design displacement spectra at the level of damping found in step (2) . The effective period is  the period of the structure at peak response. 4) The effective stiffness is calculated using the dynamic properties of the equivalent structure, plugging in the values in \eref{eq:EffectiveStiffness}. 5) Finally, The base shear is calculated using the stiffness equation, as shown in \eref{eq:BaseShearDDBD}.
-
-\begin{equation}
-    K_e=\frac{4\pi^{2}m_{e}}{T_{e}}
-    \label{eq:EffectiveStiffness}
-\end{equation}
-
-\begin{equation}
-    V_{be}=K_{e}\Delta_{d}
-    \label{eq:BaseShearDDBD}
-\end{equation}
+While direct displacement based design (DDBD) is a well known procedure (see \cite{Priestley2007}), an overview of the methodology is presented here for convenience for a SDOF system. DDBD consists of five fundamental steps 1) characterize the limit states of the structure, these limit states correspond to structural damage or prescribed maximum drifts. For instance, in corroded RC circular columns, buckling of the corroded reinforcement is a limit state that precedes the strength degradation of the system. These limit states are then used to calculate the target displacements for the design. The goal of DDBD it to ensure that the structure reaches a desired performance by reaching the target displacement, for a given displacement spectra.  2) The equivalent viscous damping ($\xi_e$) is calculated using equations developed for different structural systems. Equivalent viscous damping depends on the expected ductility at the target displacement, and the force displacement hysteresis shape of the structural system ($\xi_{hyst}$), for example a modernly detailed RC structure will have a "fatter" hysteresis shape than an older structures. 3)  the effective period ($T_e$) of the structure is determined by entering with the target displacement ($\Delta_d$) and intersecting the design displacement spectra at the level of damping found in step (2) . The effective period is  the period of the structure at peak response. 4) The effective stiffness is calculated using the dynamic properties of the equivalent structure, plugging in the values in $K_e=\frac{4\pi^{2}m_{e}}{T_{e}}$. 5) Finally, The base shear is calculated using the stiffness equation, calculated as $V_{be}=K_{e}\Delta_{d}$.
 
 \begin{figure}[htbp]
 	\centering
@@ -35,39 +25,46 @@ While direct displacement based design (DDBD) is a well known procedure (see \ci
 	\caption{Direct displacement based design method summary \cite{Priestley2007}}
 	\label{fig:DDBD_sum}
 \end{figure}
-%\newpage
+\newpage
+
 \subsection{Proposed design methodology}
 
-Recent studies conducted in corroded RC columns have shown that the performance of these systems is greatly decreased by aging conditions such as corrosion. These studies have shown that corroded structures have a lower strength, and displacement capacity. In addition, it appears that their hysteresis area is lower compared to a pristine condition RC column. This implies that their hysteretic damping component follows the same trend. 
+Recent studies conducted in corroded RC columns have shown that the performance of these systems is greatly decreased the corrosion. These studies have shown that corroded structures have a lower strength, and displacement capacity as shown below. We hypothesize that the hysteresis area of the force displacement is lower in the corroded RC structure when compared to its pristine counterpart. For the DDBD procedure, this implies that the equivalent damping component follows the same trend. An analysis of the results of corroded structure is further expanded in this section. 
 
-Using the Jacobsen damping to quantify the hysteretic damping, it can be seen that as the corrosion level increases, the hysteretic damping decreases too. Similarly as the axial load ration (ALR) in the columns increases, the hysteretic damping decreases. The scopes of these studies is limited, since the detailing used is not what is prescribed in modern structures, and the accelerated corrosion process used high levels of current density, further affecting the measured results. 
+\textbf{Jacobsen damping in corroded RC structure physical tests.}
+
+Figure \ref{fig:MedaJacobsen} shows teh force-displacement relationship from corred, and pristine condtion RC structures from a study performed by Meda et al \cite{Meda2014}. Jacobse damping used to to quantify the hysteretic damping, defined as shown in \eref{eq:JacobsenEquation}. For these structures, $\xi_{CL=0}=31.4\%$, and for the corroded structure $\xi_{CL=0}=24.2\%$, which corresponds to a reduction of $23\%$. Performing the same analysis to the results from a similar study from Ma et al \cite{Ma2012} a simmilar trend is observed.
 
 \begin{equation}
     \xi=\frac{A_h}{2*\pi*F_m*\Delta_m}
     \label{eq:JacobsenEquation}
 \end{equation}
 
+Plotting the Jacobsen damping for these tests in function of the corrosion level (CL), and the level of axial load ratio ($ALR=\frac{P}{A_{g}f'_{c}}$), shown in \fref{fig:JacobsenResults}. Our analysis of these studies show that as the corrosion level, and the axial load ratio in the columns increases, the hysteretic damping decreases. While the scope of their studies were limited, due to non modern detailing used, and the accelerated corrosion process used high levels of current density, they provide an insight at the consequences of corrosion. 
+
 \begin{figure}[htbp]
 	\centering
     \includegraphics[width=0.75\textwidth]{VAC Prelim 2.0/Chapter-5/figs/Meda_HystereticArea_01.png}
 	\caption{Hysteretic energy dissipation in pristine and corroded RC from Meda et al \cite{Meda2014}}
-	\label{fig:DDBD_sum}
+	\label{fig:MedaJacobsen}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
     \includegraphics[width=0.75\textwidth]{VAC Prelim 2.0/Chapter-5/figs/Ma_HystereticArea_01.png}
 	\caption{Hysteretic energy dissipation in pristine and corroded RC from Ma et al \cite{Meda2014}}
-	\label{fig:DDBD_sum}
+	\label{fig:MaJacobsen}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
     \includegraphics[width=0.75\textwidth]{VAC Prelim 2.0/Chapter-5/figs/HystereticDampingLitResults.png}
-	\caption{Hysteretic Jacobsen damping from Ma et al \cite{Ma2012}, and Meda et al \cite{Meda2014}}
-	\label{fig:DDBD_sum}
+	\caption{Jacobsen hysteretic damping from Ma et al \cite{Ma2012}, and Meda et al \cite{Meda2014}}
+	\label{fig:JacobsenResults}
 \end{figure}
 
-In this study we are proposing to evaluate changes in the hysteretic damping used in corroded RC structures, as well as changes in the design displacement since there is limit states such as buckled bar can occur at a sooner displacement compared to a pristine condition design. Furthermore in some cases the design could be controlled by shear due to the deterioration of the entire system.
+\textbf{Proposed changes DDBD}
 
-Going back to the DDBD procedure, we are proposing to include the effects of aging in two different inputs. 1) The design displacement is calculated using the limit states that relate to corrosion, and 2) the equations used to determine the equivalent damping can be modified with a factor that relates to corrosion.
+Corrosion greatly impacts the hysteretic damping of corroded RC structures, and changes in the limit states of corroded rebars as a results of the epxerimental program outcomes. Furthermore in some cases the design could be controlled by shear due to the deterioration of the entire system. Therefore, we are proposing to include the effects of aging in two different inputs in DDBD by changing 1) The design displacement is calculated using the limit states that relate to corrosion, and 2) the equations used to determine the equivalent damping can be modified with a factor that relates to corrosion.
+
+\section{Schedule of work}
