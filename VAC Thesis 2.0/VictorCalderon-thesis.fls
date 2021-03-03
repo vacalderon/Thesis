@@ -1,0 +1,401 @@
+PWD C:/Users/vacalder/Documents/TimeDependent_PBEE/Thesis/VAC Thesis 1.0
+INPUT C:/Users/vacalder/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT VictorCalderon-thesis.tex
+OUTPUT VictorCalderon-thesis.log
+INPUT ncsuthesis.cls
+INPUT ncsuthesis.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/book.cls
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/bk11.clo
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/bk11.clo
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/setspace/setspace.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/setspace/setspace.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/hyphenat/hyphenat.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/hyphenat/hyphenat.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/nolbreaks/nolbreaks.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/nolbreaks/nolbreaks.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/sectsty/sectsty.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/sectsty/sectsty.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/tocloft/tocloft.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/tocloft/tocloft.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/tocbibind/tocbibind.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/tocbibind/tocbibind.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/calc.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifpdf.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifvtex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/geometry/geometry.cfg
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/pdflscape.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/lscape.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/lscape.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/rotating.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics/rotating.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/afterpage.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/afterpage.sty
+INPUT changepage.sty
+INPUT changepage.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/caption/caption3.sty
+INPUT totcount.sty
+INPUT totcount.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/booktabs/booktabs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/booktabs/booktabs.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/textcomp.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1enc.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/lipsum/lipsum.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/lipsum/lipsum.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/subfig/subfig.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/subfig/subfig.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/pdftexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/infwarerr.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ifluatex.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/ltxcmds.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/etoolbox/etoolbox.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvsetkeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/etexcmds.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/logreq/logreq.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/url/url.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/xstring/xstring.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/xstring/xstring.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-dm.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-dm.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-compat.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-compat.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-bibtex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-bibtex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-natbib.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/blx-natbib.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/bbx/alphabetic.bbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/bbx/alphabetic.bbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/bbx/standard.bbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/bbx/standard.bbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/cbx/alphabetic.cbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/cbx/alphabetic.cbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/biblatex.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/german.lbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/dcolumn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/dcolumn.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/array.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/bm.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/bm.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/cancel/cancel.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/cancel/cancel.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/verbatim.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/tools/verbatim.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/preprint/balance.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/preprint/balance.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/lastpage/lastpage.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/lastpage/lastpage.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/abbrevs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/abbrevs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/moredefs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/moredefs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/slemph.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/slemph.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/slemph.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/slemph.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/abbrevs.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/frankenstein/abbrevs.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/ltxmisc/relsize.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/ltxmisc/relsize.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/units/units.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/units/units.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/units/nicefrac.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/units/nicefrac.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/easylist/easylist.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/easylist/easylist.sty
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/adobe/zapfding/pzdr.tfm
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/xcolor/xcolor.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/colortbl/colortbl.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/titlesec/titlesec.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/titlesec/titlesec.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/placeins/placeins.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/placeins/placeins.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/frontendlayer/tikz.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/frontendlayer/tikz.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgf.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgf.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfrcs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfrcs.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-common.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-common-lists.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfutil-latex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everyshi.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfrcs.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgfcore.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/basiclayer/pgfcore.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/systemlayer/pgfsys.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/systemlayer/pgfsys.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgf.cfg
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcore.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathcalc.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathutil.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathparser.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.random.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.base.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.round.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmathfloat.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgffor.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgffor.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/utilities/pgfkeys.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgfkeys.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/math/pgfmath.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/pgf/math/pgfmath.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgffor.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/utilities/pgffor.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/math/pgfmath.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/biblatex/lbx/english.lbx
+INPUT VictorCalderon-thesis.aux
+INPUT VictorCalderon-thesis.aux
+INPUT front.aux
+INPUT front.aux
+INPUT Chapter-1/Chapter-1.aux
+INPUT Chapter-1/Chapter-1.aux
+INPUT Appendix-A/Appendix-A.aux
+INPUT Appendix-A/Appendix-A.aux
+OUTPUT VictorCalderon-thesis.aux
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/base/ts1cmr.fd
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Program Files/MiKTeX 2.9/tex/generic/oberdiek/kvdefinekeys.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/ragged2e.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/ragged2e.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everysel.sty
+INPUT C:/Users/vacalder/AppData/Roaming/MiKTeX/2.9/tex/latex/ms/everysel.sty
+OUTPUT VictorCalderon-thesis-blx.bib
+INPUT VictorCalderon-thesis.bbl
+INPUT VictorCalderon-thesis.bbl
+INPUT VictorCalderon-thesis.bbl
+OUTPUT front.aux
+INPUT front.tex
+INPUT front.tex
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+OUTPUT VictorCalderon-thesis.pdf
+INPUT C:/Users/vacalder/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/jknappen/ec/tcrm1095.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmmib10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
+INPUT VictorCalderon-thesis.toc
+INPUT VictorCalderon-thesis.toc
+OUTPUT VictorCalderon-thesis.toc
+INPUT VictorCalderon-thesis.lot
+INPUT VictorCalderon-thesis.lot
+OUTPUT VictorCalderon-thesis.lot
+INPUT VictorCalderon-thesis.lof
+INPUT VictorCalderon-thesis.lof
+OUTPUT VictorCalderon-thesis.lof
+OUTPUT Chapter-1/Chapter-1.aux
+INPUT Chapter-1/Chapter-1.tex
+INPUT Chapter-1/Chapter-1.tex
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr17.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT Chapter-1/figs/dcvsicor.pdf
+INPUT ./Chapter-1/figs/dcvsicor.pdf
+INPUT ./Chapter-1/figs/dcvsicor.pdf
+INPUT ./Chapter-1/figs/dcvsicor.pdf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+INPUT Chapter-1/figs/DiameterDecrease.pdf
+INPUT ./Chapter-1/figs/DiameterDecrease.pdf
+INPUT ./Chapter-1/figs/DiameterDecrease.pdf
+INPUT ./Chapter-1/figs/DiameterDecrease.pdf
+INPUT Chapter-1/figs/CorrosionLevel.pdf
+INPUT ./Chapter-1/figs/CorrosionLevel.pdf
+INPUT ./Chapter-1/figs/CorrosionLevel.pdf
+INPUT ./Chapter-1/figs/CorrosionLevel.pdf
+INPUT Chapter-1/figs/StrainAging_TimeDependent.pdf
+INPUT ./Chapter-1/figs/StrainAging_TimeDependent.pdf
+INPUT ./Chapter-1/figs/StrainAging_TimeDependent.pdf
+INPUT ./Chapter-1/figs/StrainAging_TimeDependent.pdf
+INPUT C:/Program Files/MiKTeX 2.9/fonts/tfm/public/cm/cmsl10.tfm
+OUTPUT Appendix-A/Appendix-A.aux
+INPUT Appendix-A/Appendix-A.tex
+INPUT Appendix-A/Appendix-A.tex
+INPUT Chapter-2/figs/threed.pdf
+INPUT ./Chapter-2/figs/threed.pdf
+INPUT ./Chapter-2/figs/threed.pdf
+INPUT ./Chapter-2/figs/threed.pdf
+INPUT VictorCalderon-thesis.aux
+INPUT front.aux
+INPUT front.aux
+INPUT Chapter-1/Chapter-1.aux
+INPUT Chapter-1/Chapter-1.aux
+INPUT Appendix-A/Appendix-A.aux
+INPUT Appendix-A/Appendix-A.aux
+INPUT VictorCalderon-thesis.run.xml
+OUTPUT VictorCalderon-thesis.run.xml
+INPUT C:/Users/vacalder/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk
+INPUT C:/Users/vacalder/AppData/Local/MiKTeX/2.9/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb

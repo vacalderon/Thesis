@@ -1,0 +1,41 @@
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{LIST OF TABLES}{vi}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{LIST OF FIGURES}{vii}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}INTRODUCTION}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Math enviroments}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1.1}Equations}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}TABLES, FIGURES AND MATRICES}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Tables}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.1.0.0.1}Filler Text}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Figures}{7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {2.2.0.0.1}Filler Text}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Matrices}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}LOREM IPSUM}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {3.0.0.0.1}Filler Text}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{{\uppercase {Bibliography}}}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{APPENDIX}{19}
+\defcounter {refsection}{0}\relax 
+ \renewcommand {\cftchappresnum }{Appendix } \renewcommand {\cftchapnumwidth }{\appendixwidth } \renewcommand {\cftchapfont }{\cftsecfont } \setlength {\cftbeforechapskip }{\cftbeforesecskip } \setlength {\cftchapindent }{\cftsecindent } \renewcommand {\cftchappagefont }{\cftchapfont } \setlength {\cftsecindent }{\cftsubsecindent } \addtolength {\cftsubsecindent }{\cftsecnumwidth } \setcounter {tocdepth}{\c@ncsu@appendixtocdepth } 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}LOREM IPSUM}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}A First Section}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {A.1.0.0.1}Filler Text}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}A Second Section}{23}
