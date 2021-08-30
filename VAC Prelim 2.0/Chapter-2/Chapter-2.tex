@@ -6,7 +6,7 @@ In this chapter, the current knowledge of aging of structures, damage indexes, c
 
 \section{Corrosion}
 
-Corrosion is one of the main aging effects in RC structures. In RC structures after the concrete is cast a protective layer forms on the surface of the reinforcing steel, this process is known as passivation of the reinforcing steel. However, under conditions, such as chloride attack, the protective film can be broken, this process is known as depassivation. The depassivation process leads to corrosion. Corrosion reduces the area of steel, and also modifies the strength of the reinforcing steel. If corrosion degrades the structural performance of the reinforcing steel it will certainly degrade the overall strength of the system. The incidence of corrosion in RC structures in earthquake prone areas could trigger earliest onset of limit states, such as bar buckling or fractures (compared to pristine conditions). Therefore, it is important to incorporate the  mechanics of corrosion in this condition dependent performance based seismic design. The general chloride attack corrosion process can be explained using three main parameters such as (1) time to initiation of corrosion, (2) corrosion growth in reinforcing steel, and (3) the mechanical properties of corroded reinforcing steel. Figure \ref{fig:corr1} schematically shows the corrosion process.
+Corrosion is one of the main aging effects in RC structures. In RC structures after the concrete is cast a protective layer forms on the surface of the reinforcing steel, this process is known as passivation of the reinforcing steel. However, under conditions, such as chloride attack, the protective film can be broken, this process is known as depassivation. The depassivation process leads to corrosion. Corrosion reduces the area of steel, and also modifies the strength of the reinforcing steel. If corrosion degrades the structural performance of the reinforcing steel it will certainly degrade the overall strength of the system. The incidence of corrosion in RC structures in earthquake prone areas could trigger earlier onset of limit states, such as bar buckling or fracture (compared to pristine conditions). Therefore, it is important to incorporate the mechanics of corrosion in condition dependent performance based seismic design. The general chloride attack corrosion process can be explained using three main parameters such as (1) time to initiation of corrosion, (2) corrosion growth in reinforcing steel, and (3) the mechanical properties of corroded reinforcing steel. Figure \ref{fig:corr1} schematically shows the corrosion process.
 
 \begin{figure}[htbp]
 \centering
@@ -48,7 +48,7 @@ Vu et al developed an empirical model to evaluate the corrosion rate \cite{Vu200
 In addition, Vu et al  further improved the model of corrosion growth in reinforcing steel developed by Stewart et al \cite{Vu2000}\cite{Stewart1998}\cite{Choe2008}\cite{Ghosh2010}. Their proposed model describes the reduction in diameter of reinforcing steel ($d_{corr}(t)$ as a function of time described in \eref{eq.CorrosionEvolution}. Figure \ref{fig:DiameterEvolution} shows this model applied to a rebar with an initial diameter ($d_{bi}$) of 3/4 inch, a concrete cover of 1-1/2”, and water to cement ratios ranging from 0.36-0.50.
 
 \begin{equation}
-  d_{corr}(t)=d_{bi}-\frac{1.0508(1-w/c)}{d_c} (t-t_{corr})^{0.71}
+  d_{corr}(t)=d_{bi}-\frac{1.0508(1-w/c)^{-1.64}}{d_c} (t-t_{corr})^{0.71}
   \label{eq.CorrosionEvolution}
 \end{equation} 
 
@@ -100,7 +100,7 @@ Recent studies \cite{Ma2012}, \cite{Meda2014} and \cite{Yang2016} have been deve
 	\label{fig:Meda_RC_CorrosionProc}
 \end{figure}
 
-The corroded RC columns where then subjected to a quasi-static loading protocol. The resulting force displacement response of one of these experiments is shown in \fref{fig:Meda_FD}. It can be seen that there is a reduction of he strength and displacement capacity of the system. 
+The corroded RC columns were then subjected to a quasi-static loading protocol. The resulting force displacement response of one of these experiments is shown in \fref{fig:Meda_FD}. It can be seen that there is a reduction of he strength and displacement capacity of the system. 
 
 \begin{figure}[htbp]
 	\centering
@@ -173,7 +173,7 @@ It is proposed to limit the increase in yield strength obtained at 50 days, whic
 \newpage
 
 \section{Damage Indexes}
-The use of damage indexes has dominated the research related to damage accumulation. While these methods are practical, in the sense that they can be easily to deploy in probabilistic analyses, and appear to have a logical basis, they are based on empirical relationships and need to be correlated for each structure case to be of any significance. An example is shown in this section demonstrate this inconsistency.  The literature review presented here is to understand what has been done previously to study the effect of damage accumulation, however it is the purpose of this research that strain limit states are an improved measure of damage over empirical methods.
+The use of damage indexes has dominated the research related to damage accumulation. While these methods are practical, in the sense that they can be easily deployed in probabilistic analyses, and appear to have a logical basis, they are based on empirical relationships and need to be correlated for each structure case to be of any significance. An example is shown in this section demonstrate this inconsistency. The literature review presented here is to understand what has been done previously to study the effect of damage accumulation, however it is the purpose of this research that strain limit states are an improved measure of damage over empirical methods.
 
 The effect of cumulative damage in structures was studied by Park and Ang (1985) \cite{Young-JiPark1985} in their study the authors proposed the damage index as shown in \eref{eq.DamageIndex}. The damage index was used as a measure to quantify damage in terms of the maximum experienced earthquake and the absorbed hysteretic energy.
 
