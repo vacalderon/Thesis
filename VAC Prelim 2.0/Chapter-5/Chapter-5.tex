@@ -1,9 +1,9 @@
 \chapter{Expected findings and schedule of work}
-Developing a design procedure that provides resilient bridges is one of the main goals of this study.This research will develop a displacement based design tool, that achieves that goal. This chapter firts introduces the overall design concept; then the direct displacement based design (DDBD) is reviewed and proposed modifications to this design methodology, based on corroded RC physical tests results, are shown. Finally a schedule of work is presented.
+Developing a design procedure that provides resilient bridges is one of the main goals of this study. This research will develop a displacement based design tool that achieves that goal. This chapter first introduces the overall design concept; then the direct displacement based design (DDBD) is reviewed and proposed modifications to this design methodology, based on corroded RC physical tests results, are shown. Finally a schedule of work is presented.
 
 \section{Condition dependent performance based design concept}
 
-Current design methodologies in earthquake engineering follow the performance based design philosophy. This methodology has allowed engineers and stake holders of infrastructure projects to design and build structures that will achieve a performance goal during the service life of the structure. Implied in this methodology is the assumption that the properties of the structure will remain unchanged, specifically, that the structure will maintain its pristine conditions properties. We know by observing existing structures in our environment that structures age, and from the information presented in the previous chapters, it is possible to account for this aging when designing resilient structures.  Figure \ref{fig:Concept_CD-DDBD}schematically shows what would happen to structures designed to pristine conditions as they age. Essentially, current designs would render a structure close to damage limit states if left alone, sooner than the assumed service life. On the other hand, while our design approach won’t eliminate aging, it aims to allow structures to remain well above a prescribed limit state before the structures reach the end of their service life. 
+Current design methodologies in earthquake engineering follow the performance based design philosophy. This methodology has allowed engineers and stake holders of infrastructure projects to design and build structures that will achieve a performance goal during the service life of the structure. Implied in this methodology is the assumption that the properties of the structure will remain unchanged, specifically, that the structure will maintain its pristine condition properties. We know by observing existing structures in our environment that structures age, and from the information presented in the previous chapters, it is possible to account for this aging when designing resilient structures. Figure \ref{fig:Concept_CD-DDBD} schematically shows what would happen to structures designed to pristine conditions as they age. Essentially, current designs would render a structure close to damage limit states if left alone, sooner than the assumed service life. On the other hand, while our design approach won’t eliminate aging, it aims to allow structures to remain well above a prescribed limit state before the structures reach the end of their service life. 
 
 \begin{figure}[htbp]
 	\centering
@@ -40,7 +40,7 @@ Figure \ref{fig:MedaJacobsen} shows the force-displacement relationship between 
     \label{eq:JacobsenEquation}
 \end{equation}
 
-Figure \ref{fig:JacobsenResults} shows a plot of the Jacobsen damping for these tests in function of the corrosion level (CL), and the level of axial load ratio ($ALR=\frac{P}{A_{g}f'_{c}}$) . Our analysis of these studies shows that as the corrosion level and the axial load ratio in the columns increases, the hysteretic damping decreases. The scope of their studies was limited due to the non-modern detailing used and due to the fact that their accelerated corrosion process used high levels of current density. However, they provide insight to the consequences of corrosion in hysteretic damping. 
+Figure \ref{fig:JacobsenResults} shows a plot of the Jacobsen damping for these tests in function of the corrosion level (CL), and the level of axial load ratio ($ALR=\frac{P}{A_{g}f'_{c}}$) . Our analysis of these studies shows that as the corrosion level and the axial load ratio in the columns increases, the hysteretic damping decreases. The scope of their studies was limited due to the non-modern detailing used and their accelerated corrosion process used high levels of current density. However, they provide insight to the consequences of corrosion in hysteretic damping. 
 
 \begin{figure}[htbp]
 	\centering
@@ -63,15 +63,33 @@ Figure \ref{fig:JacobsenResults} shows a plot of the Jacobsen damping for these 
 	\label{fig:JacobsenResults}
 \end{figure}
 
-\textbf{Proposed changes DDBD}
+This section showed a summary on the hysteretic damping from physical tests on corroded RC columns. This research will continue to evaluate other tests that might be available in the literature, and possible tests performed on naturally aged RC members or assessment of existing corroded structures.
+
+\textbf{Proposed implementation into the DDBD methodology}
 
 Corrosion greatly impacts the hysteretic damping of corroded RC structures and changes in the limit states of corroded rebars, as a result of the experimental program outcomes. Furthermore, in some cases the design could be controlled by shear due to the deterioration of the entire system. Therefore, we propose including the effects of aging in two different inputs in DDBD by changing 1) the design displacement, which is calculated using the limit states that relate to corrosion, and 2) the equations used to determine the equivalent damping, which can be modified with a factor that relates to corrosion.
 \newpage
 \section{Schedule of work}
-
+Figure \ref{fig:Schedule} shows the planned schedule of work of this study. The analytical and experimental components of this research will continue to be developed in parallel, as well as the publication of two papers which are described later. 
 \begin{figure}[htbp]
 	\centering
     \includegraphics[width=1.0\textwidth]{VAC Prelim 2.0/Chapter-5/figs/Plan of Research.pdf}
-	\caption{Schedule of work for this study}
+	\caption{Schedule of work for research}
 	\label{fig:Schedule}
 \end{figure}
+
+\section{Expected publications}
+
+Two publications are expected in this study. Each of these journal articles are described below.
+
+\subsection{Critical bending strain in corroded rebars}
+This paper will present the results obtained from the corroded BBT, and tension tests. They will provide the earthquake engineering community with critical bending strains for corroded rebars, which will be used to define collapse limit states to asses or design new structures. In addition, this paper aims at showing improved ways to obtain corroded rebars through electrolytic accelerated corrosion that considers the development of the passive layer, this methodology will be used in future studies to adequately assess the impact of corrosion in large scale tests of corroded RC members, without drastically damaging the concrete.
+
+\subsection{Condition dependent direct displacement based design method}
+This article will aim at showing the earthquake engineering design communities how to include the effects of aging into the design of new resilient structures. This study will incorporate the results obtained from the analytical program, and the results from the BBT tests. The contributions from this study will spark new research on the design of resilient structures.
+
+\section{Implications of this study}
+
+A recent document from the National Institute of Standards and Technology (NIST) \cite{NationalInstituteofStandarsandTechnology2021} has determined that improving the performance of lifeline infrastructure systems, such as bridges, is important to achieving the post earthquake re occupancy and functional time recovery. It is our vision that the results from this research will help the engineering community achieving this goal by providing a design that will be able to perform at a desired level of performance even as the structure ages. These designs will translate in resilient structures that will remain functional in a post-earthquake scenario. 
+
+Furthermore, we expect that our experimental program will light the way to model corroded RC structures for large scale test, using the accelerated corrosion process developed in this research. The accelerated corrosion used in this research renders a more realistic corrosion scenario. Thus if large scale test on corroded RC members uses the methodology presented in this study, the results obtained will be more reliable, and will further improve our understanding and design of aging structures.
