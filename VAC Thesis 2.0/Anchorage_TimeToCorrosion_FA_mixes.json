@@ -1,0 +1,547 @@
+{
+  "projectData": {
+    "title": "Anchorage Try",
+    "description": "Default settings for a new project",
+    "doneByName": "Analyst",
+    "date": "11/02/2021",
+    "typeOfStructure": "circular columns (2-D)",
+    "baseUnits": "US units",
+    "concentrationUnits": "% wt. conc.",
+    "structureDimensions": {
+      "overallThickness": 48,
+      "trueThickness": 48,
+      "clearCover": 3,
+      "area": 32
+    },
+    "tradeNames": "Generic product names",
+    "baseYear": 2018,
+    "studyPeriod": 150,
+    "inflationRate": 0.018,
+    "realDiscountRate": 0.02,
+    "exposureLocale": {
+      "useThis": true,
+      "location": "Alaska",
+      "subLocation": "ANCHORAGE",
+      "exposure": "Urban highway bridges"
+    },
+    "temperatureHistory": {
+      "temps": [
+        {
+          "calendarMonth": 0.5,
+          "temperature": -9.5
+        },
+        {
+          "calendarMonth": 1.5,
+          "temperature": -7.4
+        },
+        {
+          "calendarMonth": 2.5,
+          "temperature": -3.5
+        },
+        {
+          "calendarMonth": 3.5,
+          "temperature": 2.1
+        },
+        {
+          "calendarMonth": 4.5,
+          "temperature": 8.1
+        },
+        {
+          "calendarMonth": 5.5,
+          "temperature": 12.4
+        },
+        {
+          "calendarMonth": 6.5,
+          "temperature": 14.7
+        },
+        {
+          "calendarMonth": 7.5,
+          "temperature": 13.5
+        },
+        {
+          "calendarMonth": 8.5,
+          "temperature": 9.1
+        },
+        {
+          "calendarMonth": 9.5,
+          "temperature": 1.4
+        },
+        {
+          "calendarMonth": 10.5,
+          "temperature": -6.0
+        },
+        {
+          "calendarMonth": 11.5,
+          "temperature": -8.7
+        }
+      ]
+    },
+    "exposureConditions": {
+      "setManually": false,
+      "c1556Sets": [],
+      "useC1556": false,
+      "maxSurfaceConcentration": 0.68,
+      "timeToBuildUp": 160.0,
+      "ageAtFirstExposure": 28,
+      "monthOfFirstExposure": 0.0
+    },
+    "alts": {
+      "alts": [
+        {
+          "alternative": {
+            "name": "Base case",
+            "concreteMixDesign": {
+              "detailedBarrier": {
+                "useDefault": true,
+                "barrierName": "Sealer",
+                "areaCost": 0.0,
+                "initialEfficiency": 0.9,
+                "ageAtFailure": 5,
+                "reapplyTime": 0
+              },
+              "rebarType": {
+                "type": "Black Steel",
+                "percentOfTotal": 0.02,
+                "yearsFromInitToFailure": 6
+              },
+              "waterCementRatio": 0.40,
+              "percentSlag": 0.0,
+              "percentClassFFlyAsh": 0,
+              "percentSilicaFume": 0.0,
+              "serviceLifeInYears": 82.6666666666666714036182384006679058074951171875,
+              "hydration": 25.0,
+              "valuesHaveChanged": false,
+              "alpha": 0.0,
+              "beta": 0.0,
+              "d28": 7.943282347242789E-12,
+              "dRef": 7.943282347242789E-12,
+              "ct": 0.05,
+              "m": 0.2,
+              "initiationInYears": 76.66666666666667,
+              "propagationInYears": 6.0,
+              "inhibitor": "\u003cnone\u003e",
+              "isUserDefineable": false
+            },
+            "description": "A project that uses the normal mix of concrete",
+            "userDefinedMixCost": false,
+            "userMixCost": 0,
+            "costs": [
+              {
+                "costNumber": 0,
+                "costType": "indep.",
+                "costPrior": "0",
+                "costName": "Construction cost",
+                "quantity": 14.8934760722599097704232917749322950839996337890625,
+                "unitOfMeasure": "cub. yd",
+                "unitCost": 147.742580679383735287046874873340129852294921875,
+                "totalCost": 2200.40059020233093178831040859222412109375,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 1,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Repair cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 37.16121588702990408137338818050920963287353515625,
+                "totalCost": 1494.341156213215754178236238658428192138671875,
+                "costTiming": {
+                  "startDate": "16",
+                  "endDate": "150",
+                  "frequency": "10"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "alternative": {
+            "name": "Alternative 1",
+            "concreteMixDesign": {
+              "detailedBarrier": {
+                "useDefault": true,
+                "barrierName": "Sealer",
+                "areaCost": 0.0,
+                "initialEfficiency": 0.9,
+                "ageAtFailure": 5,
+                "reapplyTime": 0
+              },
+              "rebarType": {
+                "type": "Black Steel",
+                "percentOfTotal": 0.012,
+                "yearsFromInitToFailure": 6
+              },
+              "waterCementRatio": 0.4,
+              "percentSlag": 0.0,
+              "percentClassFFlyAsh": 0.05,
+              "percentSilicaFume": 0.0,
+              "serviceLifeInYears": 92.25,
+              "hydration": 25.0,
+              "valuesHaveChanged": false,
+              "alpha": 0.0,
+              "beta": 0.0,
+              "d28": 7.943282347242789E-12,
+              "dRef": 7.943282347242789E-12,
+              "ct": 0.05,
+              "m": 0.24000000000000002,
+              "initiationInYears": 86.25,
+              "propagationInYears": 6.0,
+              "inhibitor": "\u003cnone\u003e",
+              "isUserDefineable": false
+            },
+            "description": "A project that uses the a new mix of concrete",
+            "userDefinedMixCost": false,
+            "userMixCost": 0,
+            "costs": [
+              {
+                "costNumber": 0,
+                "costType": "indep.",
+                "costPrior": "0",
+                "costName": "Construction cost",
+                "quantity": 14.8934760722599097704232917749322950839996337890625,
+                "unitOfMeasure": "cub. yd",
+                "unitCost": 147.742580679383735287046874873340129852294921875,
+                "totalCost": 2200.40059020233093178831040859222412109375,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 1,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Repair cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 37.16121588702990408137338818050920963287353515625,
+                "totalCost": 1494.341156213215754178236238658428192138671875,
+                "costTiming": {
+                  "startDate": "18",
+                  "endDate": "150",
+                  "frequency": "10"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "alternative": {
+            "name": "Alternative 2",
+            "concreteMixDesign": {
+              "detailedBarrier": {
+                "useDefault": true,
+                "barrierName": "Sealer",
+                "areaCost": 0.0,
+                "initialEfficiency": 0.9,
+                "ageAtFailure": 5,
+                "reapplyTime": 0
+              },
+              "rebarType": {
+                "type": "Black Steel",
+                "percentOfTotal": 0.012,
+                "yearsFromInitToFailure": 6
+              },
+              "waterCementRatio": 0.40,
+              "percentSlag": 0.0,
+              "percentClassFFlyAsh": 0.1,
+              "percentSilicaFume": 0.0,
+              "serviceLifeInYears": 103.4166666666666714036182384006679058074951171875,
+              "hydration": 25.0,
+              "valuesHaveChanged": false,
+              "alpha": 0.0,
+              "beta": 0.0,
+              "d28": 7.943282347242789E-12,
+              "dRef": 7.943282347242789E-12,
+              "ct": 0.05,
+              "m": 0.28,
+              "initiationInYears": 97.41666666666667,
+              "propagationInYears": 6.0,
+              "inhibitor": "\u003cnone\u003e",
+              "isUserDefineable": false
+            },
+            "description": "10% FA",
+            "userDefinedMixCost": false,
+            "userMixCost": 0,
+            "costs": [
+              {
+                "costNumber": 0,
+                "costType": "indep.",
+                "costPrior": "0",
+                "costName": "Construction cost",
+                "quantity": 14.8934760722599097704232917749322950839996337890625,
+                "unitOfMeasure": "cub. yd",
+                "unitCost": 147.742580679383735287046874873340129852294921875,
+                "totalCost": 2200.40059020233093178831040859222412109375,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 1,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Repair cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 37.16121588702990408137338818050920963287353515625,
+                "totalCost": 1494.341156213215754178236238658428192138671875,
+                "costTiming": {
+                  "startDate": "20",
+                  "endDate": "150",
+                  "frequency": "10"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "alternative": {
+            "name": "Alternative 3",
+            "concreteMixDesign": {
+              "detailedBarrier": {
+                "useDefault": true,
+                "barrierName": "Sealer",
+                "areaCost": 0.0,
+                "initialEfficiency": 0.9,
+                "ageAtFailure": 5,
+                "reapplyTime": 0
+              },
+              "rebarType": {
+                "type": "Black Steel",
+                "percentOfTotal": 0.012,
+                "yearsFromInitToFailure": 6
+              },
+              "waterCementRatio": 0.4,
+              "percentSlag": 0.0,
+              "percentClassFFlyAsh": 0.15,
+              "percentSilicaFume": 0.0,
+              "serviceLifeInYears": 116.5,
+              "hydration": 25.0,
+              "valuesHaveChanged": false,
+              "alpha": 0.0,
+              "beta": 0.0,
+              "d28": 7.943282347242789E-12,
+              "dRef": 7.943282347242789E-12,
+              "ct": 0.05,
+              "m": 0.32,
+              "initiationInYears": 110.5,
+              "propagationInYears": 6.0,
+              "inhibitor": "\u003cnone\u003e",
+              "isUserDefineable": false
+            },
+            "description": "15% FA",
+            "userDefinedMixCost": false,
+            "userMixCost": 0,
+            "costs": [
+              {
+                "costNumber": 0,
+                "costType": "indep.",
+                "costPrior": "0",
+                "costName": "Construction cost",
+                "quantity": 14.8934760722599097704232917749322950839996337890625,
+                "unitOfMeasure": "cub. yd",
+                "unitCost": 147.742580679383735287046874873340129852294921875,
+                "totalCost": 2200.40059020233093178831040859222412109375,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 1,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Repair cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 37.16121588702990408137338818050920963287353515625,
+                "totalCost": 1494.341156213215754178236238658428192138671875,
+                "costTiming": {
+                  "startDate": "22",
+                  "endDate": "150",
+                  "frequency": "10"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "alternative": {
+            "name": "Alternative 4",
+            "concreteMixDesign": {
+              "detailedBarrier": {
+                "useDefault": true,
+                "barrierName": "Sealer",
+                "areaCost": 0.0,
+                "initialEfficiency": 0.9,
+                "ageAtFailure": 5,
+                "reapplyTime": 0
+              },
+              "rebarType": {
+                "type": "Black Steel",
+                "percentOfTotal": 0.012,
+                "yearsFromInitToFailure": 6
+              },
+              "waterCementRatio": 0.40,
+              "percentSlag": 0.0,
+              "percentClassFFlyAsh": 0.2,
+              "percentSilicaFume": 0.0,
+              "serviceLifeInYears": 131.66666666666668561447295360267162322998046875,
+              "hydration": 25.0,
+              "valuesHaveChanged": false,
+              "alpha": 0.0,
+              "beta": 0.0,
+              "d28": 7.943282347242789E-12,
+              "dRef": 7.943282347242789E-12,
+              "ct": 0.05,
+              "m": 0.36000000000000004,
+              "initiationInYears": 125.66666666666667,
+              "propagationInYears": 6.0,
+              "inhibitor": "\u003cnone\u003e",
+              "isUserDefineable": false
+            },
+            "description": "20% FA",
+            "userDefinedMixCost": false,
+            "userMixCost": 0,
+            "costs": [
+              {
+                "costNumber": 0,
+                "costType": "indep.",
+                "costPrior": "0",
+                "costName": "Construction cost",
+                "quantity": 14.8934760722599097704232917749322950839996337890625,
+                "unitOfMeasure": "cub. yd",
+                "unitCost": 147.742580679383735287046874873340129852294921875,
+                "totalCost": 2200.40059020233093178831040859222412109375,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 1,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Repair cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 37.16121588702990408137338818050920963287353515625,
+                "totalCost": 1494.341156213215754178236238658428192138671875,
+                "costTiming": {
+                  "startDate": "25",
+                  "endDate": "150",
+                  "frequency": "10"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "alternative": {
+            "name": "Alternative 5",
+            "concreteMixDesign": {
+              "detailedBarrier": {
+                "useDefault": true,
+                "barrierName": "Sealer",
+                "areaCost": 0.0,
+                "initialEfficiency": 0.9,
+                "ageAtFailure": 5,
+                "reapplyTime": 0
+              },
+              "rebarType": {
+                "type": "Black Steel",
+                "percentOfTotal": 0.012,
+                "yearsFromInitToFailure": 6
+              },
+              "waterCementRatio": 0.4,
+              "percentSlag": 0.0,
+              "percentClassFFlyAsh": 0.25,
+              "percentSilicaFume": 0.0,
+              "serviceLifeInYears": 149.666666666666657192763523198664188385009765625,
+              "hydration": 25.0,
+              "valuesHaveChanged": false,
+              "alpha": 0.0,
+              "beta": 0.0,
+              "d28": 7.943282347242789E-12,
+              "dRef": 7.943282347242789E-12,
+              "ct": 0.05,
+              "m": 0.4,
+              "initiationInYears": 143.66666666666666,
+              "propagationInYears": 6.0,
+              "inhibitor": "\u003cnone\u003e",
+              "isUserDefineable": false
+            },
+            "description": "25% FA",
+            "userDefinedMixCost": false,
+            "userMixCost": 0,
+            "costs": [
+              {
+                "costNumber": 0,
+                "costType": "indep.",
+                "costPrior": "0",
+                "costName": "Construction cost",
+                "quantity": 14.8934760722599097704232917749322950839996337890625,
+                "unitOfMeasure": "cub. yd",
+                "unitCost": 147.742580679383735287046874873340129852294921875,
+                "totalCost": 2200.40059020233093178831040859222412109375,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 1,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Repair cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 37.16121588702990408137338818050920963287353515625,
+                "totalCost": 1494.341156213215754178236238658428192138671875,
+                "costTiming": {
+                  "startDate": "29",
+                  "endDate": "150",
+                  "frequency": "10"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "uncertainty": {
+      "useUncertainty": false,
+      "useDefaults": true,
+      "coVd28": 0.25,
+      "coVm": 0.25,
+      "covCs": 0.3,
+      "covCt": 0.2,
+      "covCover": 0.08
+    },
+    "costs": {
+      "baseMixCost": 76.4554857583232063689138158224523067474365234375,
+      "repairCost": 37.1612158870299111868007457815110683441162109375,
+      "areaToRepair": 0.1,
+      "repairInterval": 10,
+      "useFixedRepairInterval": true,
+      "blackSteel": 0.453592370000000022489672346637235023081302642822265625,
+      "stainlessSteel": 2.993709642000000226147449211566708981990814208984375,
+      "epoxySteel": 0.60327785210000006710373554597026668488979339599609375,
+      "membrane": 3.065800310679967832783177072997204959392547607421875,
+      "sealant": 0.65032127802302353014596292268834076821804046630859375,
+      "inhibitor": 5.6781600000000000960653778747655451297760009765625
+    }
+  }
+}
