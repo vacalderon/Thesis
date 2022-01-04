@@ -305,7 +305,7 @@
 
 \newcommand{\ncsu@titlepageparagraph}{
  \ifthenelse{\equal{\ncsu@thesistype}{phd}}{
-   A research proposal submitted to the Graduate Faculty of\\
+   A thesis submitted to the Graduate Faculty of\\
    North Carolina State University\\
    in partial fulfillment of the\\
    requirements for the Degree of\\
