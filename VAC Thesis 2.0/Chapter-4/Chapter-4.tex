@@ -53,14 +53,14 @@ We propose the following model to predict the uniform axial elongation of corrod
 
 For corrosion level between 0\% - 10\%
 \begin{equation}
-    \varepsilon_{CL} = 0.05CL+\varepsilon_{o}
+    \varepsilon_{CL} = \varepsilon_{o}-0.05CL
     \label{eq.Calderon_UAE_vs_CL}
 \end{equation}
 
 For corrosion level larger than 10\%
 
 \begin{equation}
-    \varepsilon_{CL} = 0.05CL+\varepsilon_{o}
+    \varepsilon_{CL} = 0.045
     \label{eq.Calderon_UAE_vs_CL20}
 \end{equation}
 
@@ -74,6 +74,9 @@ While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are p
 \end{figure}
 
 \section{Buckled Bar Tension (BBT) Tests}
+\subsection{Summary of BBT procedure}
+
+The process of  performing the buckled bar test consists of: 1) Loading the bar with the LED markers in the UTM machine. 2) Compress the bars to a prescribed level of bending strain. 3) Load the rebar in tension and  4) Record the type of fracture: Ductile or Brittle. This process is presented in \fref{fig:BBT_Test_Summary}.
 
 \begin{figure}[htbp]
 	\centering
@@ -81,6 +84,8 @@ While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are p
 	\caption{General procedure of buckled bar tension (BBT) test}
 	\label{fig:BBT_Test_Summary}
 \end{figure}
+
+The data obtained from the BBT test is then procesed and two parameters are obtained: 1) the cirtical bending strain, based on the curvature, 2) the maximum uniform axial deformation is obtained from the stress strain curve. This two values are obtained as shown in \fref{fig:bendingstrain}. In the case of brittle failure if the bar does not elongate compared to its original length the uniform axial elongation is assigned a value of zero.
 
 \begin{figure}[htbp]
 	\centering
@@ -91,12 +96,24 @@ While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are p
 
 \subsection{Effect of corrosion in Critical Bending Strain}
 
+The buckled bar tension test was applied to rebars with varying levels of corrosion ranging from 0\% - 20\%. For each corrosion level a total of 6 BBT tests was performed, plotting the bending strain vs the uniform axial elongation, the critical bending strain is calculated as the point where the uniform axial elongation drops to zero. \fref{fig:BBT_strains} summarizes the critical maximum bending strain at different corrosion levels including the benchmark value of pristine bars obtained by Barcley et al \cite{Barcley2018}. In \fref{fig:eb_vs_CL} it is noticible that as corrosion level increases the maximum bending strain reduces.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_results_.pdf}
 	\caption{Bending strain at different corrosion levels}
 	\label{fig:BBT_strains}
 \end{figure}
+
+\fref{fig:eb_vs_CL} shows the relationship between the critical bending strain and the corrosion level of the rebars. There is a linear relationship between both variables similar to the one observed in the tension tests.The relationship between corrosion level and cirtical bending strain ($\varepsilon_{b}$) using linear regression can be expressed as shown below in \ref{eq.Calderon_eb_vs_CL}.
+
+\begin{equation}
+    \varepsilon_{b}(CL) = \varepsilon_{o}-0.0045CL
+    \label{eq.Calderon_eb_vs_CL}
+\end{equation}
+
+It is interesting to notice the sharp drop in critical bending strain capacity as corrosion increases. For CL=5\% There is a drop of about 20\%, for CL=10\% the change is 60\% of the pristine condition and for CL=20\% that difference is more than 140\% decrease in the critical bending strain. This results indicate that there is a reduction in the ultimate capacity of rebars as they corrode. Based on this results and previous tests performed in corroded RC beams reported by Du et al \cite{Du2005}, on RC columns as shown by Ma et al \cite{Ma2012} and Meda et al \cite{Meda2014}, a limiting value for level of corrosion is CL=10\%.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_results_summary.pdf}
@@ -106,7 +123,13 @@ While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are p
 
 \subsection{Effect of corrosion at the micro-structural level}
 
+To study if there was any change in the microstructural behavior of the rebars as they corroded and explore if the chlorides induced fracture in the rebars at the point of fracture, the rebar's fracture surfaces were observed under a variable pressure scanning electron microscope (VPSEM). Fracture surfaces from ductile and brittle failures were obtained at ductility levels of 5\%-20\%.
+
 \textbf{Fractography}
+
+\fref{fig:FractureSurfaces} summarizes the observations performed on the fracture surfaces.  While VPSEM images were obtained for each corrosion level no substantial differences for brittle and ductile samples was observed as the corrosion level increased. Therefore, the observations performed on the CL=10\% samples are shown here as representative of all the observations. The methodology of the observations was in such a way that differences between different sectors of the fracture provided comparison points. \fref{fig:FractureSurfaces} shows three main sectors 1) point of initiation of fracture, 2) midpoint and 3) the extreme fiber opposite to the initiation of fracture. In all cases the point of initiation of fracture occurred where the extreme fiber was subjected to tension while being compressed. 
+
+Comparing the images obtained for the brittle and ductile response in \fref{fig:FractureSurfaces} we can make the following observations. 1) At the point of initiation of fracture for the brittle and ductile surfaces there is no difference in the behavior of the fracture surfaces observed, indicating that the point of initiation of fracture is always brittle in nature, this can be seen in the presence of flat surfaces. 2) At the midpoint we can start to observe some differences for the brittle sample, flat surfaces are still observed but for the ductile sample, a mixture of flat surfaces and dimples typical of ductile surfaces are observed, this mixture of responses is similar to SEM observations of fracture surfaces of fatigue fractures. And 3) At the extreme fiber point the difference between ductile and brittle is more prominent since the ductile response has a predominant presence of dimples and the  brittle response still shows flat surfaces. This results tell us the different mechanisms that occur between the brittle and ductile response and correlate well with the observed behavior of the BBT tests.
 
 \begin{figure}[htbp]
 	\centering
@@ -114,6 +137,9 @@ While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are p
 	\caption{SEM observations for brittle and ductile failure at different positions of the fracture surface}
 	\label{fig:FractureSurfaces}
 \end{figure}
+
+An important feature from the images obtained in the VPSEM observations was river like features observed throught all the points of observations, as shown in \fref{fig:RiverFeatures}. This type of features is typical of cyclic of fatigue  tests, which is coherent with the BBT tests since the bar is loaded in compression and then loaded in tension.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_RiverFeatures.pdf}
@@ -121,11 +147,16 @@ While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are p
 	\label{fig:RiverFeatures}
 \end{figure}
 
+\newpage
 \textbf{Spectrum analysis}
+
+In order to rule out the preclusion to failure due to inclusion of chlorides in the fracture surface a Back Scatter Electron (BSE) SEM images were evaluated through the use of spectrum analysis of the X-ray energy of the fracture surface. \fref{fig:SpectrumAnalysis} shows the spectrum analysis of a brittle and ductile sample. The results obtained show elements that are expected on alloyed steel such as iron (Fe), carbon (C), chromium (Cr), Manganese (Mn), and vanadium (V), among others. But no presence of chlorides (NaCl) of oxides(O) was detected. Thus ruling out the onset of fracture due to the presence of these compounds.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_SpectrumAnalysis.pdf}
 	\caption{Spectrum analysis of Back Scatter Electrons of fracture surface for brittle and ductile failures}
 	\label{fig:SpectrumAnalysis}
 \end{figure}
+
 \subsection{Effect of geometry imperfections}
