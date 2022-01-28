@@ -3,12 +3,23 @@ The results from the experimental program are summarized in this chapter and the
 
 \section{Measurement of corrosion level}
 
-\subsection{Mass measured}
+\subsection{Mass loss method}
+
+The corrosion level of each specimen was measured after the time to corrode them had passed. The procedure consisted in removing the corrosion products from the surface of the specimens. The bars were then weighted and the mass loss was measured. Finally the corrosion level is defined as the mass loss divided by the initial mas as shown in \ref{eq:mass_loss_CL}.
+
+\begin{equation}
+    CL=\frac{m_{initial}-m_{final}}{m_{initial}}
+    \label{eq:mass_loss_CL}
+\end{equation}
+
+\ref{tab:CL_mass_loss} shows the resulting corrosion level using the mass loss methodology. The resulting corrosion was significantly close to the target corrosion levels, and proved that the test setup successfully achieved the intended corrosion levels. The bars corresponding to CL=25\% did not achieved the intended corrosion level and achieved a corrosion level of 20\%. The reason for this discrepancy is due to the corrosion products of the accelerated corrosion process being on top of the surface of the rebars and therefore not permitting the corrosion process to continue. In addition one specimen for CL=15\% did not achieve the intended corrosion level, mainly due to a faulty welding of the stainless steel wire to the rebar. These extra bars were re-purposed to tension tests and BBT tension tests of turned down rebars.
 
 \begin{table}[]
+\caption{Corroded Level measured from mass loss in gauge length}
+\label{tab:CL_mass_loss}
 \begin{center}
 \begin{tabular}{lcccc}
-Label         & Initial mass (g) & Final mass (g) & Mass loss (g) & CL (\%) \\ \hline
+Specimen ID & Initial mass (g) & Final mass (g) & Mass loss (g) & CL (\%) \\ \hline
 CL5-T-1\_3    & 1260.8           & 1197.5         & 63.3          & 5.0\%   \\
 CL5-BBT-1\_3  & 1249.6           & 1199.8         & 49.9          & 4.0\%   \\
 CL5-BBT-4-6   & 1255.3           & 1192.9         & 62.4          & 4.9\%   \\
@@ -24,18 +35,32 @@ CL20-BBT-4\_6  & 1272.3           & 1013.8         & 258.5         & 20.3\%
 \end{center}
 \end{table}
 
+\subsection{3D Scans method}
 
-\subsection{3D Scans}
+The 3d scan arm was used to obtain 3D model of the corroded rebars to determine the effective diameter in the gauge length of the specimens. The effective diameter was used to determine the stress strain relationships and the bending strain in the rebars. Figure X.X shows a sample of the 3D scans for CL=15\% and CL=20\%, this figure shows that the 3d scans captured with a high level of precision the imperfections on the surface of the rebars. 
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
+From the 3d model, the volume in the gauge length was obtained, and assuming a sylindrical volume the effecive diamter can be obtained as expressed in eq x.x. Where $L_{o}$ is the length of the scanned gauge length. With the effective diameter, the corrosion level can be estimated as shown in Eq. X.X. Where $d_{o}$ refers to the initial diameter, which in the case of the specimens of this study, it corresponds to $d_{o}=19mm (0.75 in)$
+
+\begin{equation}
+    d_{eff}=\frac{V}{\frac{1}{4}\pi L_{o}}
+    \label{eq:eff_diameter}
+\end{equation}
+
+\begin{equation}
+    CL=1-(\frac{d_{eff}}{d_{o}})^2
+    \label{eq:CL_diameter}
+\end{equation}
+
+The data collected from the 3D scans is summarized in \ref{tab:CL_3D_scans}. The results shown below show that the CL measured using this approached matches well with the intended corrosion level.
 
 \begin{table}[]
+\caption{Corroded Level measured from 3D Scans in gauge length}
+\label{tab:CL_3D_scans}
 \begin{tabularx}{1.0\textwidth} { 
    >{\raggedright\arraybackslash}X 
    >{\centering\arraybackslash}X 
   >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X}
-Specimen    & Volume ($mm^{3}$) & Height \newline ($mm$) & Diameter ($mm$) & 3D Scans CL (\%) & Average CL (\%) \\ \hline
+Specimen ID    & Volume ($mm^{3}$) & Height \newline ($mm$) & Diameter ($mm$) & 3D Scans CL (\%) & Average CL (\%) \\ \hline
 CL5-T-1    & 47702                          & 179         & 18.4          & 6.50\%                        & \multirow{3}{*}{6.00\%}  \\
 CL5-T-2    & 47388                          & 176.5       & 18.5          & 5.80\%                        &                          \\
 CL5-T-3    & 44696                          & 166.1       & 18.5          & 5.60\%                        &                          \\
@@ -71,6 +96,12 @@ CL20-BBT-5 & 35364                          & 158.4       & 16.9          & 21.7
 CL20-BBT-6 & 39786                          & 178.1       & 16.9          & 21.60\%                       &                                                                             
 \end{tabularx}
 \end{table}
+
+\subsection{Comparison of corrosion level measurements mass loss vs 3D scans}
+
+Finally, the results from obtaining the corrosion level using the mass loss approach and the 3D scans are compared in Fig x.x the results from both approaches match very well, and the discrepancy from both can be due to more localized corrosion measured in the single specimens than those measured in the parent bar specimen as was the case for the mass loss methodology. These results provided us with the opportunity to use the measred effective diameter from the 3d scans into the tension tests and BBT tests described in the following sections.
+
+
 
 \section{Tensions Tests}
 
