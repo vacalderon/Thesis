@@ -41,7 +41,7 @@ The 3d scan arm was used to obtain 3D model of the corroded rebars to determine 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/3dScans_sample.pdf}
+	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-4/figs/3dScans_sample.pdf}
 	\caption{Sample of 3d scans obtained for Cl=15\% and CL=20\%}
     \label{fig:3D_scans_sample}
 \end{figure}
@@ -103,23 +103,25 @@ CL20-BBT-5 & 35364                          & 158.4       & 16.9          & 21.7
 CL20-BBT-6 & 39786                          & 178.1       & 16.9          & 21.60\%                       &                                                                             
 \end{tabularx}
 \end{table}
-
+\newpage
 \subsection{Comparison of corrosion level measurements mass loss vs 3D scans}
 
 Finally, the results from obtaining the corrosion level using the mass loss approach and the 3D scans are compared in Fig x.x the results from both approaches match very well, and the discrepancy from both can be due to more localized corrosion measured in the single specimens than those measured in the parent bar specimen as was the case for the mass loss methodology. These results provided us with the opportunity to use the measured effective diameter from the 3d scans into the tension tests and BBT tests described in the following sections.
 
 \begin{figure}[htbp]
 	\centering
-    \includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/3dscans_vs_massloss.pdf}
+    \includegraphics[width=0.65\textwidth]{VAC Thesis 2.0/Chapter-4/figs/3dscans_vs_massloss.pdf}
 	\caption{Corrosion level (CL) measured using mass loss method vs 3D scans}
 \label{fig:3dscans_vs_massloss}
 \end{figure}
 
+\newpage
 \section{Tensions Tests}
 
 As described in Chapter 3, the bars were loaded in tension using the universal testing machine (UTM). The data collected corresponded to the Force using the UTM and the Optotrack system was used to calculate the strain.
 
-During the tests it was observed that the failure usually occurred close to the grips. This is due to the sudden change in the cross section and the imperfections on the rebars. The strains used in this study correspond to the strain gauges located adjacent to the fracture. The fracture of these tests were brittle in nature, the appearance of necking was not significantly observable as shown in \fref{fig:TensionTest_NoNecking}.
+While no differences in the test procedure for corroded and uncorroded tests were made, it was observed that during the tests the fracture usually occurred close to the grips as shown in 
+.b. I hypothesise that this is due to the sudden change in the cross section and the imperfections on the rebars. The strains used in this study correspond to the strain gauges located adjacent to the fracture. The fracture of these tests were brittle in nature, since the appearance of necking was not significantly observable as shown in \fref{fig:TensionTest_NoNecking}.c.
 
 \begin{figure}[htbp]
 	\centering
@@ -128,7 +130,7 @@ During the tests it was observed that the failure usually occurred close to the 
 	\label{fig:TensionTest_NoNecking}
 \end{figure}
 
-\fref{fig:TensionTestResults_StressStrain} show the stress-strain behavior for corrosion levels raging from 0 - 20\%. From this results, the yield strength, the uniform axial elongation, and the ultimate strength are obtained From this results it appears that the effective yield strength and the effective ultimate strength reduce as the corrosion level increases. In addition, the stress strain curves  results confirm that no necking significant necking was present, since were the after reaching the ultimate stress the bars suddenly drop  in strength. 
+A summary of the stress strain behavior for the corroded rebars is shown in \fref{fig:TensionTestResults_StressStrain}. In addition, the results obtained for pristine bars from research performed by Barcley et al \cite{Barcley2018}, and Overby et al \cite{Overby2016} are presented here as a benchmark. In general from Figure 4.2 we can observe that as corrosion increases the effective yield strength, ultimate strength and uniform elongation tend to decrease as the corrosion level increases.  These variables are explained in more detail below.
 
 \begin{figure}[htbp]
 	\centering
@@ -137,16 +139,9 @@ During the tests it was observed that the failure usually occurred close to the 
 	\label{fig:TensionTestResults_StressStrain}
 \end{figure}
 
-\subsection{Yield strength as a function of corrosion}
-\fref{fig:YieldStrength_vs_CL} shows the plot of the effective yield strength versus the corrosion level. The results show that there appears to be a linear relationship between them. This is congruent with other studies performed in other types of steel such as the study done by Du et al \cite{Du2005}. It has been studied that the apparent reduction in effective yield strength is due to points of concentrated reduction in the geometry of the rebars. Other studies \cite{Du2005}\cite{Barcley2018} and this study, show that if the imperfections due to the corrosion are removed, then the properties of the virgin metal remain unchanged. What is observed in tension tests conducted on corroded rebars is an effective property that considers the imperfections in the geometry of the rebar. 
+\subsection{Effective yield strength as a function of the corrosion level}
 
-The linear trend observed between the effective yield strength and the corrosion level can be expressed as:
-
-\begin{equation}
-    f_{y,CL} = f_{y,o}(1-0.0075CL)
-    \label{eq.Calderon_Fy_vs_CL}
-\end{equation}
-
+Effective yield strength is a mathematical convenience that considers the effect of imperfections in the observed global reduction of the yield strength. \fref{fig:YieldStrength_vs_CL} shows the plot of the effective yield strength ($f_{y,e}$) versus the corrosion level (CL). The results show a linear relationship between the effective yiled strength and the corrosion level. This is congruent with other studies performed in other types of steel such as the study done by Du et al \cite{Du2005}. The apparent reduction in effective yield strength is due to points of concentrated reduction in the geometry of the rebars which act as stress risers near the area of fracture. 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/TensionTest_results_2.pdf}
@@ -154,7 +149,21 @@ The linear trend observed between the effective yield strength and the corrosion
 	\label{fig:YieldStrength_vs_CL}
 \end{figure}
 
-The proposed equation is compared to the one proposed by Du et al \cite{Du2005}, replicated here as \ref{}. From \fref{fig:Calderon_vs_Du} we can observe that the existing model tends to over-predict the effective yield strength for Grade 80 steel. Therefore it is possible that there is correlation between corrosion level and the grade of the rebar, however the literature on corrosion for different grades of rebar is scarce. 
+The linear trend observed between the effective yield strength and the corrosion level is expressed as:
+
+\begin{equation}
+    f_{y,CL} = f_{y,o}(1-0.0075CL)
+    \label{eq.Calderon_Fy_vs_CL}
+\end{equation}
+
+The proposed equation is compared to the one proposed by Du et al \cite{Du2005}, replicated here as \eref{eq.Du_Fy_vs_CL_ch4}. 
+
+\begin{equation}
+    f_{y,CL} = f_{y,o}(1-0.0075CL)
+\label{eq.Du_Fy_vs_CL_ch4}
+\end{equation}
+
+In \fref{fig:Calderon_vs_Du}, \eref{eq.Du_Fy_vs_CL_ch4} and \eref{eq.Calderon_Fy_vs_CL} are compared against the experimental results. Overall it can be observed that the model by Du et al. \cite{Du2005} tends to over-predict the effective yield strength for corroded grade 80 rebars. Therefore it is possible that there is correlation between corrosion level and the grade of the rebar, however the literature on corrosion for different grades of rebar is scarce. 
 
 \begin{figure}[htbp]
 	\centering
@@ -163,9 +172,27 @@ The proposed equation is compared to the one proposed by Du et al \cite{Du2005},
 	\label{fig:Calderon_vs_Du}
 \end{figure}
 
+\newpage
+
+\subsection{Ultimate strength as a function of the corrosion level}
+
+A similar trend was observed on the effective ultimate strength of corroded rebars. Past research has shown that the relationship between effective yield strength and effective ultimate strength, tend to remain unchanged. In this study, that proved to be the case as well. Expressing the effective ultimate strength with the same argument as \eref{eq.Calderon_Fy_vs_CL}, as shown in \eref{eq.Calderon_Fu_vs_CL}, and the proposed equation is plotted against the experimental, see \fref{fig:Calderon_ultimate_strength}. It can be observed that overall the equation predicts the relationship with good agreement. Therefore, no change in the format and arguments to predict the effective ultimate strength are needed.
+
+\begin{equation}
+    f_{y,CL} = f_{y,o}(1-0.0075CL)
+    \label{eq.Calderon_Fu_vs_CL}
+\end{equation}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/TensionTest_results_5_UltimateStrength.pdf}
+	\caption{Ultimate strength as a function of corrosion level}
+	\label{fig:Calderon_ultimate_strength}
+\end{figure}
+
 \subsection{Effect of corrosion in uniform elongation}
 
-Another interesting result was observed on the uniform axial elongation property of the corroded rebars. As the rebar corrodes and develops more imperfections on the geometry of the rebar, it appears that the uniform axial elongation decreases.\fref{fig:UAE_vs_CL} shows this trend more clearly. However, after 10\% corrosion the uniform axial elongation remains constant. This results may point towards why as structure corrode the level of perceived ductility is reduced and thus triggers an earlier failure than that observed on pristine structures.
+Another interesting result was observed on the uniform axial elongation property of the corroded rebars. As the rebar corrodes and develops more imperfections on the geometry of the rebar, the uniform axial elongation decreases. The reduction in $\varepsilon_{u}$ is linear from the uncorroded state (CL=0\%) to a corrosion level of 10\% \fref{fig:UAE_vs_CL} shows this trend more clearly. 
 
 We propose the following model to predict the uniform axial elongation of corroded grade 80 rebars:
 
@@ -182,7 +209,9 @@ For corrosion level larger than 10\%
     \label{eq.Calderon_UAE_vs_CL20}
 \end{equation}
 
-While equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are preliminary they provide an insight at the variations that different grades of rebar can have on the effective properties of corroded rebars.
+I hypothesise that the reduction in the uniform axial elongation capacity will translate into structures failing earlier as a structure corrodes more and more, thus reducing its ductility and the intended design feature that a large deformation will be observed and give users enough time to run to safety.
+
+Additionally, while equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_vs_CL20} are preliminary they provide an insight at the variations that different grades of rebar can have on the effective properties of corroded rebars.
 
 \begin{figure}[htbp]
 	\centering
@@ -286,4 +315,12 @@ In order to rule out the preclusion to failure due to inclusion of chlorides in 
 	\label{fig:SpectrumAnalysis}
 \end{figure}
 
-\subsection{Effect of geometry imperfections}
+\subsection{Discussion of results}
+
+\begin{itemize}
+    \item Use of 3D scans
+    \item Effective mechanical properties
+    \item Maximum Bending strain
+    \item SEM observations
+    \item Implications of bending strain degradation with corrosion level
+\end{itemize}
