@@ -110,7 +110,7 @@ Finally, the results from obtaining the corrosion level using the mass loss appr
 
 \begin{figure}[htbp]
 	\centering
-    \includegraphics[width=0.65\textwidth]{VAC Thesis 2.0/Chapter-4/figs/3dscans_vs_massloss.pdf}
+    \includegraphics[width=1.0\textwidth]{VAC Thesis 2.0/Chapter-4/figs/3dscans_vs_massloss.pdf}
 	\caption{Corrosion level (CL) measured using mass loss method vs 3D scans}
 \label{fig:3dscans_vs_massloss}
 \end{figure}
@@ -223,7 +223,7 @@ Additionally, while equations \ref{eq.Calderon_Fy_vs_CL} - \ref{eq.Calderon_UAE_
 \section{Buckled Bar Tension (BBT) Tests}
 \subsection{Summary of BBT procedure}
 
-The process of  performing the buckled bar test consists of: 1) Loading the bar with the LED markers in the UTM machine. 2) Compress the bars to a prescribed level of bending strain. 3) Load the rebar in tension and  4) Record the type of fracture: Ductile or Brittle. This process is presented in \fref{fig:BBT_Test_Summary}.
+The buckled bar tension test is shown in \fref{fig:BBT_Test_Summary} and consists of: 1) Loading the bar with the LED markers in the UTM machine. 2) Compress the bars to a prescribed level of bending strain. 3) Load the rebar in tension and  4) Record the type of fracture: Ductile or Brittle see \fref{fig:bbt_brittle_vs_duc}. 
 
 \begin{figure}[htbp]
 	\centering
@@ -232,7 +232,14 @@ The process of  performing the buckled bar test consists of: 1) Loading the bar 
 	\label{fig:BBT_Test_Summary}
 \end{figure}
 
-The data obtained from the BBT test is then procesed and two parameters are obtained: 1) the cirtical bending strain, based on the curvature, 2) the maximum uniform axial deformation is obtained from the stress strain curve. This two values are obtained as shown in \fref{fig:bendingstrain}. In the case of brittle failure if the bar does not elongate compared to its original length the uniform axial elongation is assigned a value of zero.
+\begin{figure}[htbp]
+	\centering
+    \includegraphics[width=1\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_Brittle_vs_Ductile_fracture.pdf}
+	\caption{Type of failures in BBT tests}
+	\label{fig:bbt_brittle_vs_duc}
+\end{figure}
+
+The data obtained from the BBT test is then processed and two parameters are obtained: 1) the critical bending strain, based on the curvature, 2) the maximum uniform axial deformation is obtained from the stress strain curve. This two values are obtained as shown in \fref{fig:bendingstrain}. In the case of brittle failure if the bar does not elongate compared to its original length the uniform axial elongation is assigned a value of zero.
 
 \begin{figure}[htbp]
 	\centering
@@ -243,27 +250,27 @@ The data obtained from the BBT test is then procesed and two parameters are obta
 
 \subsection{Effect of corrosion in Critical Bending Strain}
 
-The buckled bar tension test was applied to rebars with varying levels of corrosion ranging from 0\% - 20\%. For each corrosion level a total of 6 BBT tests was performed, plotting the bending strain vs the uniform axial elongation, the critical bending strain is calculated as the point where the uniform axial elongation drops to zero. \fref{fig:BBT_strains} summarizes the critical maximum bending strain at different corrosion levels including the benchmark value of pristine bars obtained by Barcley et al \cite{Barcley2018}. In \fref{fig:eb_vs_CL} it is noticible that as corrosion level increases the maximum bending strain reduces.
+The buckled bar tension test was applied to rebars with varying levels of corrosion ranging from 0\% - 20\%. For each corrosion level a total of 6 BBT tests were performed. From the BBT tests data the bending strain vs the uniform axial elongation is plotted. As shown \fref{fig:BBT_strains} the critical bending strain is defined as the bending strain at which after pulling the buckled bar in tension the uniform axial elongation is zero which is the case for brittle failures and is higher for ductile failures. The process described previously is repeated for each corrosion level. The bending strain vs uniform axial elongation for each corrosion level, along with the critical bending strain at a given corrosion level ($\varepsilon_{b,CL}$ are shown in  \fref{fig:BBT_strains}. The benchmark value of pristine bars (CL=0\%) were obtained from the study by Barcley et al \cite{Barcley2018}. In \fref{fig:eb_vs_CL} it is noticeable that as corrosion level increases the maximum bending strain reduces and there is also a significant reduction in the uniform axial elongation for the ductile failures at all corrosion levels.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_results_.pdf}
+	\includegraphics[width=0.95\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_results_.pdf}
 	\caption{Bending strain at different corrosion levels}
 	\label{fig:BBT_strains}
 \end{figure}
 
-\fref{fig:eb_vs_CL} shows the relationship between the critical bending strain and the corrosion level of the rebars. There is a linear relationship between both variables similar to the one observed in the tension tests.The relationship between corrosion level and cirtical bending strain ($\varepsilon_{b}$) using linear regression can be expressed as shown below in \ref{eq.Calderon_eb_vs_CL}.
+Plotting the critical bending strain vs the corrosion level as shown in \fref{fig:eb_vs_CL} it can be seen that there is a linear relationship between both variables similar to the results observed in the tension tests. The relationship between corrosion level and critical bending strain ($\varepsilon_{b}$) using linear regression can be expressed as shown below in \ref{eq.Calderon_eb_vs_CL}.
 
 \begin{equation}
     \varepsilon_{b}(CL) = \varepsilon_{o}-0.0045CL
     \label{eq.Calderon_eb_vs_CL}
 \end{equation}
 
-It is interesting to notice the sharp drop in critical bending strain capacity as corrosion increases. For CL=5\% There is a drop of about 20\%, for CL=10\% the change is 60\% of the pristine condition and for CL=20\% that difference is more than 140\% decrease in the critical bending strain. This results indicate that there is a reduction in the ultimate capacity of rebars as they corrode. Based on this results and previous tests performed in corroded RC beams reported by Du et al \cite{Du2005}, on RC columns as shown by Ma et al \cite{Ma2012} and Meda et al \cite{Meda2014}, a limiting value for level of corrosion is CL=10\%.
+It is interesting to notice the sharp drop in critical bending strain capacity as corrosion increases. For CL=5\% There is a drop of about 20\%, for CL=10\% the change is 60\% of the pristine condition and for CL=20\% that difference is more than 140\% decrease in the critical bending strain. This results indicate that there is a reduction in the ultimate capacity of rebars as they corrode. Based on this results and previous tests performed in corroded RC beams reported by Du et al \cite{Du2005}, on RC columns as shown by Ma et al \cite{Ma2012} and Meda et al \cite{Meda2014}, a limiting value for level of corrosion is recommended at CL=10\%.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_results_summary.pdf}
+	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_results_summary.pdf}
 	\caption{Maximum bending strain as a function of corrosion level}
 	\label{fig:eb_vs_CL}
 \end{figure}
@@ -274,7 +281,7 @@ To study if there was any change in the microstructural behavior of the rebars a
 
 \textbf{Fractography of BBT test specimens fracture surfaces}
 
- As previously observed in figure X, at the macro level brittle fractures typically consist of flat fracture surface, and in ductile fractures, there is necking and rougher edges along the fracture surface. The observations at the macro level translate into similar observations at the microstructural level. To analyze the images obtained from the Scanning Electron Microscope (SEM), it is important to understand how brittle and ductile fractures in metals look like in the SEM. \fref{fig:fractography101} summarizes the typical features for brittle fractures and ductile fractures. Brittle fractures, present features that tend to promote flat surfaces, that two main types are granular and cleavage fractures. Ductile fractures on the other hand have dimple features, which due to the extension of the fracture surface at the point where atomic bonds are broken.
+ As previously observed in \fref{fig:bbt_brittle_vs_duc}, at the macro level brittle fractures typically consist of flat fracture surface, and in ductile fractures, there is necking and rougher edges along the fracture surface. The observations at the macro level translate into similar observations at the microstructural level. To analyze the images obtained from the Scanning Electron Microscope (SEM), it is important to understand how brittle and ductile fractures in metals look like in the SEM. \fref{fig:fractography101} summarizes the typical features for brittle fractures and ductile fractures. Brittle fractures, present features that tend to promote flat surfaces, that two main types are granular and cleavage fractures. Ductile fractures on the other hand have dimple features, which due to the extension of the fracture surface at the point where atomic bonds are broken.
  
 \begin{figure}[htbp]
 	\centering
