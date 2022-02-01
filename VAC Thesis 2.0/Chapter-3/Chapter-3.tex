@@ -3,11 +3,11 @@
 
 Corrosion is the main aging condition that affects structures. Therefore, the success of this study relies on the most accurate representation of the corrosion process in the analytical model. As mentioned in Chapter 2, previous studies developed accelerated corrosion rebar specimens with high current densities, but did not account for the depassivation process of the reinforcing steel. A main objective of this study is to verify the mechanical properties of corroded rebars while considering the depassivation process in rebars. The experimental process is divided in to three main components, (1) generate the passive layer in rebar specimens, (2) depassivate and corrode the rebar specimens, and (3) obtain the mechanical properties of the reinforcing steel by performing tension tests and buckled bar tension (BBT) tests. It is expected that these tests will mimic as best as possible the real aging conditions of rebars inside a concrete mix. The results obtained from the tension and BBT tests will be used to update the analytical model presented in Chapter\ref{chap-four}, and more broadly provide accurate mechanical properties of corroded rebars.
 
-\section{Proposed experimental campaign}
+\section{Specimen preparation}
 
 Rebars embedded in concrete generate a protective film that protects the rebars against corrosion, due to the alkaline environment of the cement paste. The most common form of corrosion occurs via chloride attacks. During a chloride attack, the chloride diffuses in the concrete cover and enters in contact with the surface of the rebars. This initiates the process of depassivation in which the protective film on the surface of the rebar is eliminated. The depassivation of the rebar enables the process of corrosion to occur. The proposed experimental campaign described in this chapter aims to simulate the process of corrosion as it would occur in rebars embedded in concrete. Using as received rebars, that is no special treatment to the surface of the rebar, the tests procedure consist of (1) protect the rebar ends that will be used as grips during the tension and perform buckled bar tension (BBT) tests, (2)  generate the passive layer on the rebars, (3) perform accelerated corrosion of the rebars until the specified levels of corrosion, (4) perform tension tests to characterize the tension stress-strain behavior of corroded rebars, and (5) perform the BBT tests that will provide data on the ultimate limit state of corroded rebars. The different procedures of the experimental campaign are further explained below.
 
-\textbf{Preparation of rebar ends}
+\subsection{Preparation of rebar ends}
 
 First, it is necessary to protect the areas of the rebar that are going to function as grips for the rebars during the tension and BBT tests against corrosion. Therefore, the ends of the rebars will be protected with three layers. The first layer consists of two-part epoxy, the second layer consists of electroplater tape, and the third layer consists of shrink tube. These layers will ensure minimal corrosion in the grip areas of the rebar. \fref{fig:RebarSpecimenGeomtry} and \fref{fig:RebarEndsProtection} show the specimen geometry and the protective layers at the ends of the rebars.
 \begin{figure}[htbp]
@@ -36,7 +36,7 @@ To optimize the space and time it takes to prepare the rebars for corrosion, a l
 
 \newpage
 
-\textbf{Passivation of the rebars}
+\subsection{Passivation of the rebars}
 
 In order to simulate the conditions of rebars embedded in concrete, it is necessary to generate the passive layer on the surface of the rebars. There are two ways to generate the passive layer: (1) embed rebars in concrete and wait for the passive layer to generate, or (2) submerge the reinforcing steel in a synthetic pore solution that mimics the cement paste environment. The second option is more suited for material testing since it does not involve demolishing the concrete. To this regard, Ghods et al \cite{Ghods2010} developed ten different pore solutions to generate the passive film on the surface of rebars. The pore solutions that were developed in their study intended to mimic the cement paste. Their study conducted 10 solutions designed to encompass concentrations of $Ca^{+2}$, $Na^{+}$, $K^{+}$, and $(SO_{4})^{+}$ found in the cement paste. The solution that generated the passive layer with the best quality of protective film will be used in this study. To achieve the desired concentration of the $Ca^{+2}$, $Na^{+}$, $K^{+}$, and $(SO_{4})^{+}$ ions, the following concentration of chemicals recommended in \cite{Ghods2010} will be used in the pore solution:
 
@@ -66,7 +66,7 @@ To prepare the rebars for the development of the passive layer, a specimen prepa
 \end{figure}
 
 \newpage
-\textbf{Accelerated corrosion  of reinforcing steel}
+\subsection{Accelerated corrosion  of reinforcing steel}
 
 Four components are required for corrosion to occur: (1) the anode, (2) the cathode, (3) an electrolytic connection, and (4) an electrical path. The corrosion cell that will be deployed in this study uses this concept in the following way: the anode consists of the rebar, the cathode consists of a stainless steel mesh, the electrolytic connection will be made with a sodium chloride solution, and the electrical path is forced via an electric circuit. The corrosion cell uses the assembly developed to generate the passive layer with the components needed for corrosion as shown in \fref{fig:AcceleratedCorrosion}. The circuit was designed so that the current in the specimen is $5mA$, equivalent to $47\mu A/cm^2$ on the bare surface of the rebar. Since the rebar and stainless steel mesh have a low resistance, a $1k\Omega$ resistor will be added to the circuit, such that it stabilizes the current and keeps it constant at $5mA$.
 
@@ -90,20 +90,22 @@ Ghods et al \cite{Ghods2010} determined that for rebars with passive films, a co
 	\caption{Accelerated corrosion times in 3/4" rebar}
 	\label{tab:AcceleratedCorrosionTime}
 	\centering	
-		\begin{tabular}{|l|c|c|}
-		\hline
+		\begin{tabular}{l c c}
 		Corrosion Level (CL) & Mass loss (g)   & time (days)     \\  \hline	
-		5\%                  & 0.93            & 7.5    \\  \hline	
-		10\%                 & 1.86            & 15     \\  \hline	
-		15\%                 & 2.80            & 22.5   \\  \hline	
-		20\%                 & 3.73            & 30     \\  \hline	
-		25\%                 & 5               & 37.3   \\  \hline	
+		5\%                  & 0.93            & 7.5    \\	
+		10\%                 & 1.86            & 15     \\	
+		15\%                 & 2.80            & 22.5   \\	
+		20\%                 & 3.73            & 30     \\
+		25\%                 & 5               & 37.3   \\
 		\end{tabular}
 \end{table}
 
-\textbf{Tension tests}
+\section{Tension tests}
 
-The tension tests will be performed to evaluate differences in the stress-strain behavior of corroded reinforcing steel with those found in the literature. In addition, the data obtained from these tests will serve as an input to the analytical model. Therefore, a series of tension tests will be performed accordingly. The tension tests will be performed in accordance with the standard ASTM A370, which specifies the loading procedure and the gauge lengths. The tension tests consist of:
+The tension tests will be performed to evaluate differences in the stress-strain behavior of corroded reinforcing steel with those found in the literature. In addition, the data obtained from these tests will serve as an input to the analytical model. Therefore, a series of tension tests will be performed accordingly. The tension tests will be performed in accordance with the standard ASTM A370, which specifies the loading procedure and the gauge lengths. 
+\subsection{Tension test procedure}
+
+The tension tests consist of:
 \begin{enumerate}
     \item Place the rebar in the universal testing machine
     \item Pull the rebar in tension 
@@ -120,12 +122,18 @@ The strains will be captured through the use of LED markers from the Optrotrak C
 \end{figure}
 
 The results obtained from the tension tests will be valuable to understand the change in the stress-strain relationship, the yield strength, and ultimate strength of corroded rebars. Statistical analysis of the results will help to update equations that correlate these parameters to the corrosion level, and potentially yield an updated form of  \eref{eq.eleven}. The outcomes of the tension tests will further improve the results of the analytical model in Chapter \ref{chap-four}.
+
+\subsection{Testing parameters}
+\textbf{Yield strength}
+\textbf{Ultimate strength}
+\textbf{Uniform Axial Elongation}
 \newline
 
-\textbf{Buckled bar tension (BBT) test}
+\section{Buckled bar tension (BBT) test}
 
 One of the limit states considered in the seismic design of bridge columns is the buckling of rebar. Recent tests have been developed to determine the critical bending strain of buckled reinforcing steel \cite{Barcley2019}, which is associated with the sudden fragile fracture of longitudinal reinforcement of RC column. The buckled bar tension (BBT) test simulates the bending and tension strain demands on a buckled bar to determine critical bending strain in buckled rebars. 
 
+\subsection{Test procedure}
 Barcley et al \cite{Barcley2019} developed a methodology to calculate local strains on a buckled bar using an LED optical sensor system \cite{NorthernDigitalInc.2020}. \fref{fig:BBTseq} shows the basic concept of the BBT test.
 
 \begin{figure}[htbp]
@@ -179,7 +187,7 @@ The procedure to perform the buckled bar tension test consists of:
 \end{figure}
 
 \newpage
-
+\subsection{Test Matrix}
 The BBT tests are proposed for different levels of corrosion such that any changes on the behavior are studied and incorporated in the analytical model. The proposed test matrix is shown in Table \ref{tab:Test Matrix}. It must be noted that in each corrosion level for the BBT tests, each experiment will correspond to a different prescribed bending strain. The selection for each prescribed bending strains consist of 1) Start with the maximum bending strain determined in previous research to be around $\varepsilon=0.10$ as shown in \fref{fig:BBT_MaxBendingStrain}, 2)if brittle fracture is observed the next test will be at a lower bending strain for example $\varepsilon=0.08$, 3)otherwise higher strains such as $\varepsilon=0.12$ will be evaluated. This is repeated for each corrosion level. It is expected that six tests per corrosion level will be sufficient however, more tests will be performed if necessary. The results obtained will be compared to those of a pristine condition rebar which corresponds to a corrosion level of $CL=0\%$
 
 % Please add the following required packages to your document preamble:
@@ -209,7 +217,18 @@ The BBT tests are proposed for different levels of corrosion such that any chang
 	\end{tabular}
 \end{table}
 
+\subsection{Testing parameters}
+\textbf{Maximum bending strain}
+
 \newpage
+
+\section{3D Scanning}
+\section{SEM observations}
+\subsection{SEM imaging}
+\subsection{EDS Spectrum Analysis}
+\section{Turned down corroded rebars tests}
+\subsection{Test matrix}
+\subsection{Testing parameters}
 
 \section{Expected outcomes from experimental phase}
 
