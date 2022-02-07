@@ -1,0 +1,10 @@
+Parent specimen label,Initial mass (g),Target CL (%),Subset specimen label,Turned down diameter (mm),Type of test
+CL10-TD-T-1_3*,1285.9,10*,CL10-TD-T-1,13,Tension
+,,,CL10-TD-T-2,13,Tension
+,,,CL10-TD-T-3,13,Tension
+CL20-TD-BBT-1_3,1285.9,20,CL20-TD-BBT-1,13,BBT
+,,,CL20-TD-BBT-2,13,BBT
+,,,CL20-TD-BBT-3,13,BBT
+CL20-TD-BBT-4-6,1257.1,20,CL20-TD-BBT-4,13,BBT
+,,,CL20-TD-BBT-5,13,BBT
+,,,CL20-TD-BBT-6,13,BBT
