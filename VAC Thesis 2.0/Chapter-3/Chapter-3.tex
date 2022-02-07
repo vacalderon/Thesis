@@ -132,6 +132,28 @@ The results obtained from the tension tests were valuable to understand the chan
 \textbf{Uniform Axial Elongation}: The elongation is the increase in length of the gauge length, expressed as a percentage of the original gauge length. In recording elongation values, give both the percentage increase and the original gauge length.
 
 Regression analysis of the results helped update that equations that correlate these parameters to the corrosion level, and potentially yield an updated form of  \eref{eq.eleven}. The outcomes of the tension tests will further improve the results of the analytical model in Chapter \ref{chap-five}.
+\subsection{Test matrix}
+
+\begin{table}[htbp]
+\caption{Tension test matrix}
+\label{tab:tension_matrix}
+\centering
+\begin{tabular}{lccl}
+Parent specimen label        & Target CL (\%)      & Initial mass (g)        & Subset specimen label \\ \hline
+\multirow{3}{*}{CL5-T-1\_3}  & \multirow{3}{*}{5}  & \multirow{3}{*}{1260.8} & CL-5-T-1              \\
+                             &                     &                         & CL-5-T-2              \\
+                             &                     &                         & CL-5-T-3              \\
+\multirow{3}{*}{CL10-T-1\_3} & \multirow{3}{*}{10} & \multirow{3}{*}{1244.0} & CL-10-T-1             \\
+                             &                     &                         & CL-10-T-2             \\
+                             &                     &                         & CL-10-T-3             \\
+\multirow{3}{*}{CL15-T-1\_3} & \multirow{3}{*}{15} & \multirow{3}{*}{1251.2} & CL-15-T-1             \\
+                             &                     &                         & CL-15-T-2             \\
+                             &                     &                         & CL-15-T-3             \\
+\multirow{3}{*}{CL20-T-1\_3} & \multirow{3}{*}{20} & \multirow{3}{*}{1251.2} & CL-20-T-1             \\
+                             &                     &                         & CL-20-T-2             \\
+                             &                     &                         & CL-20-T-3            
+\end{tabular}
+\end{table}
 
 \section{Buckled bar tension (BBT) tests}
 
@@ -194,31 +216,37 @@ The procedure to perform the buckled bar tension test consisted of:
 \subsection{Test Matrix}
 The BBT tests are proposed for different levels of corrosion such that any changes on the behavior are studied and incorporated in the analytical model. The proposed test matrix is shown in Table \ref{tab:Test Matrix}. It must be noted that in each corrosion level for the BBT tests, each experiment will correspond to a different prescribed bending strain. The selection for each prescribed bending strains consist of 1) Start with the maximum bending strain determined in previous research to be around $\varepsilon=0.10$ as shown in \fref{fig:BBT_MaxBendingStrain}, 2)if brittle fracture is observed the next test will be at a lower bending strain for example $\varepsilon=0.08$, 3)otherwise higher strains such as $\varepsilon=0.12$ will be evaluated. This is repeated for each corrosion level. It is expected that six tests per corrosion level will be sufficient however, more tests will be performed if necessary. The results obtained will be compared to those of a pristine condition rebar which corresponds to a corrosion level of $CL=0\%$
 
-% Please add the following required packages to your document preamble:
-% \usepackage{multirow}
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
-\begin{table}[htb]
-	\caption{Corroded Rebar Test Matrix}
-	\label{tab:Test Matrix}
-	\centering	
-	\begin{tabular}{|c|c|c|c|}
-	\hline
-	\multicolumn{4}{|c|}{\cellcolor[HTML]{CC0000}{\color[HTML]{FFFFFF} Corroded rebar test matrix}}                                               \\ \hline
-	\multicolumn{1}{|l|}{Test}     & \multicolumn{1}{l|}{Diameter of bar} & \multicolumn{1}{l|}{CL (\%)} & \multicolumn{1}{l|}{Number of Tests} \\ \hline
-	                               &                                      & 0                            & 3                                    \\ \cline{3-4} 
-	                               &                                      & 5                            & 3                                    \\ \cline{3-4} 
-	                               &                                      & 10                           & 3                                    \\ \cline{3-4} 
-	                               &                                      & 15                           & 3                                    \\ \cline{3-4} 
-	                               &                                      & 20                           & 3                                    \\ \cline{3-4} 
-	\multirow{-6}{*}{Tension test} & \multirow{-6}{*}{\#6}                & 25                           & 3                                    \\ \hline
-	                               &                                      & 0                            & 6                                    \\ \cline{3-4} 
-	                               &                                      & 5                            & 6                                    \\ \cline{3-4} 
-	                               &                                      & 10                           & 6                                    \\ \cline{3-4} 
-	                               &                                      & 15                           & 6                                    \\ \cline{3-4} 
-	                               &                                      & 20                           & 6                                    \\ \cline{3-4} 
-	\multirow{-6}{*}{BBT test}     & \multirow{-6}{*}{\#6}                & 25                           & 6                                    \\ \hline
-	\end{tabular}
+\begin{table}[htbp]
+\caption{BBT test matrix}
+\label{tab:bbt_matrix}
+\centering
+\begin{tabular}{lccl}
+Parent specimen label          & Initial mass (g)        & Target CL (\%)      & Subset specimen label \\ \hline
+\multirow{3}{*}{CL5-BBT-1\_3}  & \multirow{3}{*}{1249.6} & \multirow{3}{*}{5}  & CL-5-BBT-1            \\
+                               &                         &                     & CL-5-BBT-2            \\
+                               &                         &                     & CL-5-BBT-3            \\
+\multirow{3}{*}{CL5-BBT-4-6}   & \multirow{3}{*}{1255.3} & \multirow{3}{*}{5}  & CL-5-BBT-4            \\
+                               &                         &                     & CL-5-BBT-5            \\
+                               &                         &                     & CL-5-BBT-6            \\
+\multirow{3}{*}{CL10-BBT-1\_3} & \multirow{3}{*}{1248.7} & \multirow{3}{*}{10} & CL-10-BBT-1           \\
+                               &                         &                     & CL-10-BBT-2           \\
+                               &                         &                     & CL-10-BBT-3           \\
+\multirow{3}{*}{CL10-BBT-4-6}  & \multirow{3}{*}{1258.7} & \multirow{3}{*}{10} & CL-10-BBT-4           \\
+                               &                         &                     & CL-10-BBT-5           \\
+                               &                         &                     & CL-10-BBT-6           \\
+\multirow{3}{*}{CL15-BBT-1\_3} & \multirow{3}{*}{1217.9} & \multirow{3}{*}{15} & CL-15-BBT-1           \\
+                               &                         &                     & CL-15-BBT-2           \\
+                               &                         &                     & CL-15-BBT-3           \\
+\multirow{3}{*}{CL15-BBT-4-6}  & \multirow{3}{*}{1265.5} & \multirow{3}{*}{15} & CL-15-BBT-4           \\
+                               &                         &                     & CL-15-BBT-5           \\
+                               &                         &                     & CL-15-BBT-6           \\
+\multirow{3}{*}{CL20-BBT-1\_3} & \multirow{3}{*}{1245.1} & \multirow{3}{*}{20} & CL-20-BBT-1           \\
+                               &                         &                     & CL-20-BBT-2           \\
+                               &                         &                     & CL-20-BBT-3           \\
+\multirow{3}{*}{CL20-BBT-4-6}  & \multirow{3}{*}{1272.3} & \multirow{3}{*}{20} & CL-20-BBT-4           \\
+                               &                         &                     & CL-20-BBT-5           \\
+                               &                         &                     & CL-20-BBT-6          
+\end{tabular}
 \end{table}
 
 \subsection{Testing parameters}
@@ -254,6 +282,24 @@ The bars that did not reach their intended corrosion level were repurposed to be
 \subsection{Test matrix}
 
 The test matrix shown below summarizes the rebars used for these tests. The table shows the final turned down diameter, and the type of test for each repurposed specimen.
+
+\begin{table}[htbp]
+\caption{Test matrix for turned down specimens}
+\label{tab:turned_down_matrix}
+\centering
+\begin{tabular}{lcll}
+Parent specimen label             & Target CL (\%)       & Subset specimen label & Type of test \\ \hline
+\multirow{3}{*}{CL10-TD-T-1\_3*}  & \multirow{3}{*}{10*} & CL10-TD-T-1           & Tension      \\
+                                  &                      & CL10-TD-T-2           & Tension      \\
+                                  &                      & CL10-TD-T-3           & Tension      \\
+\multirow{3}{*}{CL20-TD-BBT-1\_3} & \multirow{3}{*}{20}  & CL20-TD-BBT-1         & BBT          \\
+                                  &                      & CL20-TD-BBT-2         & BBT          \\
+                                  &                      & CL20-TD-BBT-3         & BBT          \\
+\multirow{3}{*}{CL20-TD-BBT-4-6}  & \multirow{3}{*}{20}  & CL20-TD-BBT-4         & BBT          \\
+                                  &                      & CL20-TD-BBT-5         & BBT          \\
+                                  &                      & CL20-TD-BBT-6         & BBT         
+\end{tabular}
+\end{table}
 
 \subsection{Testing parameters}
 The testing parameters corresponded to the same studied in the tension and BBT tests performed on the corroded rebars: (1) Yield Strength, (2) Ultimate Strength, (3) Uniform elongation, and (4) maximum bending strain.
