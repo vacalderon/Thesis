@@ -21,7 +21,7 @@ The corrosion level of each specimen was measured after the time to corrode them
     \label{eq:mass_loss_CL}
 \end{equation}
 
-Table \ref{tab:CL_mass_loss_method} shows the resulting corrosion level using \eref{eq:mass_loss_CL}. The resulting corrosion was significantly close to the target corrosion levels, and proved that the test setup successfully achieved the intended corrosion levels. The bars corresponding to CL=25\% did not achieve the intended corrosion level, but instead achieved a corrosion level of 20\%. The reason for this discrepancy is due to the fact that the corrosion products from the accelerated corrosion process were on top of the surface of the rebars. Therefore, the corrosion process was not permitted to continue. In addition, one specimen for CL=15\% did not achieve the intended corrosion level, mainly due to a faulty welding of the stainless steel wire to the rebar. These extra bars were repurposed for tension tests and BBT tension tests of turned down rebars.
+Table \ref{tab:CL_mass_loss_method} shows the resulting corrosion level using \eref{eq:mass_loss_CL}. The resulting corrosion was significantly close to the target corrosion levels, and proved that the test setup successfully achieved the intended corrosion levels. In addition, one specimen for CL=15\% did not achieve the intended corrosion level, mainly due to a faulty welding of the stainless steel wire to the rebar. These bars were repurposed for tension tests of turned down rebars.
 
 \begin{table}[]
 \caption{Corroded Level measured from mass loss in gauge length}
@@ -327,10 +327,13 @@ In order to rule out the preclusion to failure due to inclusion of chlorides in 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.85\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_SpectrumAnalysis.pdf}
+	\includegraphics[width=0.84\textwidth]{VAC Thesis 2.0/Chapter-4/figs/BBT_SpectrumAnalysis.pdf}
 	\caption{Spectrum analysis of back scatter electrons (BSE) imaging of fracture surface for brittle and ductile failures}
 	\label{fig:SpectrumAnalysis}
 \end{figure}
+
+\newpage
+
 \section{Tests on turned down corroded rebars}
 
 \section{Discussion of results}
@@ -339,7 +342,12 @@ The experimental program in this study found the following results:
 
 The use of the effective diameter is a reliable tool to estimate the corrosion level based on geometrical measurements. The use of an effective diameter is especially useful in the case of field measurements taken from corroded rebars. 
 
-The basis for a good assessment is how well the probable properties of the structural materials are. Therefore, the availability of the effective mechanical properties for corroded reinforcing steel provides a great tool to estimate the residual strength and residual ductility to an extent of corroded structures. In addition, the use of the maximum bending strain to obtain the maximum ductility capacity is a good contribution since we can relate the maximum bending strain to the ultimate limit state, as was developed by Barcley et al \cite{Barcley2018}. The incorporation of the bending strain in performance-based design will be shown in more detail in Chapter 5 and Chapter 6. 
+The basis for a good assessment is how well the probable properties of the structural materials are. Therefore, the availability of the effective mechanical properties for corroded reinforcing steel provides a great tool to estimate the residual strength and residual ductility to an extent of corroded structures. In addition, the use of the maximum bending strain to obtain the maximum ductility capacity is a good contribution since we can relate the maximum bending strain to the ultimate limit state. This model is replicated here as \eref{eq.BarFracture} developed by Barcley et al \cite{Barcley2019}.This model was implemented in the analytical model presented in Chapter \ref{chap-five}. 
+
+\begin{equation}
+    \varepsilon_{t}=\frac{ln(\frac{\varepsilon_{b}}{0.001})}{\frac{300p}{f'c A_{g}}+\frac{0.7}{\rho_{t}}}
+    \label{eq.BarFracture}
+\end{equation}
 
 The use of SEM observations for specific goals proved very useful since this study determined that the microstructural integrity of the material is not changed or affected by any inclusion of chlorides in the fracture surface, but rather shows a geometrical effect of the imperfections of the corroded surface of the rebar. These imperfections act as stress risers and preclude an earlier failure of the reinforcing steel. These results became more evident as we removed the imperfections. We can observe that both the tension tests and BBT tests show that the virgin metal in the reinforcing steel remains unchanged and unaffected by the corrosion.
 
