@@ -67,7 +67,13 @@ Figure \ref{fig:MS_Selection} summarizes the results from filtering the data ava
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Chapter-5/figs/MainShock_Selection}
+	\includegraphics[width=0.45\textwidth]{Chapter-5/figs/GM_Selection.pdf}
+	\caption{Mainshock selection from PEER NGA West2 database}
+	\label{fig:MS_Selection}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.45\textwidth]{Chapter-5/figs/SD_Spectrum_GM_Selection.pdf}
 	\caption{Mainshock selection from PEER NGA West2 database}
 	\label{fig:MS_Selection}
 \end{figure}
@@ -76,6 +82,12 @@ Figure \ref{fig:MS_Selection} summarizes the results from filtering the data ava
 Corrosion modifies the mechanical properties of rebars in RC structures, thus inherently modifying their response to earthquake loading. When an earthquake will occur is difficult to predict as explained in section 2.4.2. Therefore, in this study we propose subjecting structures at a specified corrosion level to a series of mainshock and aftershock ground motions. The proposed methodology will help to evaluate the effect of corrosion in RC structures subjected to earthquake loading with accumulation of damage. 
 Specifically, the approach consists of (1) specify corrosion level (CL) as shown in \fref{fig:CorrModel}, (2) the ground motions sequences from earthquake selection are applied for each corrosion level, (3) the results are evaluated in each case to determine what limit states were reached and the implication for the design proposal. 
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{Chapter-5/figs/MS_AS_Figure.pdf}
+	\caption{Mainshock selection from PEER NGA West2 database}
+	\label{fig:MS_Selection}
+\end{figure}
 
 \subsection{Modeling of mainshock-aftershock series for strain aging damage state}
 
@@ -195,7 +207,7 @@ Goodnight et al performed a total of 30 circular RC columns quasi-static tests t
 The analytical model used these parameters to compare the results from the model to the experimental results. The results from the analysis show good agreement with the experimental results as evidenced in \fref{fig:ModelCalibration}. Thus, the results obtained from the model predict the overall system behavior and can be used to analyze other configurations of the structural model.
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Chapter-5/figs/Model_Calibration_Goodnight2016}
+	\includegraphics[width=0.7\textwidth]{Chapter-5/figs/Calibration_Test_26_Goodnight_et_al.pdf}
 	\caption{Force-Displacement results from experimental results \cite{Goodnight2013} and analytical model}
 	\label{fig:ModelCalibration}
 \end{figure}
@@ -206,7 +218,7 @@ Similarly, Ma et al performed a series of quasi-static tests on RC columns with 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.60\textwidth]{Chapter-5/figs/Model_Calibration_Ma2012}
+	\includegraphics[width=0.60\textwidth]{Chapter-5/figs/Model_vs_MaEtAl_220218.pdf}
 	\caption{Force-Displacement results from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) \cite{Ma2012} and analytical model results (shown in lightblue)}
 	\label{fig:ModelCalibration_Corrosion}
 \end{figure}
@@ -284,13 +296,30 @@ Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_R
 \subsection{Effect of groundmotion sequences}
 
 \subsection{Effect of corrosion level in the increase of demands}
-
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-5/figs/All_results_NLTHA_Figure.pdf}
+	\caption{Cumulative Distribution Function (CDF) for steel strain limit states and different Axial Load Ratios (ALR)}
+	\label{fig:CDF_strain_vs_ALR}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-5/figs/All_results_NLTHA_Figure.pdf}
+	\caption{Cumulative Distribution Function (CDF) for steel strain limit states and different Axial Load Ratios (ALR)}
+	\label{fig:CDF_strain_vs_ALR}
+\end{figure}
 \subsubsection{Strain demands $(\varepsilon)$ vs $Sd(T_{eff},\xi)$}
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-5/figs/CDF_summary.pdf}
 	\caption{Cumulative Distribution Function (CDF) for steel strain limit states and different Axial Load Ratios (ALR)}
 	\label{fig:CDF_strain_vs_ALR}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1.0\textwidth]{VAC Thesis 2.0/Chapter-5/figs/Analysis_of_Mean_SDs.pdf}
+	\caption{Analysis of mean)}
+	\label{fig:mean_prob_vs_CL}
 \end{figure}
 
 Once the analysis is complete the data is post-processed and expressed as a cumulative distribution function (CDF). The methodology employed corresponds to the multiple stripe analysis (MSA) recommended by Baker et al \cite{Baker2015}. While peak ground acceleration ($PGA$) has been widely used as the intensity measure to develop fragility functions\cite{Ghosh2015}\cite{Bisadi2015}\cite{Shekhar2018}. Krish \cite{Krish2018} showed in a recent study, that spectral displacement at first effective period ($IM=Sd(T_1)$) has better correlation than $PGA$. To demonstrate this, CDF curves were developed for $IM=PGA$ and $IM=Sd(T_1)$, and are shown in \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1} respectively. The CDFs were developed for the steel yielding limit state; however this can be the extrapolated for any limit state. \fref{fig:CDF_SY_PGA} shows the results obtained with $IM=PGA$ do not show a good correlation since as corrosion increases the probability of exceeding a limit state decreases. This is not the behavior observed in \fref{fig:Steel_Stress_Strain_Response}. Conversely, \fref{fig:CDF_SY_SDT1} shows the results with $IM=Sd(T_1)$. These results present a better correlation, since, as corrosion increases, the probability of exceeding the limit state of yielding increases. For the preliminary results shown here, the corrosion level of 13.1\% results are an exception. These results will improve as more analyses become available. 
