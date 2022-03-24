@@ -29,6 +29,13 @@ Similarly, the mechanical properties of the reinforcing steel are modified with 
     \label{eq.Calderon_Fu_vs_CL_5}
 \end{equation}
 
+In addition, the ultimate limit state uses the maximum bending strain to calculate the previous tension strain for buckled bar fracture. Since the analytical program evaluates different corrosion levels, \eref{eq:eq.Calderon_eb_vs_CL} that defines the degradation of the maximum bending strain with corrosion level is used. Equation \ref{eq:eq.Calderon_eb_vs_CL} is replicated here for convenience as \eref{eq.Calderon_eb_vs_CL_02}
+
+\begin{equation}
+    \varepsilon_{b}(CL) = \varepsilon_{o}-0.0045CL
+    \label{eq.Calderon_eb_vs_CL_02}
+\end{equation}
+
 \section{Multiple seismic events}
 
 The evaluation of multiple seismic events is a topic that has been scarcely studied, however their effects have been felt in numerous earthquake sequences such as the Christchurch 2010, Umbria-Marche Earthquake 1997 and the Puerto Rico Earthquakes 2020. The hypothesis is that accumulation of damage will restart in a smaller seismic event to achieve a prescribed limit state, similar to how corrosion and other aging phenomena might impact the intensity needed to achieve a future limit state. 
@@ -175,17 +182,20 @@ Design limit states are defined based on strains in the material since they can 
 \end{table}
 
 \section{Comparison with existing physical tests}
-The model used in this research is calibrated for the case of pristine conditions and the case of corroded columns. The calibration to a pristine condition column shows how reliable the results from the model are. Then the pristine condition model is modified with the corrosion model, as explained in section 4.1.1. The analytical model is compared to the results from the physical test on corroded RC columns. This will give confidence that the results obtained from the analytical model are reliable, and will be further enhanced with the experimental results.
+The model used in this research was calibrated for the case of pristine conditions and the case of corroded columns. First, the calibration to a pristine condition column shows how reliable the results from the structural model are. Then the pristine condition model is modified with the corrosion model, as explained in section 5.1. Finally, the analytical model is compared to the results from the physical test on corroded RC columns. The analytical model confirmed that the results obtained from the analytical program are reliable.
 \subsection{Pristine condition columns}
 Goodnight et al performed a total of 30 circular RC columns quasi-static tests to evaluate strain limit states \cite{Goodnight2016}. From this set of tests, a sample of one was taken to calibrate the analytical model. The test performed by Goodnight et al on an SDOF cantilever column shows similar geometry to that presented in \fref{fig:Fiber_PlasticHinge}. The parameters used in this large scale test were: diameter $D = 24.0 inch$, height of the column $L = 8.0 ft$, yield strength of steel $f_{y} = 574.0 MPa$, ultimate strength of steel $f_{u} = 753.3 * MPa$, longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $, transverse steel volumetric ratio $\rho_{v} = 1.0\% $, and strength of concrete at 8 days $f'_{c} = 39.8 MPa$.
 
 The analytical model used these parameters to compare the results from the model to the experimental results. The results from the analysis show good agreement with the experimental results as evidenced in \fref{fig:ModelCalibration}. Thus, the results obtained from the model predict the overall system behavior and can be used to analyze other configurations of the structural model.
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.60\textwidth]{Chapter-5/figs/Calibration_Test_26_Goodnight_et_al.pdf}
 	\caption{Force-Displacement results from experimental results \cite{Goodnight2013} and analytical model}
 	\label{fig:ModelCalibration}
 \end{figure}
+
+In addition, to verify the applicability of the strain limit states defined in the previous section, the limit states that correspond to bar buckling ($\varepsilon_{s,bb}$ ) and fracture of buckled bar ($\varepsilon_{t}$ )  were evaluated for this test. From \fref{fig:ModelCalibration_Pristine_Hysteresis} if the strain hysteresis is intercepted by each of the strain limits states, it can be observed that for the bar buckling limit state, the displacement corresponds to a 5.5 inch, it is at this displacement in \fref{fig:ModelCalibration} that the first drop in the strength of the system is observed. Similarly, for buckled bar fracture, the displacement corresponds to 5.8, which is where there is a substantial drop in the strength of the column due to fracture of the buckled bar in \fref{fig:ModelCalibration}. Thus, the analysis can capture the limit states in the structure. 
 
 \begin{figure}[htbp]
 	\centering
@@ -195,7 +205,7 @@ The analytical model used these parameters to compare the results from the model
 \end{figure}
 
 \subsection{Accelerated corrosion columns}
-Similarly, Ma et al performed a series of quasi-static tests on RC columns with different corrosion levels and axial load ratios \cite{Ma2012}. From their study, the test with a corrosion level $CL=9.5\%$ was taken for calibration since the other tests presented in their study had excessively high axial load ratios which are not common in RC bridges. The results from Ma et al test	\cite{Ma2012} were used to compare against the analytical model. The column had the following parameters: diameter $D = 260.0 mm$, height of the column $L = 820.0 mm$, yield strength of steel $f_{y} = 375.0$ MPa, ultimate strength of steel $f_{u} = 572.3$ MPa, longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $, transverse steel volumetric ratio $\rho_{v} = 1.0\% $, strength of concrete at 8 days $f'_{c} = 39.8$ MPa, and corrosion level $CL=9.5\%$. Equation \ref{eq.eleven} is used to modify the material properties of the reinforcing steel and considers the effects of corrosion. 
+Similarly, Ma et al performed a series of quasi-static tests on RC columns with different corrosion levels and axial load ratios \cite{Ma2012}. From their study, the test with a corrosion level $CL=9.5\%$ was taken for calibration since the other tests presented in their study had excessively high axial load ratios which are not common in RC bridges. The results from Ma et al test	\cite{Ma2012} were used to compare against the analytical model. The column had the following parameters: diameter $D = 260.0 mm$, height of the column $L = 820.0 mm$, yield strength of steel $f_{y} = 375.0$ MPa, ultimate strength of steel $f_{u} = 572.3$ MPa, longitudinal steel volumetric ratio $\rho_{l} = 2.73\% $, transverse steel volumetric ratio $\rho_{v} = 1.0\% $, strength of concrete at 8 days $f'_{c} = 39.8$ MPa, and corrosion level $CL=9.5\%$. Equation \ref{eq.eleven} is used to modify the material properties of the reinforcing steel and considers the effects of corrosion. 
 
 \begin{figure}[htbp]
 	\centering
@@ -204,7 +214,7 @@ Similarly, Ma et al performed a series of quasi-static tests on RC columns with 
 	\label{fig:ModelCalibration_Corrosion}
 \end{figure}
 
-Figure \ref{fig:ModelCalibration_Corrosion} shows that the results obtained from the analytical model capture the response of the structure with good accuracy. Ma et al \cite{Ma2012} did not report if bar buckling and bar fracture occurred during the test. However, the hysteresis curve shown in their study suggests that some damage limit state was reached. Therefore, \eref{eq:es_DamageControl} is used to determine the bar buckling limit state ($\varepsilon_{s,BB}=0.024$), this is then compared to the analytical model results shown \fref{fig:ModelCalibration_Corrosion_Hysteresis}. The results show a peak tension strain of $\varepsilon_{s}=0.023$, which is close to the value obtained using equation \eref{eq:es_DamageControl}. Therefore, there is a high likelihood that the bar buckling limit state was reached during this test. While these results are close, it is still not clear if \eref{eq:es_DamageControl} captures the behavior of the buckling limit state for corroded rebars. Thus, the proposed corroded BBT test will show if corrosion affects the behavior of buckled bars.
+Figure \ref{fig:ModelCalibration_Corrosion} shows that the results obtained from the analytical model capture the response of the structure with good accuracy. Ma et al \cite{Ma2012} did not report if bar buckling and bar fracture occurred during the test. However, the hysteresis curve shown in their study suggests that some damage limit state was reached. Therefore, \eref{eq:es_DamageControl} is used to determine the bar buckling limit state ($\varepsilon_{s,BB}=0.019$), this is then compared to the analytical model results shown \fref{fig:ModelCalibration_Corrosion_Hysteresis} based on the observed behavior in \fref{fig:ModelCalibration_Corrosion}, the displacement that corresponds to this limit state matches well the displacement where the buckling is assumed to have started. Similarly for the buckled bar fracture limit state, the limit state matches well with the peak tension strain of $\varepsilon_{s}=0.023$. Therefore, the calibration of the model for corroded RC columns seem to match well with the results from Ma et al. While these results are close, ongoing research at NC State will further improve the estimation of the limit states for corroded RC columns.
 
 \begin{figure}[htbp]
 	\centering
@@ -212,7 +222,7 @@ Figure \ref{fig:ModelCalibration_Corrosion} shows that the results obtained from
 	\caption{Strain hysteresis from experimental RC column with corrosion in longitudinal bar (CL=9.5\%) results from analytical model}
 	\label{fig:ModelCalibration_Corrosion_Hysteresis}
 \end{figure}
-\newpage
+
 \section{Intensity Measure: $Sd(T_{eff},\xi)$}
 
 When relating ground motions to structural response parameters, selecting appropriate quantities that accurately capture their relationship is crucial. Krish \cite{Krish2018} showed in a recent study that there is a good correlation between strain obtained from fiber modeling and first mode effective spectral displacement ($IM=Sd(T_1)$). On the other hand, peak ground acceleration $(PGA)$ did not correlate well. These conclusions are congruent with the results found by Mackie et al. \cite{Mackie2003}. 
@@ -271,6 +281,7 @@ Equations \eref{eq:EqDamping_calcualtion} and \eref{eq:DF_calcualtion} are part 
 
 \begin{equation}
     Sd(T_{eff},\xi)=DF Sd(T_{eff},5\%)
+    \label{eq:Sd_teff_xi_calcualtion}
 \end{equation}
 
 The preceeding methodology can be seen graphically in \fref{fig:SpectralDisplacementCalculation}
@@ -284,7 +295,30 @@ The preceeding methodology can be seen graphically in \fref{fig:SpectralDisplace
 
 \section{Anlsysis of results using MSA}
 
-Once the analysis is complete the data is post-processed and expressed as a cumulative distribution function (CDF). The methodology employed corresponds to the multiple stripe analysis (MSA) recommended by Baker et al \cite{Baker2015}. While peak ground acceleration ($PGA$) has been widely used as the intensity measure to develop fragility functions\cite{Ghosh2015}\cite{Bisadi2015}\cite{Shekhar2018}. Krish \cite{Krish2018} showed in a recent study, that spectral displacement at first effective period ($IM=Sd(T_1)$) has better correlation than $PGA$. To demonstrate this, CDF curves were developed for $IM=PGA$ and $IM=Sd(T_1)$, and are shown in \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1} respectively. The CDFs were developed for the steel yielding limit state; however this can be the extrapolated for any limit state. \fref{fig:CDF_SY_PGA} shows the results obtained with $IM=PGA$ do not show a good correlation since as corrosion increases the probability of exceeding a limit state decreases. This is not the behavior observed in \fref{fig:Steel_Stress_Strain_Response}. Conversely, \fref{fig:CDF_SY_SDT1} shows the results with $IM=Sd(T_1)$. These results present a better correlation, since, as corrosion increases, the probability of exceeding the limit state of yielding increases. For the preliminary results shown here, the corrosion level of 13.1\% results are an exception. These results will improve as more analyses become available. 
+The multiple stripes analysis (MSA) procedure was used to fit fragility curves to the raw data, as described by Baker \cite{Baker2015}. A summary of this procedure is provided as follows: At each intensity level, $x_j$, the probability, $P$, of observing $z_j$ collapses in $n_j$ observations is given by the binomial distribution, as shown in Equation 7-7, where $p_j$ is the probability of a single ground motion with $IM = x_j$ to cause the collapse of the structure. \eref{eq:P_MSA}
+
+\begin{equation}
+   P=\binom{n}{z_{j}}p_{j}^{z_{j}}(1-p_{j})^{n_{j}-z_{j}} 
+   \label{eq:P_MSA}
+\end{equation}
+
+Note that the “collapse” of the structure does not necessarily mean a collapse in a traditional sense, but just that a specified limit state has been exceeded. To consider the overall likelihood of observing multiple instances of this distribution across multiple IM levels, the product of this distribution is taken for each IM level considered, as shown in \eref{eq:likelihood_MSA}
+
+\begin{equation}
+   Likelihood=\prod_{j=1}^{m} \binom{n}{z_{j}}p_{j}^{z_{j}}(1-p_{j})^{n_{j}-z_{j}} 
+   \label{eq:likelihood_MSA}
+\end{equation}
+
+A lognormal cumulative distribution function (CDF) is used to define the fragility function and is substituted for$p_j$. This explicitly states the fragility function parameters within the function; in this case the median of the fragility function, $\theta$, and the standard deviation of $ln(IM)$, $\beta$ (also referred to as the dispersion of IM). Furthermore, the solution is simplified by taking the natural log of each side, thus reducing the product formulation to a summation which is computationally more efficient. The resulting function is that described in \eref{eq:hat_theta_beta_MSA}
+
+\begin{equation}
+  \{\hat{\theta},\hat{\beta}\}=\arg \max_{\theta,\beta} \sum_{j=1}^{m} \bigg\{\ln\binom{n}{z_{j}} +z_{j}\ln\Theta\left(\frac{\ln(x_{j}/\theta)}{\beta}\right) + (n_{j}-z_{j})\ln\left[1-\Theta\left(\frac{ln(x_{j}/\theta)}{\beta}\right)\right]\bigg\} 
+  \label{eq:hat_theta_beta_MSA}
+\end{equation}
+
+In this final equation, $n_j$, $z_j$, and $x_j$ are all defined via the analysis results, and $\theta$ and $\beta$ are the only unknowns. These two unknown parameters are then optimized using numerical solution techniques to find the values that produce the highest probability of observing the analysis results. Several analysis tools for conducting this optimization, including Excel spreadsheets and Matlab codes, are provided in the appendices of the paper by Baker \cite{Baker2015} and were used to produce the analysis results presented in this study.
+
+The MSA procedure was selected over traditional incremental dynamic analysis (IDA) primarily because unscaled ground motions were used in the analysis. The MSA procedure is particularly well suited for this type of analysis because each IM level does not require multiple observations (i.e. nj can be equal to one). In this case, each record is considered individually and either does or does not cause a collapse. An example of curves fit to the analysis data for the limit state of damage control for steel is shown in \fref{fig:msa_sample_01}
 
 \begin{figure}[htp]
 	\centering
@@ -304,7 +338,7 @@ The analytical framework was established to obtain the change in the structure p
 	\item Posprocessing of data
 \end{enumerate}
 
-The analysis matrix for the corrosion aging phenomenon that was analyzed in this study is shown in Table \ref{tab:AnalysisMatrix}. The area or extent covered in the analysis corresponds to the range of variables that are common for RC columns in bridges.These analysis matrix resulted in a total of 36,000 analysis for the discrete ground motion analysis and 96,000 analysis for the sequences of ground motion case. To perform this large volume of analysis the Henry2 High Performance Computer (HPC) was used, to run the analysis in parallel. 
+The analysis matrix for the corrosion aging phenomenon that was analyzed in this study is shown in Table \ref{tab:AnalysisMatrix}. The area or extent covered in the analysis corresponds to the range of variables that are common for RC columns in bridges.These analysis matrix resulted in a total of 36,000 analysis for the discrete ground motion analysis and 96,000 analysis for the sequences of ground motion case. To perform this large volume of analysis the Henry2 High Performance Computer (HPC) was used, to run the analysis in parallel. Table \ref{tab:column_geometry} shows the detailing and column diameters used in the analytical program.
 
 \begin{table}[htb]
 	\caption{Analysis matrix}
@@ -319,6 +353,31 @@ Axial load ratio                       & ALR              & 5\%-20\%            
 Corrosion level                         & CL               & 0\%-20\%               \\	
 \end{tabular}
 \end{table}
+
+
+\begin{table}[htpb]
+\caption{Detailing of columns for NLTHA}
+\label{tab:column_geometry}
+\begin{tabularx}{1.0\textwidth} { 
+   >{\centering\arraybackslash}X 
+   >{\centering\arraybackslash}X 
+  >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X >{\centering\arraybackslash}X}
+Diameter, $D (in)$ & Bar diameter, $d_{b} (in)$ & Number of bars, $n_{b}$ & Trans. diameter, $d_{t} (in) $ & Spacing, $s (in)$ & $\rho_{l}$ & $\rho_{v}$ \\ \hline
+48               & 0.875               & 30                             & 0.625                & 2.5                   & 0.01   & 0.01   \\
+48               & 1.000                   & 45                             & 0.625                & 2.5                   & 0.02   & 0.01   \\
+48               & 1.125               & 54                             & 0.625                & 2.5                   & 0.03   & 0.01   \\
+48               & 1.250                & 56                             & 0.625                & 2.5                   & 0.04   & 0.01   \\
+72               & 1.000                   & 52                             & 0.75                 & 2.5                   & 0.01   & 0.01   \\
+72               & 1.125               & 82                             & 0.75                 & 2.5                   & 0.02   & 0.01   \\
+72               & 1.250                & 96                             & 0.75                 & 2.5                   & 0.03   & 0.01   \\
+72               & 1.750                & 72                             & 0.75                 & 2.5                   & 0.04   & 0.01   \\
+90               & 1.000                   & 80                             & 0.75                 & 2                     & 0.01   & 0.01   \\
+90               & 1.125               & 128                            & 0.75                 & 2                     & 0.02   & 0.01   \\
+90               & 1.250                & 150                            & 0.75                 & 2                     & 0.03   & 0.01   \\
+90               & 1.750                & 114                            & 0.75                 & 2                     & 0.04   & 0.01  
+\end{tabularx}
+\end{table}
+
 
 \subsection{Analysis Algorithm}
 
@@ -359,25 +418,11 @@ The post-processor subroutine also consisted of a sequential process as shown in
 	\label{fig:postproc_flowchart_02}
 \end{figure}
 
-
-
-
-%This procedure has been summarized in the form of a flow chart presented in \fref{fig:NLTHA_Framework}
-%
-%\begin{figure}[htbp]
-%	\centering
-%	\includegraphics[width=0.9\textwidth]{Chapter-5/figs/AnalysisFramework_01}
-%	\caption{Analysis Framework Flowchart}
-%	\label{fig:NLTHA_Framework}
-%\end{figure}
-%
-%\section{Earthquake selection}
-%\lipsum[4]
 \section{Results from Analytical Program}
 This section presents the results obtained from a non-linear time history analysis (NLTHA) performed using OpenSeesPy \cite{Zhu2018}. The structure was subjected to a total of 18 earthquake records. The primary responses obtained from these analyses correspond to the maximum strain obtained for the different levels of corrosion. The structure was analyzed for a range of corrosion levels [1.5\%-13\%] in the longitudinal rebars.
 
 \subsection{Structural Response at Different Corrosion Levels}
-Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_Response} are presented as an example of the results obtained using NLTHA. These results are extracted from the structure's response to the Chi-Chi earthquake. \fref{fig:Force-Displacement_Results} shows the global system response and \fref{fig:Steel_Stress_Strain_Response} shows the stress-strain response of the extreme fiber of reinforcing steel. These results show that as corrosion increases, the demands imposed on the structure increase too. Therefore, the probability of reaching a limit state increases as corrosion increases.
+Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_Response} are presented as an example of the results obtained using NLTHA. These results are extracted from the structure's response to the Chi-Chi earthquake (RSN1505 in the PEER data base). \fref{fig:Force-Displacement_Results} shows the global system response, it can be observed that as the corrosion level increases the displacement demands also increase, on the other hand it is known that corrosion tends to degrade the capacity of an RC system, as will be shown in section 5.8.3 as corrosion increases the likelihood of reaching a limit state also increases. Similarly in \fref{fig:Steel_Stress_Strain_Response} and \fref{fig:Steel_Strain_Response} shows first that the strength of the corroded reinforcement decreases and therefore induces higher strain demands on the system, and the strain demands from the same ground motion increases as the corrosion level increases, these results further indicated the effect corrosion can have in RC structure.
 
 \begin{figure}[htbp]
 	\centering
@@ -397,10 +442,12 @@ Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_R
 	\centering
 	\includegraphics[width=0.7\textwidth]{Chapter-5/figs/Diplacement_Strain_RSN1505.pdf}
 	\caption{Strain hysteresis}
-	\label{fig:Steel_Stress_Strain_Response}
+	\label{fig:Steel_Strain_Response}
 \end{figure}
 
-\subsection{Effect of groundmotion sequences}
+\subsection{Effect of ground motion sequences}
+
+The as-recorded ground motion sequences found in the NGA2West database \cite{Ancheta2014} did not induce an increase in the strain demands for corroded RC structures. The results can be observed in \fref{fig:ms_as_results}. The mainshock dominated the strain demand for all the ground motions, and the subsequent aftershocks did not appear to increase the highest demand further. The results from this analysis are congruent with studies on pristine condition structures subjected to ground motion sequences. Other studies that have used the incremental dynamic analysis or scaling factors on the mainshock-aftershock sequences have increased the demands due to these sequences, and it is possible that altering the records modifies their dynamic properties and induces the observed increase in the demands. At the same time, all these studies have been performed on shallow crustal earthquakes. Changing the ground motion regime to subduction earthquake sequences could have a different outcome. Only the mainshocks were used to save computational costs for the rest of this study.
 
 \begin{figure}[htbp]
 	\centering
