@@ -1,53 +1,45 @@
-\chapter{Analytical model}
+\chapter{Analytical Program}
 \label{chap-five}
-This research aims to develop a design procedure that incorporates the effect of cumulative damage in RC structures to improve their seismic resiliency. While previous studies have obtained results using the Ang and Park Damage Index and obtained fragility curves using the assumptions of that model, this research will evaluate the performance of structures using strain limit states. Therefore, an analytical model of an SDOF cantilever RC column will be subjected to a series of nonlinear time history analyses (NLTHA) that consider aging conditions and sequences of mainshock and aftershock. The results of these analyses will record the limit state reached for each run of the analysis, and we expect the results to show how the accumulation of damage due to the aging of a structure increases the risk of a structure reaching a limit state. 
+This research developed an analysis procedure that incorporated the effect of cumulative damage in RC structures. While previous studies have obtained results using the Ang and Park Damage Index and obtained fragility curves using the assumptions of that model, this research evaluated the performance of structures using strain limit states since strain limit state provides a better estimate of the level of damage sustained by structures during an earthquake. Therefore, an analytical model of an SDOF cantilever RC column was subjected to a series of nonlinear time history analyses (NLTHA) that considered aging conditions and sequences of mainshock and aftershock. The analytical model incorporated the effective mechanical properties found in the experimental program. 
 
-\section{Modeling of aging conditions}
+The results from the analytical program showed that as recorded ground motion sequences did not increase, the maximum strain was achieved after a significant ground motion occurred. On the other hand, Corrosion level increased the demands and decreased the capacity of structures. Furthermore, the results show that as corrosion increases, reaching a given limit state also increases. These results determined that a maximum acceptable level of corrosion is CL=10\% which is congruent with the experimental program results.
 
-\subsection{Modeling of corrosion for structural analysis}
+\section{Modeling of corrosion for structural analysis}
 
-It has been shown that as corrosion increases the material properties of the steel are modified,as discussed in section 2.1. While the findings from the material tests in Chapter \ref{chap-three} will show a more realistic quantification, we expect this trend to remain unchanged. The correlation between the level of corrosion and the mechanical properties of corroded rebars will be incorporated in the structural analysis. The workflow to modify the mechanical properties of the rebars is shown in \fref{fig:CorrModel}. The modification of the mechanical properties consist of : (1) Calculate  the time for initiation of corrosion with equation \eref{eq.three}, (2) calculate the rate of corrosion with \eref{eq.CorrosionRate}, (3) reduce the diameter of the rebar and calculate the corrosion level, using \eref{eq.CorrosionLevel} and \eref{eq.CorrosionEvolution} correspondingly, and (4) modify the mechanical properties of the rebars with \eref{eq.eleven}
+The main objective of the analytical program is to determine the effects of corrosion on the demands of reinforced concrete columns. The results obtained in the experimental program have shown that corrosion affects the geometry of the surface of reinforcing steel bars by generating imperfections. The geometrical imperfections induced by the corrosion caused a reduction in the effective mechanical properties of the reinforcing steel material. The effective mechanical properties are a mathematical convenience to evaluate corroded RC structures. In general, as corrosion increases, the effective material properties of the steel decrease, as well as the average bar diameter.
 
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.7\textwidth]{Chapter-5/figs/Corrosion_Modeling}
-	\caption{Corrosion modeling for structural analysis}
-	\label{fig:CorrModel}
-\end{figure}
-%This will be incorporated into the nonlinear structural analysis framework using OpenSeesPy \cite{McKenna2010}\cite{Zhu2018}, the framework of this analysis is explained in section 4.6.
-\subsection{Modeling of strain aging for structural analysis}
-Strain aging modifies the properties of mild steel after being subjected to large strains, as explained in Chapter \ref{chap-two}. Strain aging is of special relevance in the days following a mainshock. Consider the case of a structure, prone to strain aging, that is subjected to a mainshock and after more than 3 days is subjected to a large aftershock. This structure would behave differently during the aftershock due to the effects of strain aging. This situation is similar to that of the Canterbury Earthquake 2010 - Christchurch Earthquake 2011 sequence, since the ground motions struck in the same area of New Zealand, but occurred 5 months apart. To simulate this case scenario, the model proposed would consist of subjecting a series of SDOF structures to different mainshock-aftershock sequences.  The main variable of study in this case would be the time between the mainshock and the aftershock, and the intensity measure of the ground motions. This procedure is explained in more detail in section 4.2.3. 
+In order to incorporate the effect of corrosion in the structural analysis, it is necessary to reduce the bar diameter and the effective mechanical properties of the reinforcing steel bar. For this study, uniform corrosion is the only type of corrosion considered. Therefore, assuming uniform corrosion, the diameter is reduced per the following expressions:
+
+\begin{equation}
+    d_{b,CL} = d_{b,o} \sqrt{1 - CL*0.01}
+    \label{eq:d_eff}
+\end{equation}
+
+Where CL corresponds to the corrosion level, and $d_{b,CL}, d_{b,o}$ are the reduced diameter and the initial diameter correspondingly. 
+
+Similarly, the mechanical properties of the reinforcing steel are modified with the expressions for effective yield and ultimate strengths found in the experimental program. The expressions proposed in Chapter \ref{chap-four} are replicated here for convenience:
+
+\begin{equation}
+    f_{y,CL} = f_{y,o}(1-0.0075CL)
+    \label{eq.Calderon_Fy_vs_CL_5}
+\end{equation}
+
+\begin{equation}
+    f_{u,CL} = f_{u,o}(1-0.0075CL)
+    \label{eq.Calderon_Fu_vs_CL_5}
+\end{equation}
 
 \section{Multiple seismic events}
 
 The evaluation of multiple seismic events is a topic that has been scarcely studied, however their effects have been felt in numerous earthquake sequences such as the Christchurch 2010, Umbria-Marche Earthquake 1997 and the Puerto Rico Earthquakes 2020. The hypothesis is that accumulation of damage will restart in a smaller seismic event to achieve a prescribed limit state, similar to how corrosion and other aging phenomena might impact the intensity needed to achieve a future limit state. 
 
-For this study it has been determined that not all damage in structures are dependent on multiple events but rather their condition when an event occurs as is the case for corrosion. Therefore, in this study a Mainshock-Aftershock (MS-AS) sequence is evaluated at different levels of corrosion. Other damage related phenomena, such as strain aging, depend on the loading history and are therefore dependent on the history of extreme loading events. Thus, to study the effect on strain aging a sequences of mainshock-aftershock is focused on the time difference between the mainshock and the aftershock. The outcome will depend on the intensity of the ground motions and the pre-strain value achieved during the mainshock.
+For this study it was determined that not all damage in structures are dependent on multiple events but rather their condition when an event occurs as is the case for corrosion. Therefore, in this study a Mainshock-Aftershock (MS-AS) sequence is evaluated at different levels of corrosion.
 
 \subsection{Earthquake selection}
 
-The earthquake selection will use two approaches to select the ground motions. The first consists of using the PEER web tool to perform amplitude scale matching of records that on average match the design spectrum. The second method involves conditional spectrum matching (CSM), which consists of computing the expected response spectrum associated with a target spectral acceleration ($Sa$) value at a single period, using the information from the probabilistic seismic hazard analysis (PSHA).
-
-In both selection methods it is necessary to define a design spectrum and the PSHA. Therefore, the city of Anchorage, AK is chosen to define the design spectrum and the PSHA.The design spectrum and the data are taken from the USGS PSHA webtool, which is shown in \fref{fig:UHS_AK} and \fref{fig:PSHA_AK}. 
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.75\textwidth]{Chapter-5/figs/UniformHazardResponseSpectrum_AK}
-	\caption{Uniform Hazard Spectrum for Anchorage, AK}
-	\label{fig:UHS_AK}
-\end{figure}
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.6\textwidth]{Chapter-5/figs/PSHA_Deaggregation_Anchorage_AK}
-	\caption{PSHA deaggregation for Anchorage, AK}
-	\label{fig:PSHA_AK}
-\end{figure}
-\newpage
-The ground motions are taken from the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Institute (PEER) \cite{Ancheta2014}. This database consists of 599 different earthquake events that characterize the ground motions on the west coast of the contiguous United States. The data was filtered according to the following criteria:
+The ground motions are taken from the NGA2 West Database of earthquake records provided by the Pacific Earthquake and Engineering Research Institute (PEER) \cite{Ancheta2014}. This database consists of 599 different earthquake events that characterize the ground motions on the west coast of the contiguous United States. To study the effect of mainshock and aftershock sequences, only records that had aftershocks recorded were used. In addition, the parameters shown below were also used to filter the database to ensure that the records would produce considerable ammounts of displacement.
 
 \begin{itemize}
-	\item Must be a mainshock-aftershock sequence
 	\item Moment magnitude $M_w \geqslant 5$
 	\item $PGA>0.04$
 	\item $PGV>1$ cm/s
@@ -56,55 +48,34 @@ The ground motions are taken from the NGA2 West Database of earthquake records p
 	\item $R_{rup}<60km$
 \end{itemize}
 
-Figure \ref{fig:MS_Selection} summarizes the results from filtering the data available in the PEER NGA West2 database. \fref{fig:MS_Selection} shows the earthquakes as moment magnitude {Mw} vs rupture distance ($R_{rup}$).
-
-%\begin{itemize}
-%	\item Managua
-%	\item Northridge
-%	\item Duzce 
-%	\item Mammoth lake
-%\end{itemize}
+Figure \fref{fig:GM_Selection} summarizes the results from filtering the data available in the PEER NGA West2 database. \fref{fig:GM_Selection} shows the earthquakes as moment magnitude {Mw} vs rupture distance ($R_{rup}$). In addition, the spectral displacement is an important intensity measure used in this study, therefore, the displacement spectrum for the ground motions used in this research are shown in \fref{fig:DisplacementSpectrum_Selection}. Figures \fref{fig:GM_Selection} and \fref{fig:DisplacementSpectrum_Selection}, show that there is a good level of variability between the records and provide a wide range of ground motion properties. 
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.45\textwidth]{Chapter-5/figs/GM_Selection.pdf}
 	\caption{Mainshock selection from PEER NGA West2 database}
-	\label{fig:MS_Selection}
+	\label{fig:GM_Selection}
 \end{figure}
+
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.45\textwidth]{Chapter-5/figs/SD_Spectrum_GM_Selection.pdf}
 	\caption{Mainshock selection from PEER NGA West2 database}
-	\label{fig:MS_Selection}
+	\label{fig:DisplacementSpectrum_Selection}
 \end{figure}
 
 \subsection{Modeling of mainshock-aftershock series for corrosion damage state}
-Corrosion modifies the mechanical properties of rebars in RC structures, thus inherently modifying their response to earthquake loading. When an earthquake will occur is difficult to predict as explained in section 2.4.2. Therefore, in this study we propose subjecting structures at a specified corrosion level to a series of mainshock and aftershock ground motions. The proposed methodology will help to evaluate the effect of corrosion in RC structures subjected to earthquake loading with accumulation of damage. 
-Specifically, the approach consists of (1) specify corrosion level (CL) as shown in \fref{fig:CorrModel}, (2) the ground motions sequences from earthquake selection are applied for each corrosion level, (3) the results are evaluated in each case to determine what limit states were reached and the implication for the design proposal. 
+
+Corrosion modifies the mechanical properties of rebars in RC structures, thus inherently modifying their response to earthquake loading. However, when an earthquake occurs is difficult to predict, as explained in section 2.4.2. Therefore, this study subjected structures with a specified corrosion level to a series of mainshock and aftershock ground motions. 
+In order to analyze the structure to a sequence of mainshock and aftershock, it was necessary to glip together two ground motions. The process consisted of 1) selecting mainshocks and aftershocks from the same recording station and assigned to the same earthquake sequence, 2) the records were combined into a single file to run the sequence in order. The joined record also added a 4-second gap between the ground motions. This gap was to provide a sufficient amount of time for the record to reach stability. In contrast, the time to reach stability can vary depending on the structural and ground motion properties. A recommendation from Raghunandan et al. \cite{Raghunandan2015} found that 4s gives enough time for a structure to stabilize, a more significant time gap is possible, but it increases the computational cost significantly. An example of the resulting mainshock and aftershock sequence is shown in \fref{fig:MS-AS_sequence_sample}.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{Chapter-5/figs/MS_AS_Figure.pdf}
 	\caption{Mainshock selection from PEER NGA West2 database}
-	\label{fig:MS_Selection}
+	\label{fig:MS-AS_sequence_sample}
 \end{figure}
-
-\subsection{Modeling of mainshock-aftershock series for strain aging damage state}
-
-Strain aging consists of the increase in strength of steel after time has passed between a large strain and the new loading. It is possible that structures after being subjected to a mainshock develop the strain aging condition, especially if the maximum strain was higher than $2\varepsilon_{y}$. Therefore, the main variable of study for strain aging condition is the time between the main loading and the secondary loading. It is thus evident that the variable of study for strain aging is the time gap between the mainshock and the aftershock. 
-
-The proposed modeling of the mainshock-aftershock sequence in for strain aging consists of (1) the structure is subjected to the main shock, and the maximum strain in the rebar is recorded, (2) the time gap between the mainshock and the aftershock is varied between 3 days thorugh 50 days, (3) the mechanical properties of the rebar are modified according to \eref{eq.twelve} through \eref{eq.fourteen}, (4) the structure is evaluate for the aftershock groundmotion, and (5) the results are evaluated in each case to determine what limit states were reached and the implication for the design proposal.
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.9\textwidth]{Chapter-5/figs/StrainAgeing_Modeling}
-	\caption{Mainshock-aftershock modeling for strain aging}
-	\label{fig:AgingModel}
-\end{figure}
-
-\newpage
 \section{Analytical Model}
-
 \subsection{Cantilever column}
 This study focuses on the behavior of a single degree of freedom (SDOF) system representing a cantilever reinforced concrete column. The column is modeled as shown in \fref{fig:Structural_Model} This structure is modeled in OpenSeesPy \cite{McKenna2010}\cite{Zhu2018} using the $forceBeamColumn$ element \cite{Scott}. The forceBeamColumn element is used with two-point Gauss-Radau integration applied in the hinge regions and two-point Gauss integration applied on the element interior for a total of six integration points \cite{Scott}. The force-based formulation requires only a single element to accurately represent the full nonlinear deformation of the member and the integration scheme selected prevents the loss of objectivity during the softening response while also providing integration points at the member ends \cite{Calabrese2010},\cite{Scott}. The element requires the length of plasticity be defined at each end of the member, for which the tension-based rectangular plastic hinge length is calculated using the following expressions \cite{Goodnight2013}:
 
@@ -174,7 +145,7 @@ Bar slip is calculated as:
 	\label{eq.Rebar_Slip}
 \end{equation}
 \subsection{Design limit states}
-Design limit states are defined based on strains in the material since they can more accurately represent the different performance levels of a structure. Structure limit states are defined as tension strains in the rebars or compression strains in the concrete core. The values recommended in typical performance-based design of reinforced concrete bridge columns are shown in Table  \ref{tab:DesignLimitStates}. The serviceability limit states correspond to the compression strain at which concrete cover begins to crush and the peak tension strain which results in residual crack widths of approximately 1 mm. These limits are generally accepted as nominal limit states for RC members. The compression limit state for damage control is defined by the expression shown in Eq. \ref{eq:ec_DamageControl}, and it refers to the compression strain in the confined concrete at which fracture of the transverse reinforcement confining the core occurs \cite{Priestley2007}. This equation is obtained using the strain-energy balance between that absorbed by the confined core concrete and the capacity of the confining steel. The tension damage control limit state is defined by the strain at the onset of buckling which can be expressed according to \ref{eq:es_DamageControl}. This model demonstrated accurate predictions of the onset of bar buckling on physical tests in SDOF Concrete Column \cite{Goodnight2016}. The bar buckling limit state could change as a result of the experimental campaign proposed in Chapter 4.
+Design limit states are defined based on strains in the material since they can more accurately represent the different performance levels. Structure limit states are tension strains in the rebars or compression strains in the concrete core. The values recommended in the typical performance-based design of reinforced concrete bridge columns are shown in Table  \ref{tab:DesignLimitStates}. The serviceability limit states correspond to the compression strain at which concrete cover begins to crush and the peak tension strain, resulting in residual crack widths of approximately 1 mm. These limits are generally accepted as nominal limit states for RC members. The compression limit state for damage control is defined by the expression shown in Eq. \ref{eq:ec_DamageControl}, and it refers to the compression strain in the confined concrete at which fracture of the transverse reinforcement confining the core occurs \cite{Priestley2007}. This equation is obtained using the strain-energy balance between that absorbed by the confined core concrete and the capacity of the confining steel. The damage control limit state is defined by the strain at the onset of buckling, which can be expressed according to \ref{eq:es_DamageControl}. This model demonstrated accurate predictions of the onset of bar buckling on physical tests in SDOF Concrete Column \cite{Goodnight2016}. An additional limit state is the ultimate limit state, proposed by Barcley et al. \cite{Barcley2019}, which is defined as the previous tension strain before bar fracture due to bar buckling. The limit state can be expressed as shown in \eref{eq:es_ultimate}. For the case of corrosion, the effective material properties of the reinforcing steel bars are used, and in the case of the ultimate limit state, the equation that relates corrosion and the maximum bending strain is used.
 
 \begin{equation}
     \varepsilon_{c,spiral yield}=0.009-0.3\frac{A_{st}}{A_{g}} +3.9\frac{f_{yhe}}{E_{s}}
@@ -185,20 +156,24 @@ Design limit states are defined based on strains in the material since they can 
     \varepsilon_{s,BB}=0.03+700\rho_{s}  \frac{f_{yhe}}{E_{s}} -0.1\frac{P}{f'_{c}A_{g}}
     \label{eq:es_DamageControl}
 \end{equation}
+\begin{equation}
+    \varepsilon_{t}=\frac{ln(\frac{\varepsilon_{b}}{0.001})}{\frac{300P}{f'c A_{g}}+\frac{0.7}{\rho_{t}}}
+    \label{eq:es_ultimate}
+\end{equation}
 
-
-\begin{table}[htbp]
+\begin{table}[htpb]
 	\caption{Design limit states}
 	\label{tab:DesignLimitStates}
-	\centering	
-		\begin{tabular}{|l|c|c|}
-		\hline
-		\cellcolor[HTML]{CC0000}{\color[HTML]{FFFFFF}Limit State} & \cellcolor[HTML]{CC0000}{\color[HTML]{FFFFFF}Concrete Limit State $\varepsilon_{c} (in/in)$} & \cellcolor[HTML]{CC0000}{\color[HTML]{FFFFFF}Reinforcing Steel Limit State $\varepsilon_{s} (in/in)$}\\  \hline	
-		Serviceability       & 0.004                           & 0.015  \\  \hline	
-		Damage Control       & Eq. \ref{eq:ec_DamageControl}   & Eq. \ref{eq:es_DamageControl}\\  \hline
-		\end{tabular}
+        \begin{center}
+        \begin{tabular}{lll}
+        Limit State         & Concrete Limit State (in/in) & Reinforcing Steel Limit State (in/in) \\ \hline
+        Serviciability      & 0.04                         & 0.015                                 \\ 
+        Collapse Prevention & \eref{eq:ec_DamageControl}   & \eref{eq:es_DamageControl}             \\ 
+        Fracture            & N/A                          & \eref{eq:es_ultimate}                   \\ 
+        \end{tabular}
+        \end{center}
 \end{table}
- 
+
 \section{Comparison with existing physical tests}
 The model used in this research is calibrated for the case of pristine conditions and the case of corroded columns. The calibration to a pristine condition column shows how reliable the results from the model are. Then the pristine condition model is modified with the corrosion model, as explained in section 4.1.1. The analytical model is compared to the results from the physical test on corroded RC columns. This will give confidence that the results obtained from the analytical model are reliable, and will be further enhanced with the experimental results.
 \subsection{Pristine condition columns}
@@ -207,18 +182,17 @@ Goodnight et al performed a total of 30 circular RC columns quasi-static tests t
 The analytical model used these parameters to compare the results from the model to the experimental results. The results from the analysis show good agreement with the experimental results as evidenced in \fref{fig:ModelCalibration}. Thus, the results obtained from the model predict the overall system behavior and can be used to analyze other configurations of the structural model.
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.7\textwidth]{Chapter-5/figs/Calibration_Test_26_Goodnight_et_al.pdf}
+	\includegraphics[width=0.60\textwidth]{Chapter-5/figs/Calibration_Test_26_Goodnight_et_al.pdf}
 	\caption{Force-Displacement results from experimental results \cite{Goodnight2013} and analytical model}
 	\label{fig:ModelCalibration}
 \end{figure}
-\newpage
 
 \subsection{Accelerated corrosion columns}
 Similarly, Ma et al performed a series of quasi-static tests on RC columns with different corrosion levels and axial load ratios \cite{Ma2012}. From their study, the test with a corrosion level $CL=9.5\%$ was taken for calibration since the other tests presented in their study had excessively high axial load ratios which are not common in RC bridges. The results from Ma et al test	\cite{Ma2012} were used to compare against the analytical model. The column had the following parameters: diameter $D = 260.0 mm$, height of the column $L = 820.0 mm$, yield strength of steel $f_{y} = 375.0$ MPa, ultimate strength of steel $f_{u} = 572.3$ MPa, longitudinal steel volumetric ratio $\rho_{s} = 1.5\% $, transverse steel volumetric ratio $\rho_{v} = 1.0\% $, strength of concrete at 8 days $f'_{c} = 39.8$ MPa, and corrosion level $CL=9.5\%$. Equation \ref{eq.eleven} is used to modify the material properties of the reinforcing steel and considers the effects of corrosion. 
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.60\textwidth]{Chapter-5/figs/Model_vs_MaEtAl_220218.pdf}
+	\includegraphics[width=0.50\textwidth]{Chapter-5/figs/Model_vs_MaEtAl_220218.pdf}
 	\caption{Force-Displacement results from experimental RC column with corrosion in logitudinal bar (CL=9.5\%) \cite{Ma2012} and analytical model results (shown in lightblue)}
 	\label{fig:ModelCalibration_Corrosion}
 \end{figure}
@@ -227,43 +201,124 @@ Figure \ref{fig:ModelCalibration_Corrosion} shows that the results obtained from
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.6\textwidth]{Chapter-5/figs/MaEtAl_StrainHisteresis}
+	\includegraphics[width=0.5\textwidth]{Chapter-5/figs/MaEtAl_StrainHisteresis}
 	\caption{Strain hysteresis from experimental RC column with corrosion in longitudinal bar (CL=9.5\%) results from analytical model}
 	\label{fig:ModelCalibration_Corrosion_Hysteresis}
 \end{figure}
 \newpage
+\section{Intensity Measure: $Sd(T_{eff},\xi)$}
+
+When relating ground motions to structural response parameters, selecting appropriate quantities that accurately capture their relationship is crucial. Krish \cite{Krish2018} showed in a recent study that there is a good correlation between strain obtained from fiber modeling and first mode effective spectral displacement ($IM=Sd(T_1)$). On the other hand, peak ground acceleration $(PGA)$ did not correlate well. These conclusions are congruent with the results found by Mackie et al. \cite{Mackie2003}. 
+
+In this study, the intensity measure was improved further by correlating the strains to the effective period of the structure $(T_{eff}$ and the equivalent damping $(\xi)$. These parameters are of substantial use in the Direct Displacement Based Design Methodology. The calculation of the effective period of the structure and the equivalent damping are explained below.
+
+\subsection{Effective period calculation}
+
+The process to calculate the effective period consists in obtaining first the effective stiffness of the structure. From the Non-Linear Time History Analysis (NLTHA) of a structure, the maximum displacement and force at the maximum displacement are obtained, as shown in \fref{fig:k_eff_calc}. With these values, the effective stiffness can be calculated as:
+
+\begin{equation}
+     K_{eff}=\frac{F(d_{max}}{d_{max}}
+    \label{eq:Keff_calcualtion}
+\end{equation}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-5/figs/Force_Diplacement_Keff_Calc.pdf}
+	\caption{Calculation of effective stiffness $(k_{eff})$}
+	\label{fig:k_eff_calculation}
+\end{figure}
+
+After obtaining the effective stiffness, the effective period can be calculated with the relationship for the period of a structure. The effective period is calculated as:
+
+\begin{equation}
+     T_{eff}=2\pi \sqrt{\frac{M}{K_{eff}}}
+     
+    \label{eq:Teff_calcualtion}
+\end{equation}
+
+In the analytical program the mass is calculated on the basis of the axial load applied to the structures. 
+
+\begin{equation}
+    M=\frac{P}{g}
+    \label{eq:M_calcualtion}
+\end{equation}
+
+\subsection{Calculate $Sd(T_{eff},\xi)$}
+
+After obtaining the effective period for each ground motion, it is possible to obtain the spectral displacement at 5\% damping for each ground motion for a given effective period. Finally, the equivalent damping that the system reached for a given ground motion must be found to obtain the spectral displacement at the effective period and equivalent damping. Using the expressions for equivalent damping from Priestley et al. for circular columns in bridges, the equivalent damping can be expressed as:
+
+\begin{equation}
+    \xi_{eq}=0.05+0.444\frac{\mu-1}{\mu\pi}
+    \label{eq:EqDamping_calcualtion}
+\end{equation}
+
+The damping factor that corresponds to the equivalent damping is calculated as:
+
+\begin{equation}
+    DF=\sqrt{\frac{0.07}{0.02+\xi_{eq}}
+    \label{eq:DF_calcualtion}
+\end{equation}
+
+Equations \eref{eq:EqDamping_calcualtion} and \eref{eq:DF_calcualtion} are part of the DDBD procedure outlined by Priestley et al \cite{Priestley2007}. Finally, the spectral displacement at effective period and equivalent damping can be expressed as:
+
+
+\begin{equation}
+    Sd(T_{eff},\xi)=DF Sd(T_{eff},5\%)
+\end{equation}
+
+The preceeding methodology can be seen graphically in \fref{fig:SpectralDisplacementCalculation}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-5/figs/SpectralDisplacement_SD(Teff,xi)_Calc.pdf}
+	\caption{Calculation of spectral displacement at effective period at 5\% damping $Sd(T_{eff},5\%)$ and at equivalent damping $Sd(T_{eff},\xi)$}
+	\label{fig:SpectralDisplacementCalculation}
+\end{figure}
+
+\section{Anlsysis of results using MSA}
+
+Once the analysis is complete the data is post-processed and expressed as a cumulative distribution function (CDF). The methodology employed corresponds to the multiple stripe analysis (MSA) recommended by Baker et al \cite{Baker2015}. While peak ground acceleration ($PGA$) has been widely used as the intensity measure to develop fragility functions\cite{Ghosh2015}\cite{Bisadi2015}\cite{Shekhar2018}. Krish \cite{Krish2018} showed in a recent study, that spectral displacement at first effective period ($IM=Sd(T_1)$) has better correlation than $PGA$. To demonstrate this, CDF curves were developed for $IM=PGA$ and $IM=Sd(T_1)$, and are shown in \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1} respectively. The CDFs were developed for the steel yielding limit state; however this can be the extrapolated for any limit state. \fref{fig:CDF_SY_PGA} shows the results obtained with $IM=PGA$ do not show a good correlation since as corrosion increases the probability of exceeding a limit state decreases. This is not the behavior observed in \fref{fig:Steel_Stress_Strain_Response}. Conversely, \fref{fig:CDF_SY_SDT1} shows the results with $IM=Sd(T_1)$. These results present a better correlation, since, as corrosion increases, the probability of exceeding the limit state of yielding increases. For the preliminary results shown here, the corrosion level of 13.1\% results are an exception. These results will improve as more analyses become available. 
+
+\begin{figure}[htp]
+	\centering
+	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-5/figs/MSA_Calc.pdf}
+	\caption{MSA analysis}
+	\label{fig:msa_sample_01}
+\end{figure}
+
 \section{Analytical framework}
 
-An analytical framework is established to obtain the change in the structure performance due to aging conditions and to evaluate the effect of multiple seismic events. Therefore, a series of nonlinear time history analyses (NLTHA) will be performed. From these analyses, it is possible to determine the effects of damage in the performance of structures. The proposed analytical framework process consists of:
+The analytical framework was established to obtain the change in the structure performance due to aging conditions and to evaluate the effect of seismic events on the strain performance of single degree of freedom columns. This framework consisted of a program that performed and analyzed a series of nonlinear time history analyses (NLTHA). From these analyses, it was then possible to determine the effects of damage in the performance of structures. The proposed analytical framework process consisted of:
 
 \begin{enumerate}
 	\item Geometrical properties of the SDOF column 
-	\item Properties of the material are evaluated (i.e. water to cement ratio, cover)
-	\item For equal periods of time the time dependent properties are modified
-	\item Nonlinear time history analyses are performed for discrete ground motions or sequence of ground motions
-	\item Results are obtained and evaluated
+	\item The effective mechanical properties of the reinforcing steel were evaluated.
+	\item Nonlinear time history analyses of discrete ground motions and sequence of ground motions
+	\item Posprocessing of data
 \end{enumerate}
 
-The analysis matrix for the corrosion aging phenomenon that will be analyzed in this study is shown in Table \ref{tab:AnalysisMatrix}. The area or extent covered in the analysis corresponds to the range of variables that are common for RC columns in bridges.
+The analysis matrix for the corrosion aging phenomenon that was analyzed in this study is shown in Table \ref{tab:AnalysisMatrix}. The area or extent covered in the analysis corresponds to the range of variables that are common for RC columns in bridges.These analysis matrix resulted in a total of 36,000 analysis for the discrete ground motion analysis and 96,000 analysis for the sequences of ground motion case. To perform this large volume of analysis the Henry2 High Performance Computer (HPC) was used, to run the analysis in parallel. 
 
 \begin{table}[htb]
 	\caption{Analysis matrix}
 	\label{tab:AnalysisMatrix}
 	\centering
-\begin{tabular}{{|l|c|c|}}
-\multicolumn{3}{c}{\cellcolor[HTML]{C90000}{\color[HTML]{FFFFFF} ANALYSIS MATRIX}} \\	\hline
-Description                            & Parameter        & Range                  \\	\hline
-Diameter of column                     & D                & 30-90 in               \\	\hline
-Column length to diameter ratio        & L/D              & 2-8                    \\	\hline
-Longitudinal ratio                     & $\rho_s$         & 0.01-0.04              \\	\hline
-Transverse volumetric ratio            & $\rho_v$         & 0.005-0.015            \\	\hline
-Axial load ratio                       & ALR              & 0.05-0.2               \\	\hline
-Water to cement ratio                  & w/c              & 0.36-0.6               \\	\hline
-Cover                                  & c                & 1.5-3 in               \\	\hline
-Time/condition                         & CL               & 5\%-20\%               \\	\hline
+\begin{tabular}{{lcc}}
+Parameter                          & Parameter        & Range                  \\	\hline
+Diameter of column                     & D                & 28-90 in               \\	
+Column aspect ratio        & L/D              & 4-8                    \\	
+Longitudinal ratio                     & $\rho_s$         & 0.01-0.04              \\	
+Axial load ratio                       & ALR              & 5\%-20\%               \\	
+Corrosion level                         & CL               & 0\%-20\%               \\	
 \end{tabular}
 \end{table}
 
+\subsection{Analysis Algorithm}
+
+In order to run the analysis efficiently, a program was developed to perform three main routines:
+1) Main program: setting conditions, the geometry of the model, effective material properties, 2) Run the Non-Linear Time History Analysis, 3)Post-processing of data
+
+The main program is shown in \fref{fig:main_flowchart}. This program has three main inputs the ground motion records, the geometry of the column, and the aging conditions, which correspond to the corrosion level, the initial material properties, the axial load ratio, and the aspect ratio. After the inputs are done, a nested loop that goes through the different parameters is performed. The basic flow consists of preparing the data into the NLTHA subroutine and the post-processor subroutine. Once the program goes through the subroutines, the data output from OpenSees is deleted to use the HPC resources efficiently. This process is repeated until all the variables have been evaluated and the program finishes.
 
 \begin{figure}[htp]
 	\centering
@@ -272,12 +327,16 @@ Time/condition                         & CL               & 5\%-20\%            
 	\label{fig:main_flowchart}
 \end{figure}
 
+The NLTHA subroutine consisted of a sequential process as shown in \fref{fig:nltha_flowchart}. First, the geometry of the model is established as per the model shown in \fref{fig:Structural_Model}. Then the material properties and the cross-sectional fibers are defined. Next, the recorders that store the analysis results throughout the NTLHA are set. Then the axial load is run and kept constant through the analysis. Finally, the NLTHA is run until it finishes.
+
 \begin{figure}[htp]
 	\centering
 	\includegraphics[width=0.425\textwidth]{VAC Thesis 2.0/Chapter-5/figs/NLTHA_FlowCharts_01.pdf}
 	\caption{NLTHA Flow-Chart}
 	\label{fig:nltha_flowchart}
 \end{figure}
+
+The post-processor subroutine also consisted of a sequential process as shown in \fref{fig:postproc_flowchart_01} and \fref{fig:postproc_flowchart_02} . The main goal of this subroutine is to store the data related to the model, including the geometry and material properties used in the analysis. The post-processor calculates the limit states as explained in section 5.3.3. Then the spectral displacement at the effective period is calculated for the ground motion following the procedure explained in section X.X. Finally, a collapse analysis for each limit state is performed in order to perform the multi-stripe analysis explained in the following section, all the relevant data is then stored in a database for further analysis.
 
 \begin{figure}[htp]
 	\centering
@@ -293,16 +352,7 @@ Time/condition                         & CL               & 5\%-20\%            
 	\label{fig:postproc_flowchart_02}
 \end{figure}
 
-\section{Anlsysis of results using MSA}
 
-Once the analysis is complete the data is post-processed and expressed as a cumulative distribution function (CDF). The methodology employed corresponds to the multiple stripe analysis (MSA) recommended by Baker et al \cite{Baker2015}. While peak ground acceleration ($PGA$) has been widely used as the intensity measure to develop fragility functions\cite{Ghosh2015}\cite{Bisadi2015}\cite{Shekhar2018}. Krish \cite{Krish2018} showed in a recent study, that spectral displacement at first effective period ($IM=Sd(T_1)$) has better correlation than $PGA$. To demonstrate this, CDF curves were developed for $IM=PGA$ and $IM=Sd(T_1)$, and are shown in \fref{fig:CDF_SY_PGA} and \fref{fig:CDF_SY_SDT1} respectively. The CDFs were developed for the steel yielding limit state; however this can be the extrapolated for any limit state. \fref{fig:CDF_SY_PGA} shows the results obtained with $IM=PGA$ do not show a good correlation since as corrosion increases the probability of exceeding a limit state decreases. This is not the behavior observed in \fref{fig:Steel_Stress_Strain_Response}. Conversely, \fref{fig:CDF_SY_SDT1} shows the results with $IM=Sd(T_1)$. These results present a better correlation, since, as corrosion increases, the probability of exceeding the limit state of yielding increases. For the preliminary results shown here, the corrosion level of 13.1\% results are an exception. These results will improve as more analyses become available. 
-
-\begin{figure}[htp]
-	\centering
-	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-5/figs/MSA_Calc.pdf}
-	\caption{MSA analysis}
-	\label{fig:msa_sample_01}
-\end{figure}
 
 
 %This procedure has been summarized in the form of a flow chart presented in \fref{fig:NLTHA_Framework}
@@ -317,10 +367,10 @@ Once the analysis is complete the data is post-processed and expressed as a cumu
 %\section{Earthquake selection}
 %\lipsum[4]
 \section{Results from Analytical Program}
-This section presents the results obtained from a non-linear time history analysis (NLTHA) performed using OpenSeesPy \cite{Zhu2018}. The structure was subjected to a total of 18 earthquake records. The main responses obtained from these analyses correspond to the maximum strain obtained for the different levels of corrosion. The structure was analyzed for a range of corrosion levels [1.5\%-13\%] in the longitudinal rebars.
+This section presents the results obtained from a non-linear time history analysis (NLTHA) performed using OpenSeesPy \cite{Zhu2018}. The structure was subjected to a total of 18 earthquake records. The primary responses obtained from these analyses correspond to the maximum strain obtained for the different levels of corrosion. The structure was analyzed for a range of corrosion levels [1.5\%-13\%] in the longitudinal rebars.
 
 \subsection{Structural Response at Different Corrosion Levels}
-Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_Response} are presented as an example of the results obtained using NLTHA. These results are extracted from the response of the structure to the Chi-Chi earthquake. \fref{fig:Force-Displacement_Results} shows the global system response and \fref{fig:Steel_Stress_Strain_Response} shows the stress-strain response of the extreme fiber of reinforcing steel. These results show that as corrosion increases the demands imposed on the structure increases too. Therefore, the probability of reaching a limit state increases as corrosion increases.
+Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_Response} are presented as an example of the results obtained using NLTHA. These results are extracted from the structure's response to the Chi-Chi earthquake. \fref{fig:Force-Displacement_Results} shows the global system response and \fref{fig:Steel_Stress_Strain_Response} shows the stress-strain response of the extreme fiber of reinforcing steel. These results show that as corrosion increases, the demands imposed on the structure increase too. Therefore, the probability of reaching a limit state increases as corrosion increases.
 
 \begin{figure}[htbp]
 	\centering
@@ -354,7 +404,7 @@ Figures \ref{fig:Force-Displacement_Results} and \fref{fig:Steel_Stress_Strain_R
 
 \subsection{Effect of corrosion level on Strain demands $(\varepsilon)$}
 
-The strain demands $(\varepsilon)$ was plotted agaist the dpectral displacement at the effective period and the structure equivalent damping ($Sd(T_{eff},\xi)$). These two parameters seem to have a linear correlation for all the corrosion levels evaluated. These results are shown in \fref{fig:all_results_nltha}
+The strain demands $(\varepsilon)$ were plotted against the spectral displacement at the effective period and the equivalent structure damping ($Sd(T_{eff},\xi)$). These two parameters seem to have a linear correlation for all the corrosion levels evaluated. These results are shown in \fref{fig:all_results_nltha}
 
 \begin{figure}[htbp]
 	\centering
@@ -363,7 +413,7 @@ The strain demands $(\varepsilon)$ was plotted agaist the dpectral displacement 
 	\label{fig:all_results_nltha}
 \end{figure}
 
-To evaluate the effect of corrosion and other variables, the multistripe analysis(MSA) was used to obtain a series of commulative distribution functions. The most impactfulvariables are the corrosion level and the axial load ratio. The effect of these variables are shownin \fref{fig:CDF_strain_vs_ALR}. In these figures, it can be observed that as corrosion level increases the mean spectral displacement required to preclude a given limit state is decreased. Simmilarly, the effect of the axial load ratio becomes substantial as it increasese.
+The multi-stripe analysis(MSA) was used to obtain a series of cumulative distribution functions to evaluate the effect of corrosion and other variables. The most impactful variables are the corrosion level and the axial load ratio. The effect of these variables are shown in \fref{fig:CDF_strain_vs_ALR}. These figures show that as corrosion level increases, the mean spectral displacement required to preclude a given limit state is decreased. Similarly, the effect of the axial load ratio becomes substantial as it increases.
 
 \begin{figure}[htbp]
 	\centering
@@ -374,7 +424,7 @@ To evaluate the effect of corrosion and other variables, the multistripe analysi
 
 In order to observe the effect of corrosion level and axial load ratio, the mean spectral displacement, defined ad the point where the probability of reaching a limit state is 50\% ($P(\varepsilon>\varepsilon_{ls}=0.5$), is plotted against these two variables. The results are shown in \fref{fig:mean_prob_vs_CL}.
 
-From the results shown in \fref{fig:mean_prob_vs_CL}, two main tendencies can be observed. The first is that as corrosion level increases, the mean spectral displacement required to reach a limit state decreases, thus precluding an earlier limit state in a corroded structure. It also appears that there is a significant drop at a corrosion level of 10\% ($CL=10\%$), especially for the damage control limit state and the ultimate limit state. This result indicates that a corrosion level this high has potentially undesirable consequences. Research performed on RC members has shown that corrosion levels of 10\% are brittle. Thus, these results are congruent with those observations.
+From the results shown in \fref{fig:mean_prob_vs_CL}, two main tendencies can be observed. First, as corrosion level increases, the mean spectral displacement required to reach a limit state decreases, thus precluding an earlier limit state in a corroded structure. It also appears that there is a significant drop at a corrosion level of 10\% ($CL=10\%$), especially for the damage control limit state and the ultimate limit state. This result indicates that a corrosion level this high has potentially undesirable consequences. Research performed on RC members has shown that corrosion levels of 10\% are brittle. Thus, these results are congruent with those observations.
 
 The second observation is that Axial Load Ratios (ALR) greater of 10\% and higher have a more significant drop in their performance due to corrosion. This ALR value is commonly found in bridges, thus the importance of limiting the corrosion level that bridge columns develop in their service years.
 
@@ -393,7 +443,7 @@ Further studies on limit states of corroded structures while improving the outco
 
 The Nonlinear Time History Analysis results show that, in general, there is an increase in the strain demands due to corrosion. The increase in the strain demands depends on the limit state being evaluated and the axial load ratio. 
 
-For all limit states, it appears that a corrosion level of 10 percent is a reasonable estimate of the maximum acceptable corrosion level. This result agrees with observed behavior in large-scale tests conducted on RC members. An ideal maximum level of corrosion is a 5\% corrosion level.
+For all limit states, a corrosion level of 10 percent is a reasonable estimate of the maximum acceptable corrosion level. This result agrees with observed behavior in large-scale tests conducted on RC members. An ideal maximum level of corrosion is a 5\% corrosion level.
 
 A limitation of this study was the use of limit state equations based on pristine condition elements with modern detailing. While the limit state equations provide the overall effect of corrosion in RC structures, future studies will provide more information on limit states for aged structures with and without modern detailing.
 
