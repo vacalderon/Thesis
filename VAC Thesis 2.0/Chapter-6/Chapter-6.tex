@@ -1,20 +1,25 @@
-\chapter{Condition dependent performance based design and Assessment}
+\chapter{Condition Dependent Performance Based Design and Assessment}
 
-\label{chap-five}
+\label{chap-six}
 
-Developing a design procedure that provides resilient bridges is one of the main goals of this study.This research will develop a displacement based design tool, that achieves that goal. This chapter firts introduces the overall design concept; then the direct displacement based design (DDBD) is reviewed and proposed modifications to this design methodology, based on corroded RC physical tests results, are shown. Finally a schedule of work is presented.
+Developing a design procedure that provides resilient bridges is one of the main goals of this study.This research will develop a displacement based design tool, that achieves that goal. This chapter first introduces the overall design concept; then the direct displacement based design (DDBD) is reviewed and proposed modifications to this design methodology, based on corroded RC physical tests results, are shown. Finally a schedule of work is presented.
 
-\section{Recommendations to new designs from material tests}
-\section{Design of new structures considering aging conditions}
+\section{Design of new structures for condition dependent PBD}
+
+One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable and safe. Therefore, it is of interest to ensure that new structures are design to perform to an acceptable level of performance even as they age. The vision of this research is for new structures to be designed such that they have an acceptable level of performance even if they are allowed to corroded up to a certain threshold. Existing methodologies provide a framework to begin the design of structures for aging, however, these methodologies could benefit from the deterministic approach explained below.
+
+\subsection{Acceptable level of corrosion for new designs}
+From the experimental program the equations that relate the degradation of the yield strength and maximum bending strain where obtained. It was also noticeable in the experimental results that for corrosion levels of 10\% and greater the reduction in the strength and the capacity of the bar to sustain large levels of buckling is significantly reduced. Similarly, in the analytical program the corrosion levels of 10\% and greater greatly increased the likelihood of reaching the damage control limit state and the ultimate limit state. Therefore, it becomes evident that for design a level of corrosion less than 10\% is acceptable for the design of new structures, although a level of corrosion of 5\% or less is desirable.
+
 \subsection{Existing methodologies}
 
-\textbf{Life 365}
-Is a software developed by the Life 365 Consortium III to estimate the service life and life-cycle costs of alternative concrete mixture designs aand corrosion protection systems. The softwaqre is able to incorporate local data such as Average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after initiation of corrosion is constant at 6 years.
+\subsubsection{Life 365}
+The Life 365 Consortium III developed software to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. 
 
-\textbf{FIB 34 Model Code}
-fib Bulletin 34 addresses Service Life Design (SLD) for plain concrete, reinforced concrete and pre-stressed concrete structures, with a special focus on design provisions for managing the adverse effects of degradation. Its objective is to identify agreed durability related models and to prepare the framework for standardization of performance based design approaches.
+\subsubsection{FIB 34 Model Code}
+FIB 34 model code addresses Service Life Design (SLD) for plain concrete, reinforced concrete, and pre-stressed concrete structures, focusing on design provisions for managing the adverse effects of degradation. Its objective is to guide bridge stakeholders, practicing engineers, and contractors to ensure the condition of the bridge components and materials is kept above a minimum acceptable level throughout the structure's lifespan. With new bridges having requirements to last for at least 100 years, the design of structures that consider the life service variable has become ever more critical. Therefore, it is crucial to consider one of the primary aging conditions that affect bridges, such as corrosion.
 
-Four different options for SLD are given:
+Four different options for SLD are avilable in FIB 34:
 \begin{enumerate}
     \item Full probabilistic approach,
     \item Semi probabilistic approach (partial factor design),
@@ -22,19 +27,15 @@ Four different options for SLD are given:
     \item Avoidance of deterioration.
 \end{enumerate}
 
+An application of the FIB 34 model code has been implemented in a design guide developed by the Federal Highway Administration (FHWA) and the  American Association of State Highway and Transportation Officials (AASHTO) to implement a Service Life Design for Bridges (also referred to as R19A) through the second Strategic Highway Research Program (SHRP2)\cite{SHRP22019}. Multiple tools, products, and training materials aimed at practitioners and state bridge engineers were developed for the implementation effort. In SHRP2-R19A, FIB 34 with a fully probabilistic approach is used to design bridges. The design must ensure that the corrosion is reduced to a 10\% probability of occurrence. In addition, the methodology is implemented to different parts of the structure with exposure zones assigned to them, as shown in Fig X.X. Based on the reliability obtained, changes in the mix design, the reinforcing steel, the cover, and other variables can be made to increase the reliability of the structure. 
 
-
-
-\textbf{AASHTO R19A}
-
-This code is similar to FIB34. The main premise is to determine the different exposures areas of a bridge, and on the basis of the exposures the designer quantifies based on mix design the probability that corrosion will occur. This is a full probabilistic approach in which the goal is to prevent corrosion with a 10\% probability that it will occur.
-
+This methodology provides a probabilistic methodology to reduce the likelihood of corrosion throughout the structure's life. However, the methodology does not provide a way to directly consider the effect of corrosion on the structure's performance as it ages. Therefore, to ensure that the bridge's condition remains above a minimum acceptable level, it is necessary to evaluate the structure's performance at a given acceptable level of corrosion.
 
 \subsection{Proposed methodology}
 
-While the methodologies available are good in allowing the structural engineer to evaluate different mix options and preventing corrosion to occur or to delay it and propose a repair and maintenance during the life of a structure.  However, this tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion does occur. It might also not be economically feasible to provide technologies such as stainless steel reinforcement. Therefore it might be beneficial for stake holders to evaluate what will occur if they do prescribe a better concrete mix that allows them to have a delay on corrosion occurrence, and to know what the performance level will be given a maximum level of corrosion that can occur.
+The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel and allow practicing engineers to evaluate different mix options and prevent corrosion from occurring or delaying it and proposing a repair and maintenance during the life of a structure. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. It might also not be economically feasible to provide technologies such as stainless steel reinforcement. Therefore, it might be beneficial for stakeholders to evaluate what will occur if they prescribe a better concrete mix that allows them to have a delay in corrosion occurrence and know what the performance level will be given a maximum level of corrosion that can occur.
 
-Design the mix and materials to meet desired performance levels at different locations of the structure (AASHTO R19A, FIB 34, Life365)
+Design the mix and materials to meet desired performance levels at different locations of the structure (FIB 34, Life365)
 If the constraints applied permit corrosion evaluate maximum corrosion level for expected age of the structure
 Obtain corrosion level from reduced bar diameter
 With corrosion level modify the  effective material properties of the reinforcing steel. 
@@ -67,8 +68,6 @@ The user can specify the maximum allowable level of corrosion in this case it is
 Presents enough flexibility to add different corrosion rate models from simple to more complex
 For this approach to work it is necessary to compliment the design with  good Q/C and Maintenance plans
 
-
-
 \subsection{Application example: Bridge 547 (AKDOT)}
 
 \section{Assessment of existing structures considering aging conditions}
@@ -77,25 +76,27 @@ For this approach to work it is necessary to compliment the design with  good Q/
 
 \subsubsection{ASCE 41}
 
-ASCE 41 
+ASCE 41 is the Seismic Evaluation and Retrofit of Existing Buildings code by the American Society of Civil Engineers (ASCE) \cite{ASCE-41-2017}. This code has evolved from FEMA 310 Handbook for the Seismic Evaluation of Building. This code consists of three-tiered procedures for seismic evaluation of existing buildings appropriate for use in areas of any Level of Seismicity. Each tier increases the level of complexity and detail for the structural analysis of the existing structure. The first tier consists of checklists that depend on the type of building and material and the available information to identify deficiencies. If the first tier demonstrates deficiencies, then the second tier is activated. The second tier corresponds to more detailed analysis and verifications of the elements that had deficiencies. In the second tier, force-based checks are modified with factors to account for the nonlinearity of the structural elements. During the second tier, if the deficiencies are corroborated, retrofits must be performed, or a more detailed analysis is required to verify the performance of the structures, which triggers the third tier. The third tier corresponds to a more detailed collection of data from the existing structure, and advanced methods of analysis such as Non-Linear Time History Analysis (NLTHA) are required.
+
+While the code provides a framework to evaluate and retrofit existing structures, it is a force-based methodology for tiers 1 and 2, and the code does not guide how to account for aging in the properties of the materials used in the analysis. 
 
 \subsubsection{SLaMA}
 
-Simple Lateral Mechanism Analysis (SLaMA) is apart of the Siesmic Assessement of Existing Buildings Guidelines from the New Zealand Society for Earthquake Engineering (NZCEE) \cite{NZSEE2019},  Displacement-based assessment (DBA) procedure that focuses on establishing the probable displacement capacity of the primary lateral system. DBA utilizes displacement spectra which can more readily and directly represent the response of a building in earthquake shaking. Displacement-based methods use the same methods as a force-based assessment to determine the force-displacement response of the structure. However, the expected displacement demand is based on the structural characteristics (effective stiffness and equivalent viscous damping) at the assessed displacements rather than on initial elastic characteristics. Displacement spectra set for different levels of elastic damping or ductility are used rather than the acceleration spectra reduced for ductility used for force-based design. The displacement-based approach enables degrading strength and the influence of poor
+Simple Lateral Mechanism Analysis (SLaMA) is a part of the Seismic Assessment of Existing Buildings Guidelines from the New Zealand Society for Earthquake Engineering (NZCEE) \cite{NZSEE2019},  Displacement-based assessment (DBA) procedure that focuses on establishing the probable displacement capacity of the primary lateral system. DBA utilizes displacement spectra which can more readily and directly represent the response of a building to earthquake shaking. Displacement-based methods use the same methods as a force-based assessment to determine the force-displacement response of the structure. However, the expected displacement demand is based on the structural characteristics (effective stiffness and equivalent viscous damping) at the assessed displacements rather than on initial elastic characteristics. Displacement spectra set for different levels of elastic damping or ductility are used rather than the acceleration spectra reduced for ductility used for force-based design. The displacement-based approach enables degrading strength and the influence of poor
 hysteretic response characteristics to be incorporated in the analysis. Similarly, the concepts can be extended to seismic retrofit design. The basic steps for the SLaMA methodology are enumerated below:
 
 \begin{enumerate}
-    \item Assess the structural configuration and load paths to identify key structural elements, potential structural weaknesses (SWs) and severe structural weaknesses (SSWs).
+    \item Assess the structural configuration and load paths to identify critical structural elements, potential structural weaknesses (SWs), and severe structural weaknesses (SSWs).
     \item Calculate the relevant probable strength and deformation capacities for the individual members.
-    \item Determine probable inelastic behaviour of elements by comparing probable member capacities and evaluating the hierarchy of strength.
-    \item Assess the sub-system inelastic mechanisms by extending local to global behaviour.
-    \item Form a view of the potential governing mechanism for the global building by combining the various individual mechanisms and calculate the probable base shear and global displacement capacitymeasured at the top of the primary lateral structure. The global displacement capacity will typically be limited to that for the system with the lowest displacement capacity.
-    \item Determine equivalent SDOF system, seismic demand and \%NBS.
+    \item Determine probable inelastic behavior of elements by comparing probable member capacities and evaluating the hierarchy of strength.
+    \item Assess the inelastic sub-system mechanisms by extending local to global behavior.
+    \item Form a view of the potential governing mechanism for the global building by combining the various individual mechanisms and calculating the probable base shear and global displacement capacity measured at the top of the primary lateral structure. The global displacement capacity will typically be limited to the system with the lowest displacement capacity.
+    \item Determine equivalent SDOF system, seismic demand, and \%NBS.
 \end{enumerate}
 
-The \%NBS is used as an indicator of risk and defines a structural weakness within the context of SLaMA. SW is defined as an aspect of the building structure and/or the foundation soils that scores less than 100\%NBS. Note that an aspect of the building structure scoring less than 100\%NBS but greater than or equal to 67\%NBS is still considered to be a structural weakness even though it is considered to represent an acceptable risk. An example of the evaluation of the \%NBS is shown in figure.
+The \%NBS is used as an indicator of risk and defines a structural weakness within the context of SLaMA. For example, SW is an aspect of the building structure and the foundation soils that score less than 100\%NBS. Note that an aspect of the building structure scoring less than 100\%NBS but greater than or equal to 67\%NBS is still considered a structural weakness even though it is considered an acceptable risk. An example of the evaluation of the \%NBS is shown in figure.
 
-While this method uses a displacement based assessment methodology, and therefore a better estimate on the performance of the structure is possible, the methodology does not explicitly address how to consider corrosion or aging in the assessment of the structure.
+This method uses a displacement-based assessment methodology, and therefore a better estimate of the structure's performance is possible. However, similar to ASCE 41, the methodology does not explicitly address how to consider corrosion or aging in assessing the structure.
 
 \subsection{Proposed Condition Dependent Performance Based Seismic Assessment}
 
@@ -109,7 +110,5 @@ In order to provide tools for practicing engineers to assess aging structures, a
     \item Estimate probable mechanical properties of materials
     \item Apply DBA procedure
 \end{enumerate}
-
-A 
 
 \subsection{Application Example: Bridge 547 (AKDOT)}
