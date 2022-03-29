@@ -6,15 +6,17 @@ Developing a design procedure that provides resilient bridges is one of the main
 
 \section{Design of new structures for condition dependent PBD}
 
-One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable and safe. Therefore, it is of interest to ensure that new structures are design to perform to an acceptable level of performance even as they age. The vision of this research is for new structures to be designed such that they have an acceptable level of performance even if they are allowed to corroded up to a certain threshold. Existing methodologies provide a framework to begin the design of structures for aging, however, these methodologies could benefit from the deterministic approach explained below.
+One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable, and safe. Currently, the design approach assumes that the material properties will remain unchanged throughout the life of the structures. However, real structures age and deteriorate and could potentially lead to the unintended consequence of a structure failing due to aging. Therefore, it is of interest to ensure that new structures are designed to perform to an acceptable level of performance and maintain the level of performance as the structure ages. Figure X.X shows the concept of condition-dependent performance-based design versus the traditional design approach. 
+
+Currently, existing methodologies provide probabilistic frameworks to design structures for aging. While these methodologies have been used in recent years for significant bridge projects such as the Samuel de Champlain Bridge and the New Bonner Bridge, there is a gap in determining the level of performance as the structure deteriorates.
 
 \subsection{Acceptable level of corrosion for new designs}
-From the experimental program the equations that relate the degradation of the yield strength and maximum bending strain where obtained. It was also noticeable in the experimental results that for corrosion levels of 10\% and greater the reduction in the strength and the capacity of the bar to sustain large levels of buckling is significantly reduced. Similarly, in the analytical program the corrosion levels of 10\% and greater greatly increased the likelihood of reaching the damage control limit state and the ultimate limit state. Therefore, it becomes evident that for design a level of corrosion less than 10\% is acceptable for the design of new structures, although a level of corrosion of 5\% or less is desirable.
+From the experimental program the equations that relate the degradation of the yield strength and maximum bending strain where obtained. It was also noticeable in the experimental results that for corrosion levels of 10\% and greater the reduction in the strength and the capacity of the bar to sustain large levels of buckling was significantly reduced. Similarly, in the analytical program the corrosion levels of 10\% and greater greatly increased the likelihood of reaching the damage control limit state and the ultimate limit state. Therefore, it becomes evident that for design a level of corrosion less than 10\% is acceptable for the design of new structures, although a level of corrosion of 5\% or less is desirable.
 
-\subsection{Existing methodologies}
+\subsection{Life Service Design Existing methodologies}
 
 \subsubsection{Life 365}
-The Life 365 Consortium III developed software to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. 
+The Life 365 Consortium III developed software to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion.
 
 \subsubsection{FIB 34 Model Code}
 FIB 34 model code addresses Service Life Design (SLD) for plain concrete, reinforced concrete, and pre-stressed concrete structures, focusing on design provisions for managing the adverse effects of degradation. Its objective is to guide bridge stakeholders, practicing engineers, and contractors to ensure the condition of the bridge components and materials is kept above a minimum acceptable level throughout the structure's lifespan. With new bridges having requirements to last for at least 100 years, the design of structures that consider the life service variable has become ever more critical. Therefore, it is crucial to consider one of the primary aging conditions that affect bridges, such as corrosion.
@@ -31,44 +33,48 @@ An application of the FIB 34 model code has been implemented in a design guide d
 
 This methodology provides a probabilistic methodology to reduce the likelihood of corrosion throughout the structure's life. However, the methodology does not provide a way to directly consider the effect of corrosion on the structure's performance as it ages. Therefore, to ensure that the bridge's condition remains above a minimum acceptable level, it is necessary to evaluate the structure's performance at a given acceptable level of corrosion.
 
-\subsection{Proposed methodology}
+\subsection{Direct Displacement Based Design Methodology}
 
-The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel and allow practicing engineers to evaluate different mix options and prevent corrosion from occurring or delaying it and proposing a repair and maintenance during the life of a structure. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. It might also not be economically feasible to provide technologies such as stainless steel reinforcement. Therefore, it might be beneficial for stakeholders to evaluate what will occur if they prescribe a better concrete mix that allows them to have a delay in corrosion occurrence and know what the performance level will be given a maximum level of corrosion that can occur.
+\subsection{Proposed Condition Dependent DDBD Methodology}
 
-Design the mix and materials to meet desired performance levels at different locations of the structure (FIB 34, Life365)
-If the constraints applied permit corrosion evaluate maximum corrosion level for expected age of the structure
-Obtain corrosion level from reduced bar diameter
-With corrosion level modify the  effective material properties of the reinforcing steel. 
-Obtain limit states for corresponding corrosion level or the effective properties of the corroded reinforcing steel
-Evaluate structure for displacement response spectrum at the location of the structure
-Verify if the structure reaches a given performance level at the maximum estimated corrosion level
-If the structure does not reach the collapse prevention and it does not exceed the permitted ductility level the design is successful
-If the structure reaches the damage control performance or is close the designer can choose a different bar diameter or change the mix, material to be used in the structure.
-\textbf{Quantifying corrosion}
-After time to corrosion is achieved the diameter of the bar will reduce with:
-\begin{equation}
-    d_{b}(t)=d_{bi}-\lambda(t)
-\end{equation}
+The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. In order to design a structure for corrosion, it is necesary to estimate the highest level of corrosion that will be experienced by the structure. To estimate the highest level of corrosion the main variables are the time of initiation of corrosion and the rate of corrosion. Therefore, a procedure to obtain the level of corrosion and estimate the deterioration of the structure is needed
 
-$\lambda(t)$ is the rate of corrosion, while there are many equations that have tried to determine the rate of corrosion in terms of the water to cement ratio and the cover. A simpler approach that is widely accepted is rate of 0.5 mills per year. Therefore the bar diameter change can be expressed as:
-\begin{equation}
+The proposed methodology consists of:
+\begin{enumerate}
+    \item Estimate the time of initiation of corrosion. In this study Life 365 is used. An initial concrete mix is made to initiate the design process. Also the water to cement ratio, and cover are specified. The program will calculate the time of initiation of corrosion ($T_{corr}$), based on the design inputs and the type of environment.
+    \item The level of corrosion at the end of the life of the structure is determined. First the rate of corrosion needs to be established, as a rule of thumb the rate of corrosion for reinforcing steel is 0.5 mills per year. However, other methodologies can estimate the rate of corrosion based on the water to cement ratio, cover and bar diameter\cite{Weyers1994}\cite{Thoft-Christensen}. The rate of corrosion ($\lambda$) can be expressed as:
+    \begin{equation}
+        \lambda(t)=0.0005(t-T_{corr})
+    \end{equation}
+    Then the reduction of the reinforcing steel can be calculated as:
+    \begin{equation}
     d_{b}(t)=d_{bi}-0.0005(t-T_{corr})
-\end{equation}
-
-Therefore the corrosion level can be expressed as:
-\begin{equation}
+    \end{equation}
+    Finally, the level of corrosion, at the end of the life of the structure ($t$), is calculated as:
+    \begin{equation}
     CL=1-\left(\frac{d_{b}(t)}{d_{bi}}\right)^2=1-\left(\frac{d_{bi}-0.0005(t-T_{corr})}{d_{bi}}\right)^2
-\end{equation}
+    \end{equation}
+    
+    \item If $CL$ is less than the admissible level of corrosion $CL_{adm}$, then the concrete mix design, cover or bar diameter can be changed until the corrosion level is acceptable $CL>CL_{adm}$.
+    
+    \item The effective mechanical properties of the reinforcing steel can be calculated using the expressions developed obtained from the experimental program. The relationships for yield strength and maximum bending strain are replicated here:
+    
+    \begin{equation}
+        f_{y,CL} = f_{y,o}(1-0.0075CL)
+        \label{eq.Calderon_Fy_vs_CL_06}
+    \end{equation}
+    \begin{equation}
+        \varepsilon_{b}(CL) = \varepsilon_{o}-0.0045CL
+        \label{eq.Calderon_eb_vs_CL_06}
+    \end{equation}
+    \item The strain limit states for the structure are evaluated with the expressions from \ref{tab:DesignLimitStates}.
+    \item Perform the seismic design of the structure using the DDBD methodology.
+    \item Final check on the strength of the system $\phi R_{n}>R_{u}$
+\end{enumerate}
 
-Here is an outline on the design procedure for a new structure considering the steps presented in the previous slide.
+The design process is outlined in the flowchart shown below. 
 
-Incorporates current life service processes available to engineers
-It provides a deterministic approach on what is the performance of the structure as it reaches a given level of corrosion.
-The user can specify the maximum allowable level of corrosion in this case it is set to 10%
-Presents enough flexibility to add different corrosion rate models from simple to more complex
-For this approach to work it is necessary to compliment the design with  good Q/C and Maintenance plans
-
-\subsection{Application example: Bridge 547 (AKDOT)}
+\subsection{Condition Dependent DDBD application example: SDOF Bridge Pier RC Column}
 
 \section{Assessment of existing structures considering aging conditions}
 
@@ -98,6 +104,8 @@ The \%NBS is used as an indicator of risk and defines a structural weakness with
 
 This method uses a displacement-based assessment methodology, and therefore a better estimate of the structure's performance is possible. However, similar to ASCE 41, the methodology does not explicitly address how to consider corrosion or aging in assessing the structure.
 
+\subsection{Displacement Based Assessment Methodology}
+
 \subsection{Proposed Condition Dependent Performance Based Seismic Assessment}
 
 In order to provide tools for practicing engineers to assess aging structures, and specifically include corrosion in their assessment of existing structures, a methodology that uses the Displacement Based Assessment is proposed. Similar to the case of new structures design the degradation of the material properties are included. Some assumptions are necessary to estimate the time of initiation of corrosion of the structures, therefore for corroded RC structures it is necessary to:
@@ -111,4 +119,6 @@ In order to provide tools for practicing engineers to assess aging structures, a
     \item Apply DBA procedure
 \end{enumerate}
 
-\subsection{Application Example: Bridge 547 (AKDOT)}
+\subsection{Condition Dependent DBA application Example: SDOF Bridge Pier RC Column}
+\section{Discussion of results}
+\section{Future Work}
