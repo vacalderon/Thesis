@@ -33,7 +33,24 @@ An application of the FIB 34 model code has been implemented in a design guide d
 
 This methodology provides a probabilistic methodology to reduce the likelihood of corrosion throughout the structure's life. However, the methodology does not provide a way to directly consider the effect of corrosion on the structure's performance as it ages. Therefore, to ensure that the bridge's condition remains above a minimum acceptable level, it is necessary to evaluate the structure's performance at a given acceptable level of corrosion.
 
-\subsection{Direct Displacement Based Design Methodology}
+\subsection{Direct Displacement Based Design (DDBD) Methodology}
+The Direct Displacement Based Design (DDBD) was first proposed by Priestley et al. \cite{Priestley2007}. It is currently one of the design methods accepted in the Proposed AASHTO design Guidelines for Performance-Based Seismic Bridge Design, developed by the National Cooperative Highway Research Program (NCHRP) \cite{NCHRP2020}. DDBD characterizes a structure as an equivalent single degree of freedom system (SDOF) that represents the properties of the structure being designed at peak displacement response. This methodology makes it possible to design a structure to achieve a design limit state under the seismic intensity at the structure's location. This design is later combined with capacity design principles to ensure that the structure behaves as intended by the structural designer. 
+
+The basic steps to apply the DDBD methodology are:
+\begin{enumerate}
+    \item Determine the structure effective mass ($m_{e}$)
+    \item Determine the target displacement. The target displacement can be established by the maximum admissible ductility ($\mu_{adm}$), the maximum drift ($\theta$), or the design limit state (LS).
+    \item Calculate the initial design ductility ($\mu_{adm}$)
+    \item Calculate the equivalent damping based on the structural element and hysteresis types.
+    \item Calculate the effective period of the structure ($T_{eff}$) based on the displacement spectrum at the site of the structure.
+    \item Calculate the effective stiffness of the structure as follows:
+    \begin{equation}
+        K_{eff}=4 \times \pi^2 \\frac{m}{T_{eff}^ 2}
+    \end{equation}
+    \item Obtain base shear of the structure
+\end{enumerate}
+
+The methodology is summarized in Figure X.X, where the basic steps shown above are explained.
 
 \subsection{Proposed Condition Dependent DDBD Methodology}
 
@@ -104,21 +121,63 @@ The \%NBS is used as an indicator of risk and defines a structural weakness with
 
 This method uses a displacement-based assessment methodology, and therefore a better estimate of the structure's performance is possible. However, similar to ASCE 41, the methodology does not explicitly address how to consider corrosion or aging in assessing the structure.
 
-\subsection{Displacement Based Assessment Methodology}
+\subsection{Direct Displacement Based Assessment (DDBA) Methodology}
+
+The Direct Displacement Based Assessment (DDBA) uses DDBD principles to assess the compliance of a structure on the premise of the displacement demands and capacities. The advantage of a displacement-based assessment is that the risk of a structure reaching a performance limit state can be readily obtained, incorporating the structure's effective dynamic and structural properties. 
+
+The assesment procedure methodology consistst of:
+\begin{enumerate}
+    \item Determine the effective mass ($m_{e}$)
+    \item Obtain the force-displacement response of the structure using moment-curvature analysis. In this study, CUMBIA is used for this step \cite{Montejo2007}.
+    \item From the previously calculated force-displacement response, determine the effective assessment stiffness ($K_{A}=F_{A}/\Delta_{Cap}$) using the displacement ($\Delta_{Cap}$) and force ($F_{A}$) corresponding to the limit state being evaluated.
+    \item Determine the effective period as:
+    \begin{equation}
+        T_{A}=2\pi \sqrt{\frac{m_{e}}{K_{A}}}
+    \end{equation}
+    \item Determine the displacement ductility ($\mu$)
+    \item Determine the effective damping ($\xi_{A}$)
+    \item Calculate the spectral reduction factor $R_{\xi}$ corresponding to $\xi_{A}$, using the expression taken from Priestley at al \cites{Priestley2007}, and shown below:
+    \begin{equation}
+        R_{\xi}=\left(\frac{0.07}{0.02+\xi_{A}}\right)
+    \end{equation}
+    \item Calcualte the equivalent elastic spectral displacement capacity as follows:
+    \begin{equation}
+        \Delta_{Cap,el}=\frac{\Delta_{Cap}}{R_{\xi}}
+    \end{equation}
+    \item Calculate the equivalent elastic demand ($\Delta_{dem,el}$) by reading the displacement demand from the spectrum displacement at the effective period of the structure. 
+    \item Finally, check the capacity demand displacement ratio, expressed as: 
+    \begin{equation}
+        C/D= \frac{\Delta_{cap,el}}{\Delta_{dem,el}}
+    \end{equation}
+    if the ratio is less than one the structure has an satisfactory response, otherwise measures are required to improve the structural performance of the structure.
+\end{enumerate}
+
+The DDBA methodology can be summarized in Figure X.X.
 
 \subsection{Proposed Condition Dependent Performance Based Seismic Assessment}
 
-In order to provide tools for practicing engineers to assess aging structures, and specifically include corrosion in their assessment of existing structures, a methodology that uses the Displacement Based Assessment is proposed. Similar to the case of new structures design the degradation of the material properties are included. Some assumptions are necessary to estimate the time of initiation of corrosion of the structures, therefore for corroded RC structures it is necessary to:
+In order to provide tools for practicing engineers to assess aging structures, and specifically include corrosion in their assessment of existing structures, a methodology that uses the Direct Displacement Based Assessment (DDBA) is proposed. Similar to the case of new structures design the degradation of the material properties are included. Some assumptions are necessary to estimate the time of initiation of corrosion of the structures.
+
+The procedure of the Condition Dependent DDBA consists of:
 
 \begin{enumerate}
-    \item Obtain information from construction: as built drawings, material certifications, mix design, observations during construction
-    \item Historical data: Inspection reports, observed deterioration
-    \item Site measurements: Corrosion rate (using GalvaPulse)
-    \item If it is not possible estimate corrosion level from measured diameter or the rate of corrosion, empirical equations relating the water to cement ratio ($w/c$), bar diameter ($d_{b}$) and cover ($c$) are available in the literature or by using life 365.
+    \item Obtain information from the existing structure, such as, as built drawings, material certifications, mix design, observations during construction, original structural design calculations.
+    \item Historical data, that may include inspection reports, observed deterioration reports.
+    \item Site measurements: Corrosion rate (using GalvaPulse), reduced diameter due to corrosion, samples from cocnrete cover to obtain chloride concentration.
+    \item Calculate the level ($CL$) of corrosion based on the measured bar diameter ($d_{m}$), and the initial bar diameter ($d_o$) , using the expression: 
+    \begin{equation}
+        CL=1-\left(\frac{d_{m}}{d_{o}}\right)^2
+        \label{eq:CL_diameter}
+    \end{equation}
+    \item If it is not possible estimate the corrosion level from measured diameter or the rate of corrosion, empirical equations relating the water to cement ratio ($w/c$), bar diameter ($d_{b}$) and cover ($c$) are available in the literature \cite{Weyers1994}\cite{Thoft-Christensen} or by using life 365 \cite{Bentz2003}.
     \item Estimate probable mechanical properties of materials
-    \item Apply DBA procedure
+    \item Apply the Displacement Based Assessment (DBA) procedure
+    \item Check the strength of the system with the effective properties of the materials.
 \end{enumerate}
 
+The methodology explained above is sumarized in the flowchart shown in Figure X.X.
+
 \subsection{Condition Dependent DBA application Example: SDOF Bridge Pier RC Column}
+
 \section{Discussion of results}
 \section{Future Work}
