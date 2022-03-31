@@ -8,21 +8,21 @@
     "baseUnits": "US units",
     "concentrationUnits": "% wt. conc.",
     "structureDimensions": {
-      "overallThickness": 48,
-      "trueThickness": 48,
-      "clearCover": 3,
-      "area": 32
+      "overallThickness": 78.75,
+      "trueThickness": 78.75,
+      "clearCover": 2,
+      "area": 472
     },
     "tradeNames": "Generic product names",
     "baseYear": 2018,
     "studyPeriod": 150,
-    "inflationRate": 0.018,
+    "inflationRate": 0.023,
     "realDiscountRate": 0.02,
     "exposureLocale": {
       "useThis": true,
       "location": "Alaska",
       "subLocation": "ANCHORAGE",
-      "exposure": "Urban highway bridges"
+      "exposure": "Within 800 m. of the ocean"
     },
     "temperatureHistory": {
       "temps": [
@@ -80,8 +80,8 @@
       "setManually": false,
       "c1556Sets": [],
       "useC1556": false,
-      "maxSurfaceConcentration": 0.68,
-      "timeToBuildUp": 160.0,
+      "maxSurfaceConcentration": 0.6,
+      "timeToBuildUp": 15.0,
       "ageAtFirstExposure": 28,
       "monthOfFirstExposure": 0.0
     },
@@ -108,7 +108,7 @@
               "percentSlag": 0.0,
               "percentClassFFlyAsh": 0,
               "percentSilicaFume": 0.0,
-              "serviceLifeInYears": 82.6666666666666714036182384006679058074951171875,
+              "serviceLifeInYears": 24.666666666666667850904559600166976451873779296875,
               "hydration": 25.0,
               "valuesHaveChanged": false,
               "alpha": 0.0,
@@ -117,7 +117,7 @@
               "dRef": 7.943282347242789E-12,
               "ct": 0.05,
               "m": 0.2,
-              "initiationInYears": 76.66666666666667,
+              "initiationInYears": 18.666666666666668,
               "propagationInYears": 6.0,
               "inhibitor": "\u003cnone\u003e",
               "isUserDefineable": false
@@ -133,8 +133,23 @@
                 "costName": "Construction cost",
                 "quantity": 14.8934760722599097704232917749322950839996337890625,
                 "unitOfMeasure": "cub. yd",
-                "unitCost": 147.742580679383735287046874873340129852294921875,
-                "totalCost": 2200.40059020233093178831040859222412109375,
+                "unitCost": 195.26731062675747807588777504861354827880859375,
+                "totalCost": 2908.20901851415555938729085028171539306640625,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
+                "costNumber": 2,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Barrier cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 0.6503212780230234191236604601726867258548736572265625,
+                "totalCost": 26.150970233731275271793492720462381839752197265625,
                 "costTiming": {
                   "startDate": "0",
                   "endDate": "0",
@@ -151,7 +166,7 @@
                 "unitCost": 37.16121588702990408137338818050920963287353515625,
                 "totalCost": 1494.341156213215754178236238658428192138671875,
                 "costTiming": {
-                  "startDate": "16",
+                  "startDate": "82",
                   "endDate": "150",
                   "frequency": "10"
                 }
@@ -180,7 +195,7 @@
               "percentSlag": 0.0,
               "percentClassFFlyAsh": 0.05,
               "percentSilicaFume": 0.0,
-              "serviceLifeInYears": 92.25,
+              "serviceLifeInYears": 27.25,
               "hydration": 25.0,
               "valuesHaveChanged": false,
               "alpha": 0.0,
@@ -189,7 +204,7 @@
               "dRef": 7.943282347242789E-12,
               "ct": 0.05,
               "m": 0.24000000000000002,
-              "initiationInYears": 86.25,
+              "initiationInYears": 21.25,
               "propagationInYears": 6.0,
               "inhibitor": "\u003cnone\u003e",
               "isUserDefineable": false
@@ -214,6 +229,21 @@
                 }
               },
               {
+                "costNumber": 2,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Barrier cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 0.6503212780230234191236604601726867258548736572265625,
+                "totalCost": 26.150970233731275271793492720462381839752197265625,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
                 "costNumber": 1,
                 "costType": "dep.",
                 "costPrior": "0",
@@ -223,7 +253,7 @@
                 "unitCost": 37.16121588702990408137338818050920963287353515625,
                 "totalCost": 1494.341156213215754178236238658428192138671875,
                 "costTiming": {
-                  "startDate": "18",
+                  "startDate": "92",
                   "endDate": "150",
                   "frequency": "10"
                 }
@@ -252,7 +282,7 @@
               "percentSlag": 0.0,
               "percentClassFFlyAsh": 0.1,
               "percentSilicaFume": 0.0,
-              "serviceLifeInYears": 103.4166666666666714036182384006679058074951171875,
+              "serviceLifeInYears": 30.25,
               "hydration": 25.0,
               "valuesHaveChanged": false,
               "alpha": 0.0,
@@ -261,7 +291,7 @@
               "dRef": 7.943282347242789E-12,
               "ct": 0.05,
               "m": 0.28,
-              "initiationInYears": 97.41666666666667,
+              "initiationInYears": 24.25,
               "propagationInYears": 6.0,
               "inhibitor": "\u003cnone\u003e",
               "isUserDefineable": false
@@ -286,6 +316,21 @@
                 }
               },
               {
+                "costNumber": 2,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Barrier cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 0.6503212780230234191236604601726867258548736572265625,
+                "totalCost": 26.150970233731275271793492720462381839752197265625,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
                 "costNumber": 1,
                 "costType": "dep.",
                 "costPrior": "0",
@@ -295,7 +340,7 @@
                 "unitCost": 37.16121588702990408137338818050920963287353515625,
                 "totalCost": 1494.341156213215754178236238658428192138671875,
                 "costTiming": {
-                  "startDate": "20",
+                  "startDate": "103",
                   "endDate": "150",
                   "frequency": "10"
                 }
@@ -324,7 +369,7 @@
               "percentSlag": 0.0,
               "percentClassFFlyAsh": 0.15,
               "percentSilicaFume": 0.0,
-              "serviceLifeInYears": 116.5,
+              "serviceLifeInYears": 34.0833333333333285963817615993320941925048828125,
               "hydration": 25.0,
               "valuesHaveChanged": false,
               "alpha": 0.0,
@@ -333,7 +378,7 @@
               "dRef": 7.943282347242789E-12,
               "ct": 0.05,
               "m": 0.32,
-              "initiationInYears": 110.5,
+              "initiationInYears": 28.083333333333332,
               "propagationInYears": 6.0,
               "inhibitor": "\u003cnone\u003e",
               "isUserDefineable": false
@@ -358,6 +403,21 @@
                 }
               },
               {
+                "costNumber": 2,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Barrier cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 0.6503212780230234191236604601726867258548736572265625,
+                "totalCost": 26.150970233731275271793492720462381839752197265625,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
                 "costNumber": 1,
                 "costType": "dep.",
                 "costPrior": "0",
@@ -367,7 +427,7 @@
                 "unitCost": 37.16121588702990408137338818050920963287353515625,
                 "totalCost": 1494.341156213215754178236238658428192138671875,
                 "costTiming": {
-                  "startDate": "22",
+                  "startDate": "116",
                   "endDate": "150",
                   "frequency": "10"
                 }
@@ -396,7 +456,7 @@
               "percentSlag": 0.0,
               "percentClassFFlyAsh": 0.2,
               "percentSilicaFume": 0.0,
-              "serviceLifeInYears": 131.66666666666668561447295360267162322998046875,
+              "serviceLifeInYears": 39,
               "hydration": 25.0,
               "valuesHaveChanged": false,
               "alpha": 0.0,
@@ -405,7 +465,7 @@
               "dRef": 7.943282347242789E-12,
               "ct": 0.05,
               "m": 0.36000000000000004,
-              "initiationInYears": 125.66666666666667,
+              "initiationInYears": 33.0,
               "propagationInYears": 6.0,
               "inhibitor": "\u003cnone\u003e",
               "isUserDefineable": false
@@ -430,6 +490,21 @@
                 }
               },
               {
+                "costNumber": 2,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Barrier cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 0.6503212780230234191236604601726867258548736572265625,
+                "totalCost": 26.150970233731275271793492720462381839752197265625,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
                 "costNumber": 1,
                 "costType": "dep.",
                 "costPrior": "0",
@@ -439,7 +514,7 @@
                 "unitCost": 37.16121588702990408137338818050920963287353515625,
                 "totalCost": 1494.341156213215754178236238658428192138671875,
                 "costTiming": {
-                  "startDate": "25",
+                  "startDate": "131",
                   "endDate": "150",
                   "frequency": "10"
                 }
@@ -468,7 +543,7 @@
               "percentSlag": 0.0,
               "percentClassFFlyAsh": 0.25,
               "percentSilicaFume": 0.0,
-              "serviceLifeInYears": 149.666666666666657192763523198664188385009765625,
+              "serviceLifeInYears": 45.41666666666666429819088079966604709625244140625,
               "hydration": 25.0,
               "valuesHaveChanged": false,
               "alpha": 0.0,
@@ -477,7 +552,7 @@
               "dRef": 7.943282347242789E-12,
               "ct": 0.05,
               "m": 0.4,
-              "initiationInYears": 143.66666666666666,
+              "initiationInYears": 39.416666666666664,
               "propagationInYears": 6.0,
               "inhibitor": "\u003cnone\u003e",
               "isUserDefineable": false
@@ -502,6 +577,21 @@
                 }
               },
               {
+                "costNumber": 2,
+                "costType": "dep.",
+                "costPrior": "0",
+                "costName": "Barrier cost",
+                "quantity": 40.212385965949351884773932397365570068359375,
+                "unitOfMeasure": "ft",
+                "unitCost": 0.6503212780230234191236604601726867258548736572265625,
+                "totalCost": 26.150970233731275271793492720462381839752197265625,
+                "costTiming": {
+                  "startDate": "0",
+                  "endDate": "0",
+                  "frequency": "0"
+                }
+              },
+              {
                 "costNumber": 1,
                 "costType": "dep.",
                 "costPrior": "0",
@@ -511,7 +601,7 @@
                 "unitCost": 37.16121588702990408137338818050920963287353515625,
                 "totalCost": 1494.341156213215754178236238658428192138671875,
                 "costTiming": {
-                  "startDate": "29",
+                  "startDate": "149",
                   "endDate": "150",
                   "frequency": "10"
                 }
