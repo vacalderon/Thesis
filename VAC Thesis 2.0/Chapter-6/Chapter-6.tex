@@ -8,7 +8,14 @@ In addition, the existing methodologies to design structures for life service an
 
 \section{Design of new structures for condition dependent PBD}
 
-One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable, and safe. Currently, the design approach assumes that the material properties will remain unchanged throughout the life of the structures. However, built structures age and deteriorate and could potentially lead to the unintended consequence of a structure failing due to aging. Therefore, it is of interest to ensure that new structures are designed to perform to an acceptable level of performance and maintain the level of performance as the structure ages. Figure X.X shows the concept of condition-dependent performance-based design versus the traditional design approach. 
+One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable, and safe. Currently, the design approach assumes that the material properties will remain unchanged throughout the life of the structures. However, built structures age and deteriorate and could potentially lead to the unintended consequence of a structure failing due to aging. Therefore, it is of interest to ensure that new structures are designed to perform to an acceptable level of performance and maintain the level of performance as the structure ages. \fref{fig:ConditionDependent PBD} shows the concept of condition-dependent performance-based design versus the traditional design approach. 
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-6/figs/CD_DDBD_Concept.png}
+	\caption{Philosophy of condition dependent performance based design}
+	\label{fig:ConditionDependent PBD}
+\end{figure}
 
 Currently, existing methodologies provide probabilistic frameworks to design structures for aging. While these methodologies have been used in recent years for significant bridge projects such as the Samuel de Champlain Bridge and the New Bonner Bridge, there is a gap in determining the level of performance as the structure deteriorates.
 
@@ -53,7 +60,13 @@ The basic steps to apply the DDBD methodology are:
 \end{enumerate}
 
 The methodology is summarized in Figure X.X, where the basic steps shown above are explained.
-
+\fref{fig:DDBD_CH6}.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{VAC Thesis 2.0/Chapter-6/figs/DDBD.png}
+	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\label{fig:DDBD_CH6}
+\end{figure}
 \subsection{Proposed Condition Dependent DDBD Methodology}
 
 The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. In order to design a structure for corrosion, it is necesary to estimate the highest level of corrosion that will be experienced by the structure. To estimate the highest level of corrosion the main variables are the time of initiation of corrosion and the rate of corrosion. Therefore, a procedure to obtain the level of corrosion and estimate the deterioration of the structure is needed
@@ -91,7 +104,14 @@ The proposed methodology consists of:
     \item Final check on the strength of the system $\phi R_{n}>R_{u}$
 \end{enumerate}
 
-The design process is outlined in the flowchart shown below. 
+The design process is outlined in the flowchart shown in\fref{fig:CD-DDBD_CH6}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.875\textwidth]{VAC Thesis 2.0/Chapter-6/figs/CD_DDBD_VictorCalderon.pdf}
+	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\label{fig:CD-DDBD_CH6}
+\end{figure}. 
 
 \subsection{Condition Dependent DDBD application example: SDOF Bridge Pier RC Column}
 
@@ -198,10 +218,22 @@ hysteretic response characteristics to be incorporated in the analysis. Similarl
     \item Determine equivalent SDOF system, seismic demand, and \%NBS.
 \end{enumerate}
 
-The \%NBS is used as an indicator of risk and defines a structural weakness within the context of SLaMA. For example, SW is an aspect of the building structure and the foundation soils that score less than 100\%NBS. Note that an aspect of the building structure scoring less than 100\%NBS but greater than or equal to 67\%NBS is still considered a structural weakness even though it is considered an acceptable risk. An example of the evaluation of the \%NBS is shown in figure, and the flow chart for the SLaMA procedure is whon in Figure X.X.
+The \%NBS is used as an indicator of risk and defines a structural weakness within the context of SLaMA. For example, SW is an aspect of the building structure and the foundation soils that score less than 100\%NBS. Note that an aspect of the building structure scoring less than 100\%NBS but greater than or equal to 67\%NBS is still considered a structural weakness even though it is considered an acceptable risk. An example of the evaluation of the \%NBS is shown in \fref{}, and the flow chart for the SLaMA procedure is whon in \fref{fig:nbs_CH6}.
 
 This method uses a displacement-based assessment methodology, and therefore a better estimate of the structure's performance is possible. However, similar to ASCE 41, the methodology does not explicitly address how to consider corrosion or aging in assessing the structure.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.75\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SLaMA_methodology.jpg}
+	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\label{fig:slama_CH6}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-6/figs/nbs_example.jpg}
+	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\label{fig:nbs_CH6}
+\end{figure}
 \subsection{Direct Displacement Based Assessment (DDBA) Methodology}
 
 The Direct Displacement Based Assessment (DDBA) uses DDBD principles to assess the compliance of a structure on the premise of the displacement demands and capacities. The advantage of a displacement-based assessment is that the risk of a structure reaching a performance limit state can be readily obtained, incorporating the structure's effective dynamic and structural properties. 
@@ -236,14 +268,7 @@ The assesment procedure methodology consistst of:
     if the ratio is less than one the structure has an satisfactory response, otherwise measures are required to improve the structural performance of the structure.
 \end{enumerate}
 
-The DDBA methodology can be summarized in Figure X.X.
-
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.60\textwidth]{Chapter-6/figs/Calibration_Test_26_Goodnight_et_al.pdf}
-	\caption{Force-Displacement results from experimental results \cite{Goodnight2013} and analytical model}
-	\label{fig:ModelCalibration}
-\end{figure}
+The DDBA methodology can be summarized in 
 
 \subsection{Proposed Condition Dependent Performance Based Seismic Assessment}
 
@@ -276,6 +301,7 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
 \begin{displaymath}
     CL=1-\frac{d_{b,m}}{d_{o}}=1-\frac{38}{40}^2=9.75\%
 \end{displaymath}
+
 \textbf{Step 2:} The effective mechanical properties of the longitudinal steel are defined
 \begin{displaymath}
     f_{y,e}=f_{y,o}(1-0.0075\times CL)=420(1-0.0075\times 9.75)=389 MPa
@@ -322,17 +348,17 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
      R_{\xi}=\left(\frac{0.07}{0.02+\xi_{A}}\right)^{0.25}=\left(\frac{0.07}{0.02+0.158}\right)^{0.25}=0.792
 \end{displaymath}
 
-\textbf{Step 10:} Determine the equivalent elastic spectral displacement.
+\textbf{Step 11:} Determine the equivalent elastic spectral displacement.
 \begin{displaymath}
      \Delta_{Cap,el}=\frac{\Delta_{Cap}}{R_{\xi}}=\frac{0.498m}{0.792}=0.629
 \end{displaymath}
 
-\textbf{Step 11:} Determine the demand spectral displacement, using the displacement spectrum.
+\textbf{Step 12:} Determine the demand spectral displacement, using the displacement spectrum.
 \begin{displaymath}
      \Delta_{dem,el}=\frac{\Delta_{c} \times T_{A}}{T_{c}}=\frac{1m \times 2.724s}{1s}=0.681
 \end{displaymath}
 
-\textbf{Step 12:} Calculate thee capacity demand ratio
+\textbf{Step 13:} Calculate the capacity demand ratio
 \begin{displaymath}
      C/D= \frac{\Delta_{cap,el}}{\Delta_{dem,el}}= \frac{0.629}{0.681}
 \end{displaymath}
