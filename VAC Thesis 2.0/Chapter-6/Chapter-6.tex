@@ -139,7 +139,21 @@ The design process is outlined in the flowchart shown in\fref{fig:CD-DDBD_CH6}.
 
 \subsection{Condition Dependent DDBD application example: SDOF Bridge Pier RC Column}
 
-The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in Figure X.X. The structure is to be designed for 100 years of life service for the displacement response spectrum shown in Figure X.X. The structure is located within 800 m of the ocean in the city of Anchorage, Alaska.
+The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_design}, and the detailing for for the proposed column cross section is shown in Figure X.X.. The structure is to be designed for 100 years of life service for the displacement response spectrum shown in Figure X.X. The structure is located within 800 m of the ocean in the city of Anchorage, Alaska.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Column_Elevation.pdf}
+	\caption{Column Elevation}
+	\label{fig:column_elevation_design}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Column_se.pdf}
+	\caption{Column Elevation}
+	\label{fig:column_elevation_design}
+\end{figure}
 
 \textbf{Step 1:} The structure is designed for the environment of 800m from the ocean. The material data used in the structural design are shown in Table X.X. Using life 365 the time of initiation of corrosion is determined to be 18.7 years at the location of the structure. Figure X.X. shows the corrosion degradation that the structure will sustain at 100 years of life service. The resulting level of corrosion is calculated as:
 \begin{displaymath}
@@ -157,7 +171,7 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
     \varepsilon_{b}=0.14-0.0045 \times CL = 0.14-0.0045 \times 5.0 = 0.1175 mm/mm
 \end{displaymath}
 
-\textbf{Step 3:} Caclulate the damage control and ultimate limit states using equations \ref{eq:es_DamageControl}, and \ref{eq:es_ultimate}.
+\textbf{Step 3:} Calculate the damage control and ultimate limit states using equations \ref{eq:es_DamageControl}, and \ref{eq:es_ultimate}.
 \begin{displaymath}
     \varepsilon_{s,BB}=0.03+700\rho_{s}  \frac{f_{yhe}}{E_{s}} -0.1\frac{P}{f'_{c}A_{g}}
 \end{displaymath}
@@ -168,7 +182,8 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
     \varepsilon_{t}=\frac{ln(\frac{\varepsilon_{b}}{0.001})}{\frac{300P}{f'c A_{g}}+\frac{0.7}{\rho_{t}}}=\frac{ln(\frac{0.1175}{0.001})}{\frac{300(8310KN)}{33MPa \cdot 3.1416 m^2}+\frac{0.7}{0.00872}}=0.045
 \end{displaymath}
 
-\textbf{Step 4:} Determine the force-displacement response of the structure using cumbia. The displacements for the column at the design limit states are shown below. 
+\textbf{Step 4:} Determine the force-displacement response of the structure using CUMBIA. The displacements for the column at the design limit states are shown below. 
+
 
 
 \textbf{Step 5:} Determine the target displacement. The displacements being considered are the damage control limit state, the ultimate limit state and the maximum allowable drift set to $\theta=0.035$.
@@ -320,11 +335,11 @@ The procedure of the Condition Dependent DDBA consists of:
 
 \subsection{Condition Dependent DDBA application Example: SDOF Bridge Pier RC Column}
 
-The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in Figure X.X. presents damage due to corrosion. Th structure was built in the year 2000 the geometry and detailing of the column are shown in Fig X.X. The column is assessed to the ultimate limit state defined in \eqref{eq:es_ultimate} using the DDBA procedure. From a site visit it was determined that the longitudinal reinforcement had reduced to $d_{b,m}=38mm$. The single column pier has a height $H=12m$, and a diameter $D=2m$. The column is assumed to have a rigid foundation and supported on stiff rock. The material properties from the as built drawings are summarized in Table X.X.
+The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_assessment}. presents damage due to corrosion. Th structure was built in the year 2000 the geometry and detailing of the column are shown in \fref{fig:cross_section_assessment}. The column is assessed to the ultimate limit state defined in \eqref{eq:es_ultimate} using the DDBA procedure. From a site visit it was determined that the longitudinal reinforcement had reduced to $d_{b,m}=38mm$. The single column pier has a height $H=12m$, and a diameter $D=2m$. The column is assumed to have a rigid foundation and supported on stiff rock. The material properties from the as built drawings are summarized in Table X.X.
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Column_Elevation.pdf}
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Column_Elevation.pdf}
 	\caption{Column Elevation}
 	\label{fig:column_elevation_assessment}
 \end{figure}
