@@ -155,14 +155,15 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
 	\label{fig:column_cross-section_design}
 \end{figure}
 
-\textbf{Step 1:} The structure is designed for the environment of 800m from the ocean. The material data used in the structural design are shown in Table X.X. Using life 365 the time of initiation of corrosion is determined to be 18.7 years at the location of the structure. Figure X.X. shows the corrosion degradation that the structure will sustain at 100 years of life service. The resulting level of corrosion is calculated as:
-
+\textbf{Step 1:} The structure is designed for the environment of 800m from the ocean. The material data used in the structural design are shown in Table X.X. Using life 365 the time of initiation of corrosion is determined to be 18.7 years at the location of the structure. \fref{fig:corrosion_level_100years} shows the corrosion degradation that the structure will sustain at 100 years of life service. 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/ColumnSection_Design.pdf}
-	\caption{Column cross-section}
-	\label{fig:column_cross-section_design}
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/CorrosionLevel_lifeService_5.pdf}
+	\caption{Calculating corrosion level at 100 years of service life}
+	\label{fig:corrosion_level_100years}
 \end{figure}
+
+The resulting level of corrosion is calculated as
 
 \begin{displaymath}
     CL=1-\left(\frac{d_{bi}-\lambda_{t}(t-T_{corr})}{d_{bi}}\right)^2
@@ -190,9 +191,14 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
     \varepsilon_{t}=\frac{ln(\frac{\varepsilon_{b}}{0.001})}{\frac{300P}{f'c A_{g}}+\frac{0.7}{\rho_{t}}}=\frac{ln(\frac{0.1175}{0.001})}{\frac{300(8310KN)}{33MPa \cdot 3.1416 m^2}+\frac{0.7}{0.00872}}=0.045
 \end{displaymath}
 
-\textbf{Step 4:} Determine the force-displacement response of the structure using CUMBIA. The displacements for the column at the design limit states are shown below. 
+\textbf{Step 4:} Determine the force-displacement response of the structure using CUMBIA. The displacements for the column at the design limit states are shown below in \fref{fig:force_displacement_design}. 
 
-
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Force_Displacement_Design_5.pdf}
+	\caption{Force displacement response for structure considering CL=5\% }
+	\label{fig:force_displacement_design}
+\end{figure}
 
 \textbf{Step 5:} Determine the target displacement. The displacements being considered are the damage control limit state, the ultimate limit state and the maximum allowable drift set to $\theta=0.035$.
 
@@ -213,6 +219,13 @@ $\therefore \Delta_{D}=0.42m$
 \begin{displaymath}
     \Delta_{c,15}=1 m \times \sqrt{\frac{0.07}{0.02+0.15}} = 0.642 m
 \end{displaymath}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SD_Design_5.pdf}
+	\caption{Spectral displacement for $\xi=5\%$, and at the equivalent damping $\xi_{eq}=15\%$}
+	\label{fig:force_displacement_design}
+\end{figure}
 
 \textbf{Step 8:} Since $\Delta_{D}<\Delta_{c,15}$, and the corner period $T_{c}=4s$ the effective period can be calculated as shown below.
 \begin{displaymath}
@@ -268,9 +281,16 @@ hysteretic response characteristics to be incorporated in the analysis. Similarl
     \item Determine equivalent SDOF system, seismic demand, and \%NBS.
 \end{enumerate}
 
-The \%NBS is used as an indicator of risk and defines a structural weakness within the context of SLaMA. For example, SW is an aspect of the building structure and the foundation soils that score less than 100\%NBS. Note that an aspect of the building structure scoring less than 100\%NBS but greater than or equal to 67\%NBS is still considered a structural weakness even though it is considered an acceptable risk. An example of the evaluation of the \%NBS is shown in \fref{}, and the flow chart for the SLaMA procedure is whon in \fref{fig:nbs_CH6}.
+The \%NBS is used as an indicator of risk and defines a structural weakness within the context of SLaMA. For example, SW is an aspect of the building structure and the foundation soils that score less than 100\%NBS. Note that an aspect of the building structure scoring less than 100\%NBS but greater than or equal to 67\%NBS is still considered a structural weakness even though it is considered an acceptable risk. An example of the evaluation of the \%NBS is shown in \fref{fig:nbs_CH6}, and the flow chart for the SLaMA procedure is whon in \fref{slama_CH6}.
 
 This method uses a displacement-based assessment methodology, and therefore a better estimate of the structure's performance is possible. However, similar to ASCE 41, the methodology does not explicitly address how to consider corrosion or aging in assessing the structure.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-6/figs/nbs_example.jpg}
+	\caption{SLaMA \%NBS calculation for assessment}
+	\label{fig:nbs_CH6}
+\end{figure}
 
 \begin{figure}[htbp]
 	\centering
@@ -278,12 +298,7 @@ This method uses a displacement-based assessment methodology, and therefore a be
 	\caption{SLaMA flowchart for the assessment of existing buildings}
 	\label{fig:slama_CH6}
 \end{figure}
-\begin{figure}[htbp]
-	\centering
-	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-6/figs/nbs_example.jpg}
-	\caption{SLaMA \%NBS calculation for assessment}
-	\label{fig:nbs_CH6}
-\end{figure}
+
 \subsection{Direct Displacement Based Assessment (DDBA) Methodology}
 
 The Direct Displacement Based Assessment (DDBA) uses DDBD principles to assess the compliance of a structure on the premise of the displacement demands and capacities. The advantage of a displacement-based assessment is that the risk of a structure reaching a performance limit state can be readily obtained, incorporating the structure's effective dynamic and structural properties. 
@@ -434,7 +449,7 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
      C/D= \frac{\Delta_{cap,el}}{\Delta_{dem,el}}= \frac{0.629}{0.681}
 \end{displaymath}
 
-It can be seen then, that the demand is larger than the capacity and this structure is at high risk of reaching the ultimate limit state. On the other hand. If the calculations are repeated with no corrosion the demand capacity ratio is less than one and appears to be safe. The results highlight the necessity to incorporate the current state of the structure in the assessment of structures. These results are shown graphically in Figure X.X.
+It can be seen then, that the demand is larger than the capacity and this structure is at high risk of reaching the ultimate limit state. On the other hand. If the calculations are repeated with no corrosion the demand capacity ratio is less than one and appears to be safe. The results highlight the necessity to incorporate the current state of the structure in the assessment of structures. These results are shown graphically in \fref{fig:force_displacement_assessment}.
 
 \begin{figure}[htbp]
 	\centering
