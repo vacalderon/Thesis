@@ -20,13 +20,21 @@ One of the biggest challenges in Civil Engineering is to provide infrastructure 
 Currently, existing methodologies provide probabilistic frameworks to design structures for aging. While these methodologies have been used in recent years for significant bridge projects such as the Samuel de Champlain Bridge and the New Bonner Bridge, there is a gap in determining the level of performance as the structure deteriorates.
 
 \subsection{Acceptable level of corrosion for new designs}
+
 The experimental program obtained the equations that relate the degradation of the yield strength and maximum bending strain with corrosion. It was also noticeable in the experimental results that for corrosion levels of 10\% and greater, the bar's strength and capacity to sustain significant buckling levels were significantly reduced. Similarly, the corrosion levels of 10\% and greater in the analytical program significantly increased the likelihood of reaching the damage control and ultimate limit states. Therefore, it becomes evident that for design, a level of corrosion less than 10\% is acceptable for the design of new structures, although a level of corrosion of 5\% or less is desirable.
 
 \subsection{Life Service Design Existing methodologies}
 
 \subsubsection{Life 365}
-The Life 365 Consortium III developed the software Life365 to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion. An example on how the different environments affect the corrosion process is shown in Figure x.x.
 
+The Life 365 Consortium III developed the software Life365 to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion. An example on how the different environments affect the corrosion process is shown in \fref{fig:Life_365_example}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Life365.pdf}
+	\caption{Life 365 corrosion level at different environments}
+	\label{fig:Life_365_example}
+\end{figure}
 \subsubsection{FIB 34 Model Code}
 FIB 34 model code addresses Service Life Design (SLD) for plain concrete, reinforced concrete, and pre-stressed concrete structures, focusing on design provisions for managing the adverse effects of degradation. Its objective is to guide bridge stakeholders, practicing engineers, and contractors to ensure the condition of the bridge components and materials is kept above a minimum acceptable level throughout the structure's lifespan. With new bridges having requirements to last for at least 100 years, the design of structures that consider the life service variable has become ever more critical. Therefore, it is crucial to consider one of the primary aging conditions that affect bridges, such as corrosion.
 
@@ -38,11 +46,27 @@ Four different options for SLD are avilable in FIB 34:
     \item Avoidance of deterioration.
 \end{enumerate}
 
-An application of the FIB 34 model code has been implemented in a design guide developed by the Federal Highway Administration (FHWA) and the  American Association of State Highway and Transportation Officials (AASHTO) to implement a Service Life Design for Bridges (also referred to as R19A) through the second Strategic Highway Research Program (SHRP2)\cite{SHRP22019}. Multiple tools, products, and training materials aimed at practitioners and state bridge engineers were developed for the implementation effort. In SHRP2-R19A, FIB 34 with a fully probabilistic approach is used to design bridges. The design must ensure that the corrosion is reduced to a 10\% probability of occurrence. In addition, the methodology is implemented to different parts of the structure with exposure zones assigned to them, as shown in Fig X.X. Based on the reliability obtained, changes in the mix design, the reinforcing steel, the cover, and other variables can be made to increase the reliability of the structure. 
+An application of the FIB 34 model code has been implemented in a design guide developed by the Federal Highway Administration (FHWA) and the  American Association of State Highway and Transportation Officials (AASHTO) to implement a Service Life Design for Bridges (also referred to as R19A) through the second Strategic Highway Research Program (SHRP2)\cite{SHRP22019}. Multiple tools, products, and training materials aimed at practitioners and state bridge engineers were developed for the implementation effort. In SHRP2-R19A, FIB 34 with a fully probabilistic approach is used to design bridges. The design must ensure that the corrosion is reduced to a 10\% probability of occurrence. In addition, the methodology is implemented to different parts of the structure with exposure zones assigned to them, as shown in \fref{fig:FIB_34_Exposure zones}. Based on the reliability obtained, changes in the mix design, the reinforcing steel, the cover, and other variables can be made to increase the reliability of the structure. 
 
-This methodology provides a probabilistic methodology to reduce the likelihood of corrosion throughout the structure's life. However, the methodology does not provide a way to directly consider the effect of corrosion on the structure's performance as it ages. Therefore, to ensure that the bridge's condition remains above a minimum acceptable level, it is necessary to evaluate the structure's performance at a given acceptable level of corrosion. The reliability check process is shown in Figure X.X.
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SHRP_exposure_example.jpg}
+	\caption{Example of identification of exposure zones according to SHRP-R19A \cite{SHRP22019}.}
+	\label{fig:FIB_34_Exposure zones}
+\end{figure}
+
+
+This methodology provides a probabilistic methodology to reduce the likelihood of corrosion throughout the structure's life. However, the methodology does not provide a way to directly consider the effect of corrosion on the structure's performance as it ages. Therefore, to ensure that the bridge's condition remains above a minimum acceptable level, it is necessary to evaluate the structure's performance at a given acceptable level of corrosion. The reliability check process is shown in \fref{fig:FIB_34_raliability}.
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Reliability_shrp_example_2.jpg}
+	\caption{Reliability for structure with fly ash for 100 years of service life using the FIB-34 full probabilistic method \cite{SHRP22019}.}
+	\label{fig:FIB_34_raliability}
+\end{figure}
 
 \subsection{Direct Displacement Based Design (DDBD) Methodology}
+
 The Direct Displacement Based Design (DDBD) was first proposed by Priestley et al. \cite{Priestley2007}. It is currently one of the design methods accepted in the Proposed AASHTO design Guidelines for Performance-Based Seismic Bridge Design, developed by the National Cooperative Highway Research Program (NCHRP) \cite{NCHRP2020}. DDBD characterizes a structure as an equivalent single degree of freedom system (SDOF) that represents the properties of the structure being designed at peak displacement response. This methodology makes it possible to design a structure to achieve a design limit state under the seismic intensity at the structure's location. This design is later combined with capacity design principles to ensure that the structure behaves as intended by the structural designer. 
 
 The basic steps to apply the DDBD methodology are:
@@ -192,6 +216,7 @@ $\phi M_{n}>M_{u} \to 23,766.3 KN-m > 22,970 KN-m$
 Therefore the structure has sufficient strength to sustain the demands even with a corrosion level of 5\% at 100 years of service life.
 
 \section{Assessment of existing structures considering aging conditions}
+
 For the assessment of structures, it is necessary to have the most accurate information from the structure being assessed. Equally important is that the material behavior is modeled accurately to represent the behavior with corrosion. While current methodologies provide a framework to assess structures in a standardized manner, there is also a gap in how to guide practicing engineers on how to consider aging conditions such as corrosion. Therefore, this section shows the application of a proposed assessment methodology using Direct Displacement Based Assessment for a single degree of freedom RC columns. 
 
 \subsection{Recommendations from the experimental and analytical programs}
