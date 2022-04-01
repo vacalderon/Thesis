@@ -139,7 +139,7 @@ The design process is outlined in the flowchart shown in\fref{fig:CD-DDBD_CH6}.
 
 \subsection{Condition Dependent DDBD application example: SDOF Bridge Pier RC Column}
 
-The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_design}, and the detailing for for the proposed column cross section is shown in Figure X.X.. The structure is to be designed for 100 years of life service for the displacement response spectrum shown in Figure X.X. The structure is located within 800 m of the ocean in the city of Anchorage, Alaska.
+The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_design}, and the detailing for for the proposed column cross section is shown in \fref{fig:column_cross-section_design}. The structure is to be designed for 100 years of life service for the displacement response spectrum shown in Figure X.X. The structure is located within 800 m of the ocean in the city of Anchorage, Alaska.
 
 \begin{figure}[htbp]
 	\centering
@@ -150,12 +150,20 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Column_se.pdf}
-	\caption{Column Elevation}
-	\label{fig:column_elevation_design}
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/ColumnSection_Design.pdf}
+	\caption{Column cross-section}
+	\label{fig:column_cross-section_design}
 \end{figure}
 
 \textbf{Step 1:} The structure is designed for the environment of 800m from the ocean. The material data used in the structural design are shown in Table X.X. Using life 365 the time of initiation of corrosion is determined to be 18.7 years at the location of the structure. Figure X.X. shows the corrosion degradation that the structure will sustain at 100 years of life service. The resulting level of corrosion is calculated as:
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/ColumnSection_Design.pdf}
+	\caption{Column cross-section}
+	\label{fig:column_cross-section_design}
+\end{figure}
+
 \begin{displaymath}
     CL=1-\left(\frac{d_{bi}-\lambda_{t}(t-T_{corr})}{d_{bi}}\right)^2
 \end{displaymath}
