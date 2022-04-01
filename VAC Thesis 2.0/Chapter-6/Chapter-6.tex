@@ -13,7 +13,7 @@ One of the biggest challenges in Civil Engineering is to provide infrastructure 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-6/figs/CD_DDBD_Concept.png}
-	\caption{Philosophy of condition dependent performance based design}
+	\caption{Philosophy of Condition Dependent Performance Based Design}
 	\label{fig:ConditionDependent PBD}
 \end{figure}
 
@@ -25,7 +25,7 @@ The experimental program obtained the equations that relate the degradation of t
 \subsection{Life Service Design Existing methodologies}
 
 \subsubsection{Life 365}
-The Life 365 Consortium III developed the software Life365 to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion. An example on how the different evironments affect the corrosion process is shown in Figure x.x.
+The Life 365 Consortium III developed the software Life365 to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion. An example on how the different environments affect the corrosion process is shown in Figure x.x.
 
 \subsubsection{FIB 34 Model Code}
 FIB 34 model code addresses Service Life Design (SLD) for plain concrete, reinforced concrete, and pre-stressed concrete structures, focusing on design provisions for managing the adverse effects of degradation. Its objective is to guide bridge stakeholders, practicing engineers, and contractors to ensure the condition of the bridge components and materials is kept above a minimum acceptable level throughout the structure's lifespan. With new bridges having requirements to last for at least 100 years, the design of structures that consider the life service variable has become ever more critical. Therefore, it is crucial to consider one of the primary aging conditions that affect bridges, such as corrosion.
@@ -59,17 +59,17 @@ The basic steps to apply the DDBD methodology are:
     \item Obtain base shear of the structure
 \end{enumerate}
 
-The methodology is summarized in Figure X.X, where the basic steps shown above are explained.
+The methodology is summarized in \fref{fig:DDBD_CH6}, where the basic steps shown above are explained.
 \fref{fig:DDBD_CH6}.
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{VAC Thesis 2.0/Chapter-6/figs/DDBD.png}
-	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\caption{Direct Displacement Based Design (DDBD) methodology}
 	\label{fig:DDBD_CH6}
 \end{figure}
 \subsection{Proposed Condition Dependent DDBD Methodology}
 
-The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. In order to design a structure for corrosion, it is necesary to estimate the highest level of corrosion that will be experienced by the structure. To estimate the highest level of corrosion the main variables are the time of initiation of corrosion and the rate of corrosion. Therefore, a procedure to obtain the level of corrosion and estimate the deterioration of the structure is needed
+The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. In order to design a structure for corrosion, it is necessary to estimate the highest level of corrosion that will be experienced by the structure. To estimate the highest level of corrosion the main variables are the time of initiation of corrosion and the rate of corrosion. Therefore, a procedure to obtain the level of corrosion and estimate the deterioration of the structure is needed
 
 The proposed methodology consists of:
 \begin{enumerate}
@@ -161,6 +161,7 @@ $\therefore \Delta_{D}=0.42m$
 \begin{displaymath}
     \xi_{A}=0.05+0.444\frac{\mu-1}{\mu\pi}=0.05+0.444\frac{3.42-1}{3.42\pi}=0.15
 \end{displaymath}
+
 \textbf{Step 7:} Determine the corner period at the effective damping.
 \begin{displaymath}
     \Delta_{c,15}=1 m \times \sqrt{\frac{0.07}{0.02+0.15}} = 0.642 m
@@ -170,6 +171,7 @@ $\therefore \Delta_{D}=0.42m$
 \begin{displaymath}
     T_{eff}=4s \left(\frac{0.42m}{0.642m}\right)=2.62s
 \end{displaymath}
+
 \textbf{Step 9:} Calculate the effective stiffness.
 \begin{displaymath}
     K_{e}=\frac{4\pi^2m_{e}}{T_{eff}^2}=\frac{4\pi^2 792.5 KN\cdot s^2/m}{(2.62s)^2}=4557.5 KN/m
@@ -200,7 +202,7 @@ The experimental program results showed that corroded reinforcing steel degrades
 
 \subsubsection{ASCE 41}
 
-ASCE 41 is the Seismic Evaluation and Retrofit of Existing Buildings code by the American Society of Civil Engineers (ASCE) \cite{ASCE-41-2017}. This code has evolved from FEMA 310 Handbook for the Seismic Evaluation of Building. This code consists of three-tiered procedures for seismic evaluation of existing buildings appropriate for use in areas of any Level of Seismicity. Each tier increases the level of complexity and detail for the structural analysis of the existing structure. The first tier consists of checklists that depend on the type of building and material and the available information to identify deficiencies. If the first tier demonstrates deficiencies, then the second tier is activated. The second tier corresponds to more detailed analysis and verifications of the elements that had deficiencies. In the second tier, force-based checks are modified with factors to account for the nonlinearity of the structural elements. During the second tier, if the deficiencies are corroborated, retrofits must be performed, or a more detailed analysis is required to verify the performance of the structures, which triggers the third tier. The third tier corresponds to a more detailed collection of data from the existing structure, and advanced methods of analysis such as Non-Linear Time History Analysis (NLTHA) are required.
+ASCE 41 is the Seismic Evaluation and Retrofit of Existing Buildings code by the American Society of Civil Engineers (ASCE) \cite{ASCE-41-2017}. This code has evolved from FEMA 310 Handbook for the Seismic Evaluation of Building. This code consists of three-tiered procedures for seismic evaluation of existing buildings appropriate for use in areas of any Level of Seismicity. Each tier increases the level of complexity and detail for the structural analysis of the existing structure. The first tier consists of checklists that depend on the type of building and material and the available information to identify deficiencies. If the first tier demonstrates deficiencies, then the second tier is activated. The second tier corresponds to more detailed analysis and verification of the elements that had deficiencies. In the second tier, force-based checks are modified with factors to account for the nonlinearity of the structural elements. During the second tier, if the deficiencies are corroborated, retrofits must be performed, or a more detailed analysis is required to verify the performance of the structures, which triggers the third tier. The third tier corresponds to a more detailed collection of data from the existing structure, and advanced methods of analysis such as Non-Linear Time History Analysis (NLTHA) are required.
 
 While the code provides a framework to evaluate and retrofit existing structures, it is a force-based methodology for tiers 1 and 2, and the code does not guide how to account for aging in the properties of the materials used in the analysis. 
 
@@ -225,13 +227,13 @@ This method uses a displacement-based assessment methodology, and therefore a be
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SLaMA_methodology.jpg}
-	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\caption{SLaMA flowchart for the assessment of existing buildings}
 	\label{fig:slama_CH6}
 \end{figure}
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-6/figs/nbs_example.jpg}
-	\caption{Proposed Condition Dependent DDBD Methodology flowchart}
+	\caption{SLaMA \%NBS calculation for assessment}
 	\label{fig:nbs_CH6}
 \end{figure}
 \subsection{Direct Displacement Based Assessment (DDBA) Methodology}
@@ -290,8 +292,6 @@ The procedure of the Condition Dependent DDBA consists of:
     \item Apply the Displacement Based Assessment (DBA) procedure
     \item Check the strength of the system with the effective properties of the materials.
 \end{enumerate}
-
-The methodology explained above is sumarized in the flowchart shown in Figure X.X.
 
 \subsection{Condition Dependent DDBA application Example: SDOF Bridge Pier RC Column}
 
