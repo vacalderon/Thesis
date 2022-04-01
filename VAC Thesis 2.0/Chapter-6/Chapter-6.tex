@@ -322,15 +322,31 @@ The procedure of the Condition Dependent DDBA consists of:
 
 The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in Figure X.X. presents damage due to corrosion. Th structure was built in the year 2000 the geometry and detailing of the column are shown in Fig X.X. The column is assessed to the ultimate limit state defined in \eqref{eq:es_ultimate} using the DDBA procedure. From a site visit it was determined that the longitudinal reinforcement had reduced to $d_{b,m}=38mm$. The single column pier has a height $H=12m$, and a diameter $D=2m$. The column is assumed to have a rigid foundation and supported on stiff rock. The material properties from the as built drawings are summarized in Table X.X.
 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.9\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Column_Elevation.pdf}
+	\caption{Column Elevation}
+	\label{fig:column_elevation_assessment}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.35\textwidth]{VAC Thesis 2.0/Chapter-6/figs/ColumnSection_Assessment.pdf}
+	\caption{Column cross-section}
+	\label{fig:cross_section_assessment}
+\end{figure}
+
 \textbf{Step 1:} The corrosion level of the longitudinal reinforcement is estimated:
 \begin{displaymath}
     CL=1-\frac{d_{b,m}}{d_{o}}=1-\frac{38}{40}^2=9.75\%
 \end{displaymath}
 
 \textbf{Step 2:} The effective mechanical properties of the longitudinal steel are defined
+
 \begin{displaymath}
     f_{y,e}=f_{y,o}(1-0.0075\times CL)=420(1-0.0075\times 9.75)=389 MPa
 \end{displaymath}
+
 \begin{displaymath}
     \varepsilon_{b}=0.14-0.0045 \times CL = 0.14-0.0045 \times 9.75 = 0.096 mm/mm
 \end{displaymath}
@@ -399,8 +415,8 @@ It can be seen then, that the demand is larger than the capacity and this struct
 
 \begin{figure}[htbp]
 	\centering
-	\includegraphics[width=0.55\textwidth]{VAC Thesis 2.0/Chapter-6/figs/}
-	\caption{Force-Displacement response for assessment of column}
+	\includegraphics[width=0.55\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SD_Assessment_9_75.pdf}
+	\caption{Spectral displacement Demands versus displacement capacity of coulumn}
 	\label{fig:force_displacement_assessment}
 \end{figure}
 
