@@ -32,11 +32,11 @@ The Life 365 Consortium III developed the software Life365 to estimate the servi
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.6\textwidth]{VAC Thesis 2.0/Chapter-6/figs/Life365.pdf}
-	\caption{Life 365 corrosion level at different environments}
+	\caption{Life 365 corrosion level for 100 years of life service in different environments}
 	\label{fig:Life_365_example}
 \end{figure}
 \subsubsection{FIB 34 Model Code}
-FIB 34 model code addresses Service Life Design (SLD) for plain concrete, reinforced concrete, and pre-stressed concrete structures, focusing on design provisions for managing the adverse effects of degradation. Its objective is to guide bridge stakeholders, practicing engineers, and contractors to ensure the condition of the bridge components and materials is kept above a minimum acceptable level throughout the structure's lifespan. With new bridges having requirements to last for at least 100 years, the design of structures that consider the life service variable has become ever more critical. Therefore, it is crucial to consider one of the primary aging conditions that affect bridges, such as corrosion.
+FIB 34 model code addresses Service Life Design (SLD) for plain concrete, reinforced concrete, and pre-stressed concrete structures, focusing on design provisions for managing the adverse effects of degradation. Its objective is to guide bridge stakeholders, practicing engineers, and contractors to ensure that the condition of the bridge components and materials are kept above a minimum acceptable level throughout the structure's lifespan. With new bridges having requirements to last for at least 100 years, the design of structures that consider the life service variable has become ever more critical. Therefore, it is crucial to consider one of the primary aging conditions that affect bridges, such as corrosion.
 
 Four different options for SLD are avilable in FIB 34:
 \begin{enumerate}
@@ -98,7 +98,7 @@ The existing methodologies are robust in predicting the time for initiation of c
 The proposed methodology consists of:
 \begin{enumerate}
     \item Estimate the time of initiation of corrosion. In this study Life 365 is used. An initial concrete mix is made to initiate the design process. Also the water to cement ratio, and cover are specified. The program will calculate the time of initiation of corrosion ($T_{corr}$), based on the design inputs and the type of environment.
-    \item The level of corrosion at the end of the life of the structure is determined. First the rate of corrosion needs to be established, as a rule of thumb the rate of corrosion for reinforcing steel is 0.5 mills per year. However, other methodologies can estimate the rate of corrosion based on the water to cement ratio, cover and bar diameter\cite{Weyers1994}\cite{Thoft-Christensen}. The rate of corrosion ($\lambda$) can be expressed as:
+    \item The level of corrosion at the end of the life of the structure is determined. First the rate of corrosion needs to be established, as a rule of thumb the rate of corrosion for reinforcing steel is 0.5 mills per year. However, other methodologies can estimate the rate of corrosion based on the water to cement ratio, cover and bar diameter\cite{Weyers1994}\cite{Thoft-Christensen}. Assuming 0.5 mpy (0.0005 in/year), the rate of corrosion ($\lambda$) can be expressed as:
     \begin{equation}
         \lambda(t)=0.0005 in/year (t-T_{corr})
     \end{equation}
@@ -106,10 +106,12 @@ The proposed methodology consists of:
     \begin{equation}
     d_{b}(t)=d_{bi}-0.0005(t-T_{corr}) (in)
     \end{equation}
-    Finally, the level of corrosion, at the end of the life of the structure ($t$), is calculated as:
+    Finally, the level of corrosion (CL), at the end of the life of the structure ($t$), is calculated as:
     \begin{equation}
     CL=1-\left(\frac{d_{b}(t)}{d_{bi}}\right)^2=1-\left(\frac{d_{bi}-0.0005(t-T_{corr})}{d_{bi}}\right)^2
     \end{equation}
+    
+    Where $d_{bi}$ is the initial diameter of the reinforcing steel bar.
     
     \item If $CL$ is less than the admissible level of corrosion $CL_{adm}$, then the concrete mix design, cover or bar diameter can be changed until the corrosion level is acceptable $CL>CL_{adm}$.
     
@@ -139,7 +141,7 @@ The design process is outlined in the flowchart shown in\fref{fig:CD-DDBD_CH6}.
 
 \subsection{Condition Dependent DDBD application example: SDOF Bridge Pier RC Column}
 
-The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_design}, and the detailing for for the proposed column cross section is shown in \fref{fig:column_cross-section_design}. The structure is to be designed for 100 years of life service for the displacement response spectrum shown in Figure X.X. The structure is located within 800 m of the ocean in the city of Anchorage, Alaska.
+The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_design}, and the detailing for for the proposed column cross section is shown in \fref{fig:column_cross-section_design}. The structure is to be designed for 100 years of life service for the displacement response spectrum shown in \fref{fig:spectral_displacement_design}. The structure is located within 800 m of the ocean in the city of Anchorage, Alaska.
 
 \begin{figure}[htbp]
 	\centering
@@ -155,7 +157,32 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
 	\label{fig:column_cross-section_design}
 \end{figure}
 
-\textbf{Step 1:} The structure is designed for the environment of 800m from the ocean. The material data used in the structural design are shown in Table X.X. Using life 365 the time of initiation of corrosion is determined to be 18.7 years at the location of the structure. \fref{fig:corrosion_level_100years} shows the corrosion degradation that the structure will sustain at 100 years of life service. 
+\begin{table}[htpb]
+\caption{Detailing of structure for design}
+\label{tab:desing_example}
+\begin{center}
+\begin{tabular}{ll}
+Item                             & Value      \\ \hline
+Cover to longitudinal bars       & 50.0 mm    \\
+Number of longitudinal bars      & 48         \\
+Diameter of longitudinal bars    & 39.0 mm    \\
+Diameter of transverse steel     & 20.0 mm    \\
+Spacing of transverse steel      & 75.0 mm    \\
+Type of transverse reinforcement  & spirals    \\
+Axial load                       & 8310.00 KN \\
+Concrete compressive strength    & 30.00 MPa  \\
+Long steel yielding stress       & 404.25 MPa \\
+Long steel max. stress           & 545.74 MPa \\
+Transverse steel yielding stress & 420.00 MPa \\
+Member Length                    & 12000.0 mm \\
+Longitudinal Steel Ratio         & 0.018      \\
+Transverse Steel Ratio           & 0.009      \\
+Axial Load Ratio                 & 0.088     
+\end{tabular}
+\end{center}
+\end{table}
+
+\textbf{Step 1:} The structure is designed for the environment of 800m from the ocean. The material data used in the structural design are shown in Table \ref{tab:desing_example}. Using life 365 the time of initiation of corrosion is determined to be 18.7 years at the location of the structure. \fref{fig:corrosion_level_100years} shows the corrosion degradation that the structure will sustain at 100 years of life service. 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/CorrosionLevel_lifeService_5.pdf}
@@ -224,7 +251,7 @@ $\therefore \Delta_{D}=0.42m$
 	\centering
 	\includegraphics[width=0.5\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SD_Design_5.pdf}
 	\caption{Spectral displacement for $\xi=5\%$, and at the equivalent damping $\xi_{eq}=15\%$}
-	\label{fig:force_displacement_design}
+	\label{fig:spectral_displacement_design}
 \end{figure}
 
 \textbf{Step 8:} Since $\Delta_{D}<\Delta_{c,15}$, and the corner period $T_{c}=4s$ the effective period can be calculated as shown below.
@@ -303,7 +330,30 @@ This method uses a displacement-based assessment methodology, and therefore a be
 
 The Direct Displacement Based Assessment (DDBA) uses DDBD principles to assess the compliance of a structure on the premise of the displacement demands and capacities. The advantage of a displacement-based assessment is that the risk of a structure reaching a performance limit state can be readily obtained, incorporating the structure's effective dynamic and structural properties. 
 
-The assesment procedure methodology consistst of:
+\begin{table}[htpb]
+\begin{tabular}{ll}
+Item                             & value      \\ \hline
+Cover to longitudinal bars       & 50.0 mm    \\
+Number of longitudinal bars      & 48         \\
+Diameter of longitudinal bars    & 38.0 mm    \\
+Diameter of transverse steel     & 20.0 mm    \\
+Spacing of transverse steel      & 75.0 mm    \\
+Type of transverse reinforcement  & spirals    \\
+Axial load                       & 8310.00 kN \\
+Concrete compressive strength    & 30.00 MPa  \\
+Long steel yielding stress       & 389.00 MPa \\
+Long steel max. stress           & 525.00 MPa \\
+Transverse steel yielding stress & 420.00 MPa \\
+Member Length                    & 12000.0 mm \\
+Single Bending                   &            \\
+Uniaxial Bending                 &            \\
+Longitudinal Steel Ratio         & 0.017      \\
+Transverse Steel Ratio           & 0.009      \\
+Axial Load Ratio                 & 0.088     
+\end{tabular}
+\end{table}
+
+The assessment procedure methodology consists of:
 \begin{enumerate}
     \item Determine the effective mass ($m_{e}$)
     \item Obtain the force-displacement response of the structure using moment-curvature analysis. In this study, CUMBIA is used for this step \cite{Montejo2007}.
@@ -373,6 +423,31 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
 	\caption{Column cross-section}
 	\label{fig:cross_section_assessment}
 \end{figure}
+
+\begin{table}[]
+\caption{Detailing of structure for design}
+\label{tab:desing_example}
+\begin{center}
+\begin{tabular}{ll}
+Item                             & value      \\ \hline
+Cover to longitudinal bars       & 50.0 mm    \\
+Number of longitudinal bars      & 48         \\
+Diameter of longitudinal bars    & 39.0 mm    \\
+Diameter of transverse steel     & 20.0 mm    \\
+Spacing of transverse steel      & 75.0 mm    \\
+Type of transverse reinforcement  & spirals    \\
+Axial load                       & 8310.00 kN \\
+Concrete compressive strength    & 30.00 MPa  \\
+Long steel yielding stress       & 404.25 MPa \\
+Long steel max. stress           & 545.74 MPa \\
+Transverse steel yielding stress & 420.00 MPa \\
+Member Length                    & 12000.0 mm \\
+Longitudinal Steel Ratio         & 0.018      \\
+Transverse Steel Ratio           & 0.009      \\
+Axial Load Ratio                 & 0.088     
+\end{tabular}
+\end{center}
+\end{table}
 
 \textbf{Step 1:} The corrosion level of the longitudinal reinforcement is estimated:
 \begin{displaymath}
