@@ -489,22 +489,27 @@ The multi-stripe analysis(MSA) was used to obtain a series of cumulative distrib
 	\label{fig:CDF_strain_vs_ALR}
 \end{figure}
 
-In order to observe the effect of corrosion level and axial load ratio, the mean spectral displacement, defined as the point where the probability of reaching a limit state is 50\% ($P(\varepsilon>\varepsilon_{ls}=0.5$), is plotted against these two variables. The results are shown in \fref{fig:mean_prob_vs_CL}.
+In order to observe the effect of corrosion level and axial load ratio, the mean spectral displacement, defined as the point where the probability of reaching a limit state is 50\% ($P(\varepsilon>\varepsilon_{ls}=0.5$), is plotted against these two variables. The results are shown in \fref{fig:mean_prob_vs_CL}. Similar results were plotted for the $84^{th}$ percentile. The $84^{th}$ percentile corresponds to the mean value plus one standard deviation ($\mu+1\times\sigma$), and represents the spectral displacements for which there is a probability of 84\% to reach a given limit state. The results for the the $84^{th}$ percentile are shown in \fref{fig:84_ptile_vs_CL}.
 
-From the results shown in \fref{fig:mean_prob_vs_CL}, two main tendencies can be observed. First, as corrosion level increases, the mean spectral displacement required to reach a limit state decreases, thus precluding an earlier limit state in a corroded structure. It also appears that there is a significant drop at a corrosion level of 10\% ($CL=10\%$), especially for the damage control limit state and the ultimate limit state. This result indicates that a corrosion level this high has potentially undesirable consequences. Research performed on RC members has shown that corrosion levels of 10\% are brittle. Thus, these results are congruent with those observations.
+From the results shown in \fref{fig:mean_prob_vs_CL}, and \fref{fig:84_ptile_vs_CL}, two main tendencies can be observed. First, as corrosion level increases, the mean spectral displacement required to reach a limit state decreases, thus precluding an earlier limit state in a corroded structure. It also appears that there is a significant drop at a corrosion level of 10\% ($CL=10\%$), especially for the damage control limit state and the ultimate limit state. This result indicates that a corrosion level this high has potentially undesirable consequences. Research performed on RC members has shown that corrosion levels of 10\% are brittle. Thus, these results are congruent with those observations.
 
 The second observation is that columns with an Axial Load Ratio (ALR) greater than 10\% show a more significant drop in the spectral displacement required to reach a limit state as the corrosion increases. This ALR value is commonly found in bridges, thus the importance of limiting the corrosion level that bridge columns develop in their service years.
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.85\textwidth]{VAC Thesis 2.0/Chapter-5/figs/Analysis_of_Mean_SDs.pdf}
-	\caption{Analysis of mean values $(P=0.5)$ for performance limit states}
+	\caption{Analysis of mean values $(P=0.5)$ for the performance limit states}
 	\label{fig:mean_prob_vs_CL}
 \end{figure}
 
-The results obtained from these analyses are important since they provide limiting values for the level of corrosion that could be acceptable in new structures and assessment of existing structures. Therefore, a limiting value for the level of corrosion in new designs should be between 0\%-5\%. For existing structures, a maximum acceptable level of corrosion could be set at $CL=10\%$. This recommendation is made because existing structures would not have been designed to account for aging or corrosion inhibitors. These existing structures would have to consider the effective properties and reduce the cross-section of the reinforcing steel bars. 
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=0.85\textwidth]{VAC Thesis 2.0/Chapter-5/figs/summary_84_ptile_01.pdf}
+	\caption{Analysis of the $84^{th}$ percentile $(P=0.84)$ for the performance limit states}
+	\label{fig:84_ptile_vs_CL}
+\end{figure}
 
-Further studies on limit states of corroded structures while improving the outcomes here,  would identify and improve the design and assessment of RC members.
+The results obtained from these analyses are important since they provide limiting values for the level of corrosion that could be acceptable in new structures and assessment of existing structures. Therefore, a limiting value for the level of corrosion in new designs should be between 0\%-5\%. For existing structures, a maximum acceptable level of corrosion could be set at $CL=10\%$. This recommendation is made because existing structures would not have been designed to account for aging or corrosion inhibitors. These existing structures would have to consider the effective properties and reduce the cross-section of the reinforcing steel bars.
 
 \subsection{Discussion of results}
 
@@ -512,8 +517,8 @@ The Nonlinear Time History Analysis results show that, in general, there is an i
 
 For all limit states, a corrosion level of 10 percent is a reasonable estimate of the maximum acceptable corrosion level, as values greater than this result in a significant change in limit state displacements. This result agrees with observed behavior in large-scale tests conducted on RC members \cite{Ma2012}\cite{Ma2018}. An ideal maximum level of corrosion is a 5\% corrosion level.
 
-A limitation of this study was the use of limit state equations based on pristine condition elements with modern detailing. While the limit state equations provide the overall effect of corrosion in RC structures, future studies will provide more information on limit states for corroded RC columns.
-
 Therefore, the analytical program agrees with observed experimental material tests conducted as part of this research and observations on corroded RC member tests. Thus, for the design of new structures, it is recommended that an acceptable level of corrosion range is 5\%-10\%. Moreover, for assessment, it is recommended that if a corrosion level greater than 10\% is found, an NLTHA must be performed to assess the existing structure. This analysis will have to consider the effective mechanical properties of the reinforcing steel and the reduction in the cross-sectional properties. These recommendations are applied in the following chapter. 
 
 Another interesting finding was that the effect of recorded sequences (mainshock-aftershock) appears to be negligible. This result is in agreement with previous studies performed on MDOF systems that included degradation of the system in steel frames \cite{Ruiz-Garcia2011}. However, other studies that rely on altered records obtain the opposite result because they use amplifiers to change the peak ground acceleration (PGA), thus changing the frequency content of the records.
+
+A limitation of this research was that limit state equations based on pristine condition elements with modern detailing were used for the analytical program. While the limit state equations provide the overall effect of corrosion in RC structures, future studies will provide more information on limit states for corroded RC columns.
