@@ -2,13 +2,13 @@
 
 \label{chap-six}
 
-In this chapter, the experimental and analytical program results are used for two application examples. Two examples of the design and assessment of bridges that consider their corrosion is shown.
+In this chapter, the experimental and analytical program results are used for two application examples. Two examples of the design and assessment of bridges that consider their corrosion are shown.
 
-In addition, the existing methodologies to design structures for life service and assessment for existing structures are evaluated. As will be seen, these methodologies provide tools to consider aging in the structures. However, none of these methodologies directly evaluate corrosion in the structural analysis and design of the structure. Therefore, this study proposes a design and assessment methodology for a single degree of freedom for RC columns subjected to corrosion.
+In addition, the existing methodologies to design structures for life service and assessment for existing structures are evaluated. As will be seen, these methodologies provide tools to consider aging in structures. However,  none of these methodologies directly evaluate corrosion in   the structural analysis and design of the structure. Therefore, this study proposes a design and assessment methodology for a single degree of freedom for RC columns subjected to corrosion.
 
 \section{Design of new structures for condition dependent PBD}
 
-One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable, and safe. Currently, the design approach assumes that the material properties will remain unchanged throughout the life of the structures. However, built structures age and deteriorate and could potentially lead to the unintended consequence of a structure failing due to aging. Therefore, it is of interest to ensure that new structures are designed to perform to an acceptable level of performance and maintain the level of performance as the structure ages. \fref{fig:ConditionDependent PBD} shows the concept of condition-dependent performance-based design versus the traditional design approach. 
+One of the biggest challenges in Civil Engineering is to provide infrastructure that is resilient, affordable, and safe. Currently, the design approach assumes that the material properties will remain unchanged throughout the life of the structure. However, built structures age and deteriorate and could potentially lead to the unintended consequence of aging induced failure.  Therefore, it is of interest to ensure that new structures are designed to an acceptable level of performance and maintain that level of performance as the structure ages. \fref{fig:ConditionDependent PBD} shows the concept of condition-dependent performance-based design versus the traditional design approach. 
 
 \begin{figure}[htbp]
 	\centering
@@ -21,13 +21,13 @@ Currently, existing methodologies provide probabilistic frameworks to design str
 
 \subsection{Acceptable level of corrosion for new designs}
 
-The experimental program obtained the equations that relate the degradation of the yield strength and maximum bending strain with corrosion. It was also noticeable in the experimental results that for corrosion levels of 10\% and greater, the bar's strength and capacity to sustain significant buckling levels were significantly reduced. Similarly, the corrosion levels of 10\% and greater in the analytical program significantly increased the likelihood of reaching the damage control and ultimate limit states. Therefore, it becomes evident that for design, a level of corrosion less than 10\% is acceptable for the design of new structures, although a level of corrosion of 5\% or less is desirable.
+The experimental program resulted in equations that relate the degradation of the yield  strength and maximum bending strain to corrosion level. It was also noticeable in the experimental results that for corrosion levels of 10\% and greater, the bar’s strength and capacity to sustain significant buckling levels were significantly reduced. Similarly, corrosion levels beyond 10\% significantly increased the likelihood of reaching the damage control and ultimate limit states according to the computational studies described in Chapter 5. Therefore, it becomes evident that for design, a level of corrosion less than 10\% is acceptable for the design of new structures, although a level of corrosion of 5\% or less is desirable.
 
 \subsection{Life Service Design Existing methodologies}
 
 \subsubsection{Life 365}
 
-The Life 365 Consortium III developed the software Life365 to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion. An example on how the different environments affect the corrosion process is shown in \fref{fig:Life_365_example}.
+The Life 365 Consortium III developed the software Life365 to estimate the service life and life-cycle costs of alternative concrete mixture designs and corrosion protection systems\cite{Bentz2003}. The software uses probabilistic analyses of the service life of reinforced concrete structures. The software can calculate the probability distributions within a known time when reinforcement corrosion initiation is expected to occur for a structure. In addition, representative values of the variability of the parameters used in the analysis are provided, such as average temperature throughout the year, Corrosion concentration limits, type of environment (Tidal zone, Spray zone, 800m from the ocean, 1.2 km from the ocean), and the type of structure (Parking garage, Urban highway, Rural highway). One of the assumptions is that the deterioration time after corrosion initiation is constant at six years. This program makes it practical to use such distributions in making engineering judgments regarding selecting reinforcement corrosion protection strategies and considering the life costs of different designs. In this study Life 365 is used to accurately determine the time of initiation of corrosion. An example on how the different environments affect the corrosion process is shown in \fref{fig:Life_365_example}.It can be seen in \fref{fig:Life_365_example} that as the structure is closer to a marine environment the time of initiation of corrosion and the level of corrosion achieved is higher.
 
 \begin{figure}[htbp]
 	\centering
@@ -88,12 +88,12 @@ The methodology is summarized in \fref{fig:DDBD_CH6}, where the basic steps show
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{VAC Thesis 2.0/Chapter-6/figs/DDBD.png}
-	\caption{Direct Displacement Based Design (DDBD) methodology}
+	\caption{Direct Displacement Based Design (DDBD) methodology \cite{Priestley2007}.}
 	\label{fig:DDBD_CH6}
 \end{figure}
 \subsection{Proposed Condition Dependent DDBD Methodology}
 
-The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have low probabilities of developing corrosion of the reinforcing steel. However, these tools do not provide a way to estimate the degradation of the structural performance of a structure in the case corrosion occurs. In order to design a structure for corrosion, it is necessary to estimate the highest level of corrosion that will be experienced by the structure. To estimate the highest level of corrosion the main variables are the time of initiation of corrosion and the rate of corrosion. Therefore, a procedure to obtain the level of corrosion and estimate the deterioration of the structure is needed
+The existing methodologies are robust in predicting the time for initiation of corrosion and obtaining the reliability that the structure will have  low probabilities of developing corrosion    of the reinforcing steel. However, these tools do not provide a way  to estimate the degradation  of the structural performance in the case corrosion occurs. In order to design a structure for corrosion, it is necessary to estimate the highest level of corrosion that will be experienced by the structure. To estimate the highest level of corrosion the main variables are  the time of initiation of corrosion and the  rate  of corrosion.  Therefore, a procedure to  obtain the level of corrosion and estimate the deterioration of the structure is needed.
 
 The proposed methodology consists of:
 \begin{enumerate}
@@ -115,7 +115,7 @@ The proposed methodology consists of:
     
     \item If $CL$ is less than the admissible level of corrosion $CL_{adm}$, then the concrete mix design, cover or bar diameter can be changed until the corrosion level is acceptable $CL>CL_{adm}$.
     
-    \item The effective mechanical properties of the reinforcing steel can be calculated using the expressions developed obtained from the experimental program. The relationships for yield strength and maximum bending strain are replicated here:
+    \item The effective mechanical properties of the reinforcing steel can be calculated using the expressions developed developed from the experimental program. The relationships for yield strength and maximum bending strain are replicated here:
     
     \begin{equation}
         f_{y,CL} = f_{y,o}(1-0.0075CL)
@@ -315,14 +315,14 @@ This method uses a displacement-based assessment methodology, and therefore a be
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.60\textwidth]{VAC Thesis 2.0/Chapter-6/figs/nbs_example.jpg}
-	\caption{SLaMA \%NBS calculation for assessment}
+	\caption{SLaMA \%NBS calculation for assessment \cites{NZSEE2019}.}
 	\label{fig:nbs_CH6}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
 	\includegraphics[width=0.75\textwidth]{VAC Thesis 2.0/Chapter-6/figs/SLaMA_methodology.jpg}
-	\caption{SLaMA flowchart for the assessment of existing buildings}
+	\caption{SLaMA flowchart for the assessment of existing buildings \cites{NZSEE2019}.}
 	\label{fig:slama_CH6}
 \end{figure}
 
@@ -408,7 +408,7 @@ The procedure of the Condition Dependent DDBA consists of:
 
 \subsection{Condition Dependent DDBA application Example: SDOF Bridge Pier RC Column}
 
-The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_assessment}. presents damage due to corrosion. Th structure was built in the year 2000 the geometry and detailing of the column are shown in \fref{fig:cross_section_assessment}. The column is assessed to the ultimate limit state defined in \eqref{eq:es_ultimate} using the DDBA procedure. From a site visit it was determined that the longitudinal reinforcement had reduced to $d_{b,m}=38mm$. The single column pier has a height $H=12m$, and a diameter $D=2m$. The column is assumed to have a rigid foundation and supported on stiff rock. The material properties from the as built drawings are summarized in Table X.X.
+The example shown below is adapted from Priestley et al \cites{Priestley2007}. The bridge column shown in in \fref{fig:column_elevation_assessment}. presents damage due to corrosion. Th structure was built in the year 2000 the geometry and detailing of the column are shown in \fref{fig:cross_section_assessment}. The column is assessed to the ultimate limit state defined in \eqref{eq:es_ultimate} using the DDBA procedure. From a site visit it was determined that the longitudinal reinforcement had reduced to $d_{b,m}=38mm$. The single column pier has a height $H=12m$, and a diameter $D=2m$. The column is assumed to have a rigid foundation and supported on stiff rock. The material properties from the as built drawings are summarized in \tref{tab:assessment_example}.
 
 \begin{figure}[htbp]
 	\centering
@@ -426,7 +426,7 @@ The example shown below is adapted from Priestley et al \cites{Priestley2007}. T
 
 \begin{table}[]
 \caption{Detailing of structure for design}
-\label{tab:desing_example}
+\label{tab:assessment_example}
 \begin{center}
 \begin{tabular}{ll}
 Item                             & Value      \\ \hline
