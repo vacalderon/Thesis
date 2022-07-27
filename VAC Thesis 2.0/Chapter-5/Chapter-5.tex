@@ -313,8 +313,11 @@ Then, A collapse in the MSA methodology indicates that the specified limit state
 Finally, a lognormal cumulative distribution function (CDF) is used to define the fragility function and is substituted for $p_j$. The fragility function parameters are defined as the median of the fragility function, $\theta$, and the standard deviation of $ln(IM)$, $\beta$ (also referred to as the dispersion of IM). Hence, the solution is simplified by taking the natural logarithm of each side, and the product formulation in\eref{eq:likelihood_MSA} is reduced to a summation that is computationally more efficient. The resulting function is expressed as:
 
 \begin{equation}
-  \{\hat{\theta},\hat{\beta}\}=\arg \max_{\theta,\beta} \sum_{j=1}^{m} \bigg\{\ln\binom{n}{z_{j}} +z_{j}\ln\Theta\left(\frac{\ln(x_{j}/\theta)}{\beta}\right) + (n_{j}-z_{j})\ln\left[1-\Theta\left(\frac{ln(x_{j}/\theta)}{\beta}\right)\right]\bigg\} 
+\begin{aligned}
+  \{\hat{\theta},\hat{\beta}\}=\arg \max_{\theta,\beta} \sum_{j=1}^{m} \bigg\{\ln\binom{n}{z_{j}} +z_{j}\ln\Theta\left(\frac{\ln(x_{j}/\theta)}{\beta}\right) \\
+  + (n_{j}-z_{j})\ln\left[1-\Theta\left(\frac{ln(x_{j}/\theta)}{\beta}\right)\right]\bigg\} 
   \label{eq:hat_theta_beta_MSA}
+\end{aligned}
 \end{equation}
 
 In \eref{eq:hat_theta_beta_MSA}, $n_j$, $z_j$, and $x_j$ are all defined via the analysis results, and $\theta$ and $\beta$ are the only unknowns. These two unknown parameters are then optimized using numerical solution techniques to find the values that produce the highest probability of observing the analysis results. The Excel spreadsheets and MatLab codes, developed by Baker \cite{Baker2015}, were used to produce the analysis of the results.
@@ -332,7 +335,7 @@ The MSA procedure was selected since it is well suited for unscaled ground motio
 The analytical framework was  established to obtain the change in the structure performance   due to aging conditions and to evaluate the effect of seismic events  on the achievement of strain limit states for  single degree of freedom columns. This framework consisted of a program that performed  and analyzed a series of nonlinear time history analyses (NLTHA). From these analyses, it was then possible to the effects of condition on the achievement of different performance limit states for a given seismic intensity. The proposed analytical framework process consisted of:
 
 \begin{enumerate}
-	\item Read the cross sectional properties of the SDOF column from the database of columns(12 different cross sectional properties). Read the Aspect Ratio ($L/D=[4,6,8]$), read the axial load ratio ($ALR=[5\%,10\%,15\%,20\%$]), read the level of corrosion ($CL=[0\%,5\%,10\%,15\%,20\%]$).This resulted in 168 different columns.
+	\item Read the cross sectional properties of the SDOF column from the database of columns(12 different cross sectional properties). Read the Aspect Ratio ($L/D=[4,6,8]$), read the axial load ratio ($ALR=[5\%-20\%]$), read the level of corrosion ($CL=[0\% -20\%]$).This resulted in 168 different columns.
 	\item Evaluate, the effective mechanical properties of the reinforcing steel for each of the corrosion levels evaluated using.
 	\item Perform the Non Linear Time History Analysis (NLTHA) of discrete ground motions and sequence of ground motions
 	\item Evaluate the results from the NLTHA to post-process the data and store it in a database for easy access in the MSA analysis.
@@ -351,8 +354,10 @@ Column aspect ratio        & L/D              & 4-8                    \\
 Longitudinal ratio                     & $\rho_s$         & 0.01-0.04              \\	
 Axial load ratio                       & ALR              & 5\%-20\%               \\	
 Corrosion level                         & CL               & 0\%-20\%               \\	
+\\
 \end{tabular}
 \end{table}
+
 
 
 \begin{table}[htpb]
