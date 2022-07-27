@@ -316,12 +316,12 @@
 %%---------------------------------------------------------------------------%%
 \usepackage{calc}
 %% Capital letter height
-\newlength{\chaptercapitalheight}
-\settoheight{\chaptercapitalheight}{D}
-\newlength{\chapterfootskip}
-\setlength{\chapterfootskip}{\chaptercapitalheight}
-\addtolength{\chapterfootskip}{2\baselineskip}
-\addtolength{\chapterfootskip}{0.5ex}  % A little extra space to ensure there are 2 full double spaced lines
+%\newlength{\chaptercapitalheight}
+%\settoheight{\chaptercapitalheight}{D}
+%\newlength{\chapterfootskip}
+%\setlength{\chapterfootskip}{\chaptercapitalheight}
+%\addtolength{\chapterfootskip}{2\baselineskip}
+%\addtolength{\chapterfootskip}{0.5in}  % A little extra space to ensure there are 2 full double spaced lines
 %\def\chapterfootskipnum{\chapterfootskip}
 \renewcommand{\listfigurename}{LIST OF FIGURES}
 \renewcommand{\listtablename}{LIST OF TABLES}
@@ -331,14 +331,14 @@
 
 
 %http://tex.stackexchange.com/questions/47184/height-of-figure-caption-textheight
-\newlength\graphht
-\newcommand\calculategraphicstargetheight[1]{%
-     \setlength\graphht{\textheight 
-                       -\parskip
-                       -\abovecaptionskip -\belowcaptionskip
-                       -(12pt * #1) % assuming baselineskip of 12pt in caption
-                       -\chapterfootskip
-                       }}
+%\newlength\graphht
+%\newcommand\calculategraphicstargetheight[1]{%
+%     \setlength\graphht{\textheight 
+%                       -\parskip
+%                       -\abovecaptionskip -\belowcaptionskip
+%                       -(12pt * #1) % assuming baselineskip of 12pt in caption
+%                       -\chapterfootskip
+%                       }}
 
 %\usepackage{titlesec}
 
@@ -368,7 +368,7 @@
 
 
 \pagestyle{plain}
-\newgeometry{margin=1in,lmargin=1.25in,footskip=\chapterfootskip, includehead, includefoot}
+%\newgeometry{margin=1in,lmargin=1.25in,footskip=0.5in, includehead, includefoot}
 \include{Chapter-1/Chapter-1}
 \include{Chapter-2/Chapter-2}
 \include{Chapter-3/Chapter-3}
@@ -424,7 +424,7 @@
 %\ensureoddstart
 \restoregeometry
 \appendix
-\newgeometry{margin=1in,lmargin=1.25in,footskip=\chapterfootskip, includehead, includefoot}
+\newgeometry{margin=1in,lmargin=1.25in,footskip=0.5in, includehead, includefoot}
 %
 %
 \include{Appendix-A/Appendix-A}
